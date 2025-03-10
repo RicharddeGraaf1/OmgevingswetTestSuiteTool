@@ -17,6 +17,12 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 public class MainController {
 
@@ -397,8 +403,7 @@ public class MainController {
                 return;
             }
 
-            Map<String, String> metadata = analyzeZipFile(sourcePath);
-            displayMetadata(metadata);
+            analyseZip(sourcePath);
             
         } catch (Exception e) {
             logError("Fout tijdens analyse: " + e.getMessage());
@@ -406,38 +411,112 @@ public class MainController {
         }
     }
 
-    private Map<String, String> analyzeZipFile(String sourcePath) throws IOException {
-        Map<String, String> metadata = new HashMap<>();
-        
-        try (ZipFile sourceZip = new ZipFile(sourcePath)) {
-            List<ZipEntry> entries = sourceZip.stream().collect(Collectors.toList());
+    private void analyseZip(String zipPath) {
+        try (ZipFile zipFile = new ZipFile(zipPath)) {
+            StringBuilder result = new StringBuilder();
+            result.append("Analyse van ZIP bestand: ").append(zipPath).append("\n\n");
             
-            // Zoek Metadata.xml en Identificatie.xml
-            for (ZipEntry entry : entries) {
-                String entryName = entry.getName();
+            // Analyseer Regeling/Momentopname.xml
+            ZipEntry momentOpnameEntry = zipFile.getEntry("Regeling/Momentopname.xml");
+            if (momentOpnameEntry != null) {
+                result.append("Gevonden: Regeling/Momentopname.xml\n");
+                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                factory.setNamespaceAware(true);
+                DocumentBuilder builder = factory.newDocumentBuilder();
+                Document doc = builder.parse(zipFile.getInputStream(momentOpnameEntry));
                 
-                if (entryName.equals("Regeling/Metadata.xml")) {
-                    logMessage("Analyseren van metadata: " + entryName);
-                    byte[] content = sourceZip.getInputStream(entry).readAllBytes();
-                    Map<String, String> metadataValues = MetadataProcessor.processMetadata(content);
-                    metadata.putAll(metadataValues);
+                // Zoek het doel element
+                NodeList doelNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "doel");
+                if (doelNodes.getLength() > 0) {
+                    result.append("Doel uit Momentopname.xml: ").append(doelNodes.item(0).getTextContent()).append("\n\n");
+                } else {
+                    // Probeer met prefix
+                    NodeList doelNodesWithPrefix = doc.getElementsByTagName("data:doel");
+                    if (doelNodesWithPrefix.getLength() > 0) {
+                        result.append("Doel uit Momentopname.xml (met prefix): ").append(doelNodesWithPrefix.item(0).getTextContent()).append("\n\n");
+                    } else {
+                        result.append("Geen doel gevonden in Momentopname.xml\n\n");
+                    }
                 }
-                else if (entryName.equals("Regeling/Identificatie.xml")) {
-                    logMessage("Analyseren van identificatie: " + entryName);
-                    byte[] content = sourceZip.getInputStream(entry).readAllBytes();
-                    Map<String, String> identificatieValues = MetadataProcessor.processIdentificatie(content);
-                    metadata.putAll(identificatieValues);
+                
+                // Print de XML structuur voor debug
+                result.append("XML structuur van Momentopname.xml:\n");
+                printNodeStructure(doc.getDocumentElement(), "", result);
+                result.append("\n");
+            } else {
+                result.append("NIET gevonden: Regeling/Momentopname.xml\n");
+                result.append("Beschikbare bestanden in ZIP:\n");
+                zipFile.stream().forEach(entry -> result.append("- ").append(entry.getName()).append("\n"));
+                result.append("\n");
+            }
+            
+            // Analyseer Metadata.xml voor TOOI/ID velden
+            ZipEntry metadataEntry = zipFile.getEntry("Regeling/Metadata.xml");
+            if (metadataEntry != null) {
+                result.append("Gevonden: Regeling/Metadata.xml\n");
+                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                factory.setNamespaceAware(true);
+                DocumentBuilder builder = factory.newDocumentBuilder();
+                Document doc = builder.parse(zipFile.getInputStream(metadataEntry));
+                
+                // Zoek onderwerpen en rechtsgebieden
+                NodeList onderwerpenNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "onderwerpen");
+                if (onderwerpenNodes.getLength() > 0) {
+                    result.append("Onderwerpen:\n");
+                    NodeList onderwerpNodes = onderwerpenNodes.item(0).getChildNodes();
+                    for (int i = 0; i < onderwerpNodes.getLength(); i++) {
+                        Node node = onderwerpNodes.item(i);
+                        if (node.getNodeType() == Node.ELEMENT_NODE) {
+                            String value = node.getTextContent().trim();
+                            result.append("- ").append(value).append("\n");
+                        }
+                    }
+                }
+                
+                NodeList rechtsgebiedenNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "rechtsgebieden");
+                if (rechtsgebiedenNodes.getLength() > 0) {
+                    result.append("\nRechtsgebieden:\n");
+                    NodeList rechtsgebiedNodes = rechtsgebiedenNodes.item(0).getChildNodes();
+                    for (int i = 0; i < rechtsgebiedNodes.getLength(); i++) {
+                        Node node = rechtsgebiedNodes.item(i);
+                        if (node.getNodeType() == Node.ELEMENT_NODE) {
+                            String value = node.getTextContent().trim();
+                            result.append("- ").append(value).append("\n");
+                        }
+                    }
+                }
+                result.append("\n");
+            } else {
+                result.append("NIET gevonden: Regeling/Metadata.xml\n\n");
+            }
+            
+            metadataArea.setText(result.toString());
+        } catch (Exception e) {
+            StringBuilder errorResult = new StringBuilder();
+            errorResult.append("Fout bij analyseren van ZIP bestand: ").append(e.getMessage()).append("\n\n");
+            errorResult.append("Stack trace:\n");
+            errorResult.append(e.toString()).append("\n");
+            metadataArea.setText(errorResult.toString());
+        }
+    }
+    
+    private void printNodeStructure(Node node, String indent, StringBuilder result) {
+        if (node.getNodeType() == Node.ELEMENT_NODE) {
+            result.append(indent).append("Element: ").append(node.getNodeName());
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element) node;
+                String namespace = element.getNamespaceURI();
+                if (namespace != null) {
+                    result.append(" (namespace: ").append(namespace).append(")");
                 }
             }
-
-            // Analyseer GML bestanden
-            MetadataProcessor.GMLInfo gmlInfo = MetadataProcessor.analyzeGMLFiles(sourceZip);
-            metadata.put("gml-count", String.valueOf(gmlInfo.count));
-            metadata.put("gml-total-size", formatFileSize(gmlInfo.totalSize));
-            metadata.put("gml-files", String.join("\n", gmlInfo.fileNames));
+            result.append("\n");
+            
+            NodeList children = node.getChildNodes();
+            for (int i = 0; i < children.getLength(); i++) {
+                printNodeStructure(children.item(i), indent + "  ", result);
+            }
         }
-        
-        return metadata;
     }
 
     private String formatFileSize(long bytes) {
@@ -445,45 +524,5 @@ public class MainController {
         if (bytes < 1024 * 1024) return String.format("%.2f KB", bytes / 1024.0);
         if (bytes < 1024 * 1024 * 1024) return String.format("%.2f MB", bytes / (1024.0 * 1024));
         return String.format("%.2f GB", bytes / (1024.0 * 1024 * 1024));
-    }
-
-    private void displayMetadata(Map<String, String> metadata) {
-        StringBuilder display = new StringBuilder();
-        display.append("Metadata informatie:\n");
-        display.append("-------------------\n\n");
-        
-        // Bevoegd gezag informatie
-        if (metadata.containsKey("bevoegdgezag-code")) {
-            display.append("Bevoegd gezag code: ").append(metadata.get("bevoegdgezag-code")).append("\n");
-            display.append("Type: ").append(metadata.get("bevoegdgezag-type")).append("\n\n");
-        }
-
-        // Identificatie informatie
-        if (metadata.containsKey("FRBRWork")) {
-            display.append("Identificatie:\n");
-            display.append("FRBRWork: ").append(metadata.get("FRBRWork")).append("\n");
-        }
-        if (metadata.containsKey("FRBRExpression")) {
-            display.append("FRBRExpression: ").append(metadata.get("FRBRExpression")).append("\n\n");
-        }
-
-        // Citeertitel
-        if (metadata.containsKey("citeerTitel")) {
-            display.append("Citeertitel: ").append(metadata.get("citeerTitel")).append("\n\n");
-        }
-
-        // GML informatie
-        if (metadata.containsKey("gml-count")) {
-            display.append("GML Bestanden:\n");
-            display.append("Aantal GML bestanden: ").append(metadata.get("gml-count")).append("\n");
-            display.append("Totale grootte: ").append(metadata.get("gml-total-size")).append("\n");
-            if (metadata.containsKey("gml-files") && !metadata.get("gml-files").isEmpty()) {
-                display.append("\nGML bestandslijst:\n");
-                display.append(metadata.get("gml-files")).append("\n");
-            }
-            display.append("\n");
-        }
-
-        metadataArea.setText(display.toString());
     }
 } 
