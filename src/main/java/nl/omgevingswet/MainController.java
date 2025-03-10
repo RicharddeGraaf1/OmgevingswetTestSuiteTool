@@ -137,8 +137,12 @@ public class MainController {
         reportContent.append("Rapport Omgevingswet Test Suite Tool\n");
         reportContent.append("================================\n\n");
         
+        // Houd bij welke bestanden we al hebben toegevoegd
+        Set<String> addedFiles = new HashSet<>();
+        
         try (ZipFile sourceZip = new ZipFile(sourcePath);
-             ZipOutputStream targetZip = new ZipOutputStream(Files.newOutputStream(Paths.get(targetPath)));
+             FileOutputStream fos = new FileOutputStream(targetPath);
+             ZipOutputStream targetZip = new ZipOutputStream(fos);
              BufferedWriter reportWriter = Files.newBufferedWriter(Paths.get(reportPath))) {
             
             List<ZipEntry> entries = sourceZip.stream().collect(Collectors.toList());
@@ -179,15 +183,30 @@ public class MainController {
             Map<String, IOProcessor.IOContent> ioContents = IOProcessor.processIOFolders(sourceZip);
             int ioFoldersProcessed = 0;
 
-            // Genereer besluit.xml
+            // Haal eerst de analyse data op
+            BesluitProcessor.AnalyseData data = BesluitProcessor.analyseZip(sourceZip);
+
+            // Genereer besluit.xml en opdracht.xml
             try {
-                byte[] besluitXml = BesluitProcessor.createBesluitXml(sourceZip);
+                BesluitProcessor.BesluitResult result = BesluitProcessor.createBesluitXml(sourceZip);
+                
+                // Voeg besluit.xml toe
                 ZipEntry besluitEntry = new ZipEntry("besluit.xml");
                 targetZip.putNextEntry(besluitEntry);
-                targetZip.write(besluitXml);
+                targetZip.write(result.besluitXml);
                 targetZip.closeEntry();
+                addedFiles.add("besluit.xml");
                 logMessage("besluit.xml gegenereerd");
-                reportContent.append("besluit.xml gegenereerd\n\n");
+                
+                // Voeg opdracht.xml toe
+                ZipEntry opdrachtEntry = new ZipEntry("opdracht.xml");
+                targetZip.putNextEntry(opdrachtEntry);
+                targetZip.write(result.opdrachtXml);
+                targetZip.closeEntry();
+                addedFiles.add("opdracht.xml");
+                logMessage("opdracht.xml gegenereerd");
+                
+                reportContent.append("besluit.xml en opdracht.xml gegenereerd\n\n");
             } catch (Exception e) {
                 logError("Fout bij genereren besluit.xml: " + e.getMessage());
                 e.printStackTrace();  // Voor debugging
@@ -257,9 +276,10 @@ public class MainController {
                     continue;
                 }
                 
-                // Sla pakbon.xml over
-                if (entryName.equals("pakbon.xml")) {
-                    logMessage("Pakbon.xml overgeslagen");
+                // Sla pakbon.xml en bestanden die we al hebben toegevoegd over
+                if (entryName.equals("pakbon.xml") || 
+                    (!entryName.equals("opdracht.xml") && addedFiles.contains(new File(entryName).getName()))) {
+                    logMessage(entryName + " overgeslagen");
                     processedFiles++;
                     continue;
                 }
@@ -272,31 +292,49 @@ public class MainController {
                 if (entryName.toLowerCase().endsWith(".gml")) {
                     // Haal alleen de bestandsnaam op (laatste deel van het pad)
                     newEntryName = new File(entryName).getName();
-                    gmlFilesCount++;
-                    logMessage("GML-bestand verplaatst naar root: " + newEntryName);
-                    reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(newEntryName).append("\n");
+                    if (!addedFiles.contains(newEntryName)) {
+                        gmlFilesCount++;
+                        logMessage("GML-bestand verplaatst naar root: " + newEntryName);
+                        reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(newEntryName).append("\n");
+                    } else {
+                        shouldProcess = false;
+                    }
                 }
                 // Controleer of dit een bestand in een IO-map is
                 else if (entryName.matches("IO-\\d+/.*")) {
                     String ioNumber = entryName.substring(3, entryName.indexOf('/', 3));
                     
                     // Als we deze IO-map nog niet hebben verwerkt
-                    if (!processedIOFolders.contains(ioNumber) && ioContents.containsKey(ioNumber)) {
-                        // Maak het gecombineerde XML bestand
-                        byte[] combinedXml = IOProcessor.createCombinedXML(ioContents.get(ioNumber));
-                        
-                        // Schrijf het nieuwe bestand
+                    if (!processedIOFolders.contains(ioNumber)) {
                         String newFileName = "IO-" + ioNumber + ".xml";
-                        ZipEntry newEntry = new ZipEntry(newFileName);
-                        targetZip.putNextEntry(newEntry);
-                        targetZip.write(combinedXml);
-                        targetZip.closeEntry();
-                        
-                        logMessage("IO map verwerkt: " + ioNumber);
-                        reportContent.append("IO map verwerkt: IO-").append(ioNumber).append("\n");
-                        
-                        processedIOFolders.add(ioNumber);
-                        ioFoldersProcessed++;
+                        if (!addedFiles.contains(newFileName)) {
+                            // Haal de IO data op
+                            BesluitProcessor.AnalyseData.InformatieObjectData ioData = null;
+                            for (BesluitProcessor.AnalyseData.InformatieObjectData io : data.informatieObjecten) {
+                                if (io.folder.equals("IO-" + ioNumber)) {
+                                    ioData = io;
+                                    break;
+                                }
+                            }
+                            
+                            if (ioData != null) {
+                                // Maak het IO XML bestand
+                                byte[] ioXml = IOProcessor.createIOXml(ioData, sourceZip);
+                                
+                                // Schrijf het nieuwe bestand
+                                ZipEntry newEntry = new ZipEntry(newFileName);
+                                targetZip.putNextEntry(newEntry);
+                                targetZip.write(ioXml);
+                                targetZip.closeEntry();
+                                addedFiles.add(newFileName);
+                                
+                                logMessage("IO map verwerkt: " + ioNumber);
+                                reportContent.append("IO map verwerkt: IO-").append(ioNumber).append("\n");
+                                
+                                processedIOFolders.add(ioNumber);
+                                ioFoldersProcessed++;
+                            }
+                        }
                     }
                     
                     // Sla het originele bestand over
@@ -307,18 +345,23 @@ public class MainController {
                 else if (entryName.startsWith("OW-bestanden/")) {
                     // Haal alleen de bestandsnaam op (laatste deel van het pad)
                     newEntryName = new File(entryName).getName();
-                    owFilesCount++;
-                    logMessage("OW-bestand verplaatst naar root: " + newEntryName);
-                    reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(newEntryName).append("\n");
+                    if (!addedFiles.contains(newEntryName)) {
+                        owFilesCount++;
+                        logMessage("OW-bestand verplaatst naar root: " + newEntryName);
+                        reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(newEntryName).append("\n");
+                    } else {
+                        shouldProcess = false;
+                    }
                 }
                 
-                if (shouldProcess) {
+                if (shouldProcess && !addedFiles.contains(newEntryName)) {
                     // Lees en schrijf het bestand
                     byte[] content = sourceZip.getInputStream(entry).readAllBytes();
                     ZipEntry newEntry = new ZipEntry(newEntryName);
                     targetZip.putNextEntry(newEntry);
                     targetZip.write(content);
                     targetZip.closeEntry();
+                    addedFiles.add(newEntryName);
                 }
                 
                 processedFiles++;
@@ -428,6 +471,12 @@ public class MainController {
                     output.append("  FRBRWork: ").append(io.frbrWork).append("\n");
                     output.append("  FRBRExpression: ").append(io.frbrExpression).append("\n");
                     output.append("  ExtIoRef-eId: ").append(io.extIoRefEId).append("\n");
+                    if (io.officieleTitel != null) {
+                        output.append("  Officiële titel: ").append(io.officieleTitel).append("\n");
+                    }
+                    if (io.bestandsnaam != null) {
+                        output.append("  Bestandsnaam: ").append(io.bestandsnaam).append("\n");
+                    }
                 }
                 
                 // Toon de output

@@ -1,5 +1,6 @@
 nl\omgevingswet\BesluitProcessor$AnalyseData.class
 nl\omgevingswet\MetadataProcessor$GMLInfo.class
+nl\omgevingswet\BesluitProcessor$BesluitResult.class
 nl\omgevingswet\MainController.class
 nl\omgevingswet\MetadataProcessor$2.class
 nl\omgevingswet\IOProcessor.class

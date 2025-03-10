@@ -1,7 +1,7 @@
 Rapport Omgevingswet Test Suite Tool
 ================================
 
-besluit.xml gegenereerd
+besluit.xml en opdracht.xml gegenereerd
 
 Metadata informatie:
 -------------------

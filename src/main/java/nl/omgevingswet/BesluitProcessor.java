@@ -10,6 +10,14 @@ import javax.xml.transform.stream.*;
 import org.w3c.dom.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.security.MessageDigest;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.IOException;
+import java.util.Comparator;
+import java.nio.file.StandardCopyOption;
+import java.util.zip.ZipOutputStream;
 
 public class BesluitProcessor {
     
@@ -38,6 +46,9 @@ public class BesluitProcessor {
             public String frbrWork;
             public String frbrExpression;
             public String extIoRefEId;
+            public String bestandsnaam;
+            public String bestandHash;
+            public String officieleTitel;
         }
         
         public static class ExtIoRefData {
@@ -134,6 +145,20 @@ public class BesluitProcessor {
             AnalyseData.InformatieObjectData ioData = new AnalyseData.InformatieObjectData();
             ioData.folder = ioFolder;
             
+            // Zoek het GML bestand in de IO folder
+            Optional<ZipEntry> gmlEntry = zipFile.stream()
+                .filter(entry -> entry.getName().startsWith(ioFolder + "/") && entry.getName().endsWith(".gml"))
+                .map(entry -> (ZipEntry)entry)
+                .findFirst();
+                
+            if (gmlEntry.isPresent()) {
+                ioData.bestandsnaam = gmlEntry.get().getName().substring(gmlEntry.get().getName().lastIndexOf("/") + 1);
+                // Bereken SHA512 hash van GML bestand
+                try (InputStream is = zipFile.getInputStream(gmlEntry.get())) {
+                    ioData.bestandHash = calculateSHA512(is);
+                }
+            }
+            
             // Haal FRBRWork en FRBRExpression op uit IO/Identificatie.xml
             ZipEntry ioIdentificatieEntry = zipFile.getEntry(ioFolder + "/Identificatie.xml");
             if (ioIdentificatieEntry != null) {
@@ -170,6 +195,29 @@ public class BesluitProcessor {
                 
                 System.out.println("Debug - IO " + ioFolder + " FRBRWork: " + ioData.frbrWork);
                 System.out.println("Debug - IO " + ioFolder + " FRBRExpression: " + ioData.frbrExpression);
+            }
+            
+            // Haal officieleTitel op uit VersieMetadata.xml
+            ZipEntry versieMetadataEntry = zipFile.getEntry(ioFolder + "/VersieMetadata.xml");
+            if (versieMetadataEntry != null) {
+                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                factory.setNamespaceAware(true);
+                DocumentBuilder builder = factory.newDocumentBuilder();
+                Document doc = builder.parse(zipFile.getInputStream(versieMetadataEntry));
+                
+                // Zoek eerst met namespace
+                NodeList titelNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "officieleTitel");
+                if (titelNodes.getLength() > 0) {
+                    ioData.officieleTitel = titelNodes.item(0).getTextContent();
+                } else {
+                    // Probeer zonder namespace
+                    titelNodes = doc.getElementsByTagName("officieleTitel");
+                    if (titelNodes.getLength() > 0) {
+                        ioData.officieleTitel = titelNodes.item(0).getTextContent();
+                    }
+                }
+                
+                System.out.println("Debug - IO " + ioFolder + " officieleTitel: " + ioData.officieleTitel);
             }
             
             // Haal ExtIoRef-eId op uit Regeling/Tekst.xml
@@ -297,15 +345,91 @@ public class BesluitProcessor {
         return null;
     }
     
-    public static byte[] createBesluitXml(ZipFile zipFile) throws Exception {
-        // Haal eerst alle analyse data op
-        AnalyseData data = analyseZip(zipFile);
+    private static String calculateSHA512(InputStream input) throws Exception {
+        MessageDigest digest = MessageDigest.getInstance("SHA-512");
+        byte[] buffer = new byte[8192];
+        int read;
+        while ((read = input.read(buffer)) != -1) {
+            digest.update(buffer, 0, read);
+        }
+        byte[] hash = digest.digest();
+        StringBuilder hexString = new StringBuilder();
+        for (byte b : hash) {
+            String hex = Integer.toHexString(0xff & b);
+            if (hex.length() == 1) hexString.append('0');
+            hexString.append(hex);
+        }
+        return hexString.toString();
+    }
+    
+    private static void cleanupRegelingFolder() {
+        try {
+            Path regelingPath = Paths.get("Regeling");
+            if (Files.exists(regelingPath)) {
+                Files.walk(regelingPath)
+                    .sorted(Comparator.reverseOrder())
+                    .map(Path::toFile)
+                    .forEach(File::delete);
+            }
+        } catch (IOException e) {
+            System.err.println("Fout bij verwijderen Regeling map: " + e.getMessage());
+        }
+    }
+
+    public static class BesluitResult {
+        public final byte[] besluitXml;
+        public final byte[] opdrachtXml;
         
+        public BesluitResult(byte[] besluitXml, byte[] opdrachtXml) {
+            this.besluitXml = besluitXml;
+            this.opdrachtXml = opdrachtXml;
+        }
+    }
+
+    public static BesluitResult createBesluitXml(ZipFile zipFile) throws Exception {
+        try {
+            System.out.println("Debug: Start createBesluitXml");
+            
+            // Verwijder eerst eventuele oude Regeling map
+            cleanupRegelingFolder();
+            
+            // Haal eerst alle analyse data op
+            AnalyseData data = analyseZip(zipFile);
+            
+            // Genereer datum/tijd onderdelen
+            LocalDateTime now = LocalDateTime.now();
+            String huidigJaartal = String.valueOf(now.getYear());
+            String datumTijd = now.format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
+            String datum = now.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+            
+            // Bereken datum van morgen voor bekendmaking
+            LocalDateTime tomorrow = now.plusDays(1);
+            
+            System.out.println("Debug: Creating opdracht.xml with bevoegdGezag=" + data.bevoegdGezag);
+            
+            // Maak opdracht.xml aan
+            byte[] opdrachtXml = createOpdrachtXml(data.bevoegdGezag, datumTijd, tomorrow);
+            
+            System.out.println("Debug: Generated opdracht.xml content, size=" + opdrachtXml.length);
+            
+            // Genereer besluit.xml inhoud
+            byte[] besluitXml = generateBesluitXml(data, zipFile, huidigJaartal, datumTijd, datum, tomorrow);
+            
+            return new BesluitResult(besluitXml, opdrachtXml);
+        } catch (Exception e) {
+            // Zorg ervoor dat we de map ook opruimen bij een fout
+            cleanupRegelingFolder();
+            throw e;
+        }
+    }
+
+    private static byte[] generateBesluitXml(AnalyseData data, ZipFile zipFile, 
+            String huidigJaartal, String datumTijd, String datum, LocalDateTime tomorrow) throws Exception {
+        // Maak het root document
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
         
-        // Maak het root document
         Document doc = builder.newDocument();
         Element root = doc.createElementNS(STOP_DATA_NS, "AanleveringBesluit");
         root.setAttribute("xmlns:data", STOP_DATA_NS);
@@ -314,12 +438,6 @@ public class BesluitProcessor {
         // Voeg BesluitVersie toe
         Element besluitVersie = doc.createElementNS(STOP_DATA_NS, "BesluitVersie");
         root.appendChild(besluitVersie);
-        
-        // Genereer datum/tijd onderdelen
-        LocalDateTime now = LocalDateTime.now();
-        String huidigJaartal = String.valueOf(now.getYear());
-        String datumTijd = now.format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
-        String datum = now.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
         
         // 1. ExpressionIdentificatie
         Element expressionId = doc.createElementNS(STOP_DATA_NS, "ExpressionIdentificatie");
@@ -362,16 +480,36 @@ public class BesluitProcessor {
                         // Pas officieleTitel aan
                         if (element.getTagName().equals("officieleTitel")) {
                             newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
-                        } else {
-                            // Verwijder spaties bij onderwerpen en rechtsgebieden
-                            String content = element.getTextContent().trim();
-                            if (element.getTagName().equals("onderwerpen") || element.getTagName().equals("rechtsgebieden")) {
-                                content = content.replaceAll("\\s+", "");
+                        } else if (element.getTagName().equals("onderwerpen")) {
+                            // Maak een nieuwe onderwerpen element
+                            Element onderwerpen = doc.createElementNS(STOP_DATA_NS, "onderwerpen");
+                            // Maak een onderwerp element voor elke inhoud
+                            String[] onderwerpItems = element.getTextContent().trim().split("\\s+");
+                            for (String item : onderwerpItems) {
+                                if (!item.isEmpty()) {
+                                    Element onderwerp = doc.createElementNS(STOP_DATA_NS, "onderwerp");
+                                    onderwerp.setTextContent(item);
+                                    onderwerpen.appendChild(onderwerp);
+                                }
                             }
-                            newElement.setTextContent(content);
+                            metadataElements.add(onderwerpen);
+                        } else if (element.getTagName().equals("rechtsgebieden")) {
+                            // Maak een nieuwe rechtsgebieden element
+                            Element rechtsgebieden = doc.createElementNS(STOP_DATA_NS, "rechtsgebieden");
+                            // Maak een rechtsgebied element voor elke inhoud
+                            String[] rechtsgebiedItems = element.getTextContent().trim().split("\\s+");
+                            for (String item : rechtsgebiedItems) {
+                                if (!item.isEmpty()) {
+                                    Element rechtsgebied = doc.createElementNS(STOP_DATA_NS, "rechtsgebied");
+                                    rechtsgebied.setTextContent(item);
+                                    rechtsgebieden.appendChild(rechtsgebied);
+                                }
+                            }
+                            metadataElements.add(rechtsgebieden);
+                        } else {
+                            newElement.setTextContent(element.getTextContent().trim());
+                            metadataElements.add(newElement);
                         }
-                        
-                        metadataElements.add(newElement);
                     }
                 }
             }
@@ -397,13 +535,9 @@ public class BesluitProcessor {
         Element procedureverloop = doc.createElementNS(STOP_DATA_NS, "Procedureverloop");
         besluitVersie.appendChild(procedureverloop);
         
-        // Bereken datum van morgen
-        LocalDateTime tomorrow = now.plusDays(1);
-        String datumVanMorgen = tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-        
         // Voeg bekendOp toe
         Element bekendOp = doc.createElementNS(STOP_DATA_NS, "bekendOp");
-        bekendOp.setTextContent(datumVanMorgen);
+        bekendOp.setTextContent(tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         procedureverloop.appendChild(bekendOp);
         
         // Voeg procedurestappen toe
@@ -421,7 +555,7 @@ public class BesluitProcessor {
         
         // Voeg voltooidOp toe
         Element voltooidOp = doc.createElementNS(STOP_DATA_NS, "voltooidOp");
-        voltooidOp.setTextContent(datumVanMorgen);
+        voltooidOp.setTextContent(tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         procedurestap.appendChild(voltooidOp);
         
         // 4. ConsolidatieInformatie
@@ -498,7 +632,7 @@ public class BesluitProcessor {
         
         // Datum
         Element datumTijdstempel = doc.createElementNS(STOP_DATA_NS, "datum");
-        datumTijdstempel.setTextContent(datumVanMorgen);
+        datumTijdstempel.setTextContent(tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         tijdstempel.appendChild(datumTijdstempel);
         
         // eId onder Tijdstempel
@@ -581,7 +715,7 @@ public class BesluitProcessor {
         // Inhoud voor Artikel
         Element inhoud = doc.createElementNS("https://standaarden.overheid.nl/stop/imop/tekst/", "Inhoud");
         Element alInhoud = doc.createElementNS("https://standaarden.overheid.nl/stop/imop/tekst/", "Al");
-        alInhoud.setTextContent("Dit besluit treedt in werking per " + datumVanMorgen);
+        alInhoud.setTextContent("Dit besluit treedt in werking per " + tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         inhoud.appendChild(alInhoud);
         artikel.appendChild(inhoud);
         
@@ -657,9 +791,33 @@ public class BesluitProcessor {
                     Node child = children.item(i);
                     if (child.getNodeType() == Node.ELEMENT_NODE) {
                         Element childElement = (Element) child;
-                        Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
-                        newChild.setTextContent(childElement.getTextContent());
-                        newElement.appendChild(newChild);
+                        if (childElement.getLocalName().equals("onderwerpen")) {
+                            Element onderwerpen = doc.createElementNS(STOP_DATA_NS, "onderwerpen");
+                            String[] onderwerpItems = childElement.getTextContent().trim().split("\\s+");
+                            for (String item : onderwerpItems) {
+                                if (!item.isEmpty()) {
+                                    Element onderwerp = doc.createElementNS(STOP_DATA_NS, "onderwerp");
+                                    onderwerp.setTextContent(item);
+                                    onderwerpen.appendChild(onderwerp);
+                                }
+                            }
+                            newElement.appendChild(onderwerpen);
+                        } else if (childElement.getLocalName().equals("rechtsgebieden")) {
+                            Element rechtsgebieden = doc.createElementNS(STOP_DATA_NS, "rechtsgebieden");
+                            String[] rechtsgebiedItems = childElement.getTextContent().trim().split("\\s+");
+                            for (String item : rechtsgebiedItems) {
+                                if (!item.isEmpty()) {
+                                    Element rechtsgebied = doc.createElementNS(STOP_DATA_NS, "rechtsgebied");
+                                    rechtsgebied.setTextContent(item);
+                                    rechtsgebieden.appendChild(rechtsgebied);
+                                }
+                            }
+                            newElement.appendChild(rechtsgebieden);
+                        } else {
+                            Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
+                            newChild.setTextContent(childElement.getTextContent().trim());
+                            newElement.appendChild(newChild);
+                        }
                     }
                 }
                 
@@ -687,5 +845,63 @@ public class BesluitProcessor {
             .trim();                                // Verwijder leading/trailing whitespace
         
         return result.getBytes("UTF-8");
+    }
+
+    public static byte[] createOpdrachtXml(String bevoegdGezag, String datumTijd, LocalDateTime datumBekendmaking) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        factory.setNamespaceAware(true);
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        
+        Document doc = builder.newDocument();
+        
+        // Voeg XML declaratie toe
+        doc.setXmlVersion("1.0");
+        doc.setXmlStandalone(true);
+        
+        // Root element met namespace
+        Element root = doc.createElementNS("http://www.overheid.nl/2017/lvbb", "publicatieOpdracht");
+        doc.appendChild(root);
+        
+        // idLevering met underscores
+        Element idLevering = doc.createElement("idLevering");
+        idLevering.setTextContent("OTST_" + bevoegdGezag + "_" + datumTijd);
+        root.appendChild(idLevering);
+        
+        // idBevoegdGezag
+        Element idBevoegdGezag = doc.createElement("idBevoegdGezag");
+        idBevoegdGezag.setTextContent("00000001003214345000");
+        root.appendChild(idBevoegdGezag);
+        
+        // idAanleveraar
+        Element idAanleveraar = doc.createElement("idAanleveraar");
+        idAanleveraar.setTextContent("00000001003214345000");
+        root.appendChild(idAanleveraar);
+        
+        // publicatie
+        Element publicatie = doc.createElement("publicatie");
+        publicatie.setTextContent("besluit.xml");
+        root.appendChild(publicatie);
+        
+        // datumBekendmaking
+        Element datumBekendmakingElement = doc.createElement("datumBekendmaking");
+        datumBekendmakingElement.setTextContent(datumBekendmaking.format(DateTimeFormatter.ISO_DATE));
+        root.appendChild(datumBekendmakingElement);
+        
+        // Converteer naar bytes
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        
+        // Configureer de output
+        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
+        transformer.setOutputProperty(OutputKeys.VERSION, "1.0");
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "3");
+        transformer.setOutputProperty(OutputKeys.STANDALONE, "yes");
+        
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        transformer.transform(new DOMSource(doc), new StreamResult(output));
+        
+        return output.toString("UTF-8").getBytes("UTF-8");
     }
 } 
