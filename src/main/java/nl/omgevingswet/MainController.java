@@ -389,133 +389,53 @@ public class MainController {
 
     @FXML
     private void handleAnalyze() {
-        String sourcePath = sourceZipField.getText();
-        
-        if (sourcePath.isEmpty()) {
-            showError("Selecteer eerst een bronbestand.");
-            return;
-        }
-
         try {
+            String sourcePath = sourceZipField.getText();
+            if (sourcePath.isEmpty()) {
+                showError("Selecteer eerst een bronbestand");
+                return;
+            }
+
             File sourceFile = new File(sourcePath);
             if (!sourceFile.exists()) {
                 showError("Bronbestand bestaat niet: " + sourcePath);
                 return;
             }
 
-            analyseZip(sourcePath);
-            
+            try (ZipFile zipFile = new ZipFile(sourceFile)) {
+                // Voer de analyse uit
+                BesluitProcessor.AnalyseData data = BesluitProcessor.analyseZip(zipFile);
+                
+                // Bouw de output tekst
+                StringBuilder output = new StringBuilder();
+                output.append("Analyse van ZIP bestand:\n\n");
+                
+                // Algemene informatie
+                output.append("Algemene informatie:\n");
+                output.append("-------------------\n");
+                output.append("FRBRWork: ").append(data.frbrWork).append("\n");
+                output.append("FRBRExpression: ").append(data.frbrExpression).append("\n");
+                output.append("Doel: ").append(data.doel).append("\n");
+                output.append("Bevoegd gezag: ").append(data.bevoegdGezag).append("\n");
+                output.append("Aantal informatieobjecten: ").append(data.aantalInformatieObjecten).append("\n");
+                output.append("Totale GML bestandsgrootte: ").append(formatFileSize(data.totaleGmlBestandsgrootte)).append("\n\n");
+                
+                // Informatie per informatieobject
+                output.append("Informatieobjecten:\n");
+                output.append("------------------\n");
+                for (BesluitProcessor.AnalyseData.InformatieObjectData io : data.informatieObjecten) {
+                    output.append("\nInformatieobject: ").append(io.folder).append("\n");
+                    output.append("  FRBRWork: ").append(io.frbrWork).append("\n");
+                    output.append("  FRBRExpression: ").append(io.frbrExpression).append("\n");
+                    output.append("  ExtIoRef-eId: ").append(io.extIoRefEId).append("\n");
+                }
+                
+                // Toon de output
+                metadataArea.setText(output.toString());
+            }
         } catch (Exception e) {
-            logError("Fout tijdens analyse: " + e.getMessage());
+            showError("Fout bij analyseren van ZIP bestand: " + e.getMessage());
             e.printStackTrace();
-        }
-    }
-
-    private void analyseZip(String zipPath) {
-        try (ZipFile zipFile = new ZipFile(zipPath)) {
-            StringBuilder result = new StringBuilder();
-            result.append("Analyse van ZIP bestand: ").append(zipPath).append("\n\n");
-            
-            // Analyseer Regeling/Momentopname.xml
-            ZipEntry momentOpnameEntry = zipFile.getEntry("Regeling/Momentopname.xml");
-            if (momentOpnameEntry != null) {
-                result.append("Gevonden: Regeling/Momentopname.xml\n");
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(zipFile.getInputStream(momentOpnameEntry));
-                
-                // Zoek het doel element
-                NodeList doelNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "doel");
-                if (doelNodes.getLength() > 0) {
-                    result.append("Doel uit Momentopname.xml: ").append(doelNodes.item(0).getTextContent()).append("\n\n");
-                } else {
-                    // Probeer met prefix
-                    NodeList doelNodesWithPrefix = doc.getElementsByTagName("data:doel");
-                    if (doelNodesWithPrefix.getLength() > 0) {
-                        result.append("Doel uit Momentopname.xml (met prefix): ").append(doelNodesWithPrefix.item(0).getTextContent()).append("\n\n");
-                    } else {
-                        result.append("Geen doel gevonden in Momentopname.xml\n\n");
-                    }
-                }
-                
-                // Print de XML structuur voor debug
-                result.append("XML structuur van Momentopname.xml:\n");
-                printNodeStructure(doc.getDocumentElement(), "", result);
-                result.append("\n");
-            } else {
-                result.append("NIET gevonden: Regeling/Momentopname.xml\n");
-                result.append("Beschikbare bestanden in ZIP:\n");
-                zipFile.stream().forEach(entry -> result.append("- ").append(entry.getName()).append("\n"));
-                result.append("\n");
-            }
-            
-            // Analyseer Metadata.xml voor TOOI/ID velden
-            ZipEntry metadataEntry = zipFile.getEntry("Regeling/Metadata.xml");
-            if (metadataEntry != null) {
-                result.append("Gevonden: Regeling/Metadata.xml\n");
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(zipFile.getInputStream(metadataEntry));
-                
-                // Zoek onderwerpen en rechtsgebieden
-                NodeList onderwerpenNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "onderwerpen");
-                if (onderwerpenNodes.getLength() > 0) {
-                    result.append("Onderwerpen:\n");
-                    NodeList onderwerpNodes = onderwerpenNodes.item(0).getChildNodes();
-                    for (int i = 0; i < onderwerpNodes.getLength(); i++) {
-                        Node node = onderwerpNodes.item(i);
-                        if (node.getNodeType() == Node.ELEMENT_NODE) {
-                            String value = node.getTextContent().trim();
-                            result.append("- ").append(value).append("\n");
-                        }
-                    }
-                }
-                
-                NodeList rechtsgebiedenNodes = doc.getElementsByTagNameNS("https://standaarden.overheid.nl/stop/imop/data/", "rechtsgebieden");
-                if (rechtsgebiedenNodes.getLength() > 0) {
-                    result.append("\nRechtsgebieden:\n");
-                    NodeList rechtsgebiedNodes = rechtsgebiedenNodes.item(0).getChildNodes();
-                    for (int i = 0; i < rechtsgebiedNodes.getLength(); i++) {
-                        Node node = rechtsgebiedNodes.item(i);
-                        if (node.getNodeType() == Node.ELEMENT_NODE) {
-                            String value = node.getTextContent().trim();
-                            result.append("- ").append(value).append("\n");
-                        }
-                    }
-                }
-                result.append("\n");
-            } else {
-                result.append("NIET gevonden: Regeling/Metadata.xml\n\n");
-            }
-            
-            metadataArea.setText(result.toString());
-        } catch (Exception e) {
-            StringBuilder errorResult = new StringBuilder();
-            errorResult.append("Fout bij analyseren van ZIP bestand: ").append(e.getMessage()).append("\n\n");
-            errorResult.append("Stack trace:\n");
-            errorResult.append(e.toString()).append("\n");
-            metadataArea.setText(errorResult.toString());
-        }
-    }
-    
-    private void printNodeStructure(Node node, String indent, StringBuilder result) {
-        if (node.getNodeType() == Node.ELEMENT_NODE) {
-            result.append(indent).append("Element: ").append(node.getNodeName());
-            if (node.getNodeType() == Node.ELEMENT_NODE) {
-                Element element = (Element) node;
-                String namespace = element.getNamespaceURI();
-                if (namespace != null) {
-                    result.append(" (namespace: ").append(namespace).append(")");
-                }
-            }
-            result.append("\n");
-            
-            NodeList children = node.getChildNodes();
-            for (int i = 0; i < children.getLength(); i++) {
-                printNodeStructure(children.item(i), indent + "  ", result);
-            }
         }
     }
 

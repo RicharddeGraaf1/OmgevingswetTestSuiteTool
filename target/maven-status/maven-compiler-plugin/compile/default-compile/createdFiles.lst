@@ -1,10 +1,13 @@
+nl\omgevingswet\BesluitProcessor$AnalyseData.class
+nl\omgevingswet\MetadataProcessor$GMLInfo.class
 nl\omgevingswet\MainController.class
 nl\omgevingswet\MetadataProcessor$2.class
 nl\omgevingswet\IOProcessor.class
 nl\omgevingswet\IOProcessor$IOContent.class
+nl\omgevingswet\BesluitProcessor$AnalyseData$ExtIoRefData.class
 nl\omgevingswet\MetadataProcessor$1.class
-nl\omgevingswet\MetadataProcessor$GMLInfo.class
 nl\omgevingswet\MetadataProcessor.class
+nl\omgevingswet\BesluitProcessor$AnalyseData$InformatieObjectData.class
 nl\omgevingswet\Main.class
 nl\omgevingswet\ZipAnalyzer.class
 nl\omgevingswet\BesluitProcessor.class
