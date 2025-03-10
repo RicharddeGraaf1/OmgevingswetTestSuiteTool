@@ -1,0 +1,69 @@
+Rapport Omgevingswet Test Suite Tool
+================================
+
+besluit.xml gegenereerd
+
+Metadata informatie:
+-------------------
+Bevoegd gezag code: gm0297
+Type: gemeente
+
+Identificatie:
+FRBRWork: /akn/nl/act/gm0297/2019/reg456
+FRBRExpression: /akn/nl/act/gm0297/2019/reg456/nld@1
+
+Citeertitel: Gemeentestad (omgevingsplan Zaltbommel)
+
+GML Bestanden:
+Aantal GML bestanden: 8
+Totale grootte: 118,79 KB
+
+GML bestandslijst:
+Bedrijf_categorie_2.gml
+Centrumgebied.gml
+Speelhal.gml
+Bouwhoogte.gml
+Welstand.gml
+Zone_A.gml
+Zone_B.gml
+Zuilichem.gml
+
+
+Bestandstransformaties:
+----------------------
+Verplaatst: OW-bestanden/activiteiten.xml -> activiteiten.xml
+Verplaatst: OW-bestanden/gebiedsaanwijzingen.xml -> gebiedsaanwijzingen.xml
+Verplaatst: OW-bestanden/omgevingswaarderegels.xml -> omgevingswaarderegels.xml
+Verplaatst: OW-bestanden/regelsvooriedereen.xml -> regelsvooriedereen.xml
+Verplaatst: OW-bestanden/kaarten.xml -> kaarten.xml
+Verplaatst: OW-bestanden/gebieden.xml -> gebieden.xml
+Verplaatst: OW-bestanden/gebiedengroepen.xml -> gebiedengroepen.xml
+Verplaatst: OW-bestanden/ambtsgebieden.xml -> ambtsgebieden.xml
+Verplaatst: OW-bestanden/omgevingsnormen.xml -> omgevingsnormen.xml
+Verplaatst: OW-bestanden/omgevingswaarden.xml -> omgevingswaarden.xml
+Verplaatst: OW-bestanden/regelingsgebieden.xml -> regelingsgebieden.xml
+Verplaatst: OW-bestanden/regelteksten.xml -> regelteksten.xml
+Verplaatst: OW-bestanden/manifest-ow.xml -> manifest-ow.xml
+IO map verwerkt: IO-11720444151463335420
+Verplaatst: IO-11720444151463335420/Bedrijf_categorie_2.gml -> Bedrijf_categorie_2.gml
+IO map verwerkt: IO-3904162226355973189
+Verplaatst: IO-3904162226355973189/Centrumgebied.gml -> Centrumgebied.gml
+IO map verwerkt: IO-2532327482081185203
+Verplaatst: IO-2532327482081185203/Speelhal.gml -> Speelhal.gml
+IO map verwerkt: IO-3642319606482791992
+Verplaatst: IO-3642319606482791992/Bouwhoogte.gml -> Bouwhoogte.gml
+IO map verwerkt: IO-13503928799666621855
+Verplaatst: IO-13503928799666621855/Welstand.gml -> Welstand.gml
+IO map verwerkt: IO-4193505734249179753
+Verplaatst: IO-4193505734249179753/Zone_A.gml -> Zone_A.gml
+IO map verwerkt: IO-10182618571177054896
+Verplaatst: IO-10182618571177054896/Zone_B.gml -> Zone_B.gml
+IO map verwerkt: IO-14597034620182508107
+Verplaatst: IO-14597034620182508107/Zuilichem.gml -> Zuilichem.gml
+IO map verwerkt: IO-6604134138365027465
+
+Samenvatting transformaties:
+Aantal verplaatste OW-bestanden: 13
+Aantal verplaatste GML-bestanden: 8
+Aantal verwerkte IO-mappen: 9
+

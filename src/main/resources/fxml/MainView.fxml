@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="TOP_CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="nl.omgevingswet.MainController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Bron ZIP selectie -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Bron ZIP-bestand:" />
+        <TextField fx:id="sourceZipField" HBox.hgrow="ALWAYS" />
+        <Button text="Browse" onAction="#handleSourceBrowse" />
+        <Button fx:id="analyzeButton" text="Analyseer ZIP" onAction="#handleAnalyze" />
+    </HBox>
+
+    <!-- Metadata weergave -->
+    <TextArea fx:id="metadataArea" editable="false" wrapText="true" prefRowCount="8" />
+
+    <!-- Custom output locatie -->
+    <CheckBox fx:id="customOutputCheck" text="Aangepaste uitvoerlocatie" onAction="#handleCustomOutputToggle" />
+    
+    <VBox fx:id="customOutputBox" spacing="10" visible="false">
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Uitvoer ZIP-bestand:" />
+            <TextField fx:id="targetZipField" HBox.hgrow="ALWAYS" />
+            <Button text="Browse" onAction="#handleTargetBrowse" />
+        </HBox>
+    </VBox>
+
+    <!-- Transformatie knoppen -->
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Maak Initiële Aanlevering" onAction="#handleTransform" />
+    </HBox>
+
+    <!-- Voortgang -->
+    <ProgressBar fx:id="progressBar" visible="false" prefWidth="Infinity" />
+    <Label fx:id="statusLabel" />
+
+    <!-- Log gebied -->
+    <TextArea fx:id="logArea" editable="false" wrapText="true" VBox.vgrow="ALWAYS" />
+</VBox> 
