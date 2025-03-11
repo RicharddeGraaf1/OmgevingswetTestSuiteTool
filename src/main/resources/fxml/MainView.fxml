@@ -33,7 +33,7 @@
 
     <!-- Transformatie knoppen -->
     <HBox spacing="10" alignment="CENTER">
-        <Button text="Maak Initiële Aanlevering" onAction="#handleTransform" />
+        <Button text="Initiële publicatieOpdracht" onAction="#handleTransform" />
     </HBox>
 
     <!-- Voortgang -->
