@@ -30,6 +30,8 @@ public class BesluitProcessor {
 
     private static final String STOP_DATA_NS = "https://standaarden.overheid.nl/stop/imop/data/";
     private static final String STOP_TEKST_NS = "https://standaarden.overheid.nl/stop/imop/tekst/";
+    private static final String XSI_NS = "http://www.w3.org/2001/XMLSchema-instance";
+    private static final String XLINK_NS = "http://www.w3.org/1999/xlink";
     
     public static class AnalyseData {
         public String frbrWork;
@@ -361,20 +363,6 @@ public class BesluitProcessor {
         }
         return hexString.toString();
     }
-    
-    private static void cleanupRegelingFolder() {
-        try {
-            Path regelingPath = Paths.get("Regeling");
-            if (Files.exists(regelingPath)) {
-                Files.walk(regelingPath)
-                    .sorted(Comparator.reverseOrder())
-                    .map(Path::toFile)
-                    .forEach(File::delete);
-            }
-        } catch (IOException e) {
-            System.err.println("Fout bij verwijderen Regeling map: " + e.getMessage());
-        }
-    }
 
     public static class BesluitResult {
         public final byte[] besluitXml;
@@ -389,9 +377,6 @@ public class BesluitProcessor {
     public static BesluitResult createBesluitXml(ZipFile zipFile) throws Exception {
         try {
             System.out.println("Debug: Start createBesluitXml");
-            
-            // Verwijder eerst eventuele oude Regeling map
-            cleanupRegelingFolder();
             
             // Haal eerst alle analyse data op
             AnalyseData data = analyseZip(zipFile);
@@ -417,8 +402,6 @@ public class BesluitProcessor {
             
             return new BesluitResult(besluitXml, opdrachtXml);
         } catch (Exception e) {
-            // Zorg ervoor dat we de map ook opruimen bij een fout
-            cleanupRegelingFolder();
             throw e;
         }
     }

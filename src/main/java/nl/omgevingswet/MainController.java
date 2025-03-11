@@ -288,6 +288,13 @@ public class MainController {
                 String newEntryName = entryName;
                 boolean shouldProcess = true;
 
+                // Sla alle bestanden in de Regeling map over
+                if (entryName.startsWith("Regeling/")) {
+                    logMessage("Regeling bestand overgeslagen: " + entryName);
+                    processedFiles++;
+                    continue;
+                }
+
                 // Check eerst op GML bestanden, ongeacht in welke map ze zitten
                 if (entryName.toLowerCase().endsWith(".gml")) {
                     // Haal alleen de bestandsnaam op (laatste deel van het pad)
@@ -383,6 +390,19 @@ public class MainController {
             
             // Schrijf het rapport
             reportWriter.write(reportContent.toString());
+            
+            // Genereer en voeg manifest.xml toe
+            try {
+                byte[] manifestXml = ManifestProcessor.generateManifest(sourceZip);
+                ZipEntry manifestEntry = new ZipEntry("manifest.xml");
+                targetZip.putNextEntry(manifestEntry);
+                targetZip.write(manifestXml);
+                targetZip.closeEntry();
+                logMessage("manifest.xml gegenereerd");
+            } catch (Exception e) {
+                logError("Fout bij genereren manifest.xml: " + e.getMessage());
+                e.printStackTrace();  // Voor debugging
+            }
             
             statusLabel.setText("Transformatie voltooid!");
             logMessage("Transformatie succesvol afgerond. Output bestand: " + targetPath);
