@@ -86,7 +86,7 @@ public class MainController {
     private void updateDefaultTargetPath(File sourceFile) {
         String sourcePath = sourceFile.getAbsolutePath();
         String parentPath = sourceFile.getParent();
-        String targetPath = parentPath + File.separator + "InitieleAanlevering.zip";
+        String targetPath = parentPath + File.separator + "publicatieOpdracht_initieel.zip";
         targetZipField.setText(targetPath);
     }
 
