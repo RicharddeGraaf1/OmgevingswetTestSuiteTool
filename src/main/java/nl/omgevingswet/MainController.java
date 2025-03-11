@@ -80,6 +80,9 @@ public class MainController {
             if (sourceFile.exists()) {
                 updateDefaultTargetPath(sourceFile);
             }
+        } else {
+            // Als aangepaste uitvoerlocatie wordt aangevinkt, maak het doelpad leeg
+            targetZipField.setText("");
         }
     }
 
@@ -127,7 +130,52 @@ public class MainController {
         }
     }
 
+    @FXML
+    private void handleValidate() {
+        String sourcePath = sourceZipField.getText();
+        
+        if (sourcePath.isEmpty()) {
+            showError("Selecteer eerst een bronbestand.");
+            return;
+        }
+
+        // Genereer het doel pad als het niet is ingesteld
+        String targetPath = targetZipField.getText();
+        if (targetPath.isEmpty()) {
+            File sourceFile = new File(sourcePath);
+            updateDefaultTargetPath(sourceFile);
+            targetPath = targetZipField.getText();
+        }
+
+        // Vervang "publicatieOpdracht" met "validatieOpdracht" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "validatieOpdracht");
+        targetZipField.setText(targetPath);
+
+        try {
+            File sourceFile = new File(sourcePath);
+            if (!sourceFile.exists()) {
+                showError("Bronbestand bestaat niet: " + sourcePath);
+                return;
+            }
+
+            File targetFile = new File(targetPath);
+            File targetDir = targetFile.getParentFile();
+            if (targetDir != null && !targetDir.exists()) {
+                targetDir.mkdirs();
+            }
+
+            transformZipFile(sourcePath, targetPath, true);
+        } catch (Exception e) {
+            logError("Fout tijdens transformatie: " + e.getMessage());
+            e.printStackTrace(); // Voor debugging
+        }
+    }
+
     private void transformZipFile(String sourcePath, String targetPath) throws IOException {
+        transformZipFile(sourcePath, targetPath, false);
+    }
+
+    private void transformZipFile(String sourcePath, String targetPath, boolean isValidation) throws IOException {
         progressBar.setVisible(true);
         statusLabel.setText("Bezig met transformeren...");
         
@@ -188,7 +236,7 @@ public class MainController {
 
             // Genereer besluit.xml en opdracht.xml
             try {
-                BesluitProcessor.BesluitResult result = BesluitProcessor.createBesluitXml(sourceZip);
+                BesluitProcessor.BesluitResult result = BesluitProcessor.createBesluitXml(sourceZip, isValidation);
                 
                 // Voeg besluit.xml toe
                 ZipEntry besluitEntry = new ZipEntry("besluit.xml");

@@ -375,6 +375,10 @@ public class BesluitProcessor {
     }
 
     public static BesluitResult createBesluitXml(ZipFile zipFile) throws Exception {
+        return createBesluitXml(zipFile, false);
+    }
+
+    public static BesluitResult createBesluitXml(ZipFile zipFile, boolean isValidation) throws Exception {
         try {
             System.out.println("Debug: Start createBesluitXml");
             
@@ -393,7 +397,7 @@ public class BesluitProcessor {
             System.out.println("Debug: Creating opdracht.xml with bevoegdGezag=" + data.bevoegdGezag);
             
             // Maak opdracht.xml aan
-            byte[] opdrachtXml = createOpdrachtXml(data.bevoegdGezag, datumTijd, tomorrow);
+            byte[] opdrachtXml = createOpdrachtXml(data.bevoegdGezag, datumTijd, tomorrow, isValidation);
             
             System.out.println("Debug: Generated opdracht.xml content, size=" + opdrachtXml.length);
             
@@ -811,7 +815,7 @@ public class BesluitProcessor {
         return result.getBytes("UTF-8");
     }
 
-    public static byte[] createOpdrachtXml(String bevoegdGezag, String datumTijd, LocalDateTime datumBekendmaking) throws Exception {
+    public static byte[] createOpdrachtXml(String bevoegdGezag, String datumTijd, LocalDateTime datumBekendmaking, boolean isValidation) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
@@ -823,12 +827,15 @@ public class BesluitProcessor {
         doc.setXmlStandalone(true);
         
         // Root element met namespace
-        Element root = doc.createElementNS("http://www.overheid.nl/2017/lvbb", "publicatieOpdracht");
+        Element root = doc.createElementNS("http://www.overheid.nl/2017/lvbb", isValidation ? "validatieOpdracht" : "publicatieOpdracht");
         doc.appendChild(root);
         
         // idLevering met underscores
         Element idLevering = doc.createElement("idLevering");
-        idLevering.setTextContent("OTST_" + bevoegdGezag + "_" + datumTijd);
+        // Split datumTijd (format: yyyyMMddHHmmss) in datum (yyyyMMdd) en tijd (HHmmss)
+        String leveringDatum = datumTijd.substring(0, 8);
+        String leveringTijd = datumTijd.substring(8);
+        idLevering.setTextContent("OTST_" + (isValidation ? "val_" : "pub_") + bevoegdGezag + "_" + leveringDatum + "_" + leveringTijd);
         root.appendChild(idLevering);
         
         // idBevoegdGezag
@@ -846,10 +853,12 @@ public class BesluitProcessor {
         publicatie.setTextContent("besluit.xml");
         root.appendChild(publicatie);
         
-        // datumBekendmaking
-        Element datumBekendmakingElement = doc.createElement("datumBekendmaking");
-        datumBekendmakingElement.setTextContent(datumBekendmaking.format(DateTimeFormatter.ISO_DATE));
-        root.appendChild(datumBekendmakingElement);
+        // datumBekendmaking alleen toevoegen voor publicatieOpdracht
+        if (!isValidation) {
+            Element datumBekendmakingElement = doc.createElement("datumBekendmaking");
+            datumBekendmakingElement.setTextContent(datumBekendmaking.format(DateTimeFormatter.ISO_DATE));
+            root.appendChild(datumBekendmakingElement);
+        }
         
         // Converteer naar bytes
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
