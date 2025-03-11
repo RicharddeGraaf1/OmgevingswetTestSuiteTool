@@ -475,39 +475,28 @@ public class BesluitProcessor {
                     Element element = (Element) child;
                     // Sla soortRegeling over
                     if (!element.getTagName().equals("soortRegeling")) {
-                        Element newElement = doc.createElementNS(STOP_DATA_NS, element.getTagName());
-                        
-                        // Pas officieleTitel aan
-                        if (element.getTagName().equals("officieleTitel")) {
-                            newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
-                        } else if (element.getTagName().equals("onderwerpen")) {
-                            // Maak een nieuwe onderwerpen element
-                            Element onderwerpen = doc.createElementNS(STOP_DATA_NS, "onderwerpen");
-                            // Maak een onderwerp element voor elke inhoud
-                            String[] onderwerpItems = element.getTextContent().trim().split("\\s+");
-                            for (String item : onderwerpItems) {
-                                if (!item.isEmpty()) {
-                                    Element onderwerp = doc.createElementNS(STOP_DATA_NS, "onderwerp");
-                                    onderwerp.setTextContent(item);
-                                    onderwerpen.appendChild(onderwerp);
+                        if (element.getLocalName().equals("onderwerpen") || element.getLocalName().equals("rechtsgebieden")) {
+                            // Maak nieuwe elementen zonder namespace prefix
+                            Element parentElement = doc.createElement(element.getLocalName());
+                            NodeList subElements = element.getChildNodes();
+                            for (int j = 0; j < subElements.getLength(); j++) {
+                                Node subNode = subElements.item(j);
+                                if (subNode.getNodeType() == Node.ELEMENT_NODE) {
+                                    Element subElement = (Element) subNode;
+                                    Element newSubElement = doc.createElement(subElement.getLocalName());
+                                    newSubElement.setTextContent(subElement.getTextContent().trim());
+                                    parentElement.appendChild(newSubElement);
                                 }
                             }
-                            metadataElements.add(onderwerpen);
-                        } else if (element.getTagName().equals("rechtsgebieden")) {
-                            // Maak een nieuwe rechtsgebieden element
-                            Element rechtsgebieden = doc.createElementNS(STOP_DATA_NS, "rechtsgebieden");
-                            // Maak een rechtsgebied element voor elke inhoud
-                            String[] rechtsgebiedItems = element.getTextContent().trim().split("\\s+");
-                            for (String item : rechtsgebiedItems) {
-                                if (!item.isEmpty()) {
-                                    Element rechtsgebied = doc.createElementNS(STOP_DATA_NS, "rechtsgebied");
-                                    rechtsgebied.setTextContent(item);
-                                    rechtsgebieden.appendChild(rechtsgebied);
-                                }
-                            }
-                            metadataElements.add(rechtsgebieden);
+                            metadataElements.add(parentElement);
                         } else {
-                            newElement.setTextContent(element.getTextContent().trim());
+                            Element newElement = doc.createElementNS(STOP_DATA_NS, element.getTagName());
+                            // Pas officieleTitel aan
+                            if (element.getTagName().equals("officieleTitel")) {
+                                newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
+                            } else {
+                                newElement.setTextContent(element.getTextContent().trim());
+                            }
                             metadataElements.add(newElement);
                         }
                     }
@@ -520,12 +509,12 @@ public class BesluitProcessor {
             metadataElements.add(soortProcedure);
             
             // Sorteer op elementnaam
-            metadataElements.sort((a, b) -> a.getLocalName().compareTo(b.getLocalName()));
+            metadataElements.sort((a, b) -> a.getTagName().compareTo(b.getTagName()));
             
             // Voeg gesorteerde elementen toe aan BesluitMetadata
             for (Element element : metadataElements) {
                 // Sla heeftCiteertitelInformatie over
-                if (!element.getLocalName().equals("heeftCiteertitelInformatie")) {
+                if (!element.getTagName().equals("heeftCiteertitelInformatie")) {
                     besluitMetadata.appendChild(element);
                 }
             }
@@ -791,28 +780,20 @@ public class BesluitProcessor {
                     Node child = children.item(i);
                     if (child.getNodeType() == Node.ELEMENT_NODE) {
                         Element childElement = (Element) child;
-                        if (childElement.getLocalName().equals("onderwerpen")) {
-                            Element onderwerpen = doc.createElementNS(STOP_DATA_NS, "onderwerpen");
-                            String[] onderwerpItems = childElement.getTextContent().trim().split("\\s+");
-                            for (String item : onderwerpItems) {
-                                if (!item.isEmpty()) {
-                                    Element onderwerp = doc.createElementNS(STOP_DATA_NS, "onderwerp");
-                                    onderwerp.setTextContent(item);
-                                    onderwerpen.appendChild(onderwerp);
+                        if (childElement.getLocalName().equals("onderwerpen") || childElement.getLocalName().equals("rechtsgebieden")) {
+                            // Maak nieuwe elementen zonder namespace prefix
+                            Element parentElement = doc.createElement(childElement.getLocalName());
+                            NodeList subElements = childElement.getChildNodes();
+                            for (int j = 0; j < subElements.getLength(); j++) {
+                                Node subNode = subElements.item(j);
+                                if (subNode.getNodeType() == Node.ELEMENT_NODE) {
+                                    Element subElement = (Element) subNode;
+                                    Element newSubElement = doc.createElement(subElement.getLocalName());
+                                    newSubElement.setTextContent(subElement.getTextContent().trim());
+                                    parentElement.appendChild(newSubElement);
                                 }
                             }
-                            newElement.appendChild(onderwerpen);
-                        } else if (childElement.getLocalName().equals("rechtsgebieden")) {
-                            Element rechtsgebieden = doc.createElementNS(STOP_DATA_NS, "rechtsgebieden");
-                            String[] rechtsgebiedItems = childElement.getTextContent().trim().split("\\s+");
-                            for (String item : rechtsgebiedItems) {
-                                if (!item.isEmpty()) {
-                                    Element rechtsgebied = doc.createElementNS(STOP_DATA_NS, "rechtsgebied");
-                                    rechtsgebied.setTextContent(item);
-                                    rechtsgebieden.appendChild(rechtsgebied);
-                                }
-                            }
-                            newElement.appendChild(rechtsgebieden);
+                            newElement.appendChild(parentElement);
                         } else {
                             Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
                             newChild.setTextContent(childElement.getTextContent().trim());
