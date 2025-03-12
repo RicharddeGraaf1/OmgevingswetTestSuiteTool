@@ -6,6 +6,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.layout.HBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import javafx.stage.DirectoryChooser;
 import java.io.*;
 import java.nio.file.*;
 import java.util.zip.ZipEntry;
@@ -23,6 +24,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import java.util.ArrayList;
 
 public class MainController {
 
@@ -66,9 +68,13 @@ public class MainController {
 
     @FXML
     private void handleTargetBrowse() {
-        File file = showFileChooser("Selecteer uitvoerlocatie");
-        if (file != null) {
-            targetZipField.setText(file.getAbsolutePath());
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        directoryChooser.setTitle("Selecteer uitvoermap");
+        File selectedDirectory = directoryChooser.showDialog(new Stage());
+        if (selectedDirectory != null) {
+            // Gebruik de geselecteerde map en voeg de bestandsnaam toe
+            String targetPath = selectedDirectory.getAbsolutePath() + File.separator + "publicatieOpdracht_initieel.zip";
+            targetZipField.setText(targetPath);
         }
     }
 
@@ -439,9 +445,16 @@ public class MainController {
             // Schrijf het rapport
             reportWriter.write(reportContent.toString());
             
-            // Genereer en voeg manifest.xml toe
+            // Genereer en voeg manifest.xml toe als laatste stap
             try {
-                byte[] manifestXml = ManifestProcessor.generateManifest(sourceZip);
+                // Verzamel alle bestandsnamen die daadwerkelijk in de ZIP zitten
+                List<String> actualFiles = new ArrayList<>();
+                for (String fileName : addedFiles) {
+                    actualFiles.add(fileName);
+                }
+                
+                // Genereer manifest.xml met alleen de daadwerkelijke bestanden
+                byte[] manifestXml = ManifestProcessor.generateManifest(actualFiles);
                 ZipEntry manifestEntry = new ZipEntry("manifest.xml");
                 targetZip.putNextEntry(manifestEntry);
                 targetZip.write(manifestXml);

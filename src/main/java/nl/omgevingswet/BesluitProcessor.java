@@ -462,17 +462,33 @@ public class BesluitProcessor {
                     Element element = (Element) child;
                     // Sla soortRegeling over
                     if (!element.getTagName().equals("soortRegeling")) {
-                        if (element.getLocalName().equals("onderwerpen") || element.getLocalName().equals("rechtsgebieden")) {
-                            // Maak nieuwe elementen zonder namespace prefix
-                            Element parentElement = doc.createElement(element.getLocalName());
+                        if (element.getLocalName().equals("onderwerpen") || 
+                            element.getLocalName().equals("rechtsgebieden") || 
+                            element.getLocalName().equals("overheidsdomeinen")) {
+                            // Maak nieuwe elementen met namespace prefix
+                            Element parentElement = doc.createElementNS(STOP_DATA_NS, element.getLocalName());
                             NodeList subElements = element.getChildNodes();
                             for (int j = 0; j < subElements.getLength(); j++) {
                                 Node subNode = subElements.item(j);
                                 if (subNode.getNodeType() == Node.ELEMENT_NODE) {
                                     Element subElement = (Element) subNode;
-                                    Element newSubElement = doc.createElement(subElement.getLocalName());
+                                    // Voor overheidsdomeinen, maak overheidsdomein elementen
+                                    String subElementName = element.getLocalName().equals("overheidsdomeinen") ? 
+                                        "overheidsdomein" : subElement.getLocalName();
+                                    Element newSubElement = doc.createElementNS(STOP_DATA_NS, subElementName);
                                     newSubElement.setTextContent(subElement.getTextContent().trim());
                                     parentElement.appendChild(newSubElement);
+                                } else if (subNode.getNodeType() == Node.TEXT_NODE && 
+                                         element.getLocalName().equals("overheidsdomeinen")) {
+                                    // Verwerk tekst nodes voor overheidsdomeinen
+                                    String[] domains = subNode.getTextContent().trim().split("\\s+");
+                                    for (String domain : domains) {
+                                        if (!domain.isEmpty()) {
+                                            Element overheidsdomein = doc.createElementNS(STOP_DATA_NS, "overheidsdomein");
+                                            overheidsdomein.setTextContent(domain);
+                                            parentElement.appendChild(overheidsdomein);
+                                        }
+                                    }
                                 }
                             }
                             metadataElements.add(parentElement);
@@ -767,17 +783,33 @@ public class BesluitProcessor {
                     Node child = children.item(i);
                     if (child.getNodeType() == Node.ELEMENT_NODE) {
                         Element childElement = (Element) child;
-                        if (childElement.getLocalName().equals("onderwerpen") || childElement.getLocalName().equals("rechtsgebieden")) {
-                            // Maak nieuwe elementen zonder namespace prefix
-                            Element parentElement = doc.createElement(childElement.getLocalName());
+                        if (childElement.getLocalName().equals("onderwerpen") || 
+                            childElement.getLocalName().equals("rechtsgebieden") || 
+                            childElement.getLocalName().equals("overheidsdomeinen")) {
+                            // Maak nieuwe elementen met namespace prefix
+                            Element parentElement = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
                             NodeList subElements = childElement.getChildNodes();
                             for (int j = 0; j < subElements.getLength(); j++) {
                                 Node subNode = subElements.item(j);
                                 if (subNode.getNodeType() == Node.ELEMENT_NODE) {
                                     Element subElement = (Element) subNode;
-                                    Element newSubElement = doc.createElement(subElement.getLocalName());
+                                    // Voor overheidsdomeinen, maak overheidsdomein elementen
+                                    String subElementName = childElement.getLocalName().equals("overheidsdomeinen") ? 
+                                        "overheidsdomein" : subElement.getLocalName();
+                                    Element newSubElement = doc.createElementNS(STOP_DATA_NS, subElementName);
                                     newSubElement.setTextContent(subElement.getTextContent().trim());
                                     parentElement.appendChild(newSubElement);
+                                } else if (subNode.getNodeType() == Node.TEXT_NODE && 
+                                         childElement.getLocalName().equals("overheidsdomeinen")) {
+                                    // Verwerk tekst nodes voor overheidsdomeinen
+                                    String[] domains = subNode.getTextContent().trim().split("\\s+");
+                                    for (String domain : domains) {
+                                        if (!domain.isEmpty()) {
+                                            Element overheidsdomein = doc.createElementNS(STOP_DATA_NS, "overheidsdomein");
+                                            overheidsdomein.setTextContent(domain);
+                                            parentElement.appendChild(overheidsdomein);
+                                        }
+                                    }
                                 }
                             }
                             newElement.appendChild(parentElement);
@@ -813,6 +845,14 @@ public class BesluitProcessor {
             .trim();                                // Verwijder leading/trailing whitespace
         
         return result.getBytes("UTF-8");
+    }
+
+    private static LocalDateTime getNextWorkingDay(LocalDateTime date) {
+        LocalDateTime nextDay = date.plusDays(1);
+        while (nextDay.getDayOfWeek().getValue() > 5) { // 5 = Friday
+            nextDay = nextDay.plusDays(1);
+        }
+        return nextDay;
     }
 
     public static byte[] createOpdrachtXml(String bevoegdGezag, String datumTijd, LocalDateTime datumBekendmaking, boolean isValidation) throws Exception {
@@ -853,12 +893,12 @@ public class BesluitProcessor {
         publicatie.setTextContent("besluit.xml");
         root.appendChild(publicatie);
         
-        // datumBekendmaking alleen toevoegen voor publicatieOpdracht
-        if (!isValidation) {
-            Element datumBekendmakingElement = doc.createElement("datumBekendmaking");
-            datumBekendmakingElement.setTextContent(datumBekendmaking.format(DateTimeFormatter.ISO_DATE));
-            root.appendChild(datumBekendmakingElement);
-        }
+        // Voeg datumBekendmaking altijd toe
+        Element datumBekendmakingElement = doc.createElement("datumBekendmaking");
+        // Bereken de eerstvolgende werkdag
+        LocalDateTime nextWorkingDay = getNextWorkingDay(LocalDateTime.now());
+        datumBekendmakingElement.setTextContent(nextWorkingDay.format(DateTimeFormatter.ISO_DATE));
+        root.appendChild(datumBekendmakingElement);
         
         // Converteer naar bytes
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
