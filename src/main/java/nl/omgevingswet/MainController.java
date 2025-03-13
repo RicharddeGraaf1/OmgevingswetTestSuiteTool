@@ -447,14 +447,11 @@ public class MainController {
             
             // Genereer en voeg manifest.xml toe als laatste stap
             try {
-                // Verzamel alle bestandsnamen die daadwerkelijk in de ZIP zitten
-                List<String> actualFiles = new ArrayList<>();
-                for (String fileName : addedFiles) {
-                    actualFiles.add(fileName);
-                }
+                // Voeg manifest.xml toe aan de lijst van bestanden
+                addedFiles.add("manifest.xml");
                 
                 // Genereer manifest.xml met alleen de daadwerkelijke bestanden
-                byte[] manifestXml = ManifestProcessor.generateManifest(actualFiles);
+                byte[] manifestXml = ManifestProcessor.generateManifest(sourceZip, addedFiles);
                 ZipEntry manifestEntry = new ZipEntry("manifest.xml");
                 targetZip.putNextEntry(manifestEntry);
                 targetZip.write(manifestXml);

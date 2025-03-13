@@ -1,11 +1,13 @@
 package nl.omgevingswet;
 
-import java.util.zip.ZipFile;
-import java.util.zip.ZipEntry;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.HashMap;
+import javax.xml.parsers.*;
+import org.w3c.dom.*;
+import java.util.zip.*;
+import java.util.*;
+import javax.xml.transform.*;
+import javax.xml.transform.dom.*;
+import javax.xml.transform.stream.*;
+import java.io.*;
 
 public class ManifestProcessor {
     private static final Map<String, String> CONTENT_TYPES = new HashMap<>();
@@ -24,35 +26,43 @@ public class ManifestProcessor {
         CONTENT_TYPES.put("pdf", "application/pdf");
     }
     
-    public static byte[] generateManifest(ZipFile zipFile) throws Exception {
-        StringBuilder manifest = new StringBuilder();
-        manifest.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-        manifest.append("<manifest xmlns=\"http://www.overheid.nl/2017/lvbb\">\n");
-        
-        // Verzamel alle bestanden uit de ZIP
-        List<String> files = new ArrayList<>();
-        zipFile.stream()
-               .filter(entry -> !entry.getName().endsWith("/")) // Skip directories
-               .forEach(entry -> files.add(entry.getName()));
-        
-        // Sorteer de bestanden voor consistente output
-        files.sort(String::compareTo);
-        
-        // Voeg elk bestand toe aan het manifest
-        for (String file : files) {
-            manifest.append("    <bestand>\n");
-            manifest.append("        <bestandsnaam>").append(file).append("</bestandsnaam>\n");
+    public static byte[] generateManifest(ZipFile sourceZip, Set<String> addedFiles) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.newDocument();
+
+        // Maak root element met namespace
+        Element root = doc.createElement("manifest");
+        root.setAttribute("xmlns", "http://www.overheid.nl/2017/lvbb");
+        doc.appendChild(root);
+
+        // Voeg alleen bestanden toe die daadwerkelijk in de resultaat ZIP zitten
+        for (String fileName : addedFiles) {
+            // Maak bestand element
+            Element bestand = doc.createElement("bestand");
             
-            // Bepaal de content type op basis van de extensie
-            String extension = file.substring(file.lastIndexOf('.') + 1).toLowerCase();
-            String contentType = CONTENT_TYPES.getOrDefault(extension, "application/octet-stream");
+            // Voeg bestandsnaam toe
+            Element bestandsnaam = doc.createElement("bestandsnaam");
+            bestandsnaam.setTextContent(fileName);
+            bestand.appendChild(bestandsnaam);
             
-            manifest.append("        <contentType>").append(contentType).append("</contentType>\n");
-            manifest.append("    </bestand>\n");
+            // Bepaal en voeg contentType toe
+            Element contentType = doc.createElement("contentType");
+            String extension = fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();
+            contentType.setTextContent(CONTENT_TYPES.getOrDefault(extension, "application/octet-stream"));
+            bestand.appendChild(contentType);
+            
+            root.appendChild(bestand);
         }
-        
-        manifest.append("</manifest>");
-        
-        return manifest.toString().getBytes("UTF-8");
+
+        // Converteer naar bytes
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        transformer.transform(new DOMSource(doc), new StreamResult(output));
+        return output.toByteArray();
     }
 } 

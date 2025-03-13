@@ -493,11 +493,11 @@ public class BesluitProcessor {
                             }
                             metadataElements.add(parentElement);
                         } else {
-                            Element newElement = doc.createElementNS(STOP_DATA_NS, element.getTagName());
-                            // Pas officieleTitel aan
-                            if (element.getTagName().equals("officieleTitel")) {
-                                newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
-                            } else {
+                        Element newElement = doc.createElementNS(STOP_DATA_NS, element.getTagName());
+                        // Pas officieleTitel aan
+                        if (element.getTagName().equals("officieleTitel")) {
+                            newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
+                        } else {
                                 newElement.setTextContent(element.getTextContent().trim());
                             }
                             metadataElements.add(newElement);
@@ -518,7 +518,7 @@ public class BesluitProcessor {
             for (Element element : metadataElements) {
                 // Sla heeftCiteertitelInformatie over
                 if (!element.getTagName().equals("heeftCiteertitelInformatie")) {
-                    besluitMetadata.appendChild(element);
+                besluitMetadata.appendChild(element);
                 }
             }
         }
@@ -814,9 +814,9 @@ public class BesluitProcessor {
                             }
                             newElement.appendChild(parentElement);
                         } else {
-                            Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
+                        Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
                             newChild.setTextContent(childElement.getTextContent().trim());
-                            newElement.appendChild(newChild);
+                        newElement.appendChild(newChild);
                         }
                     }
                 }
