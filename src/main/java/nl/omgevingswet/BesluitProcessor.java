@@ -347,7 +347,7 @@ public class BesluitProcessor {
         return null;
     }
     
-    private static String calculateSHA512(InputStream input) throws Exception {
+    public static String calculateSHA512(InputStream input) throws Exception {
         MessageDigest digest = MessageDigest.getInstance("SHA-512");
         byte[] buffer = new byte[8192];
         int read;
@@ -418,34 +418,43 @@ public class BesluitProcessor {
         DocumentBuilder builder = factory.newDocumentBuilder();
         
         Document doc = builder.newDocument();
-        Element root = doc.createElementNS(STOP_DATA_NS, "AanleveringBesluit");
-        root.setAttribute("xmlns:data", STOP_DATA_NS);
+        // Maak root element met namespace
+        Element root = doc.createElement("AanleveringBesluit");
+        root.setAttribute("xmlns", "https://standaarden.overheid.nl/lvbb/stop/aanlevering/");
+        root.setAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
+        root.setAttribute("schemaversie", "1.2.0");
+        root.setAttribute("xsi:schemaLocation", "https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd");
         doc.appendChild(root);
         
-        // Voeg BesluitVersie toe
-        Element besluitVersie = doc.createElementNS(STOP_DATA_NS, "BesluitVersie");
+        // Voeg BesluitVersie toe (geen namespace nodig, erft over van root)
+        Element besluitVersie = doc.createElement("BesluitVersie");
         root.appendChild(besluitVersie);
         
-        // 1. ExpressionIdentificatie
+        // 1. ExpressionIdentificatie (expliciete namespace nodig)
         Element expressionId = doc.createElementNS(STOP_DATA_NS, "ExpressionIdentificatie");
+        expressionId.setPrefix("data");
         besluitVersie.appendChild(expressionId);
         
         Element frbWork = doc.createElementNS(STOP_DATA_NS, "FRBRWork");
+        frbWork.setPrefix("data");
         frbWork.setTextContent(String.format("/akn/nl/bill/%s/%s/OTSTgegenereerd%s", 
             data.bevoegdGezag, huidigJaartal, datumTijd));
         expressionId.appendChild(frbWork);
         
         Element frbExpr = doc.createElementNS(STOP_DATA_NS, "FRBRExpression");
+        frbExpr.setPrefix("data");
         frbExpr.setTextContent(String.format("/akn/nl/bill/%s/%s/OTSTgegenereerd%s/nld@%s;1", 
             data.bevoegdGezag, huidigJaartal, datumTijd, datum));
         expressionId.appendChild(frbExpr);
         
         Element soortWork = doc.createElementNS(STOP_DATA_NS, "soortWork");
+        soortWork.setPrefix("data");
         soortWork.setTextContent("/join/id/stop/work_003");
         expressionId.appendChild(soortWork);
         
-        // 2. BesluitMetadata
+        // 2. BesluitMetadata (expliciete namespace nodig)
         Element besluitMetadata = doc.createElementNS(STOP_DATA_NS, "BesluitMetadata");
+        besluitMetadata.setPrefix("data");
         besluitVersie.appendChild(besluitMetadata);
         
         // Haal metadata op uit Metadata.xml
@@ -460,47 +469,35 @@ public class BesluitProcessor {
                 Node child = children.item(i);
                 if (child.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) child;
-                    // Sla soortRegeling over
-                    if (!element.getTagName().equals("soortRegeling")) {
+                    // Voor BesluitMetadata, sla soortRegeling en overheidsdomeinen over
+                    if (!element.getLocalName().equals("soortRegeling") && 
+                        !element.getLocalName().equals("overheidsdomeinen")) {
                         if (element.getLocalName().equals("onderwerpen") || 
-                            element.getLocalName().equals("rechtsgebieden") || 
-                            element.getLocalName().equals("overheidsdomeinen")) {
+                            element.getLocalName().equals("rechtsgebieden")) {
                             // Maak nieuwe elementen met namespace prefix
                             Element parentElement = doc.createElementNS(STOP_DATA_NS, element.getLocalName());
+                            parentElement.setPrefix("data");
                             NodeList subElements = element.getChildNodes();
                             for (int j = 0; j < subElements.getLength(); j++) {
                                 Node subNode = subElements.item(j);
                                 if (subNode.getNodeType() == Node.ELEMENT_NODE) {
                                     Element subElement = (Element) subNode;
-                                    // Voor overheidsdomeinen, maak overheidsdomein elementen
-                                    String subElementName = element.getLocalName().equals("overheidsdomeinen") ? 
-                                        "overheidsdomein" : subElement.getLocalName();
-                                    Element newSubElement = doc.createElementNS(STOP_DATA_NS, subElementName);
+                                    Element newSubElement = doc.createElementNS(STOP_DATA_NS, subElement.getLocalName());
+                                    newSubElement.setPrefix("data");
                                     newSubElement.setTextContent(subElement.getTextContent().trim());
                                     parentElement.appendChild(newSubElement);
-                                } else if (subNode.getNodeType() == Node.TEXT_NODE && 
-                                         element.getLocalName().equals("overheidsdomeinen")) {
-                                    // Verwerk tekst nodes voor overheidsdomeinen
-                                    String[] domains = subNode.getTextContent().trim().split("\\s+");
-                                    for (String domain : domains) {
-                                        if (!domain.isEmpty()) {
-                                            Element overheidsdomein = doc.createElementNS(STOP_DATA_NS, "overheidsdomein");
-                                            overheidsdomein.setTextContent(domain);
-                                            parentElement.appendChild(overheidsdomein);
-                                        }
-                                    }
                                 }
                             }
                             metadataElements.add(parentElement);
                         } else {
-                        Element newElement = doc.createElementNS(STOP_DATA_NS, element.getTagName());
-                        // Pas officieleTitel aan
-                        if (element.getTagName().equals("officieleTitel")) {
-                            newElement.setTextContent(element.getTextContent() + " OTST" + datumTijd);
-                        } else {
-                                newElement.setTextContent(element.getTextContent().trim());
+                            // Voor alle andere elementen, importeer de volledige structuur
+                            Node importedNode = doc.importNode(element, true);
+                            Element importedElement = (Element) importedNode;
+                            // Zorg ervoor dat de namespace prefix correct is
+                            if (importedElement.getNamespaceURI() != null) {
+                                importedElement.setPrefix("data");
                             }
-                            metadataElements.add(newElement);
+                            metadataElements.add(importedElement);
                         }
                     }
                 }
@@ -508,50 +505,70 @@ public class BesluitProcessor {
             
             // Voeg soortProcedure toe
             Element soortProcedure = doc.createElementNS(STOP_DATA_NS, "soortProcedure");
+            soortProcedure.setPrefix("data");
             soortProcedure.setTextContent("/join/id/stop/proceduretype_definitief");
             metadataElements.add(soortProcedure);
+            
+            // Voeg informatieobjectRefs alleen toe als er IO's zijn
+            if (!data.informatieObjecten.isEmpty()) {
+                Element informatieobjectRefs = doc.createElementNS(STOP_DATA_NS, "informatieobjectRefs");
+                informatieobjectRefs.setPrefix("data");
+                
+                // Voeg voor elk informatieobject een informatieobjectRef toe
+                for (AnalyseData.InformatieObjectData io : data.informatieObjecten) {
+                    Element informatieobjectRef = doc.createElementNS(STOP_DATA_NS, "informatieobjectRef");
+                    informatieobjectRef.setPrefix("data");
+                    informatieobjectRef.setTextContent(io.frbrExpression);
+                    informatieobjectRefs.appendChild(informatieobjectRef);
+                }
+                metadataElements.add(informatieobjectRefs);
+            }
             
             // Sorteer op elementnaam
             metadataElements.sort((a, b) -> a.getTagName().compareTo(b.getTagName()));
             
             // Voeg gesorteerde elementen toe aan BesluitMetadata
             for (Element element : metadataElements) {
-                // Sla heeftCiteertitelInformatie over
-                if (!element.getTagName().equals("heeftCiteertitelInformatie")) {
                 besluitMetadata.appendChild(element);
-                }
             }
         }
         
-        // 3. Procedureverloop
+        // 3. Procedureverloop (expliciete namespace nodig)
         Element procedureverloop = doc.createElementNS(STOP_DATA_NS, "Procedureverloop");
+        procedureverloop.setPrefix("data");
         besluitVersie.appendChild(procedureverloop);
         
         // Voeg bekendOp toe
         Element bekendOp = doc.createElementNS(STOP_DATA_NS, "bekendOp");
+        bekendOp.setPrefix("data");
         bekendOp.setTextContent(tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         procedureverloop.appendChild(bekendOp);
         
         // Voeg procedurestappen toe
         Element procedurestappen = doc.createElementNS(STOP_DATA_NS, "procedurestappen");
+        procedurestappen.setPrefix("data");
         procedureverloop.appendChild(procedurestappen);
         
         // Voeg Procedurestap toe
         Element procedurestap = doc.createElementNS(STOP_DATA_NS, "Procedurestap");
+        procedurestap.setPrefix("data");
         procedurestappen.appendChild(procedurestap);
         
         // Voeg soortStap toe
         Element soortStap = doc.createElementNS(STOP_DATA_NS, "soortStap");
+        soortStap.setPrefix("data");
         soortStap.setTextContent("/join/id/stop/procedure/stap_003");
         procedurestap.appendChild(soortStap);
         
         // Voeg voltooidOp toe
         Element voltooidOp = doc.createElementNS(STOP_DATA_NS, "voltooidOp");
+        voltooidOp.setPrefix("data");
         voltooidOp.setTextContent(tomorrow.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         procedurestap.appendChild(voltooidOp);
         
-        // 4. ConsolidatieInformatie
+        // 4. ConsolidatieInformatie (expliciete namespace nodig)
         Element consolidatieInformatie = doc.createElementNS(STOP_DATA_NS, "ConsolidatieInformatie");
+        consolidatieInformatie.setPrefix("data");
         besluitVersie.appendChild(consolidatieInformatie);
         
         // BeoogdeRegelgeving
@@ -572,7 +589,7 @@ public class BesluitProcessor {
         doelenRegeling.appendChild(doelRegeling);
         
         // Instrumentversie onder BeoogdeRegeling
-        Element instrumentversieRegeling = doc.createElementNS(STOP_DATA_NS, "instrumentversie");
+        Element instrumentversieRegeling = doc.createElementNS(STOP_DATA_NS, "instrumentVersie");
         instrumentversieRegeling.setTextContent(data.frbrExpression);
         beoogdeRegeling.appendChild(instrumentversieRegeling);
         
@@ -583,7 +600,7 @@ public class BesluitProcessor {
         
         // BeoogdInformatieObject voor elke IO
         for (AnalyseData.InformatieObjectData io : data.informatieObjecten) {
-            Element beoogdInformatieObject = doc.createElementNS(STOP_DATA_NS, "BeoogdInformatieObject");
+            Element beoogdInformatieObject = doc.createElementNS(STOP_DATA_NS, "BeoogdInformatieobject");
             beoogdeRegelgeving.appendChild(beoogdInformatieObject);
             
             // Doelen onder BeoogdInformatieObject
@@ -595,7 +612,7 @@ public class BesluitProcessor {
             doelenIO.appendChild(doelIO);
             
             // Instrumentversie onder BeoogdInformatieObject
-            Element instrumentversieIO = doc.createElementNS(STOP_DATA_NS, "instrumentversie");
+            Element instrumentversieIO = doc.createElementNS(STOP_DATA_NS, "instrumentVersie");
             instrumentversieIO.setTextContent(io.frbrExpression);
             beoogdInformatieObject.appendChild(instrumentversieIO);
             
@@ -633,7 +650,8 @@ public class BesluitProcessor {
         tijdstempel.appendChild(eIdTijdstempel);
         
         // 5. BesluitCompact
-        Element besluitCompact = doc.createElementNS(STOP_DATA_NS, "BesluitCompact");
+        Element besluitCompact = doc.createElementNS(STOP_TEKST_NS, "BesluitCompact");
+        besluitCompact.setPrefix("tekst");
         besluitVersie.appendChild(besluitCompact);
         
         // Voeg namespace toe voor tekst
@@ -763,7 +781,7 @@ public class BesluitProcessor {
         besluitCompact.appendChild(wijzigBijlage);
         
         // Voeg RegelingVersieInformatie toe
-        Element regelingVersieInfo = doc.createElementNS(STOP_DATA_NS, "RegelingVersieInformatie");
+        Element regelingVersieInfo = doc.createElement("RegelingVersieInformatie");
         root.appendChild(regelingVersieInfo);
         
         // Verwerk alle bestanden in de juiste volgorde
@@ -776,6 +794,7 @@ public class BesluitProcessor {
                 // Converteer het element naar een element met de juiste namespace
                 Element sourceRoot = sourceDoc.getDocumentElement();
                 Element newElement = doc.createElementNS(STOP_DATA_NS, sourceRoot.getLocalName());
+                newElement.setPrefix("data");
                 
                 // Kopieer de inhoud
                 NodeList children = sourceRoot.getChildNodes();
@@ -788,6 +807,7 @@ public class BesluitProcessor {
                             childElement.getLocalName().equals("overheidsdomeinen")) {
                             // Maak nieuwe elementen met namespace prefix
                             Element parentElement = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
+                            parentElement.setPrefix("data");
                             NodeList subElements = childElement.getChildNodes();
                             for (int j = 0; j < subElements.getLength(); j++) {
                                 Node subNode = subElements.item(j);
@@ -797,6 +817,7 @@ public class BesluitProcessor {
                                     String subElementName = childElement.getLocalName().equals("overheidsdomeinen") ? 
                                         "overheidsdomein" : subElement.getLocalName();
                                     Element newSubElement = doc.createElementNS(STOP_DATA_NS, subElementName);
+                                    newSubElement.setPrefix("data");
                                     newSubElement.setTextContent(subElement.getTextContent().trim());
                                     parentElement.appendChild(newSubElement);
                                 } else if (subNode.getNodeType() == Node.TEXT_NODE && 
@@ -806,6 +827,7 @@ public class BesluitProcessor {
                                     for (String domain : domains) {
                                         if (!domain.isEmpty()) {
                                             Element overheidsdomein = doc.createElementNS(STOP_DATA_NS, "overheidsdomein");
+                                            overheidsdomein.setPrefix("data");
                                             overheidsdomein.setTextContent(domain);
                                             parentElement.appendChild(overheidsdomein);
                                         }
@@ -814,9 +836,14 @@ public class BesluitProcessor {
                             }
                             newElement.appendChild(parentElement);
                         } else {
-                        Element newChild = doc.createElementNS(STOP_DATA_NS, childElement.getLocalName());
-                            newChild.setTextContent(childElement.getTextContent().trim());
-                        newElement.appendChild(newChild);
+                            // Voor alle andere elementen, importeer de volledige structuur
+                            Node importedNode = doc.importNode(childElement, true);
+                            Element importedElement = (Element) importedNode;
+                            // Zorg ervoor dat de namespace prefix correct is
+                            if (importedElement.getNamespaceURI() != null) {
+                                importedElement.setPrefix("data");
+                            }
+                            newElement.appendChild(importedElement);
                         }
                     }
                 }

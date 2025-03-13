@@ -344,7 +344,25 @@ public class MainController {
 
                 // Sla alle bestanden in de Regeling map over
                 if (entryName.startsWith("Regeling/")) {
-                    logMessage("Regeling bestand overgeslagen: " + entryName);
+                    // Check of het een afbeelding is
+                    String fileName = new File(entryName).getName().toLowerCase();
+                    if (fileName.endsWith(".jpg") || fileName.endsWith(".jpeg") || fileName.endsWith(".png")) {
+                        // Verplaats de afbeelding naar de root
+                        if (!addedFiles.contains(fileName)) {
+                            logMessage("Afbeelding verplaatst naar root: " + fileName);
+                            reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(fileName).append("\n");
+                            
+                            // Lees en schrijf het bestand
+                            byte[] content = sourceZip.getInputStream(entry).readAllBytes();
+                            ZipEntry newEntry = new ZipEntry(fileName);
+                            targetZip.putNextEntry(newEntry);
+                            targetZip.write(content);
+                            targetZip.closeEntry();
+                            addedFiles.add(fileName);
+                        }
+                    } else {
+                        logMessage("Regeling bestand overgeslagen: " + entryName);
+                    }
                     processedFiles++;
                     continue;
                 }
@@ -357,6 +375,19 @@ public class MainController {
                         gmlFilesCount++;
                         logMessage("GML-bestand verplaatst naar root: " + newEntryName);
                         reportContent.append("Verplaatst: ").append(entryName).append(" -> ").append(newEntryName).append("\n");
+                        
+                        // Lees de GML inhoud
+                        byte[] gmlContent = sourceZip.getInputStream(entry).readAllBytes();
+                        
+                        // Wrap de GML inhoud in de GeoInformatieObjectVaststelling structuur
+                        byte[] wrappedGml = IOProcessor.wrapGmlContent(gmlContent);
+                        
+                        // Schrijf het nieuwe bestand
+                        ZipEntry newEntry = new ZipEntry(newEntryName);
+                        targetZip.putNextEntry(newEntry);
+                        targetZip.write(wrappedGml);
+                        targetZip.closeEntry();
+                        addedFiles.add(newEntryName);
                     } else {
                         shouldProcess = false;
                     }
@@ -380,7 +411,7 @@ public class MainController {
                             
                             if (ioData != null) {
                                 // Maak het IO XML bestand
-                                byte[] ioXml = IOProcessor.createIOXml(ioData, sourceZip);
+                                byte[] ioXml = IOProcessor.createIOXml(ioData, sourceZip, data.frbrWork);
                                 
                                 // Schrijf het nieuwe bestand
                                 ZipEntry newEntry = new ZipEntry(newFileName);
