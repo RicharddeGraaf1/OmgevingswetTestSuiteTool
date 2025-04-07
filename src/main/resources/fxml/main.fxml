@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/11"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="nl.omgevingswet.MainController">
+    
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Bron ZIP-bestand:" />
+        <TextField fx:id="sourceZipField" HBox.hgrow="ALWAYS" />
+        <Button onAction="#handleSourceBrowse" text="Bladeren" />
+    </HBox>
+    
+    <HBox spacing="10" alignment="CENTER">
+        <CheckBox fx:id="customOutputCheck" onAction="#handleCustomOutputToggle" text="Aangepaste uitvoerlocatie" />
+    </HBox>
+    
+    <VBox fx:id="customOutputBox" spacing="10" alignment="CENTER" visible="false">
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Doel ZIP-bestand:" />
+            <TextField fx:id="targetZipField" HBox.hgrow="ALWAYS" />
+            <Button onAction="#handleTargetBrowse" text="Bladeren" />
+        </HBox>
+    </VBox>
+    
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="analyzeButton" onAction="#handleAnalyze" text="Analyseren" />
+        <Button fx:id="transformButton" onAction="#handleTransform" text="Publicatie" />
+        <Button fx:id="validateButton" onAction="#handleValidate" text="Validatie" />
+        <Button fx:id="intrekkingPubButton" onAction="#handleIntrekkingPub" text="Intrekkings-publicatie" />
+        <Button fx:id="intrekkingValButton" onAction="#handleIntrekkingVal" text="Intrekkings-validatie" />
+    </HBox>
+    
+    <ProgressBar fx:id="progressBar" visible="false" maxWidth="Infinity" />
+    
+    <Label fx:id="statusLabel" text="Klaar" />
+    
+    <TextArea fx:id="logArea" VBox.vgrow="ALWAYS" editable="false" wrapText="true" />
+    
+    <TextArea fx:id="metadataArea" VBox.vgrow="ALWAYS" editable="false" wrapText="true" />
+    
+</VBox> 

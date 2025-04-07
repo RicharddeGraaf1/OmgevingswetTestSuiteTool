@@ -1,1 +1,4 @@
-<Button fx:id="transformButton" text="Initiële publicatieOpdracht" onAction="#handleTransform" /> 
+<Button fx:id="transformButton" text="Initiële publicatieOpdracht" onAction="#handleTransform" />
+<Button fx:id="intrekkingValButton" text="Intrekking Validatie" onAction="#handleIntrekkingVal" />
+<Button fx:id="doorleverenRegelingVersieButton" text="Doorleveren Regeling Versie" onAction="#handleDoorleverenRegelingVersie" />
+<Button fx:id="validatieDoorLeverenRegelingversieButton" text="Validatie Doorleveren Regeling Versie" onAction="#handleValidatieDoorLeverenRegelingversie" /> 

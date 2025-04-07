@@ -1,7 +1,10 @@
+nl\omgevingswet\IntrekkingProcessor.class
 nl\omgevingswet\BesluitProcessor$AnalyseData.class
 nl\omgevingswet\MetadataProcessor$GMLInfo.class
 nl\omgevingswet\BesluitProcessor$BesluitResult.class
+nl\omgevingswet\IntrekkingProcessor$IntrekkingResult.class
 nl\omgevingswet\ManifestProcessor.class
+nl\omgevingswet\IOIntrekkingProcessor.class
 nl\omgevingswet\MainController.class
 nl\omgevingswet\MetadataProcessor$2.class
 nl\omgevingswet\IOProcessor.class
@@ -13,3 +16,4 @@ nl\omgevingswet\BesluitProcessor$AnalyseData$InformatieObjectData.class
 nl\omgevingswet\Main.class
 nl\omgevingswet\ZipAnalyzer.class
 nl\omgevingswet\BesluitProcessor.class
+nl\omgevingswet\IntrekkingProcessor$RegelingMetadata.class

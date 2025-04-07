@@ -62,48 +62,62 @@ public class BesluitProcessor {
     public static AnalyseData analyseZip(ZipFile zipFile) throws Exception {
         AnalyseData data = new AnalyseData();
         
-        // 1. Haal FRBRWork en FRBRExpression op uit Regeling/Identificatie.xml
+        // Debug logging
+        System.out.println("Start analyseZip methode");
+        
+        // Haal FRBRWork en FRBRExpression op uit Regeling/Identificatie.xml
         ZipEntry identificatieEntry = zipFile.getEntry("Regeling/Identificatie.xml");
         if (identificatieEntry != null) {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             factory.setNamespaceAware(true);
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(zipFile.getInputStream(identificatieEntry));
+            Document doc = factory.newDocumentBuilder().parse(zipFile.getInputStream(identificatieEntry));
             
-            // Zoek eerst naar FRBRWork en FRBRExpression met namespace
-            NodeList frbrWorkNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRWork");
-            if (frbrWorkNodes.getLength() > 0) {
-                data.frbrWork = frbrWorkNodes.item(0).getTextContent();
-            }
-            
-            NodeList frbrExprNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRExpression");
-            if (frbrExprNodes.getLength() > 0) {
-                data.frbrExpression = frbrExprNodes.item(0).getTextContent();
-            }
-            
-            // Als we ze niet hebben gevonden, probeer dan zonder namespace
-            if (data.frbrWork == null) {
-                frbrWorkNodes = doc.getElementsByTagName("FRBRWork");
-                if (frbrWorkNodes.getLength() > 0) {
-                    data.frbrWork = frbrWorkNodes.item(0).getTextContent();
+            // Zoek eerst met namespace
+            NodeList workNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRWork");
+            if (workNodes.getLength() > 0) {
+                data.frbrWork = workNodes.item(0).getTextContent();
+            } else {
+                // Probeer zonder namespace
+                workNodes = doc.getElementsByTagName("FRBRWork");
+                if (workNodes.getLength() > 0) {
+                    data.frbrWork = workNodes.item(0).getTextContent();
                 }
             }
             
-            if (data.frbrExpression == null) {
-                frbrExprNodes = doc.getElementsByTagName("FRBRExpression");
-                if (frbrExprNodes.getLength() > 0) {
-                    data.frbrExpression = frbrExprNodes.item(0).getTextContent();
+            // Zoek eerst met namespace
+            NodeList expressionNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRExpression");
+            if (expressionNodes.getLength() > 0) {
+                data.frbrExpression = expressionNodes.item(0).getTextContent();
+            } else {
+                // Probeer zonder namespace
+                expressionNodes = doc.getElementsByTagName("FRBRExpression");
+                if (expressionNodes.getLength() > 0) {
+                    data.frbrExpression = expressionNodes.item(0).getTextContent();
                 }
             }
-            
-            System.out.println("Debug - Regeling FRBRWork: " + data.frbrWork);
-            System.out.println("Debug - Regeling FRBRExpression: " + data.frbrExpression);
         }
         
-        // 2. Haal doel op uit Regeling/Momentopname.xml
-        data.doel = getDoelFromMomentOpname(zipFile, "Regeling");
+        // Haal doel op uit Regeling/Momentopname.xml
+        ZipEntry momentopnameEntry = zipFile.getEntry("Regeling/Momentopname.xml");
+        if (momentopnameEntry != null) {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            factory.setNamespaceAware(true);
+            Document doc = factory.newDocumentBuilder().parse(zipFile.getInputStream(momentopnameEntry));
+            
+            // Zoek eerst met namespace
+            NodeList doelNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "doel");
+            if (doelNodes.getLength() > 0) {
+                data.doel = doelNodes.item(0).getTextContent();
+            } else {
+                // Probeer zonder namespace
+                doelNodes = doc.getElementsByTagName("doel");
+                if (doelNodes.getLength() > 0) {
+                    data.doel = doelNodes.item(0).getTextContent();
+                }
+            }
+        }
         
-        // 3. Haal bevoegd gezag op uit Regeling/Metadata.xml
+        // Haal bevoegd gezag op uit Regeling/Metadata.xml
         ZipEntry metadataEntry = zipFile.getEntry("Regeling/Metadata.xml");
         if (metadataEntry != null) {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -111,160 +125,259 @@ public class BesluitProcessor {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(zipFile.getInputStream(metadataEntry));
             
+            // Debug logging
+            System.out.println("Zoeken naar bevoegd gezag in Metadata.xml");
+            
+            // Zoek eerst met namespace
             NodeList makerNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "maker");
             if (makerNodes.getLength() > 0) {
-                String makerValue = makerNodes.item(0).getTextContent();
-                // Extract code from format like "/tooi/id/gemeente/gm0297"
-                String[] parts = makerValue.split("/");
-                if (parts.length >= 4) {
-                    data.bevoegdGezag = parts[parts.length - 1];
+                System.out.println("Gevonden maker node met namespace");
+                Node makerNode = makerNodes.item(0);
+                NodeList bevoegdGezagNodes = makerNode.getChildNodes();
+                for (int i = 0; i < bevoegdGezagNodes.getLength(); i++) {
+                    Node node = bevoegdGezagNodes.item(i);
+                    if (node.getNodeType() == Node.ELEMENT_NODE) {
+                        String nodeName = node.getNodeName();
+                        System.out.println("Checking node: " + nodeName);
+                        if (nodeName.endsWith("bevoegdGezag") || nodeName.equals(STOP_DATA_NS + "bevoegdGezag")) {
+                            NodeList codeNodes = node.getChildNodes();
+                            for (int j = 0; j < codeNodes.getLength(); j++) {
+                                Node codeNode = codeNodes.item(j);
+                                if (codeNode.getNodeType() == Node.ELEMENT_NODE) {
+                                    String codeNodeName = codeNode.getNodeName();
+                                    System.out.println("Checking code node: " + codeNodeName);
+                                    if (codeNodeName.endsWith("code") || codeNodeName.equals(STOP_DATA_NS + "code")) {
+                                        data.bevoegdGezag = codeNode.getTextContent();
+                                        System.out.println("Gevonden bevoegd gezag: " + data.bevoegdGezag);
+                                        break;
+                                    }
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+            } else {
+                // Probeer zonder namespace
+                System.out.println("Proberen zonder namespace");
+                makerNodes = doc.getElementsByTagName("maker");
+                if (makerNodes.getLength() > 0) {
+                    System.out.println("Gevonden maker node zonder namespace");
+                    Node makerNode = makerNodes.item(0);
+                    NodeList bevoegdGezagNodes = makerNode.getChildNodes();
+                    for (int i = 0; i < bevoegdGezagNodes.getLength(); i++) {
+                        Node node = bevoegdGezagNodes.item(i);
+                        if (node.getNodeType() == Node.ELEMENT_NODE) {
+                            String nodeName = node.getNodeName();
+                            System.out.println("Checking node: " + nodeName);
+                            if (nodeName.endsWith("bevoegdGezag")) {
+                                NodeList codeNodes = node.getChildNodes();
+                                for (int j = 0; j < codeNodes.getLength(); j++) {
+                                    Node codeNode = codeNodes.item(j);
+                                    if (codeNode.getNodeType() == Node.ELEMENT_NODE) {
+                                        String codeNodeName = codeNode.getNodeName();
+                                        System.out.println("Checking code node: " + codeNodeName);
+                                        if (codeNodeName.endsWith("code")) {
+                                            data.bevoegdGezag = codeNode.getTextContent();
+                                            System.out.println("Gevonden bevoegd gezag: " + data.bevoegdGezag);
+                                            break;
+                                        }
+                                    }
+                                }
+                                break;
+                            }
+                        }
+                    }
                 }
             }
         }
         
-        // 4. Verzamel informatie over informatieobjecten
-        List<String> ioFolders = new ArrayList<>();
-        zipFile.stream()
-               .filter(entry -> entry.getName().matches("IO-\\d+/.*"))
-               .forEach(entry -> {
-                   String path = entry.getName();
-                   String ioFolder = path.substring(0, path.indexOf('/', 3));
-                   if (!ioFolders.contains(ioFolder)) {
-                       ioFolders.add(ioFolder);
-                   }
-               });
+        // Verzamel informatie over informatieobjecten
+        Set<String> ioFolders = new HashSet<>();
+        long totaleGmlBestandsgrootte = 0;
         
-        data.aantalInformatieObjecten = ioFolders.size();
+        // Debug logging
+        System.out.println("Start zoeken naar informatieobjecten");
         
-        // 5. Bereken totale GML bestandsgrootte
-        data.totaleGmlBestandsgrootte = zipFile.stream()
-            .filter(entry -> entry.getName().endsWith(".gml"))
-            .mapToLong(ZipEntry::getSize)
-            .sum();
-        
-        // 6. Verzamel informatie per informatieobject
-        for (String ioFolder : ioFolders) {
-            AnalyseData.InformatieObjectData ioData = new AnalyseData.InformatieObjectData();
-            ioData.folder = ioFolder;
+        Enumeration<? extends ZipEntry> entries = zipFile.entries();
+        while (entries.hasMoreElements()) {
+            ZipEntry entry = entries.nextElement();
+            String name = entry.getName();
             
-            // Zoek het GML bestand in de IO folder
-            Optional<ZipEntry> gmlEntry = zipFile.stream()
-                .filter(entry -> entry.getName().startsWith(ioFolder + "/") && entry.getName().endsWith(".gml"))
-                .map(entry -> (ZipEntry)entry)
-                .findFirst();
-                
-            if (gmlEntry.isPresent()) {
-                ioData.bestandsnaam = gmlEntry.get().getName().substring(gmlEntry.get().getName().lastIndexOf("/") + 1);
-                // Bereken SHA512 hash van GML bestand
-                try (InputStream is = zipFile.getInputStream(gmlEntry.get())) {
-                    ioData.bestandHash = calculateSHA512(is);
+            // Debug logging voor elke entry
+            System.out.println("Checking entry: " + name);
+            
+            // Check of het een informatieobject map is
+            if (name.startsWith("IO-")) {
+                // Haal de mapnaam op (alles tot de eerste /)
+                int slashIndex = name.indexOf("/");
+                if (slashIndex > 0) {
+                    String ioFolder = name.substring(0, slashIndex);
+                    ioFolders.add(ioFolder);
+                    System.out.println("Gevonden informatieobject map: " + ioFolder);
+                    
+                    // Tel GML bestanden en hun grootte
+                    if (name.endsWith(".gml")) {
+                        totaleGmlBestandsgrootte += entry.getSize();
+                        System.out.println("Gevonden GML bestand: " + name + " (grootte: " + entry.getSize() + " bytes)");
+                    }
                 }
             }
+        }
+        
+        // Debug logging
+        System.out.println("Aantal gevonden informatieobject mappen: " + ioFolders.size());
+        System.out.println("Totale GML bestandsgrootte: " + totaleGmlBestandsgrootte);
+        
+        data.aantalInformatieObjecten = ioFolders.size();
+        data.totaleGmlBestandsgrootte = totaleGmlBestandsgrootte;
+        
+        // Verzamel informatie voor elk informatieobject
+        for (String ioFolder : ioFolders) {
+            System.out.println("Verwerken van informatieobject: " + ioFolder);
+            AnalyseData.InformatieObjectData ioData = new AnalyseData.InformatieObjectData();
+            ioData.folder = ioFolder;
             
             // Haal FRBRWork en FRBRExpression op uit IO/Identificatie.xml
             ZipEntry ioIdentificatieEntry = zipFile.getEntry(ioFolder + "/Identificatie.xml");
             if (ioIdentificatieEntry != null) {
+                System.out.println("Gevonden Identificatie.xml voor " + ioFolder);
                 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
                 factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(zipFile.getInputStream(ioIdentificatieEntry));
+                Document doc = factory.newDocumentBuilder().parse(zipFile.getInputStream(ioIdentificatieEntry));
                 
                 // Zoek eerst met namespace
-                NodeList frbrWorkNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRWork");
-                if (frbrWorkNodes.getLength() > 0) {
-                    ioData.frbrWork = frbrWorkNodes.item(0).getTextContent();
-                }
-                
-                NodeList frbrExprNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRExpression");
-                if (frbrExprNodes.getLength() > 0) {
-                    ioData.frbrExpression = frbrExprNodes.item(0).getTextContent();
-                }
-                
-                // Als we ze niet hebben gevonden, probeer dan zonder namespace
-                if (ioData.frbrWork == null) {
-                    frbrWorkNodes = doc.getElementsByTagName("FRBRWork");
-                    if (frbrWorkNodes.getLength() > 0) {
-                        ioData.frbrWork = frbrWorkNodes.item(0).getTextContent();
+                NodeList workNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRWork");
+                if (workNodes.getLength() > 0) {
+                    ioData.frbrWork = workNodes.item(0).getTextContent();
+                    System.out.println("Gevonden FRBRWork met namespace: " + ioData.frbrWork);
+                } else {
+                    // Probeer zonder namespace
+                    workNodes = doc.getElementsByTagName("FRBRWork");
+                    if (workNodes.getLength() > 0) {
+                        ioData.frbrWork = workNodes.item(0).getTextContent();
+                        System.out.println("Gevonden FRBRWork zonder namespace: " + ioData.frbrWork);
                     }
                 }
                 
-                if (ioData.frbrExpression == null) {
-                    frbrExprNodes = doc.getElementsByTagName("FRBRExpression");
-                    if (frbrExprNodes.getLength() > 0) {
-                        ioData.frbrExpression = frbrExprNodes.item(0).getTextContent();
+                // Zoek eerst met namespace
+                NodeList expressionNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "FRBRExpression");
+                if (expressionNodes.getLength() > 0) {
+                    ioData.frbrExpression = expressionNodes.item(0).getTextContent();
+                    System.out.println("Gevonden FRBRExpression met namespace: " + ioData.frbrExpression);
+                } else {
+                    // Probeer zonder namespace
+                    expressionNodes = doc.getElementsByTagName("FRBRExpression");
+                    if (expressionNodes.getLength() > 0) {
+                        ioData.frbrExpression = expressionNodes.item(0).getTextContent();
+                        System.out.println("Gevonden FRBRExpression zonder namespace: " + ioData.frbrExpression);
                     }
                 }
-                
-                System.out.println("Debug - IO " + ioFolder + " FRBRWork: " + ioData.frbrWork);
-                System.out.println("Debug - IO " + ioFolder + " FRBRExpression: " + ioData.frbrExpression);
+            } else {
+                System.out.println("Geen Identificatie.xml gevonden voor " + ioFolder);
             }
             
-            // Haal officieleTitel op uit VersieMetadata.xml
+            // Haal officiële titel op uit IO/VersieMetadata.xml
             ZipEntry versieMetadataEntry = zipFile.getEntry(ioFolder + "/VersieMetadata.xml");
             if (versieMetadataEntry != null) {
+                System.out.println("Gevonden VersieMetadata.xml voor " + ioFolder);
                 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
                 factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(zipFile.getInputStream(versieMetadataEntry));
+                Document doc = factory.newDocumentBuilder().parse(zipFile.getInputStream(versieMetadataEntry));
                 
                 // Zoek eerst met namespace
                 NodeList titelNodes = doc.getElementsByTagNameNS(STOP_DATA_NS, "officieleTitel");
                 if (titelNodes.getLength() > 0) {
                     ioData.officieleTitel = titelNodes.item(0).getTextContent();
+                    System.out.println("Gevonden officieleTitel met namespace: " + ioData.officieleTitel);
                 } else {
                     // Probeer zonder namespace
                     titelNodes = doc.getElementsByTagName("officieleTitel");
                     if (titelNodes.getLength() > 0) {
                         ioData.officieleTitel = titelNodes.item(0).getTextContent();
+                        System.out.println("Gevonden officieleTitel zonder namespace: " + ioData.officieleTitel);
                     }
                 }
-                
-                System.out.println("Debug - IO " + ioFolder + " officieleTitel: " + ioData.officieleTitel);
+            } else {
+                System.out.println("Geen VersieMetadata.xml gevonden voor " + ioFolder);
             }
             
             // Haal ExtIoRef-eId op uit Regeling/Tekst.xml
             ZipEntry tekstEntry = zipFile.getEntry("Regeling/Tekst.xml");
             if (tekstEntry != null) {
+                System.out.println("Gevonden Tekst.xml, zoeken naar ExtIoRef voor " + ioFolder);
                 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
                 factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(zipFile.getInputStream(tekstEntry));
+                Document doc = factory.newDocumentBuilder().parse(zipFile.getInputStream(tekstEntry));
                 
-                // Zoek naar ExtIoRef elementen met de juiste namespace
+                // Zoek naar ExtIoRef met matching ref of eId
                 NodeList extIoRefNodes = doc.getElementsByTagNameNS(STOP_TEKST_NS, "ExtIoRef");
+                System.out.println("Aantal gevonden ExtIoRef nodes: " + extIoRefNodes.getLength());
+                
                 for (int i = 0; i < extIoRefNodes.getLength(); i++) {
-                    Element extIoRef = (Element) extIoRefNodes.item(i);
-                    String refValue = extIoRef.getAttribute("ref");
-                    if (refValue.equals(ioData.frbrExpression)) {
-                        ioData.extIoRefEId = extIoRef.getAttribute("eId");
-                        System.out.println("Debug - IO " + ioFolder + " ExtIoRef-eId gevonden: " + ioData.extIoRefEId);
+                    Node extIoRefNode = extIoRefNodes.item(i);
+                    if (extIoRefNode.getNodeType() == Node.ELEMENT_NODE) {
+                        Element extIoRefElement = (Element) extIoRefNode;
+                        String ref = extIoRefElement.getAttribute("ref");
+                        String eId = extIoRefElement.getAttribute("eId");
+                        System.out.println("Checking ExtIoRef - ref: " + ref + ", eId: " + eId);
+                        
+                        // Check of de ref overeenkomt met de FRBRExpression van het informatieobject
+                        if (ref.equals(ioData.frbrExpression)) {
+                            ioData.extIoRefEId = eId;
+                            System.out.println("Gevonden ExtIoRef-eId via FRBRExpression match: " + ioData.extIoRefEId);
+                            break;
+                        }
+                    }
+                }
+                
+                // Als we nog steeds geen eId hebben gevonden, probeer dan te zoeken op de ref die overeenkomt met de FRBRWork
+                if (ioData.extIoRefEId == null) {
+                    System.out.println("Geen FRBRExpression match gevonden, zoeken op FRBRWork");
+                    for (int i = 0; i < extIoRefNodes.getLength(); i++) {
+                        Node extIoRefNode = extIoRefNodes.item(i);
+                        if (extIoRefNode.getNodeType() == Node.ELEMENT_NODE) {
+                            Element extIoRefElement = (Element) extIoRefNode;
+                            String ref = extIoRefElement.getAttribute("ref");
+                            System.out.println("Checking ExtIoRef ref: " + ref);
+                            if (ref.equals(ioData.frbrWork)) {
+                                ioData.extIoRefEId = extIoRefElement.getAttribute("eId");
+                                System.out.println("Gevonden ExtIoRef-eId via FRBRWork match: " + ioData.extIoRefEId);
+                                break;
+                            }
+                        }
+                    }
+                }
+            } else {
+                System.out.println("Geen Tekst.xml gevonden voor " + ioFolder);
+            }
+            
+            // Zoek naar bestanden in de IO map
+            entries = zipFile.entries();
+            while (entries.hasMoreElements()) {
+                ZipEntry entry = entries.nextElement();
+                String name = entry.getName();
+                if (name.startsWith(ioFolder + "/")) {
+                    String fileName = name.substring(name.lastIndexOf("/") + 1);
+                    if (fileName.endsWith(".gml")) {
+                        ioData.bestandsnaam = fileName;
+                        System.out.println("Gevonden GML bestand voor " + ioFolder + ": " + ioData.bestandsnaam);
+                        break;
+                    } else if (fileName.endsWith(".pdf")) {
+                        ioData.bestandsnaam = fileName;
+                        System.out.println("Gevonden PDF bestand voor " + ioFolder + ": " + ioData.bestandsnaam);
                         break;
                     }
                 }
             }
             
             data.informatieObjecten.add(ioData);
+            System.out.println("Informatieobject toegevoegd aan analyse data: " + ioFolder);
         }
         
-        // 7. Verzamel alle ExtIoRef paren uit Regeling/Tekst.xml
-        ZipEntry tekstEntry = zipFile.getEntry("Regeling/Tekst.xml");
-        if (tekstEntry != null) {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            factory.setNamespaceAware(true);
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(zipFile.getInputStream(tekstEntry));
-            
-            // Zoek naar alle ExtIoRef elementen met de juiste namespace
-            NodeList extIoRefNodes = doc.getElementsByTagNameNS(STOP_TEKST_NS, "ExtIoRef");
-            for (int i = 0; i < extIoRefNodes.getLength(); i++) {
-                Element extIoRef = (Element) extIoRefNodes.item(i);
-                AnalyseData.ExtIoRefData extIoRefData = new AnalyseData.ExtIoRefData();
-                extIoRefData.ref = extIoRef.getAttribute("ref");
-                extIoRefData.eId = extIoRef.getAttribute("eId");
-                data.extIoRefs.add(extIoRefData);
-                System.out.println("Debug - ExtIoRef gevonden - ref: " + extIoRefData.ref + ", eId: " + extIoRefData.eId);
-            }
-        }
+        // Debug logging
+        System.out.println("Einde analyseZip methode");
+        System.out.println("Totaal aantal informatieobjecten: " + data.informatieObjecten.size());
         
         return data;
     }
@@ -384,13 +497,13 @@ public class BesluitProcessor {
             
             // Haal eerst alle analyse data op
             AnalyseData data = analyseZip(zipFile);
-            
-            // Genereer datum/tijd onderdelen
-            LocalDateTime now = LocalDateTime.now();
-            String huidigJaartal = String.valueOf(now.getYear());
-            String datumTijd = now.format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
-            String datum = now.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
-            
+        
+        // Genereer datum/tijd onderdelen
+        LocalDateTime now = LocalDateTime.now();
+        String huidigJaartal = String.valueOf(now.getYear());
+        String datumTijd = now.format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
+        String datum = now.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+        
             // Bereken datum van morgen voor bekendmaking
             LocalDateTime tomorrow = now.plusDays(1);
             

@@ -26,7 +26,7 @@ public class ManifestProcessor {
         CONTENT_TYPES.put("pdf", "application/pdf");
     }
     
-    public static byte[] generateManifest(ZipFile sourceZip, Set<String> addedFiles) throws Exception {
+    public static byte[] generateManifest(ZipFile sourceZip, Set<String> addedFiles, boolean isIntrekking) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.newDocument();
@@ -38,6 +38,11 @@ public class ManifestProcessor {
 
         // Voeg alleen bestanden toe die daadwerkelijk in de resultaat ZIP zitten
         for (String fileName : addedFiles) {
+            // Sla IO bestanden over bij intrekking
+            if (isIntrekking && fileName.matches("IO-\\d+\\.xml")) {
+                continue;
+            }
+            
             // Maak bestand element
             Element bestand = doc.createElement("bestand");
             
