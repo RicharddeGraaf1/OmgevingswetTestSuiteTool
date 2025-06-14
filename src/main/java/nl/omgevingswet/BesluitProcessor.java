@@ -133,58 +133,36 @@ public class BesluitProcessor {
             if (makerNodes.getLength() > 0) {
                 System.out.println("Gevonden maker node met namespace");
                 Node makerNode = makerNodes.item(0);
-                NodeList bevoegdGezagNodes = makerNode.getChildNodes();
-                for (int i = 0; i < bevoegdGezagNodes.getLength(); i++) {
-                    Node node = bevoegdGezagNodes.item(i);
-                    if (node.getNodeType() == Node.ELEMENT_NODE) {
-                        String nodeName = node.getNodeName();
-                        System.out.println("Checking node: " + nodeName);
-                        if (nodeName.endsWith("bevoegdGezag") || nodeName.equals(STOP_DATA_NS + "bevoegdGezag")) {
-                            NodeList codeNodes = node.getChildNodes();
-                            for (int j = 0; j < codeNodes.getLength(); j++) {
-                                Node codeNode = codeNodes.item(j);
-                                if (codeNode.getNodeType() == Node.ELEMENT_NODE) {
-                                    String codeNodeName = codeNode.getNodeName();
-                                    System.out.println("Checking code node: " + codeNodeName);
-                                    if (codeNodeName.endsWith("code") || codeNodeName.equals(STOP_DATA_NS + "code")) {
-                                        data.bevoegdGezag = codeNode.getTextContent();
-                                        System.out.println("Gevonden bevoegd gezag: " + data.bevoegdGezag);
-                                        break;
-                                    }
-                                }
-                            }
-                            break;
+                String makerValue = makerNode.getTextContent();
+                System.out.println("Maker value: " + makerValue);
+                
+                if (makerValue != null && !makerValue.isEmpty()) {
+                    String[] parts = makerValue.split("/");
+                    if (parts.length >= 4) {
+                        String type = parts[parts.length - 2];
+                        String code = parts[parts.length - 1];
+                        if (isValidAuthorityType(type)) {
+                            data.bevoegdGezag = code;
+                            System.out.println("Extracted bevoegd gezag code: " + data.bevoegdGezag);
                         }
                     }
                 }
             } else {
                 // Probeer zonder namespace
-                System.out.println("Proberen zonder namespace");
                 makerNodes = doc.getElementsByTagName("maker");
                 if (makerNodes.getLength() > 0) {
-                    System.out.println("Gevonden maker node zonder namespace");
                     Node makerNode = makerNodes.item(0);
-                    NodeList bevoegdGezagNodes = makerNode.getChildNodes();
-                    for (int i = 0; i < bevoegdGezagNodes.getLength(); i++) {
-                        Node node = bevoegdGezagNodes.item(i);
-                        if (node.getNodeType() == Node.ELEMENT_NODE) {
-                            String nodeName = node.getNodeName();
-                            System.out.println("Checking node: " + nodeName);
-                            if (nodeName.endsWith("bevoegdGezag")) {
-                                NodeList codeNodes = node.getChildNodes();
-                                for (int j = 0; j < codeNodes.getLength(); j++) {
-                                    Node codeNode = codeNodes.item(j);
-                                    if (codeNode.getNodeType() == Node.ELEMENT_NODE) {
-                                        String codeNodeName = codeNode.getNodeName();
-                                        System.out.println("Checking code node: " + codeNodeName);
-                                        if (codeNodeName.endsWith("code")) {
-                                            data.bevoegdGezag = codeNode.getTextContent();
-                                            System.out.println("Gevonden bevoegd gezag: " + data.bevoegdGezag);
-                                            break;
-                                        }
-                                    }
-                                }
-                                break;
+                    String makerValue = makerNode.getTextContent();
+                    System.out.println("Maker value (no namespace): " + makerValue);
+                    
+                    if (makerValue != null && !makerValue.isEmpty()) {
+                        String[] parts = makerValue.split("/");
+                        if (parts.length >= 4) {
+                            String type = parts[parts.length - 2];
+                            String code = parts[parts.length - 1];
+                            if (isValidAuthorityType(type)) {
+                                data.bevoegdGezag = code;
+                                System.out.println("Extracted bevoegd gezag code: " + data.bevoegdGezag);
                             }
                         }
                     }
@@ -1056,5 +1034,12 @@ public class BesluitProcessor {
         transformer.transform(new DOMSource(doc), new StreamResult(output));
         
         return output.toString("UTF-8").getBytes("UTF-8");
+    }
+
+    private static boolean isValidAuthorityType(String type) {
+        return type.equals("gemeente") || 
+               type.equals("provincie") || 
+               type.equals("ministerie") || 
+               type.equals("waterschap");
     }
 } 
