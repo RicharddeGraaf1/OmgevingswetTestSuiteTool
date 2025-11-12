@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Aanleveringen xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <domein>omgevingswet</domein>
+    <IMOWversie>2.0.1</IMOWversie>
+    <Aanlevering>
+        <WorkIDRegeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</WorkIDRegeling>
+        <DoelID>/join/id/proces/ws0621/2025-09-15/3a587f33-91e9-457c-bd9d-0c88a4c318d6</DoelID>
+        <Bestand>
+            <naam>activiteiten.xml</naam>
+            <objecttype>Activiteit</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>gebieden.xml</naam>
+            <objecttype>Gebied</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>gebiedengroepen.xml</naam>
+            <objecttype>Gebiedengroep</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>gebiedsaanwijzingen.xml</naam>
+            <objecttype>Gebiedsaanwijzing</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>regelingsgebieden.xml</naam>
+            <objecttype>Regelingsgebied</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>regelsvooriedereen.xml</naam>
+            <objecttype>RegelVoorIedereen</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>regelteksten.xml</naam>
+            <objecttype>Regeltekst</objecttype>
+        </Bestand>
+    </Aanlevering>
+</Aanleveringen>

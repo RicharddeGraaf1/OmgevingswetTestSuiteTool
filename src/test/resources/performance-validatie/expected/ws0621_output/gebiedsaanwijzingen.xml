@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Gebiedsaanwijzing</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.52e52f8956774167bdcc220695a86991</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Gebied waar bij calamiteiten regels gelden voor water in de bodem brengen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/SpecifiekBenoemdGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.81da7d322dc9458ea019b688eee162fe"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.63569e4381a84255954887ac98bfbfa8</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Waterstaatswerk primaire waterkering</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterkeringPrimair</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.dd80f2e96d4a4483b0eacc39f680421a"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.745e005cb40b4c46973bd0efae46a558</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Gebied waar bij overige calamiteiten regels gelden</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/SpecifiekBenoemdGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.23fb3d87cc0748bfadc18e11682b464e"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.aacc26eca697498ca7db0745156e6bf1</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Boezem</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/SpecifiekBenoemdGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.b655e628be8241e19f1ac0a091818fb2"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.c9c80dabc5f24f529b31bfefc1ee539f</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Gebied waar bij calamiteiten regels gelden voor lozen oppervlaktewater</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/SpecifiekBenoemdGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.fde745c8a6c24c26828cb1a4e88822a2"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.d0704c55ffd641b4b2c3cead533b3bed</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Gebied waar bij calamiteiten regels gelden voor grondwater onttrekken</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/SpecifiekBenoemdGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.a306d0f5438f4d3f91c84b9abf6cae24"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-ws0621.gebiedsaanwijzing.d4bbd0bb62744d09b51f4ba73b5cbda4</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>Waterstaatswerk primaire waterkering - Waterstaatswerk</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/Waterstaatswerk</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-ws0621.gebiedengroep.dd80f2e96d4a4483b0eacc39f680421a"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

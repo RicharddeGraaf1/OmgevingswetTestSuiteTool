@@ -1,0 +1,22 @@
+Rapport Omgevingswet Test Suite Tool
+================================
+
+besluit.xml en opdracht.xml gegenereerd
+
+Bestandstransformaties:
+----------------------
+Verplaatst: IO-9079973851626898484/gml_Geldersnatuurnetwerk-v1.gml -> gml_Geldersnatuurnetwerk-v1.gml
+Verplaatst: Regeling/jpg_a0dcaa75-285e-4a6b-94ef-363a9ceea4f9-v1.jpg -> jpg_a0dcaa75-285e-4a6b-94ef-363a9ceea4f9-v1.jpg
+Verplaatst: Regeling/jpg_86fa3555-b2e6-4584-8d6c-b1cf704ddc0d-v1.jpg -> jpg_86fa3555-b2e6-4584-8d6c-b1cf704ddc0d-v1.jpg
+Verplaatst: Regeling/jpg_248b1dcb-8503-4f0d-933a-f98df5a8c4b0-v1.jpg -> jpg_248b1dcb-8503-4f0d-933a-f98df5a8c4b0-v1.jpg
+Verplaatst: Regeling/jpg_9d5604b3-9bba-49b4-a5fd-97831cc468c3-v1.jpg -> jpg_9d5604b3-9bba-49b4-a5fd-97831cc468c3-v1.jpg
+Verplaatst: Regeling/jpg_a76c3d90-399b-429f-b172-acb916d6f9f8-v1.jpg -> jpg_a76c3d90-399b-429f-b172-acb916d6f9f8-v1.jpg
+Verplaatst: Regeling/jpg_a12f4055-ed17-40c2-8b9d-e9d22f06f7d7-v1.jpg -> jpg_a12f4055-ed17-40c2-8b9d-e9d22f06f7d7-v1.jpg
+Verplaatst: Regeling/jpg_3537ea72-83f4-479f-8231-43a5d1be0014-v1.jpg -> jpg_3537ea72-83f4-479f-8231-43a5d1be0014-v1.jpg
+Verplaatst: Regeling/jpg_99c72f46-bd66-45d2-b9fa-80a57d433757-v1.jpg -> jpg_99c72f46-bd66-45d2-b9fa-80a57d433757-v1.jpg
+Verplaatst: Regeling/jpg_13cbb9b8-1357-4a7d-bfba-45ee7535a253-v1.jpg -> jpg_13cbb9b8-1357-4a7d-bfba-45ee7535a253-v1.jpg
+Verplaatst: Regeling/jpg_ea57daa6-e24f-4ad5-ad39-4f11e2834537-v1.jpg -> jpg_ea57daa6-e24f-4ad5-ad39-4f11e2834537-v1.jpg
+Verplaatst: Regeling/jpg_dc74a2e9-fd9c-4cab-95af-822d20ade88d-v1.jpg -> jpg_dc74a2e9-fd9c-4cab-95af-822d20ade88d-v1.jpg
+Verplaatst: Regeling/jpg_aa65fe68-cd17-4bb6-8a56-a04039a8efce-v1.jpg -> jpg_aa65fe68-cd17-4bb6-8a56-a04039a8efce-v1.jpg
+Verplaatst: Regeling/jpg_ef529412-3716-4d09-9877-bfe8a0bc440c-v1.jpg -> jpg_ef529412-3716-4d09-9877-bfe8a0bc440c-v1.jpg
+Verplaatst: Regeling/jpg_97cbd11a-1f81-4c52-8362-5abba3a7ea04-v1.jpg -> jpg_97cbd11a-1f81-4c52-8362-5abba3a7ea04-v1.jpg

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:op="http://www.geostandaarden.nl/imow/opobject" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sl:standBestand>
+<sl:dataset>Onbekend</sl:dataset>
+<sl:inhoud>
+<sl:gebied>Onbekend</sl:gebied>
+<sl:leveringsId>Onbekend</sl:leveringsId>
+<sl:objectTypen>
+<sl:objectType>Regeltekst</sl:objectType>
+</sl:objectTypen>
+</sl:inhoud>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp6art21</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.2">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp6art22</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.3">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp6art23</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.4">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp6art24</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.5">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp6art25</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_7__art_7.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp7art71</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_7__art_7.2">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp7art72</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_7__art_7.3">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.chp7art73</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_0__art_0.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp0art01</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_1__art_1__para_1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp1art11para1</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_1__art_1__para_2">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp1art11para2</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_1__art_1__para_3">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp1art11para3</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_1__art_1__para_4">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp1art11para4</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_2__art_2.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp2art21</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_2__art_2.2">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp2art22</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_3__art_3.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp3art31</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_3__art_3.2">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp3art32</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_4__art_4.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp4art41</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<regels:Regeltekst wId="gm0160_v1__chp_5__art_5.1">
+<op:status>beëindigen</op:status>
+<regels:identificatie>nl.imow-gm0160.regeltekst.gm0160v1chp5art51</regels:identificatie>
+</regels:Regeltekst>
+</ow-dc:owObject>
+</sl:stand>
+</sl:standBestand>
+</ow-dc:owBestand>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0">
+   <BesluitVersie>
+      <data:ExpressionIdentificatie>
+         <data:FRBRWork>/akn/nl/bill/gm9920/2025/R_2025031919_4952649</data:FRBRWork>
+         <data:FRBRExpression>/akn/nl/bill/gm9920/2025/R_2025031919_4952649/nld@2023-11-15;2</data:FRBRExpression>
+         <data:soortWork>/join/id/stop/work_003</data:soortWork>
+      </data:ExpressionIdentificatie>
+      <data:BesluitMetadata schemaversie="1.3.0">
+         <data:onderwerpen>
+            <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+         </data:onderwerpen>
+         <data:officieleTitel>Officiele titel van de regeling intrekking</data:officieleTitel>
+         <data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+         <data:maker>/tooi/id/gemeente/gm9920</data:maker>
+         <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+         <data:soortProcedure>/join/id/stop/proceduretype_definitief</data:soortProcedure>
+      </data:BesluitMetadata>
+      <data:Procedureverloop>
+         <data:bekendOp>2025-05-23</data:bekendOp>
+         <data:procedurestappen>
+            <data:Procedurestap>
+               <data:soortStap>/join/id/stop/procedure/stap_003</data:soortStap>
+               <data:voltooidOp>2025-05-23</data:voltooidOp>
+            </data:Procedurestap>
+         </data:procedurestappen>
+      </data:Procedureverloop>
+      <data:ConsolidatieInformatie>
+         <data:Intrekkingen>
+            <data:Intrekking>
+               <data:doelen>
+                  <data:doel>/join/id/proces/gm9920/2025/Intrekking_20250522_140747</data:doel>
+               </data:doelen>
+               <data:instrument>/akn/nl/act/gm9920/2025/R_2025031919_4952649</data:instrument>
+               <data:eId>art_I</data:eId>
+            </data:Intrekking>
+         </data:Intrekkingen>
+         <data:Tijdstempels>
+            <data:Tijdstempel>
+               <data:doel>/join/id/proces/gm9920/2025/Intrekking_20250522_140747</data:doel>
+               <data:soortTijdstempel>juridischWerkendVanaf</data:soortTijdstempel>
+               <data:datum>2025-05-23</data:datum>
+               <data:eId>art_I</data:eId>
+            </data:Tijdstempel>
+         </data:Tijdstempels>
+      </data:ConsolidatieInformatie>
+      <tekst:BesluitCompact>
+         <tekst:RegelingOpschrift eId="longTitle" wId="__longTitle">
+            <tekst:Al>Intrekkingsbesluit voor /akn/nl/act/gm9920/2025/R_2025031919_4952649</tekst:Al>
+         </tekst:RegelingOpschrift>
+         <tekst:Lichaam eId="body" wId="body">
+            <tekst:Artikel eId="art_I" wId="__art_I">
+               <tekst:Kop>
+                  <tekst:Label>Artikel</tekst:Label>
+                  <tekst:Nummer>I</tekst:Nummer>
+               </tekst:Kop>
+               <tekst:Inhoud>
+                  <tekst:Al>De regeling treedt uit werking per 2025-05-23</tekst:Al>
+               </tekst:Inhoud>
+            </tekst:Artikel>
+         </tekst:Lichaam>
+      </tekst:BesluitCompact>
+   </BesluitVersie>
+</AanleveringBesluit>

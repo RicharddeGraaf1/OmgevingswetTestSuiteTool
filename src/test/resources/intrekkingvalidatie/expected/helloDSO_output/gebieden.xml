@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:op="http://www.geostandaarden.nl/imow/opobject" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sl:standBestand>
+<sl:dataset>Onbekend</sl:dataset>
+<sl:inhoud>
+<sl:gebied>Onbekend</sl:gebied>
+<sl:leveringsId>Onbekend</sl:leveringsId>
+<sl:objectTypen>
+<sl:objectType>Gebied</sl:objectType>
+</sl:objectTypen>
+</sl:inhoud>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.BinnenstadWest</l:identificatie>
+<l:noemer>Binnenstad centrum West</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="face0ddf-f51f-41d2-951f-2919932bcaaf"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.Locatie4</l:identificatie>
+<l:noemer>Locatie 4</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="d6e73dbc-3bec-41bd-88ea-c08fb06d3f9d"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.Noordereilanden</l:identificatie>
+<l:noemer>Noordereilanden</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="ef485af8-85a5-4f16-8eec-7187dadec8cb"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.Oostelijkehavens</l:identificatie>
+<l:noemer>Oostelijke havens</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="e4b3bd7d-f403-45f2-bb9e-f0e5d0de8451"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.Zuiderburen</l:identificatie>
+<l:noemer>Zuiderburen</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="fa3674bd-e282-4ad0-9bb1-0ffb1068daf9"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.industriegebied</l:identificatie>
+<l:noemer>industriegebied</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="d6094613-13c3-4063-9182-da718a64dfff"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.industriegebied2</l:identificatie>
+<l:noemer>industriegebied2</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="458df587-4a5f-4a41-bd41-77aaa890e85d"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.industriezone</l:identificatie>
+<l:noemer>industriezone</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="f44b0bc3-bc9c-4dd8-aafd-598ff79b67e1"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.naam5</l:identificatie>
+<l:noemer>nieuwe naam locatie 5</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="853b580f-c02c-4cbc-a2b9-eb0668a83c05"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.oudeNaam</l:identificatie>
+<l:noemer>oude naam</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="ce8e7188-e8f2-4b6a-8fc7-2b6f685fdff7"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.verwijderdeLocatie2</l:identificatie>
+<l:noemer>verwijderde locatie 2</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="89609b51-87e4-4fc0-89d9-748919b28e0a"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<l:Gebied>
+<ow:status>beëindigen</ow:status>
+<l:identificatie>nl.imow-gm0160.gebied.winkelgebied</l:identificatie>
+<l:noemer>winkelgebied</l:noemer>
+<l:geometrie>
+<l:GeometrieRef xlink:href="ede6b1c0-c832-40af-abdb-efe2bcd616b2"/>
+</l:geometrie>
+</l:Gebied>
+</ow-dc:owObject>
+</sl:stand>
+</sl:standBestand>
+</ow-dc:owBestand>

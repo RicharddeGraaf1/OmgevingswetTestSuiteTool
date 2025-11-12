@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<validatieOpdracht xmlns="http://www.overheid.nl/2017/lvbb">
+   <idLevering>OTST_val_ws0665_20251016_111143</idLevering>
+   <idBevoegdGezag>00000001003214345000</idBevoegdGezag>
+   <idAanleveraar>00000001003214345000</idAanleveraar>
+   <publicatie>besluit.xml</publicatie>
+   <datumBekendmaking>2025-10-17</datumBekendmaking>
+</validatieOpdracht>

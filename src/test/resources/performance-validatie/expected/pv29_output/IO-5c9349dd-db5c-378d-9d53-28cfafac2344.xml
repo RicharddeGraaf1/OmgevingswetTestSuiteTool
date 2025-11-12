@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/pv29/2023/gebiedsaanwijzing_6e32a2185a454d8d93a209e8209a5825</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/pv29/2023/gebiedsaanwijzing_6e32a2185a454d8d93a209e8209a5825/nld@2023-12-19;1</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/pv29/2023/omgevingsverordening</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>GIO-6a39de36.gml</data:bestandsnaam>
+  <data:hash>fc362a654b9db4583c2a7d48ef8d0a46b63150d8de886e6beafb91c669a3ef237b63ac0efdbcc278cff6549409b1dcf598c07510f2b5ff448777e7f975b51d58</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>stiltegebied b</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/provincie/pv29</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/provincie/pv29</maker>
+  <naamInformatieObject>stiltegebied b</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/pv29/2023/gebiedsaanwijzing_6e32a2185a454d8d93a209e8209a5825</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

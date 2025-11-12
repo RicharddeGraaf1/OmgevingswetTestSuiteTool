@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0621/2023-10-16/f166ce2a-e934-4e67-8937-adc8dd2e0da7</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0621/2023-10-16/f166ce2a-e934-4e67-8937-adc8dd2e0da7/nld@2024-08-19;3</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>geo_f166ce2a-e934-4e67-8937-adc8dd2e0da7.gml</data:bestandsnaam>
+  <data:hash>00b2d350c10b612457f3f9d5f036acf984e8b9f3025098ea1df307db646d7b4ec3ba932ecdf28488253888bd96c6619654f8ab9b302d2f974c051a7ad1f06b05</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>Stroomgebied Tielerwaard</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/waterschap/ws0621</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/waterschap/ws0621</maker>
+  <naamInformatieObject>Stroomgebied Tielerwaard</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/ws0621/2023-10-16/f166ce2a-e934-4e67-8937-adc8dd2e0da7</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

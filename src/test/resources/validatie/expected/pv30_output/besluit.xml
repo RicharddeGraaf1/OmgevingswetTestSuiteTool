@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+<BesluitVersie>
+<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:FRBRWork>/akn/nl/bill/pv30/2025/OTSTgegenereerd20251016104513</data:FRBRWork>
+<data:FRBRExpression>/akn/nl/bill/pv30/2025/OTSTgegenereerd20251016104513/nld@20251016;1</data:FRBRExpression>
+<data:soortWork>/join/id/stop/work_003</data:soortWork>
+</data:ExpressionIdentificatie>
+<data:BesluitMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:eindverantwoordelijke>/tooi/id/provincie/pv30</data:eindverantwoordelijke>
+<data:grondslagen>
+<data:grondslag>
+<data:TekstReferentie>
+<data:uri>jci1.3:c:BWBR0037885&amp;artikel=2.6</data:uri>
+<data:label>Artikel 2.6 Omgevingswet</data:label>
+<data:soortRef>JCI</data:soortRef>
+</data:TekstReferentie>
+</data:grondslag>
+</data:grondslagen>
+<data:heeftCiteertitelInformatie>
+<data:CiteertitelInformatie>
+<data:citeertitel>Omgevingsverordening provincie testgemeente</data:citeertitel>
+<data:isOfficieel>true</data:isOfficieel>
+</data:CiteertitelInformatie>
+</data:heeftCiteertitelInformatie>
+<data:informatieobjectRefs>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba/nld@2024-05-14;126</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gioe558f013-0212-11ef-a3f7-000c291d1f30/nld@2024-05-14;48</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gioffde11cf-b096-11ee-b4e3-000c291d1f30/nld@2024-05-14;22</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9/nld@2024-05-14;184</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gio9052635c-b094-11ee-ab3c-000c291d1f30/nld@2024-05-14;20</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gio02397c72-18ef-4910-9978-03004b2ecc61/nld@2024-05-14;93</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gio53a913c0-d3b8-45e1-9b5a-c0d985105d9c/nld@2024-05-14;127</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136giofa81249e-71d7-41ed-893d-aeedda2a6be3/nld@2024-05-14;94</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gio33a54856-31da-4c4d-bd9d-7eada1920408/nld@2024-05-14;162</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gioa6c6e553-f6d0-4492-8d11-f4a94010fb61/nld@2024-05-14;144</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/pv30/2024/136gio7c3748bf-b13a-11ee-bc75-000c291d1f30/nld@2024-05-14;24</data:informatieobjectRef>
+</data:informatieobjectRefs>
+<data:maker>/tooi/id/provincie/pv30</data:maker>
+<data:officieleTitel>Omgevingsverordening provincie testgemeente</data:officieleTitel>
+<data:onderwerpen>
+<data:onderwerp>/tooi/def/concept/c_9af4b880</data:onderwerp>
+</data:onderwerpen>
+<data:rechtsgebieden>
+<data:rechtsgebied>/tooi/def/concept/c_638d8062</data:rechtsgebied>
+</data:rechtsgebieden>
+<data:soortBestuursorgaan>/tooi/def/thes/kern/c_411b4e4a</data:soortBestuursorgaan>
+<data:soortProcedure>/join/id/stop/proceduretype_definitief</data:soortProcedure>
+</data:BesluitMetadata>
+<data:Procedureverloop xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:bekendOp>2025-10-17</data:bekendOp>
+<data:procedurestappen>
+<data:Procedurestap>
+<data:soortStap>/join/id/stop/procedure/stap_003</data:soortStap>
+<data:voltooidOp>2025-10-17</data:voltooidOp>
+</data:Procedurestap>
+</data:procedurestappen>
+</data:Procedureverloop>
+<data:ConsolidatieInformatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<BeoogdeRegelgeving xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+<BeoogdeRegeling>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/akn/nl/act/pv30/2022/omgevingsverordeningT/nld@2364</instrumentVersie>
+<eId>art_besluit1</eId>
+</BeoogdeRegeling>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba/nld@2024-05-14;126</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_7__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gioe558f013-0212-11ef-a3f7-000c291d1f30/nld@2024-05-14;48</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_5__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gioffde11cf-b096-11ee-b4e3-000c291d1f30/nld@2024-05-14;22</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_2__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9/nld@2024-05-14;184</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_10__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gio9052635c-b094-11ee-ab3c-000c291d1f30/nld@2024-05-14;20</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gio02397c72-18ef-4910-9978-03004b2ecc61/nld@2024-05-14;93</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_9__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gio53a913c0-d3b8-45e1-9b5a-c0d985105d9c/nld@2024-05-14;127</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_1__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136giofa81249e-71d7-41ed-893d-aeedda2a6be3/nld@2024-05-14;94</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_6__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gio33a54856-31da-4c4d-bd9d-7eada1920408/nld@2024-05-14;162</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_4__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gioa6c6e553-f6d0-4492-8d11-f4a94010fb61/nld@2024-05-14;144</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_11__ref_o_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/pv30/2024/136gio7c3748bf-b13a-11ee-bc75-000c291d1f30/nld@2024-05-14;24</instrumentVersie>
+<eId>!main#cmp_2__content_o_1__list_o_1__item_o_8__ref_o_1</eId>
+</BeoogdInformatieobject>
+</BeoogdeRegelgeving>
+<Tijdstempels xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+<Tijdstempel>
+<doel>/join/id/proces/pv30/2024/3_2364T_mutatie</doel>
+<soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+<datum>2025-10-17</datum>
+<eId>art_besluit2</eId>
+</Tijdstempel>
+</Tijdstempels>
+</data:ConsolidatieInformatie>
+<tekst:BesluitCompact xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/">
+<RegelingOpschrift eId="longTitle" wId="longTitle" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Officiele titel van de aanlevering</Al>
+</RegelingOpschrift>
+<Aanhef eId="formula_1" wId="formula_1" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Aanhef van het besluit</Al>
+</Aanhef>
+<Lichaam eId="body" wId="body" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<WijzigArtikel eId="art_besluit1" wId="pv30__art_besluit1">
+<Kop>
+<Label>Artikel</Label>
+<Nummer>I</Nummer>
+</Kop>
+<Wat>
+            Wijzigingen zoals opgenomen in 
+            <IntRef ref="cmp_besluit">Bijlage A</IntRef>
+             worden vastgesteld.
+          </Wat>
+</WijzigArtikel>
+<Artikel eId="art_besluit2" wId="pv30__art_besluit2">
+<Kop>
+<Label>Artikel</Label>
+<Nummer>II</Nummer>
+</Kop>
+<Inhoud>
+<Al>Dit besluit treedt in werking per 2025-10-17</Al>
+</Inhoud>
+</Artikel>
+</Lichaam>
+<Sluiting eId="formula_2" wId="formula_2" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Sluiting van het besluit</Al>
+<Ondertekening>
+<Al>Ondertekening van het besluit</Al>
+</Ondertekening>
+</Sluiting>
+<WijzigBijlage eId="cmp_besluit" wId="pv30__cmp_besluit" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Kop>
+<Label>Bijlage</Label>
+<Nummer>A</Nummer>
+<Opschrift>Bijlage bij artikel I</Opschrift>
+</Kop>
+<tekst:RegelingCompact componentnaam="main" schemaversie="1.3.0" wordt="/akn/nl/act/pv30/2022/omgevingsverordeningT/nld@2364">
+<tekst:RegelingOpschrift eId="longTitle" wId="longTitle">
+<tekst:Al>Omgevingsplan_pre</tekst:Al>
+</tekst:RegelingOpschrift>
+<tekst:Lichaam eId="body" wId="body">
+<tekst:Hoofdstuk eId="chp_1" wId="pv30_2278__chp_1">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>1</tekst:Nummer>
+<tekst:Opschrift>Algemene bepalingen</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_1__art_1.1" wId="pv30_2278__chp_1__art_1.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>1.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    begin tekst 
+                    <tekst:ExtRef ref="https://google.com/" soort="URL">https://testgemeente.tercera-go.nl/TekstEditor/Default.aspx</tekst:ExtRef>
+                     ss
+                  </tekst:Al>
+<tekst:table eId="chp_1__art_1.1__table_1" wId="pv30_2278__chp_1__art_1.1__table_1">
+<tekst:tgroup align="left" cols="3">
+<tekst:colspec colname="col1" colnum="1" colwidth="33.3333*"/>
+<tekst:colspec colname="col2" colnum="2" colwidth="33.3333*"/>
+<tekst:colspec colname="col3" colnum="3" colwidth="33.3333*"/>
+<tekst:tbody valign="top">
+<tekst:row>
+<tekst:entry>
+<tekst:Al>linksboven</tekst:Al>
+</tekst:entry>
+<tekst:entry/>
+<tekst:entry>
+<tekst:Al>rechtsboven</tekst:Al>
+</tekst:entry>
+</tekst:row>
+<tekst:row>
+<tekst:entry>
+<tekst:Al>linksonder</tekst:Al>
+</tekst:entry>
+<tekst:entry/>
+<tekst:entry>
+<tekst:Al>rechtsonder</tekst:Al>
+</tekst:entry>
+</tekst:row>
+</tekst:tbody>
+</tekst:tgroup>
+</tekst:table>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_2" wId="pv30_2279__chp_2">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>2</tekst:Nummer>
+<tekst:Opschrift>Omgaan met normen in de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Titel eId="chp_2__title_2.1" wId="pv30_2279__chp_2__title_2.1">
+<tekst:Kop>
+<tekst:Label>Titel</tekst:Label>
+<tekst:Nummer>2.1</tekst:Nummer>
+<tekst:Opschrift>RIVM Rapport 601044002/2013</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Afdeling eId="chp_2__title_2.1__subchp_2.1.1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1">
+<tekst:Kop>
+<tekst:Label>Afdeling</tekst:Label>
+<tekst:Nummer>2.1.1</tekst:Nummer>
+<tekst:Opschrift>Colofon</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_2__title_2.1__subchp_2.1.1__art_2.1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>2.1</tekst:Nummer>
+<tekst:Opschrift>Rapport in het kort</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Lid eId="chp_2__title_2.1__subchp_2.1.1__art_2.1__para_1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Met de Omgevingswet wil het kabinet op effectieve wijze ruimte voorontwikkeling creëren en tegelijkertijd de kwaliteit van de leefomgevingwaarborgen. Procesmatig wordt ermee beoogd de regelgeving tevereenvoudigen, te bundelen en meer in samenhang te brengen en tevens debesluitvorming over projecten in de leefomgeving te versnellen en verbeteren.In aanloop naar de wet heeft Test n,nhet RIVM geïnventariseerd welke knelpunten er inde huidige wetgeving bestaan bij het gebruik van normen. Vervolgens is 
+														geanal01layeryseerd hoe die knelpunten zijn te verhelpen om de Omgevingswetdaadwerkelijk effectief en doelmatig te laten zijn 0000 789 test 0N 01LAYER
+													</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_2__title_2.1__subchp_2.1.1__art_2.1__para_2" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Hiertoe heeft het RIVM een denkraam ontwikkeld voor de wetgever en debestuursorganen die bij de uitvoering van de Omgevingswet zijn betrokken. Hetdenkraam helpt om de benodigde keuzes te maken over de wijze waarop denormen het beste kunnen worden gecombineerd met de 
+														ke01layerrninstrumenten die inde wet zijn opgenomen (omgevingsvisie, programmatische aanpak, algemenerijksregels, decentrale regelgeving, projectbesluit en omgevingsvergunning).Test n,n 
+														jj0Natuur 0000 789
+													</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_2__title_2.1__subchp_2.1.1__art_2.1__para_3" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_3">
+<tekst:LidNummer>3.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Om de samenvoeging van de huidige wetten effectief te maken, is het nodig omhet gebruik van de normen te harmoniseren en te differentiëren. Om de veelheidaan normen te kunnen harmoniseren, is een onderscheid gemaakt in zeventypen normen. Dit maakt het mogelijk om voor de diverse sectoren teverduidelijken waar de normen voor zijn bedoeld. Op die manier is de keuzevoor een bepaalde norm te vereenvoudigen. Daarnaast is het van belang om denormen, afhankelijk van de situatie, gedifferentieerd in te zetten. Bij kleinere enrelatief routinematige beslissingen kan bijvoorbeeld gewerkt worden metuniforme prestatie-eisen, gestandaardiseerde vergunningaanvragen eneenvoudige procedures. Bij complexere gevallen zijn maatwerk en bestuurlijkeafwegingen van kansen en risico’s en van kosten en baten nodig. Verder is hetpassend om normen in te zetten voor innovatie, bijvoorbeeld door te stimulerenom steeds de schoonste en veiligste technieken te gebruiken. Op die manier isde kwaliteit van de leefomgeving te verbeteren of wordt het mogelijk dat in detoekomst meer activiteiten binnen een beperkte ruimte plaatsvinden.</tekst:Al>
+<tekst:Al>Ook is het van belang de oplossingen die verschillende sectoren gaandeweg inde praktijk hebben gevonden voor knelpunten in de bestaande wetgeving,breder in te zetten. Ten slotte is de doelmatigheid van normen in deomgevingswet onlosmakelijk verbonden met de bevoegdheidsverdeling tussenoverheden. Het is daarbij wenselijk de bestuurlijke verantwoordelijkheden tekoppelen aan het niveau (van lokaal tot Europees) waarop de effecten zichmanifesteren en waarbij het overheidshandelen het meest effectief is.</tekst:Al>
+<tekst:Al>
+<tekst:u>Trefwoorden</tekst:u>
+                          :
+                        </tekst:Al>
+<tekst:Al>leefomgeving, ruimtelijke ordening, milieu, omgevingsrecht, normstelling,innovatieTest n,n</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>2.1a</tekst:Nummer>
+<tekst:Opschrift>Abstract</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Lid eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>The Dutch government’s intention in introducing the Omgevingswet(Environment Planning Act) is to effectively provide opportunities fordevelopments in the physical environment while also safeguarding its quality.The Act serves to simplify overall legislation, combining and collating existingaspects, thus improving and shortening decision-making procedures.As part of the preparations for the Act, the National Institute for Public Healthand the Environment (RIVM) analysed the obstacles inherent in existinglegislation with regard to the application of standards. The researchers thenconsidered how those obstacles could be removed or mitigated to render thenew Act fully effective.</tekst:Al>
+<tekst:table eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1">
+<tekst:tgroup align="left" cols="3">
+<tekst:colspec colname="col1" colnum="1" colwidth="33.3333*"/>
+<tekst:colspec colname="col2" colnum="2" colwidth="33.3333*"/>
+<tekst:colspec colname="col3" colnum="3" colwidth="33.3333*"/>
+<tekst:tbody valign="top">
+<tekst:row>
+<tekst:entry>
+<tekst:Al>
+                                    De Leiding - Riool is de ter plaatse van het werkingsgebied Leiding - Riool bepaalde waarde
+                                    <tekst:br/>
+</tekst:Al>
+</tekst:entry>
+<tekst:entry>
+<tekst:Al>
+                                    De Verkeer - Erftoegangsweg is de ter plaatse van het werkingsgebied Verkeer - Erftoegangsweg bepaalde waarde
+                                    <tekst:br/>
+</tekst:Al>
+</tekst:entry>
+<tekst:entry>
+<tekst:Al>
+                                    De wonnen is de ter plaatse van het werkingsgebied wonnen bepaalde waarde
+                                    <tekst:br/>
+</tekst:Al>
+</tekst:entry>
+</tekst:row>
+<tekst:row>
+<tekst:entry>
+<tekst:Figuur eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_1" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_1">
+<tekst:Illustratie breedte="300" dpi="150" formaat="image/jpeg" hoogte="211" naam="jpg_261c0f81-24d4-41a5-921f-33a3c52a7ae4.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:entry>
+<tekst:entry>
+<tekst:Figuur eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_2" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_2">
+<tekst:Illustratie breedte="300" dpi="150" formaat="image/jpeg" hoogte="197" naam="jpg_d7c1318f-868f-4ab7-b41a-4a375517e7e5.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:entry>
+<tekst:entry>
+<tekst:Figuur eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_3" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1__table_1__img_3">
+<tekst:Illustratie breedte="300" dpi="150" formaat="image/jpeg" hoogte="170" naam="jpg_9b91dede-a81d-4339-839d-57de57710ba5.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:entry>
+</tekst:row>
+<tekst:row>
+<tekst:entry/>
+<tekst:entry/>
+<tekst:entry/>
+</tekst:row>
+<tekst:row>
+<tekst:entry/>
+<tekst:entry/>
+<tekst:entry/>
+</tekst:row>
+</tekst:tbody>
+</tekst:tgroup>
+</tekst:table>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_2" wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>
+                          RIVM has developed a framework to guide the legislator and the executiveagencies involved in the implementation of the Act. It will assist them in makingthe necessary decisions about how the standards can best be combined with thekey instruments provided by the Act (such as the environment and planningvision document, the programmatic approach, regulations at the national level,regulations at regional and local level, the project decision and the planningpermit).
+                          <tekst:br/>
+<tekst:br/>
+                          To ensure effective integration with current legislation, it is necessary to pursueboth harmonization and differentiation in the use of standards. Those standardsare many and various. For the purposes of harmonization, they have beenclassified into seven categories. This makes their intent and purpose clear, thusfacilitating the selection of the most appropriate standard in any given situation. It is also important to apply some differentiation in their use, again dependingon the specific situation. In the case of relatively routine decisions, an adequateapproach is provided by uniform performance requirements, standardized permitapplications and the simpler ‘light’ procedures. In more complex cases, anindividualized approach with a full analysis of opportunities, threats, costs andreturns will be necessary. It is also appropriate to apply standards in pursuit ofinnovation, e.g. incentivizing the use of only the cleanest and safesttechnologies. This will help to improve the quality of the physical environment orwill ensure that additional or alternative usages can be introduced at a laterdate, regardless of the spatial constraints.
+                          <tekst:br/>
+                          Legislation must make greater use of the solutions which have been developedby the various sectors over time, based on their practical experience. Inaddition, the effectiveness of the standards within the new legislation will rely onan appropriate division of responsibilities between the various levels ofgovernment. It is therefore desirable to define the administrative tasks of eachlevel (from local to European) according to where the actual effects are manifestand where government intervention will be most effective.
+                          <tekst:br/>
+<tekst:br/>
+<tekst:u>Keywords</tekst:u>
+                          : De maximum breedte is de ter plaatse van het werkingsgebied maximum breedte bepaalde waarde
+                        </tekst:Al>
+<tekst:Al>Physical environment, spatial planning, environment, environmental law,standard, innovation</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Afdeling>
+</tekst:Titel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_3" wId="pv30_2279__chp_3">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>3</tekst:Nummer>
+<tekst:Opschrift>Samenvatting</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_3__art_3.1" wId="pv30_2279__chp_3__art_3.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>3.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Lid eId="chp_3__art_3.1__para_1" wId="pv30_2279__chp_3__art_3.1__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Het rapport geeft een denkraam voor de wetgever en elk bestuursorgaan dat bijde uitvoering van de Omgevingswet is betrokken, over de wijze waarop decombinatie van normen en de inzet van de kerninstrumenten van de wet hetbest kan leiden tot duidelijkheid en doelmatigheid.</tekst:Al>
+<tekst:Al>
+<tekst:strong>Stroomlijning van het gebruik van normen leidt tot een effectiever omgevingsrecht</tekst:strong>
+</tekst:Al>
+<tekst:Al>Het samenvoegen van wetten en uitvoeringsregelgeving in één Omgevingswetvergt harmonisatie van normen. Daartoe is een typologie van normengeïntroduceerd waarmee eenduidigheid in de terminologie en in de veelheid aanbestaande normen kan worden gebracht. Aanbevolen wordt te differentiëren inde toepassing van normen. Dat kan door onderscheid te maken tussen kleinereen grotere projecten, tussen alledaagse en complexe situaties en tussenverschillende gebieden. Bij kleinere en relatief routinematige beslissingen wordtaanbevolen om te werken met uniforme prestatie-eisen, gestandaardiseerdevergunningaanvragen en eenvoudige procedures. Bij complexere gevallen ismaatwerk nodig met bestuurlijke afwegingen van kansen en risico’s en kostenen baten. Door te innoveren met normen kan ruimte worden gecreëerd voorafwegingen, het verbeteren van de omgevingskwaliteit en het ontwikkelen vangebieden. Dergelijke innovatie kan bijvoorbeeld bereikt worden met toepassingvan de nieuwste technieken en het benutten van lokale initiatieven.</tekst:Al>
+<tekst:Al>hier is sprake van een norm:</tekst:Al>
+<tekst:Al>
+                      De aantal bedrijven is de ter plaatse van het werkingsgebied 
+                      <tekst:IntIoRef eId="chp_3__art_3.1__para_1__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_5__ref_o_1" wId="pv30_2279__chp_3__art_3.1__para_1__ref_1">aantal bedrijven</tekst:IntIoRef>
+                       bepaalde waarde
+                    </tekst:Al>
+<tekst:Al>
+<tekst:strong>Toekomstbestendig omgevingsrecht bouwt voort op lessen uit de praktijk</tekst:strong>
+</tekst:Al>
+<tekst:Al>In het verleden werden in de bestaande sectorale wet- en regelgevingknelpunten ervaren die te maken hebben met een gebrek aan samenhang,duidelijkheid, flexibiliteit en effectiviteit. Daarvoor zijn in verschillende sectorendiverse oplossingen gevonden die zich inmiddels bewezen hebben. DeOmgevingswet kan de werking van deze oplossingen, zoals eenprogrammatische aanpak, meer generiek toepasbaar maken. Met hetprogramma als kerninstrument kan expliciet een koppeling worden gelegdtussen de omgevingskwaliteit, economische ontwikkeling en de sociale dynamiekin een gebied.</tekst:Al>
+<tekst:Al>
+<tekst:strong>Vereenvoudiging schept ruimte voor bestuurlijke aandacht voor de meercomplexe activiteiten en ruimtelijke ontwikkelingen</tekst:strong>
+</tekst:Al>
+<tekst:Al>Er zijn mogelijkheden voor verdere vereenvoudiging van het omgevingsrecht.Door deze mogelijkheden te benutten, kan voldoende bestuurlijke aandachtworden gegeven aan de meer complexe situaties. Het is belangrijk potentiëleeconomische, sociale en omgeving gerelateerde effecten geïntegreerd tebenaderen. Het kerninstrument omgevingsvisie maakt het mogelijkmaatschappelijke doelen tegen elkaar af te wegen en te bepalen in hoeverre degekozen doelen met de juiste middelen gerealiseerd kunnen worden.Standaardisatie en borging van de kwaliteit van de modelinstrumenten diebestuurlijke afwegingen ondersteunen is nodig. Aanbevolen wordt dat deoverheid condities schept waarbinnen de actie- en investeringsbereidheid vanmaatschappelijke partijen gedijen. Een herkenbare gebiedsgerichte benaderingkan daarbij ondersteunen.</tekst:Al>
+<tekst:Al>
+<tekst:strong>Eenheid in sturing door de overheid</tekst:strong>
+</tekst:Al>
+<tekst:Al>De doelmatigheid van normstelling in het omgevingsrecht is onlosmakelijkverbonden met de verdeling van bevoegdheden tussen overheden. Door bestuurlijke verantwoordelijkheden te koppelen aan het schaalniveau waaropzich effecten van fysieke en sociaaleconomische processen manifesteren enwaarop overheidshandelen het meest efficiënt is (bijvoorbeeld vanwege hethebben van een gelijk speelveld, het benutten van schaalvoordelen, hetbeschikken over voldoende deskundigheid of het voorkomen van afwenteling) isaan doelmatigheid te winnen. Enerzijds is lokaal of regionaal maatwerk enanderzijds bovenregionaal gecoördineerde sturing mogelijk.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_4" wId="pv30_2279__chp_4">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>4</tekst:Nummer>
+<tekst:Opschrift>Inleiding</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_4__art_4.1" wId="pv30_2279__chp_4__art_4.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>4.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    Er geldt een verbod op bouwen op deze locaties 
+                    <tekst:IntIoRef eId="chp_4__art_4.1__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_4__ref_o_1" wId="pv30_2279__chp_4__art_4.1__ref_1">Aalanden</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_4__art_4.2" wId="pv30_2279__chp_4__art_4.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>4.2</tekst:Nummer>
+<tekst:Opschrift>Opdracht</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>In de opdracht aan het RIVM zijn drie vraagstukken onderscheiden, als eenvervolg op de notitie ‘Visie op kwaliteitsnormen van het omgevingsrecht’ die opverzoek van de programmadirectie Eenvoudig Beter is opgesteld door ATOsborne Legal.6 In de visie zijn drie deelvragen geformuleerd waarop een naderadvies nodig is:</tekst:Al>
+<tekst:Lijst eId="chp_4__art_4.2__list_1" type="expliciet" wId="pv30_2279__chp_4__art_4.2__list_1">
+<tekst:Li eId="chp_4__art_4.2__list_1__item_a" wId="pv30_2279__chp_4__art_4.2__list_1__item_a">
+<tekst:LiNummer>a.</tekst:LiNummer>
+<tekst:Al>
+                        duiding van normen op hoofdlijnen: welke relevante 
+                        <tekst:IntIoRef eId="chp_4__art_4.2__list_1__item_1__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_6__ref_o_1" wId="pv30_2279__chp_4__art_4.2__list_1__item_1__ref_1">Agrarisch</tekst:IntIoRef>
+                        normen zijn er,waar komen ze vandaan, wat betekenen ze? Geef inzicht in detoepassing van de huidige normen in de praktijk en de eventueleknelpunten. Hoe is verbetering mogelijk?
+                      </tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_4__art_4.2__list_1__item_b" wId="pv30_2279__chp_4__art_4.2__list_1__item_b">
+<tekst:LiNummer>b.</tekst:LiNummer>
+<tekst:Al>toepassingskader: wat is de samenhang tussen de normen? Op welkewijze kan de samenhang worden vergroot zodat normen doelmatigkunnen worden toegepast bij de kerninstrumenten van deOmgevingswet?</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_4__art_4.2__list_1__item_c" wId="pv30_2279__chp_4__art_4.2__list_1__item_c">
+<tekst:LiNummer>c.</tekst:LiNummer>
+<tekst:Al>verdere efficiëntieverhoging: hoe kan het toepassingskader efficiënterworden gebruikt? Is een onderscheid in regulering van weinig en meerleefomgevingbelastende gevallen mogelijk (onder andere uitwerkinganalogie met ‘niet in betekenende mate’ (NIBM) bij hetluchtkwaliteitsdossier), hoe kan daarbij rechtsgelijkheid gewaarborgdworden en hoe kan worden omgegaan met cumulatie?</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_4__art_4.3" wId="pv30_2279__chp_4__art_4.3">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>4.3</tekst:Nummer>
+<tekst:Opschrift>Leeswijzer</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>In hoofdstuk 2 van dit rapport hebben we de bestaande normen uit de relevantewet- en regelgeving van het omgevingsrecht op een rij gezet en geordend totzeven hoofdgroepen met een zekere hiërarchie. Dit maakt systematisch, bewusten uniform gebruik van (die typen) normen in de Omgevingswet mogelijk endraagt tevens bij aan de transparantie van deze wet.</tekst:Al>
+<tekst:Al>In hoofdstuk 3 zijn we ervaringen van initiatiefnemers, uitvoerders en andereoverheden met bestaande normen uit het omgevingsrecht nagegaan. Op basisvan literatuuronderzoek kunnen we die ervaringen duiden als behoeften aan(meer) samenhang in doelstellingen en de doorwerking daarvan in regelingen enproceseisen en aan (meer) duidelijkheid en harmonisatie van normen enachterliggende belangen en de ruimtelijke schaal waarop ze werken en aan(meer) doelmatigheid in doelbereik, bijvoorbeeld door andere middelen in tekunnen zetten om een doel te bereiken, kosten-batenafwegingen te kunnenmaken en onderscheid te kunnen maken in omvang en complexiteit vansituaties.</tekst:Al>
+<tekst:Al>In hoofdstuk 4 hebben we praktijksituaties geanalyseerd en de oplossingen, diemettertijd voor knelpunten in normstelling zijn gevonden, op een rij gezet. Hetinbedden van toelaatbaarheidseisen in een programmatische aanpak, inprestatie- of proceseisen, of het bieden van een range inafwijkingsmogelijkheden blijkt een rode draad. Deze oplossingen kunnen de wegwijzen voor de nieuwe inrichting van het omgevingsrecht. De gevondenoplossingen bevestigen ook een noodzaak tot harmoniseren van de verschillende typen normen, tot differentiëren, door onderscheid te maken in de normstellingvoor uiteenlopende situaties en tot innoveren, door normen in te zetten omafwegingsruimte te scheppen en door ruimte te maken voor kwaliteitsimpulsenuit de samenleving.</tekst:Al>
+<tekst:Al>Hoofdstuk 5 schetst de doelen en kerninstrumenten van de Omgevingswet en dewerkingssfeer van de wet op drie bestuurlijke niveaus (Rijk, provincie engemeente). We reiken een denkraam aan waarmee systematisch kan wordenbeoordeeld in hoeverre aan samenhang, duidelijkheid en doelmatigheid in doelbereik in het omgevingsrecht kan worden gewonnen.</tekst:Al>
+<tekst:Al>In het slothoofdstuk doen we enkele aanbevelingen voor de verdere uitwerkingvan het toepassingskader van omgevingsnormen. Vereenvoudiging en eenbalans in uniformiteit en flexibiliteit nemen een voorname plaats in. Het isbelangrijk dat de overheid innovatie stimuleert, waardoor de maatschappelijkedynamiek beter kan worden benut en voortschrijdende technischevernieuwingen worden ingezet om de gewenste ontwikkeling en kwaliteit van deleefomgeving mogelijk te maken. De bestaande praktijk van normopvulling ofnormversoepeling wordt daarmee doorbroken en de Omgevingswet wordt meertoekomstbestendig.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_5" wId="pv30_2279__chp_5">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>5</tekst:Nummer>
+<tekst:Opschrift>De verschillende betekenissen van het begrip norm</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_5__art_5.1" wId="pv30_2279__chp_5__art_5.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>5.1</tekst:Nummer>
+<tekst:Opschrift>Inleiding</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Lid eId="chp_5__art_5.1__para_1" wId="pv30_2279__chp_5__art_5.1__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>De integratie van (sectorale) wetten en regelgeving in de Omgevingswet past ineen internationale trend van integratie en codificatie. In Nederland is al sinds dejaren 90 een integratie-operatie gaande (onder andere Wet milieubeheer,Waterwet).In het kader van de ondersteuning en advisering over de inrichting envormgeving van de Omgevingswet is een analyse gemaakt van het gebruik vannormen in praktijksituaties en in de bestaande wet- en regelgeving.Kenmerkend voor het omgevingsrecht zijn:</tekst:Al>
+<tekst:Lijst eId="chp_5__art_5.1__para_1__list_1" type="ongemarkeerd" wId="pv30_2279__chp_5__art_5.1__para_1__list_1">
+<tekst:Li eId="chp_5__art_5.1__para_1__list_1__item_1" wId="pv30_2279__chp_5__art_5.1__para_1__list_1__item_1">
+<tekst:Al>het vaak procedurele karakter;</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_1__list_1__item_2" wId="pv30_2279__chp_5__art_5.1__para_1__list_1__item_2">
+<tekst:Al>de ‘gelede normstelling’ (dat wil zeggen: er is sprake van een samenstelvan centrale, decentrale en situationele rechtsregels, gebaseerd opwetten en daarop rustende regelingen van beleid en bestuur. Dezemoeten allemaal worden geraadpleegd om te weten waar je aan toebent);De testwatrer2 is de ter plaatse van het werkingsgebied testwatrer2 bepaalde waarde</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_1__list_1__item_3" wId="pv30_2279__chp_5__art_5.1__para_1__list_1__item_3">
+<tekst:Al>de medewerking in medebewind van decentrale overheden, soms meteen bepaalde mate van beleidsvrijheid;</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_1__list_1__item_4" wId="pv30_2279__chp_5__art_5.1__para_1__list_1__item_4">
+<tekst:Al>in een context waar in toenemende mate EU-verordeningen of-richtlijnen uitvoering door overheidsorganen in de lidstaten vergen.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_1__list_1__item_5" wId="pv30_2279__chp_5__art_5.1__para_1__list_1__item_5">
+<tekst:Al>De wonnen is de ter plaatse van het werkingsgebied wonnen bepaalde waarde</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_5__art_5.1__para_2" wId="pv30_2279__chp_5__art_5.1__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Normen geordend</tekst:Al>
+<tekst:Al>Voor het integratieproces ten behoeve van de Omgevingswet hebben wijverschillende verschijningsvormen van normen geordend naar het typenormstelling. Daarbij zijn de normen in een overzichtelijk aantal (van zeven)hoofdgroepen bijeen gebracht.Deze typologie heeft als doel zowel de integratie van regelgeving in deOmgevingswet, als het gebruik van normen in de uitvoeringspraktijk van hetomgevingsbeleid te bevorderen.</tekst:Al>
+<tekst:Al>Bij het ‘etiketteren’ van de hoofdgroepen van normen is gezocht naar termen diezowel juridisch als in de uitvoeringspraktijk ‘de lading dekken’. Wij hebbennadrukkelijk gezocht naar etiketten die geschikt zijn voor harmonisering onderhet toekomstige omgevingsrecht. Dat betekent onvermijdelijk dat wij etikettenvoorstellen die anders van terminologie of inhoud zijn dan men gewend is vanuitsommige bestaande sectorale wetgeving. Dit achten we legitiem, omdat heterom gaat dat de vlag de nieuwe lading dekt.Tabel 1 vat de ordening samen. In de linker kolom zijn allereerst voorbeelden(niet limitatief) opgenomen van normen in de wet- en regelgeving die opgaan inde Omgevingswet. Deze voorbeelden zijn bijeengebracht naar type norm(middelste kolom van Tabel 1) die in zeven hoofdgroepen (rechterkolom) zijngebundeld.In de volgende paragrafen wordt per hoofdgroep een korte toelichting gegeven.Na de relatief abstracte normen (beginselen, zorgplichten en doelstellingen)worden de meer concrete normen (toelaatbaarheidseisen, functionele eisen,prestatie-eisen, proceseisen) toegelicht. De Norm 1 is de ter plaatse van het werkingsgebied Norm 1 bepaalde waarde</tekst:Al>
+<tekst:Figuur eId="chp_5__art_5.1__para_2__img_1" wId="pv30_2279__chp_5__art_5.1__para_2__img_1">
+<tekst:Illustratie breedte="418" dpi="150" formaat="image/jpeg" hoogte="341" naam="jpg_0aaf116d-a6d2-4198-9815-24ecbf9ad01a.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_5__art_5.1__para_3" wId="pv30_2279__chp_5__art_5.1__para_3">
+<tekst:LidNummer>3.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>
+<tekst:strong>Normen als beginselen </tekst:strong>
+</tekst:Al>
+<tekst:Al>Een rechtsnorm bepaalt wat je rechtens moet of mag.7 Zowel bij de codificatievan normen als bij de toepassing van het omgevingsrecht in de praktijk, is hetrelevant om beginselen te onderscheiden van andere soorten normen, zoals(beleids)doelstellingen of prestatie-eisen.8Het kenmerk van beginselen is dat zij een algemene strekking hebben enrichtinggevend kunnen zijn voor beleid of gedrag. De algemene strekking houdtin dat een beginsel zich niet stelselmatig tot een bepaalde doelgroep (ofnormadressaat) richt. Beginselen maken de ratio van het recht duidelijk, ook ingevallen waarin geschreven rechtsregels die ratio niet (kunnen) aangeven. Opgrond van beginselen kan niet handhavend worden opgetreden, aangezien datniet past bij de functie van beginselen in het systeem van het recht. Die functieis dat ze regels in kunnen kleuren en bepalend kunnen zijn voor de beoordelingvan de kwaliteit van concrete(re) (beleids)doelstellingen die verwezenlijktmoeten worden met het oog op een gewenste (economische of sociale)verbetering van de samenleving. Zelfs voor beginselen die zijn opgenomen ineen wet (gepositiveerde beginselen) geldt dat zij nog steeds geen regels zijn indie zin dat ze altijd en onverkort moeten worden toegepast.Uit de literatuur kunnen drie typen beginselen worden onderscheiden, die wehierna kort toelichten. Voor de Omgevingswet is met name het derde type vanbelang, omdat de andere typen beginselen niet specifiek aan hetomgevingsrecht zijn voorbehouden en hun plaats hebben in hetmeeromvattende stelsel van het recht:</tekst:Al>
+<tekst:Lijst eId="chp_5__art_5.1__para_3__list_1" type="ongemarkeerd" wId="pv30_2279__chp_5__art_5.1__para_3__list_1">
+<tekst:Li eId="chp_5__art_5.1__para_3__list_1__item_1" wId="pv30_2279__chp_5__art_5.1__para_3__list_1__item_1">
+<tekst:Al>rechtstatelijke beginselen;</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_3__list_1__item_2" wId="pv30_2279__chp_5__art_5.1__para_3__list_1__item_2">
+<tekst:Al>beginselen van behoorlijk bestuur;</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_5__art_5.1__para_3__list_1__item_3" wId="pv30_2279__chp_5__art_5.1__para_3__list_1__item_3">
+<tekst:Al>beleidsbeginselen.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_5__art_5.1__para_4" wId="pv30_2279__chp_5__art_5.1__para_4">
+<tekst:LidNummer>4.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Rechtstatelijke beginselenDe rechtstatelijke beginselen, het stelsel van waarborgen tegen de uitvoerendemacht van de overheid, behoren tot de grondslagen van het bestuursrecht.Voorbeelden van dergelijke beginselen zijn het respecteren van fundamentelemensenrechten door de overheid, het verdelen van overheidsbevoegdhedenover verschillende organen en het toetsen van rechtmatigheid vanoverheidshandelen door een onafhankelijke rechter. Daarnaast geldt hetlegaliteitsbeginsel als basis om rechtszekerheid te bevorderen. Wanneeringrepen van overheidswege alleen mogelijk zijn op basis van een wettelijkeregeling, dan maakt die regeling het overheidsoptreden ook voorspelbaar: inbeginsel kan worden nagegaan wat men van de overheid te verwachten heeft enkunnen burgers hun handelen daarop afstemmen.Bovendien stelt het ‘democratisch ideaal’ een aantal eisen aan de procedure eninhoud van overheidsbesluiten, waarvan openbaarheid van bestuur en inspraakniet onvermeld mogen blijven. De vereisten van effectiviteit en van efficiëntiegeven aan het bestuursrecht een bestaansgrond: de met dat recht beoogde doelen moeten zo veel en zo goed mogelijk worden bereikt en de verhoudingtussen lusten en lasten van een maatregel moeten zo gunstig mogelijk zijn.De testwatrer2 is de ter plaatse van het werkingsgebied testwatrer2 bepaalde waarde</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_6" wId="pv30_2279__chp_6">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>6</tekst:Nummer>
+<tekst:Opschrift>Beleidsregels bij bevoegdheden op grond van de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_6__art_6.1" wId="pv30_2279__chp_6__art_6.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Bestuursorganen kunnen beleidsregels opstellen over bevoegdheden op grond van de Omgevingswet. Bij een open norm is het soms wenselijk om te werken met beleidsregels. Hier zijn grenzen aan verbonden. Beleidsregels over welstand zijn verplicht. Er zijn ook voorbeelden van vrijwillige beleidsregels.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.2" wId="pv30_2279__chp_6__art_6.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.2</tekst:Nummer>
+<tekst:Opschrift>Beleidsregels</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>De Algemene wet bestuursrecht (Awb) regelt in artikel 1:3, lid 4 wat beleidsregels zijn. Ook regelt de Awb in titel 4.3 een aantal algemene zaken over beleidsregels. Meer hierover vindt u op de pagina Beleidsregels algemeen.</tekst:Al>
+<tekst:Al>Hieronder gaan we in op beleidsregels bij bevoegdheden op grond van de Omgevingswet.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.3" wId="pv30_2279__chp_6__art_6.3">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.3</tekst:Nummer>
+<tekst:Opschrift>Open normen in het omgevingsplan, de omgevingsverordening en waterschapsverordening</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    Overheden kunnen in het omgevingsplan, de omgevingsverordening en de waterschapsverordening open normen opnemen. Ook de algemene maatregelen van bestuur onder de Omgevingswet bevatten open normen. Bij open normen is in de tekst van de regel bewust open gelaten hoe precies aan de verplichtingen moet worden voldaan. Dat geeft flexibiliteit maar ook rechtsonzekerheid. Bij een open norm is het daarom soms wenselijk om te werken met beleidsregels. Dit waarborgt een consistente toepassing van de open norm bij bijvoorbeeld de vergunningverlening of het verlenen van maatwerk.
+                    <tekst:br/>
+<tekst:br/>
+                    Ook voorkomen beleidsregels dat het bevoegd gezag steeds opnieuw een dragende motivering voor het besluit moet leveren. Voor de motivering van een besluit kan het bevoegd gezag namelijk volstaan met een verwijzing naar de beleidsregels (artikel 4:82 van de Algemene wet bestuursrecht (Awb)). Verkeer - Erftoegangsweg
+                  </tekst:Al>
+<tekst:Al>
+                    De Verkeer - Erftoegangsweg is de ter plaatse van het werkingsgebied 
+                    <tekst:IntIoRef eId="chp_6__art_6.3__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1" wId="pv30_2279__chp_6__art_6.3__ref_1">Verkeer - Erftoegangsweg</tekst:IntIoRef>
+                     bepaalde waarde 
+                    <tekst:IntIoRef eId="chp_6__art_6.3__ref_2" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_11__ref_o_1" wId="pv30_2279__chp_6__art_6.3__ref_2"> Verkeer - Erftoegangsweg</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.4" wId="pv30_2279__chp_6__art_6.4">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.4</tekst:Nummer>
+<tekst:Opschrift>Grenzen aan open normen en beleidsregels</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Lid eId="chp_6__art_6.4__para_1" wId="pv30_2279__chp_6__art_6.4__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Er zijn met het oog op de rechtszekerheid wel grenzen aan het werken met open normen en beleidsregels:</tekst:Al>
+<tekst:Lijst eId="chp_6__art_6.4__para_1__list_1" type="expliciet" wId="pv30_2279__chp_6__art_6.4__para_1__list_1">
+<tekst:Li eId="chp_6__art_6.4__para_1__list_1__item_a" wId="pv30_2279__chp_6__art_6.4__para_1__list_1__item_a">
+<tekst:LiNummer>a.</tekst:LiNummer>
+<tekst:Al>Beleidsregels over de uitleg van wettelijke voorschriften bij open normen moeten altijd gaan over een bevoegdheid met een toets vooraf. Denk daarbij aan een vergunningplicht of bevoegdheid tot het nemen van een maatwerkbesluit. Bij zo'n bevoegdheid past het bevoegd gezag de beleidsregel toe. Algemene regels (regels die zich rechtstreeks richten tot burgers en bedrijven) met open normen lenen zich niet voor het vaststellen van beleidsregels bij die open normen.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.4__para_1__list_1__item_b" wId="pv30_2279__chp_6__art_6.4__para_1__list_1__item_b">
+<tekst:LiNummer>b.</tekst:LiNummer>
+<tekst:Al>De open norm moet voldoende concreet en objectief begrensd zijn. Dat betekent dat de regels in het omgevingsplan, de verordening of de algemene maatregel van bestuur ook zelfstandig (zonder beleidsregels) toepasbaar moeten zijn en niet mogen leiden tot willekeur. Wanneer sprake is van een open norm die voldoende concreet en objectief begrensd is, is afhankelijk van de omstandigheden van het geval.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_6__art_6.4__para_2" wId="pv30_2279__chp_6__art_6.4__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>[hier komt tekst]</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.5" wId="pv30_2279__chp_6__art_6.5">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.5</tekst:Nummer>
+<tekst:Opschrift>Open normen in het omgevingsplan</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Over open normen in omgevingsplannen is nog geen jurisprudentie. Over open normen over bouw- en gebruiksmogelijkheden in bestemmingsplannen heeft de Afdeling bestuursrechtspraak van de Raad van State wel uitspraken gedaan.</tekst:Al>
+<tekst:Al>Deze jurisprudentie is tot stand gekomen in de context van onder andere artikel 3.1.2, lid 2, van het Besluit ruimtelijke ordening. Dat artikel keert onder de Omgevingswet niet terug. Het beginsel van rechtszekerheid speelt een doorslaggevende rol in de overwegingen van Afdeling. Zo kunnen de geformuleerde aandachtspunten mogelijk ook van waarde zijn onder de Omgevingswet.</tekst:Al>
+<tekst:Al>Aandachtspunten voor het bepalen of sprake is van een open norm die voldoende concreet en objectief begrensd is, zijn volgens de Afdeling (ABRvS 27 oktober 2021, ECLI:NL:RVS:2021:2388):</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.6" wId="pv30_2279__chp_6__art_6.6">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.6</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Lijst eId="chp_6__art_6.6__list_1" type="expliciet" wId="pv30_2279__chp_6__art_6.6__list_1">
+<tekst:Li eId="chp_6__art_6.6__list_1__item_a" wId="pv30_2279__chp_6__art_6.6__list_1__item_a">
+<tekst:LiNummer>a.</tekst:LiNummer>
+<tekst:Al>de aard en omvang van de bouw- en gebruiksmogelijkheden, waarop de open norm, en in samenhang daarmee de beleidsregel, zien,</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.6__list_1__item_b" wId="pv30_2279__chp_6__art_6.6__list_1__item_b">
+<tekst:LiNummer>b.</tekst:LiNummer>
+<tekst:Al>het anderszins in de planregels genormeerd zijn van de bouw- en gebruiksmogelijkheden, waarop de figuur van de open norm, die in een beleidsregel wordt uitgelegd, ziet, en de relatie tussen die andere normering en de betrokken open norm,</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.6__list_1__item_c" wId="pv30_2279__chp_6__art_6.6__list_1__item_c">
+<tekst:LiNummer>c.</tekst:LiNummer>
+<tekst:Al>de aanleiding voor het werken met een dergelijke figuur, en</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.6__list_1__item_d" wId="pv30_2279__chp_6__art_6.6__list_1__item_d">
+<tekst:LiNummer>d.</tekst:LiNummer>
+<tekst:Al>de aard en omvang van het plangebied of het betrokken deel daarvan, waarop die figuur ziet. Daarbij is ook van betekenis op welk facet van een goede ruimtelijke ordening de open norm betrekking heeft en wat de aard en omvang van de effecten ervan voor de omgeving zijn.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.7" wId="pv30_2279__chp_6__art_6.7">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.7</tekst:Nummer>
+<tekst:Opschrift>Beleidsregels over welstand</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>De Omgevingswet kent één verplichting tot het opstellen van beleidsregels. Dit betreffen de beleidsregels over welstand.</tekst:Al>
+<tekst:Al>Onder de Omgevingswet loopt het welstandstoezicht via het omgevingsplan. Dit betekent dat het welstandstoezicht onderdeel is van het ruimtelijke toetsingstraject van vergunningaanvragen. De Omgevingswet laat gemeenten vrij hier invulling aan te geven.</tekst:Al>
+<tekst:Al>Wel stelt de wet één bijzondere eis over de regels voor het uiterlijk van bouwwerken in het omgevingsplan. Als de toepassing van deze regels uitleg behoeft, moet de gemeenteraad beleidsregels vaststellen voor de beoordeling of een bouwwerk aan die regels voldoet. Deze beleidsregels moeten zo veel mogelijk toegesneden zijn op de te onderscheiden bouwwerken. Dit staat in artikel 4.19 van de Omgevingswet. Onder het hier bedoelde ‘uiterlijk’ van bouwwerken vallen de aspecten vormgeving, maatvoering, materiaalgebruik en kleurgebruik.</tekst:Al>
+<tekst:Al>Gemeenten kunnen ook beleidsregels vaststellen over andere aspecten van welstand, zoals bijvoorbeeld over de plaatsing van bouwwerken.</tekst:Al>
+<tekst:Al>Meer informatie over de toetsing aan welstand onder de Omgevingswet vindt u op: Welstand en welstandstoets - Informatiepunt Leefomgeving (iplo.nl). Informatie over het overgangsrecht voor de welstandsnota vindt u op de pagina Bestaand gemeentelijk beleid.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.8" wId="pv30_2279__chp_6__art_6.8">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.8</tekst:Nummer>
+<tekst:Opschrift>Andere beleidsregels onder de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Ook voor andere bevoegdheden kunnen bestuursorganen beleidsregels vaststellen. Twee voorbeelden die hierna worden toegelicht, zijn:</tekst:Al>
+<tekst:Lijst eId="chp_6__art_6.8__list_1" type="expliciet" wId="pv30_2279__chp_6__art_6.8__list_1">
+<tekst:Li eId="chp_6__art_6.8__list_1__item_a" wId="pv30_2279__chp_6__art_6.8__list_1__item_a">
+<tekst:LiNummer>a.</tekst:LiNummer>
+<tekst:Al>De bevoegdheid tot het van toepassing verklaren van afdeling 3.4 Awb op een aanvraag om een omgevingsvergunning voor een buitenplanse omgevingsplanactiviteit (artikel 16.65, lid 4, Omgevingswet).</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.8__list_1__item_b" wId="pv30_2279__chp_6__art_6.8__list_1__item_b">
+<tekst:LiNummer>b.</tekst:LiNummer>
+<tekst:Al>De beoordeling of er door de aanvrager is voldaan is aan de participatieverplichting bij aangewezen gevallen van buitenplanse omgevingsplanactiviteiten (16.55, lid 7, Omgevingswet).</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.9" wId="pv30_2279__chp_6__art_6.9">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.9</tekst:Nummer>
+<tekst:Opschrift>Beleidsregel over van toepassing verklaren uitgebreide procedure op aanvraag omgevingsvergunning buitenplanse omgevingsplanactiviteit (artikel 16.65, lid 4, Omgevingswet)</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het bevoegd gezag mag niet van tevoren beslissen op welke gevallen zij afdeling 3.4 Awb van toepassing zal verklaren. Die beslissing moet zij per aanvraag nemen. Het bevoegd gezag kan wel beleidsregels opstellen over hoe zij de wettelijke criteria van artikel 16.65 lid 4, onder a en b, Omgevingswet uitlegt. In de beleidsregel kan het bevoegd gezag activiteiten benoemen die in ieder geval aanzienlijke gevolgen hebben of kunnen hebben voor de fysieke leefomgeving en waartegen naar verwachting verschillende belanghebbenden bedenkingen zullen hebben.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.10" wId="pv30_2279__chp_6__art_6.10">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.10</tekst:Nummer>
+<tekst:Opschrift>Beleidsregel over de beoordeling of voldaan is aan de participatieverplichting bij aangewezen gevallen van buitenplanse omgevingsplanactiviteiten (16.55, lid 7, Omgevingswet)</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Uit de participatieverplichting (artikel 16.55, lid 7, Omgevingswet) volgt dat de uitgevoerde participatie enige inhoud moet hebben gehad. Heeft de aanvrager in het geheel niet aan enige participatie gedaan? Dan heeft de aanvrager niet voldaan aan het aanvraagvereiste. Het bevoegd gezag kan dan de aanvraag buiten behandeling laten. Er is dan niet voldaan aan een wettelijk voorschrift voor het in behandeling nemen van de aanvraag (artikel 4:5, lid 1, onder a Algemene wet bestuursrecht). Het bevoegd gezag moet de aanvrager dan wel in de gelegenheid stellen om het gebrek te herstellen (artikel 4:5, lid 1 Algemene wet bestuursrecht).</tekst:Al>
+<tekst:Al>Heeft de aanvrager wel in enige mate aan participatie gedaan? Dan moet het bevoegd gezag beoordelen of er sprake is van (voldoende) participatie. Wanneer sprake is van onvoldoende of voldoende participatie heeft de wetgever niet aangegeven. Dit zal afhangen van de specifieke kenmerken van het project of activiteit en de omgeving. De participatie-inspanning van de aanvrager moet in verhouding zijn (proportioneel) ten opzichte van de aangevraagde activiteit.</tekst:Al>
+<tekst:Al>De wetgever heeft de keuze voor de vorm van participatie bewust bij de aanvrager gelaten. Maar het bevoegd gezag moet dus wel beoordelen of er voldaan is aan de participatieverplichting. Deze beoordeling zou het bevoegd gezag kunnen doen door te beoordelen of de aanvrager in redelijkheid heeft kunnen volstaan met de uitgevoerde participatie. Bij die beoordeling kan het bevoegd gezag gebruik maken van beleidsregels over deze beoordelingsbevoegdheid. Aandachtspunt is dat het bevoegd gezag met de beleidsregels geen extra eisen mag stellen of criteria mag opleggen aan vorm van de participatie door de initiatiefnemer. De beleidsregels gaan alleen over de eigen beoordeling.</tekst:Al>
+<tekst:Al>Wel kan het bevoegd gezag in deze beleidsregels bijvoorbeeld aangeven:</tekst:Al>
+<tekst:Lijst eId="chp_6__art_6.10__list_1" type="ongemarkeerd" wId="pv30_2279__chp_6__art_6.10__list_1">
+<tekst:Li eId="chp_6__art_6.10__list_1__item_1" wId="pv30_2279__chp_6__art_6.10__list_1__item_1">
+<tekst:Al>Dat bij een aanvraag met een grote impact op de omgeving, zij het belangrijk vindt dat er vooraf aan omwonenden is gevraagd welke zorgen of belangen zij zien bij het initiatief. De vorm waarmee de aanvrager de omwonenden moet raadplegen kan met beleidsregels niet worden voorgeschreven.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.10__list_1__item_2" wId="pv30_2279__chp_6__art_6.10__list_1__item_2">
+<tekst:Al>Dat het participatieverslag informatie moet bevatten over of de groep geraadpleegde omwonenden representatief is in relatie tot de fysieke impact van het initiatief.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.10__list_1__item_3" wId="pv30_2279__chp_6__art_6.10__list_1__item_3">
+<tekst:Al>Welke vormen van participatie het bevoegd gezag in bepaalde gevallen in ieder geval passend vindt.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+<tekst:Al>Als de uitgevoerde participatie niet voldoet aan beleidsregels kan dat het bevoegd gezag helpen om te motiveren dat de verrichte participatie onvoldoende is. Het bevoegd gezag kan dan de aanvraag buiten behandeling laten.</tekst:Al>
+<tekst:Al>Uiteindelijk zal uit de jurisprudentie moeten blijken wanneer er in welke gevallen sprake is van (on)voldoende participatie bij het aanvraagvereiste voor verplichte participatie.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.10a" wId="pv30_2279__chp_6__art_6.10a">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.10a</tekst:Nummer>
+<tekst:Opschrift>Inspraak- of participatieverordening</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Deze beleidsregels over verplichte participatie mogen niet worden opgenomen in de inspraak- of participatieverordening van de gemeente. Die verordening gaat alleen over de participatie bij de voorbereiding van het beleid en de besluiten waarvoor de overheid zelf verantwoordelijk is. Meer informatie over de inspraak- of participatieverordening vindt u op de pagina 'Aan de slag met participatiebeleid'.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.11" wId="pv30_2279__chp_6__art_6.11">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.11</tekst:Nummer>
+<tekst:Opschrift>Wie stelt de beleidsregels vast?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    Artikel 4:81 van de Awb bepaalt dat een bestuursorgaan beleidsregels kan vaststellen
+                    <tekst:br/>
+                    over eigen bevoegdheden of onder zijn verantwoordelijkheid uitgeoefende, dan wel gedelegeerde bevoegdheden. Beleidsregels vaststellen over een bevoegdheid van een ander bestuursorgaan kan alleen als bij wettelijk voorschrift daarvoor de mogelijkheid is geboden.
+                  </tekst:Al>
+<tekst:Al>Voor de beleidsregels over welstand bepaalt artikel 4.19 van de Omgevingswet dat de gemeenteraad deze vaststelt.</tekst:Al>
+<tekst:Al>Voor de bevoegdheden:</tekst:Al>
+<tekst:Lijst eId="chp_6__art_6.11__list_1" type="ongemarkeerd" wId="pv30_2279__chp_6__art_6.11__list_1">
+<tekst:Li eId="chp_6__art_6.11__list_1__item_1" wId="pv30_2279__chp_6__art_6.11__list_1__item_1">
+<tekst:Al>tot het van toepassing verklaren van de uitgebreide procedure op een aanvraag om omgevingsvergunning voor een buitenplanse omgevingsplanactiviteit</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.11__list_1__item_2" wId="pv30_2279__chp_6__art_6.11__list_1__item_2">
+<tekst:Al>om te beoordelen of er voldaan is aan het aanvraagvereiste verplichte participatie</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+<tekst:Al>is het dus het bevoegd gezag voor de omgevingsvergunning dat bevoegd is om beleidsregels te stellen over deze bevoegdheden.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.12" wId="pv30_2279__chp_6__art_6.12">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.12</tekst:Nummer>
+<tekst:Opschrift>Beleidsregels vaststellen vóór inwerkingtreding van de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Bestuursorganen kunnen al vóór inwerkingtreding van de Omgevingswet beleidsregels over bevoegdheden op grond van de Omgevingswet vaststellen en bekend maken. De grondslag voor de bevoegdheid om beleidsregels vast te stellen bevindt zich immers niet in de Omgevingswet. Deze bevindt zich in artikel 4:81 Awb.</tekst:Al>
+<tekst:Al>Bestuursorganen kunnen deze beleidsregels toepassen vanaf het moment dat de bepaling in de Omgevingswet waarop de bevoegdheid berust in werking treedt. Daarom is het verstandig om te bepalen dat deze beleidsregels gelijktijdig in werking treden met de bepaling uit de Omgevingswet waarop zij zien.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.13" wId="pv30_2279__chp_6__art_6.13">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.13</tekst:Nummer>
+<tekst:Opschrift>Omgaan met bestaande beleidsregels onder de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Met de inwerkingtreding van de Omgevingswet worden verschillende wetten geheel of gedeeltelijk ingetrokken en vervangen door regels in het nieuwe stelsel. De bestaande beleidsregels verwijzen dan naar vervallen wettelijke bepalingen. Dit betekent dat overheden hun beleidsregels waar nodig en wenselijk moeten aanpassen aan het stelsel van de Omgevingswet. Bedrijf - Nutsvoorziening</tekst:Al>
+<tekst:Al>Op de pagina's Bestaand gemeentelijk beleid onder de Omgevingswet en Bestaand provinciaal beleid onder de Omgevingswet vindt u meer informatie over:</tekst:Al>
+<tekst:Lijst eId="chp_6__art_6.13__list_1" type="ongemarkeerd" wId="pv30_2279__chp_6__art_6.13__list_1">
+<tekst:Li eId="chp_6__art_6.13__list_1__item_1" wId="pv30_2279__chp_6__art_6.13__list_1__item_1">
+<tekst:Al>het aanpassen van beleidsregels aan de Omgevingswet</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.13__list_1__item_2" wId="pv30_2279__chp_6__art_6.13__list_1__item_2">
+<tekst:Al>het omzetten van beleidsregels naar een formele beleidsregel</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_6__art_6.13__list_1__item_3" wId="pv30_2279__chp_6__art_6.13__list_1__item_3">
+<tekst:Al>
+                        de status van bestaande beleidsregels en overgangsrecht 
+                        <tekst:IntIoRef eId="chp_6__art_6.13__list_1__item_3__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_7__ref_o_1" wId="pv30_2279__chp_6__art_6.13__list_1__item_3__ref_1">Bedrijf - Nutsvoorziening</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_6__art_6.14" wId="pv30_2279__chp_6__art_6.14">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>6.14</tekst:Nummer>
+<tekst:Opschrift>Beleidsregels en het DSO</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Beleidsregels zijn geen omgevingsdocumenten Klik hier voor uitleg over dit begrip (opent in popup). Overheden kunnen ze dus niet als zelfstandig omgevingsdocument opnemen in het DSO.</tekst:Al>
+<tekst:Al>In een omgevingsdocument zoals het omgevingsplan kunt u wel een verwijzing opnemen naar een ander document zoals een document met beleidsregels. Dit kan door een woordelijke verwijzing. Ook kan gebruik worden gemaakt van het generieke XML-element ExRef.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_7" wId="pv30_2364__chp_7">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>7</tekst:Nummer>
+<tekst:Opschrift>Reservering</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_8" wId="pv30_2279__chp_7">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										8
+									</tekst:Nummer>
+<tekst:Opschrift>Invloed van andere instrumenten en overheden op de omgevingsverordening</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_8__art_8.1" wId="pv30_2279__chp_7__art_7.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											8.1
+										</tekst:Nummer>
+<tekst:Opschrift>Beïnvloedende instrumenten</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Instrumenten die invloed kunnen hebben op de omgevingsverordening van de provincie, zijn:</tekst:Al>
+<tekst:Lijst eId="chp_8__art_8.1__list_1" type="ongemarkeerd" wId="pv30_2279__chp_7__art_7.1__list_1">
+<tekst:Li eId="chp_8__art_8.1__list_1__item_1" wId="pv30_2279__chp_7__art_7.1__list_1__item_1">
+<tekst:Al>Omgevingsvisie provincie</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_8__art_8.1__list_1__item_2" wId="pv30_2279__chp_7__art_7.1__list_1__item_2">
+<tekst:Al>Omgevingsvisies Rijk en gemeente</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_8__art_8.1__list_1__item_3" wId="pv30_2279__chp_7__art_7.1__list_1__item_3">
+<tekst:Al>Instructieregels Rijk</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_8__art_8.1__list_1__item_4" wId="pv30_2279__chp_7__art_7.1__list_1__item_4">
+<tekst:Al>Instructies Rijk</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+<tekst:Al>Achtereenvolgens werken we iedere mogelijkheid uit.</tekst:Al>
+<tekst:Al>Deze instrumenten worden nog verder uitgewerkt in de handleiding voor Instrumenten</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_8__art_8.2" wId="pv30_2279__chp_7__art_7.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											8.2
+										</tekst:Nummer>
+<tekst:Opschrift>Omgevingsvisie provincie</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    De provinciale omgevingsvisie is een belangrijk kader voor de omgevingsverordening. Het is een strategische visie voor de lange termijn voor de gehele fysieke leefomgeving. De Leiding - Riool is de ter plaatse van het werkingsgebied 
+                    <tekst:IntIoRef eId="chp_8__art_8.2__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_2__ref_o_1" wId="pv30_2279__chp_7__art_7.2__ref_1">Leiding - Riool</tekst:IntIoRef>
+                     bepaalde waarde
+                  </tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_8__art_8.3" wId="pv30_2279__chp_7__art_7.3">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											8.3
+										</tekst:Nummer>
+<tekst:Opschrift>Omgevingsvisies Rijk en gemeente</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Provincies moeten rekening houden met de taken en bevoegdheden van andere bestuursorganen (artikel 2.2 Omgevingswet). Daarnaast moeten de provincies de lokale belangen van de gemeenten en het waterbelang van de waterschappen betrekken in hun provinciale omgevingsvisie. Kortom, er is wisselwerking tussen de omgevingsvisies van de verschillende bestuurslagen.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_8__art_8.4" wId="pv30_2279__chp_7__art_7.4">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											8.4
+										</tekst:Nummer>
+<tekst:Opschrift>Instructieregels Rijk</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>In hoofdstuk 7 van het Besluit kwaliteit leefomgeving (Bkl) Klik hier voor uitleg over dit begrip (opent in popup) heeft het Rijk instructieregels Klik hier voor uitleg over dit begrip (opent in popup) opgenomen. Deze instructieregels geven richting aan de inhoud van de regels van de omgevingsverordening. Ze hebben invloed op de beleidsruimte van de provincie voor het stellen van regels over bepaalde onderwerpen of activiteiten. Als de provincies hun omgevingsverordening opstellen, moeten ze de instructieregels opvolgen. Met de instructieregels borgt het Rijk dat de provincies de onderwerpen die een rijksbelang hebben, goed in hun omgevingsverordening verwerken.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_8__art_8.5" wId="pv30_2279__chp_7__art_7.5">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											8.5
+										</tekst:Nummer>
+<tekst:Opschrift>Instructies Rijk</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Daarnaast kan het Rijk de provincies een instructie Klik hier voor uitleg over dit begrip (opent in popup) geven: de verplichting om specifieke regels in de omgevingsverordening aan te passen. Hiermee geeft het Rijk aan hoe de provincies een bepaalde taak moeten uitvoeren. In de Omgevingswet gaat het specifiek over taken rond het beheer van watersystemen of waterketenbeheer. De instructies hebben pas gevolgen als de provincies deze hebben opgevolgd.</tekst:Al>
+<tekst:Al>Er zijn verschillen tussen instructieregels en instructies. Instructieregels bieden een oplossing voor zich herhalende situaties, terwijl de instructie gericht is op een eenmalige of specifieke situatie.</tekst:Al>
+<tekst:Al>Grafische weergave</tekst:Al>
+<tekst:Figuur eId="chp_8__art_8.5__img_1" wId="pv30_2279__chp_7__art_7.5__img_1">
+<tekst:Illustratie breedte="300" dpi="150" formaat="image/jpeg" hoogte="189" naam="jpg_0c87c8f3-2173-45c5-8455-f849aa5ff9d7.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_9" wId="pv30_2279__chp_8">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										9
+									</tekst:Nummer>
+<tekst:Opschrift>Casus toegankelijkheid en de Omgevingswet</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_9__art_9.1" wId="pv30_2279__chp_8__art_8.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											9.1
+										</tekst:Nummer>
+</tekst:Kop>
+<tekst:Lid eId="chp_9__art_9.1__para_1" wId="pv30_2279__chp_8__art_8.1__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>De fictieve gemeente Lagenweiden wil de toegankelijkheid verbeteren. De casus op deze pagina beschrijft de mogelijkheden. Daarbij komen zowel juridische, economische als communicatieve maatregelen aan bod.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_2" wId="pv30_2279__chp_8__art_8.1__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Achtergrond</tekst:Al>
+<tekst:Al>De fictieve gemeente Lagenweiden ligt in het noordoosten van Nederland. De gemeente ziet haar inwoners snel vergrijzen. Jongeren trekken massaal naar de Randstad. Bovendien heeft Lagenweiden te maken met algemene demografische feiten. In 2011 waren er in Nederland ruim 1,1 miljoen mensen ouder dan 75 jaar. In 2040 zullen dat er 2,4 miljoen zijn. Bovendien stimuleert de overheid (onder meer via de Wmo) de zelfredzaamheid van burgers. Hierdoor vindt een relatieve toename plaats in het aantal verplaatsingen en in de mobiliteit van senioren. Ook zijn er nogal wat zorginstellingen binnen de gemeente Lagenweiden.</tekst:Al>
+<tekst:Figuur eId="chp_9__art_9.1__para_2__img_1" wId="pv30_2279__chp_8__art_8.1__para_2__img_1">
+<tekst:Illustratie breedte="300" dpi="150" formaat="image/jpeg" hoogte="199" naam="jpg_587e46c8-ee13-4b6c-bed6-ea40aa0cebbd.jpg" uitlijning="start"/>
+</tekst:Figuur>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_3" wId="pv30_2279__chp_8__art_8.1__para_3">
+<tekst:LidNummer>3.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Doel: een betere toegankelijkheid</tekst:Al>
+<tekst:Al>De huidige toegankelijkheid op allerlei plekken in Lagenweide laat sterk te wensen over. De gemeente heeft verbetering van de toegankelijkheid als beleidsdoel geformuleerd.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_4" wId="pv30_2279__chp_8__art_8.1__para_4">
+<tekst:LidNummer>4.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Mogelijkheden binnen de Omgevingswet</tekst:Al>
+<tekst:Al>De gemeente overweegt een toegankelijkheidsparagraaf op te nemen in haar omgevingsvisie. Of een uitvoeringsparagraaf in de omgevingsvisie, met daarin een omgevingsagenda. Een omgevingsagenda is een overlegtafel die als het ware als een satéprikker door verschillende schaalniveaus heen gaat om een bepaald probleem aan te pakken. In dit geval een matige toegankelijkheid van tal van (overheids)gebouwen binnen de gemeente.</tekst:Al>
+<tekst:Al>De gemeente overweegt ook een programma op te tuigen. Ze wil graag een snelle slag maken om de toegankelijkheid te verbeteren. Zo zou de gemeente het liefst samen met een aantal andere gemeenten een regiorailverbinding willen aanleggen. Zo'n verbinding garandeert een goede toegankelijkheid en bereikbaarheid.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_5" wId="pv30_2279__chp_8__art_8.1__para_5">
+<tekst:LidNummer>5.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Andere maatregelen</tekst:Al>
+<tekst:Al>Overige wet- en regelgeving</tekst:Al>
+<tekst:Lijst eId="chp_9__art_9.1__para_5__list_1" type="ongemarkeerd" wId="pv30_2279__chp_8__art_8.1__para_5__list_1">
+<tekst:Li eId="chp_9__art_9.1__para_5__list_1__item_1" wId="pv30_2279__chp_8__art_8.1__para_5__list_1__item_1">
+<tekst:Al>De Wet maatschappelijke ondersteuning (Wmo) verplicht de gemeente om, indien nodig, ondersteuning en voorzieningen te bieden. Ook wat betreft toegankelijkheid. Dit stelt burgers in staat maatschappelijk te participeren.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_5__list_1__item_2" wId="pv30_2279__chp_8__art_8.1__para_5__list_1__item_2">
+<tekst:Al>Volgens de Wet gelijke behandeling op grond van handicap of chronische ziekte zijn gemeenten, provincies en ov-bedrijven verplicht om de toegankelijkheid van bussen en halteplaatsen goed te regelen. Toch zijn nog steeds niet alle perrons aangepast. Ook niet in de gemeente Lagenweiden. De factsheet toegankelijkheid van kennisplatform CROW geeft een overzicht. Zo moeten pas met ingang van 2025 alle sprintertreinen toegankelijk zijn.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_5__list_1__item_3" wId="pv30_2279__chp_8__art_8.1__para_5__list_1__item_3">
+<tekst:Al>De Europese Unie heeft richtlijn 2001/85/EG opgesteld over de toegankelijkheid van onder andere bussen. Daardoor hebben alle ov-bussen in Nederland nu een lage vloer, met uitzondering van een aantal langeafstandsbussen. De gemeente Lagenweiden zou speciaal voor deze bussen een betere toegankelijkheid kunnen regelen.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_5__list_1__item_4" wId="pv30_2279__chp_8__art_8.1__para_5__list_1__item_4">
+<tekst:Al>
+                          Een aantal partijen die met toegankelijkheid te maken hebben, hebben in 2018 het actieplan Toegankelijkheid voor de Bouw opgesteld. Dit actieplan is onderdeel van het programma 'Onbeperkt Meedoen!' waarmee het kabinet invulling geeft aan het verdrag van de Verenigde Naties inzake de rechten van personen met een beperking. In februari 2020 heeft de minister van Binnenlandse Zaken de Tweede Kamer geïnformeerd over de voortgang van het actieplan. Meer informatie op rijksoverheid.nl. De Leiding - Riool is de ter plaatse van het werkingsgebied 
+                          <tekst:IntIoRef eId="chp_9__art_9.1__para_5__list_1__item_4__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_2__ref_o_1" wId="pv30_2279__chp_8__art_8.1__para_5__list_1__item_4__ref_1">Leiding - Riool</tekst:IntIoRef>
+                           bepaalde waarde
+                        </tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_6" wId="pv30_2279__chp_8__art_8.1__para_6">
+<tekst:LidNummer>6.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Communicatieve maatregelen</tekst:Al>
+<tekst:Lijst eId="chp_9__art_9.1__para_6__list_1" type="ongemarkeerd" wId="pv30_2279__chp_8__art_8.1__para_6__list_1">
+<tekst:Li eId="chp_9__art_9.1__para_6__list_1__item_1" wId="pv30_2279__chp_8__art_8.1__para_6__list_1__item_1">
+<tekst:Al>De gemeente zou kunnen denken aan voorlichting over toegankelijkheid richting projectontwikkelaars die nadenken over een nieuw winkelcentrum in Lagenweiden.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_6__list_1__item_2" wId="pv30_2279__chp_8__art_8.1__para_6__list_1__item_2">
+<tekst:Al>De gemeente zou ook een toegankelijkheidsconvenant kunnen sluiten met een aantal aannemers, projectontwikkelaars, fabrieksdirecties en stichtingsbestuurders. Een convenant is een afspraak van een overheid met 1 of meer partijen, gericht op de realisatie van een beleidsdoelstelling.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_7" wId="pv30_2279__chp_8__art_8.1__para_7">
+<tekst:LidNummer>7.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Economische maatregelen</tekst:Al>
+<tekst:Lijst eId="chp_9__art_9.1__para_7__list_1" type="ongemarkeerd" wId="pv30_2279__chp_8__art_8.1__para_7__list_1">
+<tekst:Li eId="chp_9__art_9.1__para_7__list_1__item_1" wId="pv30_2279__chp_8__art_8.1__para_7__list_1__item_1">
+<tekst:Al>De gemeente heeft een concessie met een openbaarvervoerbedrijf, maar is niet tevreden over de toegankelijkheid. Ze kan besluiten de concessie open te breken.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_7__list_1__item_2" wId="pv30_2279__chp_8__art_8.1__para_7__list_1__item_2">
+<tekst:Al>De gemeente is van plan op termijn een nieuw gemeentehuis annex schouwburg te laten bouwen. De gemeente kan toegankelijkheid opnemen in haar uitvraag bij de aanbesteding hiervan. Bijvoorbeeld als economisch meest voordelige inschrijving (EMVI, ook wel bekend als Gunnen op waarde). Dat betekent de beste prijs-kwaliteitverhouding met als belangrijk criterium toegankelijkheid.</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_7__list_1__item_3" wId="pv30_2279__chp_8__art_8.1__para_7__list_1__item_3">
+<tekst:Al>De gemeente kan een subsidieregeling in het leven roepen. Dit zorgt voor een financiële prikkel voor partijen die zich aan bepaalde toegankelijkheidseisen houden.</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_8" wId="pv30_2279__chp_8__art_8.1__para_8">
+<tekst:LidNummer>8.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>Conclusie</tekst:Al>
+<tekst:Al>Naast de instrumenten van de Omgevingswet zijn er andere manieren denkbaar om het beleidsdoel 'betere toegankelijkheid in de gemeente Lagenweiden' te bereiken. Bijvoorbeeld:</tekst:Al>
+<tekst:Lijst eId="chp_9__art_9.1__para_8__list_1" type="ongemarkeerd" wId="pv30_2279__chp_8__art_8.1__para_8__list_1">
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_1" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_1">
+<tekst:Al>Wmo-budget gebruiken</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_2" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_2">
+<tekst:Al>voorlichting geven aan projectontwikkelaars</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_3" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_3">
+<tekst:Al>een toegankelijkheidsconvenant sluiten met een aantal partijen</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_4" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_4">
+<tekst:Al>de concessie met het ov-bedrijf openbreken</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_5" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_5">
+<tekst:Al>op een andere wijze aanbesteden</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_6" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_6">
+<tekst:Al>een subsidieregeling in het leven roepen</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_9__art_9.1__para_8__list_1__item_7" wId="pv30_2279__chp_8__art_8.1__para_8__list_1__item_7">
+<tekst:Al>De wonnen is de ter plaatse van het werkingsgebied wonnen bepaalde waarde</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_9__art_9.1__para_9" wId="pv30_2279__chp_8__art_8.1__para_9">
+<tekst:LidNummer>9.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>
+                      De Verkeer - Erftoegangsweg is de ter plaatse van het werkingsgebied 
+                      <tekst:IntIoRef eId="chp_9__art_9.1__para_9__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1" wId="pv30_2279__chp_8__art_8.1__para_9__ref_1">Verkeer - Erftoegangsweg</tekst:IntIoRef>
+                       bepaalde waarde
+                    </tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_10" wId="pv30_2279__chp_9">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										10
+									</tekst:Nummer>
+<tekst:Opschrift>Wanneer een bestemmingsplan laten opstellen?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_10__art_10.1" wId="pv30_2279__chp_9__art_9.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											10.1
+										</tekst:Nummer>
+<tekst:Opschrift>bestemmingsplan</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Heeft u als projectontwikkelaar, architect of aannemer een geschikte locatie gevonden voor uw project maar past de gewenste ontwikkeling niet in het geldende bestemmingsplan? In sommige gevallen is het dan mogelijk om voor die locatie een nieuw bestemmingsplan op te stellen, waarin nieuwe randvoorwaarden geschetst worden om uw ontwikkeling mogelijk te maken. Het bestemmingsplan bestaat uit een zogenoemde plankaart van de locatie waarop we de bestemmingen weergegeven, en een set regels waarin wordt beschreven wat op de locatie wel en niet mag. Daarnaast hoort er een toelichting bij het bestemmingsplan met een onderbouwing waarom uw ontwikkeling op de beoogde locatie past.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_10__art_10.2" wId="pv30_2279__chp_9__art_9.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											10.2
+										</tekst:Nummer>
+<tekst:Opschrift>Professionals in bestemmingsplannen</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het maken van een bestemmingsplan vraagt om een integrale aanpak vanuit verschillende disciplines. Met onze eigen planologen en juristen en ons omvangrijke partnernetwerk kunnen we altijd de expertise inzetten die nodig is om uw ontwikkeling mogelijk te maken. Wij zijn gespecialiseerd in het ruimtelijk bestuursrecht, en hebben kennis van en ervaring met de Wet ruimtelijke ordening (Wro), de Wet algemene bepalingen omgevingsrecht (Wabo wet), de Wet milieubeheer (Wmb) en de Omgevingswet (Ow) die komend jaar van kracht zal worden.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_10__art_10.3" wId="pv30_2279__chp_9__art_9.3">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											10.3
+										</tekst:Nummer>
+<tekst:Opschrift>Onze aanpak voor een bestemmingsplan</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>De adviseurs bij Prophys helpen u bij alle stappen die nodig zijn voor het nieuwe bestemmingsplan. Wij zetten ons ervoor in dat uw plan en het bestemmingsplan door alle betrokkenen als een aanwinst in de fysieke leefomgeving wordt gezien. Vanaf de initiatieffase tot vaststelling van het bestemmingsplan staan wij aan u zijde en kunnen wij als u dat wilt alles wat gedaan moet worden voor u uitvoeren.</tekst:Al>
+<tekst:Al>Neem direct telefonisch contact op of laat een bericht achter via de mail en kom direct in contact met een van onze professionals. Het kennismakingsgesprek is altijd vrijblijvend en kosteloos.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_11" wId="pv30_2279__chp_10">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										11
+									</tekst:Nummer>
+<tekst:Opschrift>Omgevingsplan op hoofdlijnen</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_11__art_11.1" wId="pv30_2279__chp_10__art_10.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.1
+										</tekst:Nummer>
+<tekst:Opschrift>Het omgevingsplan bevat de gemeentelijke regels voor de fysieke leefomgeving. Bij de inwerkingtreding van de Omgevingswet heeft elke gemeente 1 omgevingsplan voor haar grondgebied.</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                    Het omgevingsplan bevat de gemeentelijke regels voor de fysieke leefomgeving. Bij de inwerkingtreding van de Omgevingswet heeft elke gemeente 1 omgevingsplan voor haar grondgebied.
+                    <tekst:IntRef ref="cmp_1__content_o_1__list_1__item_2">telecommunicatie-infrastructuur</tekst:IntRef>
+                     De Verkeer - Erftoegangsweg is de ter plaatse van het werkingsgebied 
+                    <tekst:IntIoRef eId="chp_11__art_11.1__ref_2" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1" wId="pv30_2279__chp_10__art_10.1__ref_2">Verkeer - Erftoegangsweg</tekst:IntIoRef>
+                     bepaalde waarde www
+                  </tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.2" wId="pv30_2279__chp_10__art_10.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.2
+										</tekst:Nummer>
+<tekst:Opschrift>Wat is het omgevingsplan?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>In de omgevingsvisie zegt de gemeente hoe zij het leefgebied wil ontwikkelen en beschermen. Die keuzes werkt zij uit in haar omgevingsplan. Het omgevingsplan bevat zo de regels voor de fysieke leefomgeving.</tekst:Al>
+<tekst:Al>De gemeente kan voor ieder gebied zeggen welke activiteiten zij wel of niet toestaat, bijvoorbeeld wonen, recreatie of bedrijvigheid. In haar omgevingsplan hoeft de gemeente niet specifiek te bepalen wat er in welk gebied komt. Ze kan voor een ontwikkelingsgebied kiezen voor een algemenere beschrijving met randvoorwaarden. Ook geeft de gemeente aan welke regels zij aan de activiteiten stelt.Verkeer - Erftoegangsweg</tekst:Al>
+<tekst:Al>
+                    De gemeente zorgt dat de regels in het omgevingsplan samen leiden tot een evenwichtige toedeling van functies aan locaties (artikel 4.2, Omgevingswet). 
+                    <tekst:IntRef ref="cmp_1__content_o_1__list_1__item_1">bedrijventerrein</tekst:IntRef>
+<tekst:IntIoRef eId="chp_11__art_11.2__ref_2" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_7__ref_o_1" wId="pv30_2279__chp_10__art_10.2__ref_2">Bedrijf - Nutsvoorziening</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.3" wId="pv30_2279__chp_10__art_10.3">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.3
+										</tekst:Nummer>
+<tekst:Opschrift>De afwegingsruimte voor de gemeente</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Bij het stellen van regels houdt de gemeente rekening met alle betrokken belangen. De gemeente heeft een eigen afwegingsruimte voor het afwegen van die belangen. Binnen deze afwegingsruimte kan de gemeente specifieke regels stellen voor verschillende delen van het grondgebied. Ook kan de gemeente functies of kenmerken van locaties of gebieden aanwijzen. Aan deze aanwijzing kan de gemeente regels verbinden voor het gebruik van die plaats of dat gebied.</tekst:Al>
+<tekst:Al>Lees meer op de pagina Bestuurlijke afwegingsruimte en het omgevingsplan.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.4" wId="pv30_2279__chp_10__art_10.4">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.4
+										</tekst:Nummer>
+<tekst:Opschrift>Van bestemmingsplan naar omgevingsplan</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het omgevingsplan vervangt het geldende bestemmingsplan en de beheersverordening uit de Wet ruimtelijke ordening.</tekst:Al>
+<tekst:Al>Lees meer over de verschillen en overeenkomsten op de pagina Veranderingen omgevingsplan.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.5" wId="pv30_2279__chp_10__art_10.5">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.5
+										</tekst:Nummer>
+<tekst:Opschrift>Hoe maakt de gemeente het plan?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>De gemeente heeft op het moment dat de Omgevingswet in werking treedt, automatisch een omgevingsplan: een omgevingsplan van rechtswege. Dit omgevingsplan, met een tijdelijk deel, zet de gemeente stapsgewijs om tot een volledig omgevingsplan. Dit gebeurt in 3 stappen. Stap 1 en 2 vormen samen de overgangsfase die tot 2032 duurt. De Bouwhogte is de ter plaatse van het werkingsgebied Bouwhogte bepaalde waarde</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.6" wId="pv30_2279__chp_10__art_10.6">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.6
+										</tekst:Nummer>
+<tekst:Opschrift>Stap 1: Het tijdelijk deel</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het tijdelijk omgevingsplan komt tot stand op basis van de Invoeringswet Omgevingswet.</tekst:Al>
+<tekst:Al>Regels uit bestaande instrumenten worden samengevoegd tot 1 omgevingsplan. Die regels krijgen een plaats in het tijdelijk deel van het omgevingsplan. Het gaat om:</tekst:Al>
+<tekst:Lijst eId="chp_11__art_11.6__list_1" type="ongemarkeerd" wId="pv30_2279__chp_10__art_10.6__list_1">
+<tekst:Li eId="chp_11__art_11.6__list_1__item_1" wId="pv30_2279__chp_10__art_10.6__list_1__item_1">
+<tekst:Al>ruimtelijke regels uit bestaande instrumenten van de Wet ruimtelijke ordening (Wro)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.6__list_1__item_2" wId="pv30_2279__chp_10__art_10.6__list_1__item_2">
+<tekst:Al>regels uit gemeentelijke verordeningen over erfgoed, geur en afvoer van regen- en grondwater</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.6__list_1__item_3" wId="pv30_2279__chp_10__art_10.6__list_1__item_3">
+<tekst:Al>
+                        rijksregels die worden gedecentraliseerd naar gemeenten (bruidsschat) De bouwaanduiding is de ter plaatse van het werkingsgebied 
+                        <tekst:IntIoRef eId="chp_11__art_11.6__list_1__item_3__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_8__ref_o_1" wId="pv30_2279__chp_10__art_10.6__list_1__item_3__ref_1">bouwaanduiding</tekst:IntIoRef>
+                         bepaalde waarde
+                      </tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.7" wId="pv30_2279__chp_10__art_10.7">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.7
+										</tekst:Nummer>
+<tekst:Opschrift>Stap 2: Regels omzetten uit het tijdelijk naar het nieuwe deel</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Tijdens de overgangstermijn kan de gemeente het tijdelijk deel stapsgewijs omvormen naar een volwaardig omgevingsplan. De gemeente zet de regels uit het tijdelijk deel om naar een nieuw deel van het omgevingsplan.</tekst:Al>
+<tekst:Al>In de praktijk is dus steeds sprake van een wijziging in het omgevingsplan. En niet van het opstellen van een nieuw omgevingsplan. Bij het omzetten van de regels moet de gemeente voldoen aan de eisen voor nieuwe regels in het nieuwe deel van het omgevingsplan.</tekst:Al>
+<tekst:Al>Meer informatie over stap 2 staat op de pagina Overgangsfase omgevingsplan tot eind 2031.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.8" wId="pv30_2279__chp_10__art_10.8">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.8
+										</tekst:Nummer>
+<tekst:Opschrift>Stap 3: Nieuwe regels in het nieuwe deel</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>De gemeente kan nieuwe regels, beleid en ruimtelijke ontwikkelingen die niet in het tijdelijk deel staan, direct in het nieuwe deel van het omgevingsplan zetten. In de praktijk kunnen stap 2 en 3 door elkaar lopen.</tekst:Al>
+<tekst:Al>Meer informatie staat onder Regels opstellen in het omgevingsplan.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.9" wId="pv30_2279__chp_10__art_10.9">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.9
+										</tekst:Nummer>
+<tekst:Opschrift>Welke juridische procedure moet de gemeente volgen?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Een wijziging van het omgevingsplan verloopt altijd met de uniforme openbare voorbereidingsprocedure van afdeling 3.4 van de Algemene wet bestuursrecht (uitgebreide procedure).</tekst:Al>
+<tekst:Al>De juridische procedure bestaat uit een aantal stappen. Zo moet de gemeenteraad kennis geven van het voornemen om het omgevingsplan te wijzigen. Ook moet de gemeente in de voorbereiding soms een milieueffectrapportage (mer) maken.</tekst:Al>
+<tekst:Al>Lees meer over de procedure op de pagina Procedure wijzigen omgevingsplan.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.10" wId="pv30_2279__chp_10__art_10.10">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.10
+										</tekst:Nummer>
+<tekst:Opschrift>Welke regels staan in het omgevingsplan?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het omgevingsplan bevat de gemeentelijke regels voor activiteiten die gevolgen kunnen hebben voor de fysieke leefomgeving. Een voorbeeld is het bouwen van een woonwijk, waardoor de ruimtelijke inrichting van een gebied verandert. Of het kappen van bomen, waardoor de omgeving minder groen wordt.</tekst:Al>
+<tekst:Al>Daarnaast kan het omgevingsplan bijzondere regels bevatten. Zo leggen omgevingswaarden vast welke kwaliteit een grondgebied moet hebben. Regels voor een programmatische aanpak maken het mogelijk nieuwe activiteiten te ontplooien in een leefomgeving die onder druk staat. Met voorbeschermingsregels kan de gemeente een locatie of een gebied beschermen tijdens de wijzigingsprocedure van het omgevingsplan.</tekst:Al>
+<tekst:Al>Lees meer over de regels op de pagina Regels opstellen in het omgevingsplan.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.11" wId="pv30_2279__chp_10__art_10.11">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.11
+										</tekst:Nummer>
+<tekst:Opschrift>Wat moet ik als gemeente regelen om te werken met het omgevingsplan?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Iedere gemeente moet voor de inwerkingtreding van de Omgevingswet een aantal zaken regelen om met het omgevingsplan te kunnen werken. Gemeenten moeten in staat zijn om een omgevingsplan te wijzigen en te publiceren in de Landelijke voorziening bekendmaken en beschikbaar stellen (LVBB). Ook moeten gemeenten aansluiten op het Digitaal Stelsel Omgevingswet (DSO).</tekst:Al>
+<tekst:Al>De geldende regels van het omgevingsplan zijn uiteindelijk zichtbaar onder de functionaliteit Regels op de kaart in het Omgevingsloket van het DSO.</tekst:Al>
+<tekst:Al>Lees meer over de implementatie op de pagina Minimale eis omgevingsplan en specifiek over het Omgevingsplan in het DSO.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.12" wId="pv30_2279__chp_10__art_10.12">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.12
+										</tekst:Nummer>
+<tekst:Opschrift>Hoe verhoudt het omgevingsplan zich tot andere instrumenten?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Iedere gemeente moet voor de inwerkingtreding van de Omgevingswet een aantal zaken regelen om met het omgevingsplan te kunnen werken. Gemeenten moeten in staat zijn om een omgevingsplan te wijzigen en te publiceren in de Landelijke voorziening bekendmaken en beschikbaar stellen (LVBB). Ook moeten gemeenten aansluiten op het Digitaal Stelsel Omgevingswet (DSO).</tekst:Al>
+<tekst:Al>De geldende regels van het omgevingsplan zijn uiteindelijk zichtbaar onder de functionaliteit Regels op de kaart in het Omgevingsloket van het DSO.</tekst:Al>
+<tekst:Al>Lees meer over de implementatie op de pagina Minimale eis omgevingsplan en specifiek over het Omgevingsplan in het DSO.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.13" wId="pv30_2279__chp_10__art_10.13">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.13
+										</tekst:Nummer>
+<tekst:Opschrift>Hoe verhoudt het omgevingsplan zich tot andere instrumenten?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Het omgevingsplan moet goed aansluiten bij de waterschapsverordening van het waterschap. De waterschapsverordening bevat namelijk de lokale regels van het waterschap over de fysieke leefomgeving. Ook zijn er overeenkomsten en verschillen tussen het omgevingsplan, de omgevingsverordening en de waterschapsverordening.</tekst:Al>
+<tekst:Al>Lees meer op de pagina Samenhang instrumenten.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_11__art_11.14" wId="pv30_2279__chp_10__art_10.14">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											11.14
+										</tekst:Nummer>
+<tekst:Opschrift>Wat staat er niet in het omgevingsplan?</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Niet alle onderwerpen staan in het omgevingsplan. In artikel 2.1 van het Omgevingsbesluit wijst het Rijk onderwerpen aan, die niet in het omgevingsplan geregeld mogen worden. Het gaat om:</tekst:Al>
+<tekst:Lijst eId="chp_11__art_11.14__list_1" type="ongemarkeerd" wId="pv30_2279__chp_10__art_10.14__list_1">
+<tekst:Li eId="chp_11__art_11.14__list_1__item_1" wId="pv30_2279__chp_10__art_10.14__list_1__item_1">
+<tekst:Al>het bedrijfsmatig voeren van een seksinrichting (artikel 151a, Gemeentewet)openbare orde (artikel 151b, 151c en 172, Gemeentewet)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.14__list_1__item_2" wId="pv30_2279__chp_10__art_10.14__list_1__item_2">
+<tekst:Al>het veroorzaken van hinder voor omwonenden (artikel 151d, Gemeentewet)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.14__list_1__item_3" wId="pv30_2279__chp_10__art_10.14__list_1__item_3">
+<tekst:Al>het ophouden van groepen van personen (artikel 154a, Gemeentewet)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.14__list_1__item_4" wId="pv30_2279__chp_10__art_10.14__list_1__item_4">
+<tekst:Al>straffen bij overtreding van de regels (artikel 154 en 154b, Gemeentewet)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.14__list_1__item_5" wId="pv30_2279__chp_10__art_10.14__list_1__item_5">
+<tekst:Al>openbare samenkomsten en vermakelijkheden (artikel 172, lid 2, Gemeentewet)</tekst:Al>
+</tekst:Li>
+<tekst:Li eId="chp_11__art_11.14__list_1__item_6" wId="pv30_2279__chp_10__art_10.14__list_1__item_6">
+<tekst:Al>gemeentelijke belastingen (artikel 216, Gemeentewet)</tekst:Al>
+</tekst:Li>
+</tekst:Lijst>
+<tekst:Al>Regels over deze onderwerpen staan in andere verordeningen van de gemeente.</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_12" wId="pv30_2279__chp_11">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										12
+									</tekst:Nummer>
+</tekst:Kop>
+<tekst:Artikel eId="chp_12__art_12.1" wId="pv30_2279__chp_11__art_11.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+											12.1
+										</tekst:Nummer>
+<tekst:Opschrift>aaa</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Lid eId="chp_12__art_12.1__para_1" wId="pv30_2279__chp_11__art_11.1__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>gerese</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_12__art_12.1__para_2" wId="pv30_2279__chp_11__art_11.1__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>
+												gereserveerd 
+                      <tekst:IntIoRef eId="chp_12__art_12.1__para_2__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_9__ref_o_1" wId="pv30_2279__chp_11__art_11.1__para_2__ref_1">Gebieden</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_12__art_12.2" wId="pv30_2364__chp_12__art_12.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>12.2</tekst:Nummer>
+</tekst:Kop>
+<tekst:Lid eId="chp_12__art_12.2__para_1" wId="pv30_2364__chp_12__art_12.2__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>gereserveerd ss</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_12__art_12.2__para_2" wId="pv30_2364__chp_12__art_12.2__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>test ss</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+<tekst:Hoofdstuk eId="chp_13" wId="pv30_2364__chp_13">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>13</tekst:Nummer>
+<tekst:Opschrift>testing 4174</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Afdeling eId="chp_13__subchp_13.1" wId="pv30_2364__chp_13__subchp_13.1">
+<tekst:Kop>
+<tekst:Label>Afdeling</tekst:Label>
+<tekst:Nummer>13.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Artikel eId="chp_13__subchp_13.1__art_13.1" wId="pv30_2364__chp_13__subchp_13.1__art_13.1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.1</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>test 000 Test ss</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.1__art_13.2" wId="pv30_2364__chp_13__subchp_13.1__art_13.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.2</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.1__art_13.2a" wId="pv30_2364__chp_13__subchp_13.1__art_13.2a">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.2a</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+<tekst:IntIoRef eId="chp_13__subchp_13.1__art_13.2a__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_1__ref_o_1" wId="pv30_2364__chp_13__subchp_13.1__art_13.2a__ref_1">01 check duplicate11</tekst:IntIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.1__art_13.2b" wId="pv30_2364__chp_13__subchp_13.1__art_13.2b">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.2b</tekst:Nummer>
+</tekst:Kop>
+<tekst:Lid eId="chp_13__subchp_13.1__art_13.2b__para_1" wId="pv30_2364__chp_13__subchp_13.1__art_13.2b__para_1">
+<tekst:LidNummer>1.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>[hier komt tekst]</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+<tekst:Lid eId="chp_13__subchp_13.1__art_13.2b__para_2" wId="pv30_2364__chp_13__subchp_13.1__art_13.2b__para_2">
+<tekst:LidNummer>2.</tekst:LidNummer>
+<tekst:Inhoud>
+<tekst:Al>[hier komt tekst]</tekst:Al>
+</tekst:Inhoud>
+</tekst:Lid>
+</tekst:Artikel>
+</tekst:Afdeling>
+<tekst:Afdeling eId="chp_13__subchp_13.2" wId="pv30_2364__chp_13__subchp_13.2">
+<tekst:Kop>
+<tekst:Label>Afdeling</tekst:Label>
+<tekst:Nummer>13.2</tekst:Nummer>
+</tekst:Kop>
+<tekst:Artikel xmlns:renvooi="https://standaarden.overheid.nl/renvooi/" eId="chp_13__subchp_13.2__art_13.3" renvooi:vanParentWid="pv30_2279__chp_11" renvooi:vanWaarNaarWaar="Artikel 11.2 verplaatst van hoofdstuk 11 naar afdeling 13.2. " wId="pv30_2279__chp_11__art_11.2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+												13.3
+											</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>
+                      TEst data 
+                      <tekst:IntIoRef eId="chp_13__subchp_13.2__art_13.3__ref_1" ref="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_10__ref_o_1" wId="pv30_2279__chp_11__art_11.2__ref_1">LocatieVersion 2</tekst:IntIoRef>
+                       sdfs sss
+                    </tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.2__art_13.4a" wId="pv30_2364__chp_13__subchp_13.2__art_13.4a">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.4a</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.2__art_13.4b" wId="pv30_2364__chp_13__subchp_13.2__art_13.4b">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.4b</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.2__art_13.4c" wId="pv30_2364__chp_13__subchp_13.2__art_13.4c">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.4c</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+</tekst:Afdeling>
+<tekst:Afdeling eId="chp_13__subchp_13.3" wId="pv30_2364__chp_13__subchp_13.3">
+<tekst:Kop>
+<tekst:Label>Afdeling</tekst:Label>
+<tekst:Nummer>13.3</tekst:Nummer>
+</tekst:Kop>
+<tekst:Artikel eId="chp_13__subchp_13.3__art_13.5" wId="pv30_2364__chp_13__subchp_13.3__art_13.5">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.5</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+<tekst:Artikel eId="chp_13__subchp_13.3__art_13.5a" wId="pv30_2364__chp_13__subchp_13.3__art_13.5a">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>13.5a</tekst:Nummer>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Artikel>
+</tekst:Afdeling>
+</tekst:Hoofdstuk>
+</tekst:Lichaam>
+<tekst:Bijlage eId="cmp_1" wId="pv30_2278__cmp_1">
+<tekst:Kop>
+<tekst:Label>Bijlage</tekst:Label>
+<tekst:Nummer>I</tekst:Nummer>
+<tekst:Opschrift>Begripsbepalingen</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="cmp_1__content_o_1" wId="pv30_2278__cmp_1__content_o_1">
+<tekst:Inhoud>
+<tekst:Begrippenlijst eId="cmp_1__list_1" wId="pv30_2278__cmp_1__list_1">
+<tekst:Begrip eId="cmp_1__content_o_1__list_1__item_1" wId="pv30_2278__cmp_1__content_o_1__list_1__item_1">
+<tekst:Term>bedrijventerrein</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+                        een terrein van minimaal 1 hectare bruto dat vasdasdanwege zijn bestemming bestemd en geschikt is voor gebruik door handel, nijverheid, industrie en commerciële en niet-commerciële dienstverlening, met uitzondering van een terrein voor grondstoffenwinning, olie- en gaswinning, terrein voor waterwinning, terrein voor agrarische doeleinden, terrein voor afvalstort en terreinen met laad- en/of loskade langs diep vaarwater toegankelijk voor grote zeeschepen 
+                        <tekst:br/>
+<tekst:br/>
+                        Ter toelichting: bedrijventerrein: begripsomschrijving uit Integraal Bedrijventerreinen Informatie Systeem (IBIS). Bij de begripsomschrijving van een bedrijventerrein is gebruik gemaakt van de definitie uit het Convenant Bedrijventerreinen 2010-2020 (in werking getreden op 28 november 2009). Het kabinet sloot het convenant over een nieuwe aanpak van bedrijventerreinen met het Interprovinciaal Overleg (IPO) en de Vereniging van Nederlandse Gemeenten (VNG). Het doel is het stimuleren van een gezond economisch vestigingsklimaat en tegelijk het sparen van open landschappen, tegengaan van verrommeling en stimulering van duurzaamheid. fdfdfdfdf
+                      </tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_1__content_o_1__list_1__item_2" wId="pv30_2278__cmp_1__content_o_1__list_1__item_2">
+<tekst:Term>telecommunicatie-infrastructuur</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>Werken, kabels of leidingen, waaronder lege buizen, ondersteuningswerken en beschermingswerken, die onderdeel zijn van een elektronisch communicatienetwerk als bedoeld in artikel 1.1 van de telecommunicatiewet.</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+</tekst:Begrippenlijst>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+</tekst:Bijlage>
+<tekst:Bijlage eId="cmp_2" wId="pv30_2364__cmp_2">
+<tekst:Kop>
+<tekst:Label>Bijlage</tekst:Label>
+<tekst:Nummer>II</tekst:Nummer>
+<tekst:Opschrift>Overzicht Informatieobjecten</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="cmp_2__content_o_1" wId="pv30_2364__cmp_2__content_o_1">
+<tekst:Inhoud>
+<tekst:Begrippenlijst eId="cmp_2__content_o_1__list_o_1" wId="pv30_2364__cmp_2__content_o_1__list_o_1">
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_1" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_1">
+<tekst:Term>01 check duplicate11</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/pv30/2024/136gio53a913c0-d3b8-45e1-9b5a-c0d985105d9c/nld@2024-05-14;127" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_1__ref_o_1">/join/id/regdata/pv30/2024/136gio53a913c0-d3b8-45e1-9b5a-c0d985105d9c/nld@2024-05-14;127</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_2" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_2">
+<tekst:Term>Leiding-Riool</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/pv30/2024/136gioffde11cf-b096-11ee-b4e3-000c291d1f30/nld@2024-05-14;22" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_2__ref_o_1">/join/id/regdata/pv30/2024/136gioffde11cf-b096-11ee-b4e3-000c291d1f30/nld@2024-05-14;22</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_3" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_3">
+<tekst:Term>Verkeer-Erftoegangsweg</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/pv30/2024/136gio9052635c-b094-11ee-ab3c-000c291d1f30/nld@2024-05-14;20" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_3__ref_o_1">/join/id/regdata/pv30/2024/136gio9052635c-b094-11ee-ab3c-000c291d1f30/nld@2024-05-14;20</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_4" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_4">
+<tekst:Term>aalanden</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_4__ref_o_1" ref="/join/id/regdata/pv30/2024/136gio33a54856-31da-4c4d-bd9d-7eada1920408/nld@2024-05-14;162" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_4__ref_o_1">/join/id/regdata/pv30/2024/136gio33a54856-31da-4c4d-bd9d-7eada1920408/nld@2024-05-14;162</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_5" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_5">
+<tekst:Term>aantalbedrijven</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_5__ref_o_1" ref="/join/id/regdata/pv30/2024/136gioe558f013-0212-11ef-a3f7-000c291d1f30/nld@2024-05-14;48" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_5__ref_o_1">/join/id/regdata/pv30/2024/136gioe558f013-0212-11ef-a3f7-000c291d1f30/nld@2024-05-14;48</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_6" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_6">
+<tekst:Term>agrarisch</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_6__ref_o_1" ref="/join/id/regdata/pv30/2024/136giofa81249e-71d7-41ed-893d-aeedda2a6be3/nld@2024-05-14;94" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_6__ref_o_1">/join/id/regdata/pv30/2024/136giofa81249e-71d7-41ed-893d-aeedda2a6be3/nld@2024-05-14;94</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_7" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_7">
+<tekst:Term>bedrijf - nutsvoorziening</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_7__ref_o_1" ref="/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba/nld@2024-05-14;126" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_7__ref_o_1">/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba/nld@2024-05-14;126</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_8" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_8">
+<tekst:Term>bouwaanduiding</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_8__ref_o_1" ref="/join/id/regdata/pv30/2024/136gio7c3748bf-b13a-11ee-bc75-000c291d1f30/nld@2024-05-14;24" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_8__ref_o_1">/join/id/regdata/pv30/2024/136gio7c3748bf-b13a-11ee-bc75-000c291d1f30/nld@2024-05-14;24</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_9" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_9">
+<tekst:Term>gebieden</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_9__ref_o_1" ref="/join/id/regdata/pv30/2024/136gio02397c72-18ef-4910-9978-03004b2ecc61/nld@2024-05-14;93" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_9__ref_o_1">/join/id/regdata/pv30/2024/136gio02397c72-18ef-4910-9978-03004b2ecc61/nld@2024-05-14;93</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_10" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_10">
+<tekst:Term>locatieversion 2</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_10__ref_o_1" ref="/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9/nld@2024-05-14;184" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_10__ref_o_1">/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9/nld@2024-05-14;184</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+<tekst:Begrip eId="cmp_2__content_o_1__list_o_1__item_o_11" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_11">
+<tekst:Term>verkeer - erftoegangsweg</tekst:Term>
+<tekst:Definitie>
+<tekst:Al>
+<tekst:ExtIoRef eId="cmp_2__content_o_1__list_o_1__item_o_11__ref_o_1" ref="/join/id/regdata/pv30/2024/136gioa6c6e553-f6d0-4492-8d11-f4a94010fb61/nld@2024-05-14;144" wId="pv30_2364__cmp_2__content_o_1__list_o_1__item_o_11__ref_o_1">/join/id/regdata/pv30/2024/136gioa6c6e553-f6d0-4492-8d11-f4a94010fb61/nld@2024-05-14;144</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Definitie>
+</tekst:Begrip>
+</tekst:Begrippenlijst>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+</tekst:Bijlage>
+<tekst:Bijlage eId="cmp_3" wId="pv30_2279__cmp_3">
+<tekst:Kop>
+<tekst:Opschrift>bijlage</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="cmp_3__content_1" wId="pv30_2279__cmp_3__content_1">
+<tekst:Inhoud>
+<tekst:Al>
+                  aa 
+                  <tekst:IntRef ref="cmp_3__content_2">new one</tekst:IntRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+<tekst:Divisietekst eId="cmp_3__content_2" wId="pv30_2279__cmp_3__content_2">
+<tekst:Kop>
+<tekst:Opschrift>new one</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Gereserveerd/>
+</tekst:Divisietekst>
+</tekst:Bijlage>
+<tekst:Toelichting eId="recital" wId="recital">
+<tekst:Kop>
+<tekst:Opschrift>Toelichting</tekst:Opschrift>
+</tekst:Kop>
+<tekst:AlgemeneToelichting eId="genrecital" wId="genrecital">
+<tekst:Kop>
+<tekst:Opschrift>Algemene toelichting</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="genrecital__content_o_1" wId="genrecital__content_o_1">
+<tekst:Gereserveerd/>
+</tekst:Divisietekst>
+</tekst:AlgemeneToelichting>
+<tekst:ArtikelgewijzeToelichting eId="artrecital" wId="artrecital">
+<tekst:Kop>
+<tekst:Opschrift>Artikelsgewijze toelichting</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="artrecital__content_1" wId="pv30_2279__artrecital__content_1">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>
+										12
+									</tekst:Nummer>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Test data</tekst:Al>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+<tekst:Divisietekst eId="artrecital__content_2" wId="pv30_2279__artrecital__content_2">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>
+										12.1
+									</tekst:Nummer>
+<tekst:Opschrift>aaa</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>test</tekst:Al>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+</tekst:ArtikelgewijzeToelichting>
+</tekst:Toelichting>
+</tekst:RegelingCompact>
+</WijzigBijlage>
+</tekst:BesluitCompact>
+</BesluitVersie>
+<RegelingVersieInformatie>
+<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:FRBRWork>/akn/nl/act/pv30/2022/omgevingsverordeningT</data:FRBRWork>
+<data:FRBRExpression>/akn/nl/act/pv30/2022/omgevingsverordeningT/nld@2364</data:FRBRExpression>
+<data:soortWork>/join/id/stop/work_019</data:soortWork>
+</data:ExpressionIdentificatie>
+<data:RegelingVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:versienummer>v1</data:versienummer>
+</data:RegelingVersieMetadata>
+<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:heeftCiteertitelInformatie>
+<data:CiteertitelInformatie>
+<data:citeertitel>Omgevingsverordening provincie testgemeente</data:citeertitel>
+<data:isOfficieel>true</data:isOfficieel>
+</data:CiteertitelInformatie>
+</data:heeftCiteertitelInformatie>
+<data:eindverantwoordelijke>/tooi/id/provincie/pv30</data:eindverantwoordelijke>
+<data:grondslagen>
+<data:grondslag>
+<data:TekstReferentie>
+<data:uri>jci1.3:c:BWBR0037885&amp;artikel=2.6</data:uri>
+<data:label>Artikel 2.6 Omgevingswet</data:label>
+<data:soortRef>JCI</data:soortRef>
+</data:TekstReferentie>
+</data:grondslag>
+</data:grondslagen>
+<data:maker>/tooi/id/provincie/pv30</data:maker>
+<data:officieleTitel>Omgevingsverordening provincie testgemeente</data:officieleTitel>
+<data:onderwerpen>
+<data:onderwerp>/tooi/def/concept/c_9af4b880</data:onderwerp>
+</data:onderwerpen>
+<data:rechtsgebieden>
+<data:rechtsgebied>/tooi/def/concept/c_638d8062</data:rechtsgebied>
+</data:rechtsgebieden>
+<data:soortRegeling>/join/id/stop/regelingtype_004</data:soortRegeling>
+<data:soortBestuursorgaan>/tooi/def/thes/kern/c_411b4e4a</data:soortBestuursorgaan>
+</data:RegelingMetadata>
+</RegelingVersieInformatie>
+</AanleveringBesluit>

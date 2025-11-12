@@ -1,0 +1,3296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Regeltekst</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.000e67bed3784ffda4102273ec92f254</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.20__art_3.20.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.00145e9f0098479798ebfa5970635fd8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0177559c197d48d9b876742dfa37022c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.5__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.01bd9c2bd0f3451d94e57df59e38eed7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.01fe7dd436514ac29a4c76720a2dd569</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.12__art_3.12.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.02a0f93aff434bd4b14adc2d41602291</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.034d6e9829dd4523a48edb88587270d0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.03696b8c108f476390bce76120c1a8c8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.039fba142b9c4195a48a5f6df471c6d9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.04611f6fbdb2444b90f0bd9396093f99</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.05571277cbea4b929b96f1ba44d0b39d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.064cbc0b29ce43bfb10deaa5519ffed9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.07acf5e4f7af4c898e27cbaeb0fda6b0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.07efdcc39a80431391d75e57c1b84c90</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.084163f53b3843a9af53835e2992d60d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.08a559e74a9e4a2eb11fbe278e689fae</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.08b5fac114f346e9a015494edd6cc7bd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.12">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.09889083d61f4b939a383fe98091c5b8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.2__para_6.14.2.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.09ea923f649c4cb3bd634af4fe5f7e4c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0adf9688d6964de9ab2352430505f98d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0afb0de3f77e41cfb76b882fdef15a80</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0cb3da90ae4e41ab936d76615cfb379e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.5__art_5.5.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0d011706323f403c852c15ba31402d80</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0d3dee94b28140a1ba3c7142be58945a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.1__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0d4a23d755204246ae390c71495dbe1d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0df65cb189b14177bc399c2b7b2e7586</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.2__para_6.14.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0e0124ec7f854bbb959791d296bca649</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.4__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0f53aaaae8784d1eb28f68177292706c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0f58a1dc84aa483a8a92a748290c1b45</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0f6d96afa7f9497aaa5f800d7759764a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.0fe7f4b5a209424d9e610b875140c432</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.104818c306e34d26915c7285ed5bf7be</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.105c12caed4a47a59cb642adcf37193b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.15__art_3.15.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.106c7f634a06468ca4e1eb1af89dad6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1108a93707c0452695abbf16f5561493</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.111f5071cc5e4b8c8408c7e2e34fc171</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.11486d44d232443ebd2a2d85ff3460b9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.10__art_3.10.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.11723103c06a44f3927345a65d42bd62</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.7__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.12328ebac1534f32a59b5400d4320b0f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.3__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.12500e3715d54485800dc6a57173b884</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.12634f15534046f4bdf2959984abda79</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.13d2b9e7c82b40dcaab51dd7b429b693</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.143d988c50814e9995e2d388c9b08bf8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.14455e647f404fc693a79c00c303704d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.147a0c3b316149f586de74612952ed9a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1491e01f645b4757a83f7c303609410f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1548a82592b04a7db400566506628e51</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.15583ef6f29048ec86cff97e781687a4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.15c35dd3d9024a4c99aa1c8622d0fbdf</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.16558637f33c4a93afab81c987e0acc5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.166600e9bcb64f878190bc43530fb8a0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.16f31160dcd54a3fb53ecd251f3d8a8c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_1__subchp_1.6__art_1.6.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.177cfdf945f04b43bfc05c824aa6d7a1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.17a907a84e3643199eb24c68ac56a563</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.15__art_3.15.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.18e3fe1804be4949a2a0765fa3772b8b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1a2bb11f3e8e486ebb2f91787ab6dc5f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1a9dfa9e7c13480490dc2a3feba57fc8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1abedc0f447049e6a178dc46228d61d8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1ac71708930041a98c229b78ab74cc9c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1ac80652a58d417d820a4bbf2dea74fa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.5__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1ce2b98cd7644d849e29ba92482bff1c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1ce3a04e35aa4d04b941bbe7836bdeaa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1d99f6c2099a49af828d923861aca057</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1de74dc61206497e8459e4f2ea90d273</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1dfb5ca6bcdb4b0bad3f1e69ef979586</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1e7eef0fb494447793393ec0bd387445</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1eefe0ac20cd4f82abd92bf1db905d1e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.1f5028b8168c4fedaac83277104e39d5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.201145fe6db54a218ceecfc6854ada83</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.5__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.20eecc02720b4deaa1698f51d57b24e6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.213b17915dfb4337b815ba9c48ea4724</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.214e51fb1b4c4c039c257a58c12eead3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.214fd9105caa4ed4b99de128f20130c5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.21c7879adc394d3dbb1fc2a5f8897fe0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2262aced9e8940f9bcb1d92c4074cce1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.229ee51e9b1d47689864824d62914c25</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2301e5a2d9d64131a467c81aa00e3e41</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2370fd6ab57a476f833fc16e2d11c9b0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.241e979c368a4085bb90fc74cb5fb6b6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.3__art_3.3.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.24298c68a2bf4b3ebf36a488a23a55ea</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.5__art_5.5.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2453de3ceccd49788a945738a368d6ee</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.24d7e376850d4a3fb90d887e219901e0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.26bc9e43914446baaaa30e312abb4df1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.26c6b1a41070478fb76da55e165ec23e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.270f4793fa944dc7815db60b96eff880</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.277b3b1e748242d3a756a8db7c7a8559</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.279d797250df47d89e1536e6b8c6738b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_6__subchp_6.12__art_6.12.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2826eb4e9dd642b9a4e7d06a651ae93f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.282e12eb38b64c60ad7d449190c98863</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.289bed8bbb8f44298b13a1440e2f8220</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.28a7433fae734c239b9b7307a4c25795</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.28f902157164417895a1470dadcc63f2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.5__art_5.5.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2920e7e4da7b4dcb836a3b373c222759</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2a81de37bb0b47d9867547653068c32f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2b10501bd871445f9f3f116749499e59</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2be0036bddc0444d929b16b3aebfd6bd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2c9db8ac85fa46cf9cd7ad51702d1bbf</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2d867115775641efa64b56ceb3ebc816</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2d9a6e5c890d4277a5be422c1511263e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.11__art_3.11.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2efcea66b06a41d7a1297ba2fce2f698</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.1__art_3.1.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2f6053bea0514be2ab083d6e87efed14</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.2f6767e7f60844a3a87a7d66f1e318e9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3081ccff9303449ab77c44e9b875cb18</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.30b907cbf6c7468a836dbd2ba7ee6c6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.30d7258741864545bf5966c5e2747c15</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.30e5e7d90d654c51b1cef11468dec657</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.10__art_3.10.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.310301bae660494fa1db22355866af46</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.4__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.313bcea3365d4941b82a1eac3dfdcd4d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.31512e0caf9d4b3b9e6771ab39510bae</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.9__art_3.9.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.33430c8199aa451ea2fc5844b40db6e3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.33f7f041750c4d9fb554d4211720fae6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.34b02d6f91874e1980996554f1e3ee65</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.352aed5eb41247698bdbaee18141e0ae</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.354b9241f13e4cb2ab903ca1045a37b1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3578e3c5508e410ab9a64e565c189f9b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_7__art_7.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.35806c06653c41488eb4d68d125ac63a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.35ec05469835486f82edc09dc3517a8e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.16__art_3.16.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.35f8a6c73ff94036a75c5087b01a6f4d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.4__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.36cead3c6e8d47b884e837c1041ce6ab</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3711e024565749cea09e150bdafaa1f6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.5__art_3.5.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3980e2db73eb4557a9a59928f1e53d84</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3b460d7d03f3444fbdd9d412c0b85f2d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3c679eff5c424b50b4cda794f4553705</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3ccadfa47af444a0abb710aa8570816e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_4__subchp_4.2__art_4.2.9__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3cf348e22c324f7cb2856b6a8e3f3aaa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3d65315974df4df3b298a997c7841d83</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3d8cc75567e44565b40eb7fcb9508c35</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3dcc854e55004f8aad05a0198c2793ce</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.2__art_1.2.3__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.3f447f85c5e94e4288ac2f70ef6472cc</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4062dad8188a486db98f7d1a9c99bcf6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4089a574d62043cca1834b9f3e7abffc</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_6__subchp_6.4__art_6.4.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.40cade6868554d47a4633db050b9ee27</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.3__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.410fb5d5a3ea42888a5fb2b99a63b7b8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.7__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.429469c3855a4bad8c126543a60c47ed</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.42c6355573584a9da0049e704b7b7546</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.13">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.42cc1cc769474e5db50e3075d0b1614a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_4__subchp_4.2__art_4.2.9__para_5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.42f4b70d6a8943bb90a8c64335b2f15f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_5__subchp_5.4__art_5.4.7__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.44492ff5c4a645d9b6991ffe8ac7a623</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4454d288ae4d47d898ead0ec46ce5c93</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.451db7d011344994a8cb38e138ddd0e5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4579f8fbce944d74988b5350e25e3a7b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4593cbbb7fc342e3b37dcedfb1dd01fd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.45ee8658d7f84055a0396a82bd01bcfe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.13">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.46ddc7eea3d64191871bb1269b396d6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.47800a111d18450a9bd0a5e4a3ee3589</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4783863fad3a4c888c57c6497b544cba</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.47df7486eca84087a61d9241d846fc11</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.492aa6d3775044089c293a1c9bf4e53f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.496fd3d6e0f745dbaf11de4c1faf386a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.49c1c9f17465441ea055cf2e3cbae8af</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4a806dc1923f4ac8bc4e5c0054c20437</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4a9b04aca3684dcf8896fbc2a9dda361</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4d0f24c49d254da2ad27a68fda0a2186</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4d486430237345bca234ad68bedd7a12</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4df0df7ef46144618cf6115bb5cd3618</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4e219a9db086499282c59df1100ccbd7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4ec1e10744444500bf68e14f6575478d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.4eeda9c090c3444084ea2b99095e14b9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5009eab748ea47ee9b369bb499b3d914</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.507525decb79426d9155d4652f1d8af6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.51876e1473c04ed2b02a1db06c21e36b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.5__para_5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.519c56c1e76044389a6e2f777a91246e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.52107af4cebc4d10ad9a985843637f71</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.528d66ab348a482093bb20aed70ed293</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.15__art_3.15.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.53eb1d85c549407aa92c8e58d32e3afe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.55161d4c80ef4109a6d6ae1929d19799</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_5__subchp_5.4__art_5.4.7__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.55249bd32ced405e8076aeba4b8c241a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.557fd720ec664eabbcf3f50d3d22b5e6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.55c1ea9ae63b47ca977493faddd3b960</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_3__subchp_3.3__art_3.3.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5608ffd1ee574a72a96436f07abed9d6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_4__subchp_4.2__art_4.2.9__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5670fc4f7aed4e7bb4995efdbdff6af8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.56bc5434d9b04a88aa0c76f6a0289088</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.58203ed17aa046b691b52cc08e09fc01</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.583ea964aa544eaa927b658c588ea35c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5a17c598b9cb45399b5a0817e835090b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5a3d7b9b45564033bb97f859b5e88bac</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5bb447c8af6e490c8bb52f02452c8048</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5d19a01de0724f7aa8eae1d400321f84</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.14">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5de08a1104294983a04cc017409661e9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5eee5c212ba344d28bd86f01cd49e95f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.5f18a46ab0fa4532888543e675df81f8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.601d258e51ca4bc4a7b41f20864b0d15</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.60b87c079a474e379d3d1ed7b0b21f71</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6103b8a8fb53422fa31762d1a1875f1f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.615648926374431eac71398e574f7a11</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6241908770494579bf7a5dd707a49be9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.627814d3e5984e3aa4dabf6be0c7cc30</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.62ba0ac28e804a3788ccb555667d50d5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.7__art_3.7.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6326fc7393234469a28ccc377ce05fea</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.18__art_3.18.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.63690e1979cc474394bed6746c9edfba</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.65cc38f25d554df8b3f0839ce980cbf2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.7__art_3.7.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.65e8b2df143b4b56a35d3a7df59b0052</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.65f90be55a50499cbc8f08a1200a6acf</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.66cb817f500b4b6ebe6ee53b7ed050b4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.675805f00d8044cdb61c921b9a580da4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.681152b1e4be4f31bef9bf5cf624fe31</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.19__art_3.19.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.689df3217a794ebfbc432fbc007ff740</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.68ac66825c53445780cbdc7174e2b766</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.68ad4dbcf70a42b2aaeec77d00e3f711</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.68f36178fc8d4de697a248fc49e10f23</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.69db3a69ca994178a6cd83eaaa0e0985</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6a837b901c8f4dfabce98170457e581c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6ad4e19e50e940dd953b0131a6095298</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6b6888741c46468f801fcd028ac2610d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6bca1ce618e04db8b21e60c163f44525</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6c5b369c990942b0a7096fc02f9fe475</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6cd2b5dfa7c2473f8c856f81f5fdcc6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6d3e221c84b5406698a50c9ddd510fc2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6d9200855bc240528886389a62b8de95</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6da8c1dbae874dcba9444e6cbb6f25bb</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.5__art_3.5.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6dead8f885c544d0ad41775099f87a69</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.7__art_3.7.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6eb11997b42d48f39ca258a6b312657a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.5__art_2.5.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6f197ede6f18450c9674fb9f8981b3eb</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.7__art_3.7.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.6f29e7c2ad6f4584bd6626380b6bbc7f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.70a4f16c544149e19e0ff3c2040ea715</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.7__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7107ff56f3f049c29e79b968c4bddafa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.5__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.71de372179da4b4ba0821ad68e0fe129</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.72162def73be4ddf92b92dcd89b72b16</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.724a2b9cc6d6453a9b034a25a3b6155f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_7__art_7.1.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7280ad1b1c3240ea85635dd102db8df1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.730b7f9437064a0d9b70e2e6bc0a1e0a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_3__subchp_3.2__art_3.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.73cd15ec70bd463498d0d6d0517a50af</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7493845f6d534a75a28f9ce84a49d312</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.75ba92c96b0342f8a9409b279e536ad6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.768dff5fd23f4850bcdb08ee22c4ee28</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.76998bef0ee74be8b106bced3e672baa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.8">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.76eedba3e7ef45828aeb264dd8f18bc0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.77d16d0260b5451382665d53700026da</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.77d3f9c2b3da4678892f365ca7e24bc6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.5__art_2.5.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7903af3cfb7942909c636719413bb893</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7906f524d1834b05871c1c5889c4047b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.7__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7a0877d6065e43e6b408323e3ef486ab</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7a129c3d430841d0a61c10f55a53203a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7b38ca6b9bd742639283746b0454b397</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7b93597b3e2848338675cfc63531fa2e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7dbb7cc439b7406d97e0d93c97b78943</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.19__art_3.19.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7e58ce2662204108960e9a642a8cd300</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.5__art_2.5.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.7f9bdd4d977448128fef2597ffcfe0da</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_3__subchp_3.19__art_3.19.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.80062f577b4e449bbe86ea8ff6af00b5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.80606d42580e4b26a128ac68d62b894a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.80d7cc3a47f6431f8d85299377c4ae5c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.80dc9f5740a040e5b62f3a1ef9810a2d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.10__art_3.10.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.80e1d59e1d3a4a44ab8dcdd2c1bf1d0d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.816791c0edcd4271998ac573ab2c3f34</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.12__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8220eb3b15b44ba49f0fc1cc4ba67231</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.5__art_2.5.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.82a3cc5d9818425aa8604d1f1325893c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.82dc7657b2c04f71b593827c372dbb1e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.3__art_3.3.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.841c251b5e3a49db8afc54de98fa7dfa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.84a49742c46f4b149257b2056bc4d109</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.84aff9a283694372b8fc5b018891e70a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.84f604f89ea947ce92ceda845019f60b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.868d8b0a4e194b089d69b3017e0e2b2d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.86a93f825e6c47bbbb1cb6b7f90207d2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.2__art_1.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.87977fe34c3d44ca897e64c99060fe34</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.87a1704c9fde42b6b3d3a377436cf010</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.12__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.89006b85eb5d4311ba6ce84aec0d80b0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.891c060ab48d4988b687b5a321dad5b4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.9__art_3.9.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8955d9d617ec4232ae3d594de0a2d385</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.89d49c71a81d41aeb8d14762f315411e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.89e8aade05bf49ad92d34465b27f0bfb</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8a32952ad9af432e925d2c2f3809abfe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8ab80816a4784de89d789981d2470460</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8abf9a9ee1c04cf192f7bacc0123d967</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8b3a0ffaf78842acbe65376767e5e42e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8bed5d4acb0a45ab8bfef3e08b17c8f8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8c927e875292463ca1a06f99b1085b0a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.5__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8cda31d31f3b46f38be6711c16ca9070</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8dea40ecdbc2445fa46712f18acd4cc6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8e744d3d66194d549052d245b2311296</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8e76f597cc184cce91cafdf2333afa09</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.1__art_3.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8e98a7aaee194f7caeefde0f2929c0bf</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8f0d4b35268e453f9fb7e387f9c3b259</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.16__art_3.16.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8f35c511ffc24f8db077689294fb0b2f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8f6d79c6092a4e8aa57f55cb5c2e3607</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.6__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8f7d4811d9eb4f7a9d58bd69832568aa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8fa7fdc5ec5a48c892b7278deaf086a9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.7__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.8feb629542a748f3922daa3e9a91186b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.90d137aba8c64b97aa0175ef2dfca1d8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_4__subchp_4.2__art_4.2.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.911544c77467420885cb645628943444</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.916c0f59f8b54c16996ace24c4f7a43e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.91919ec877bb4c5bb6cc6fd47d2e9853</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.91af0d92774b49b5829d44655952f3fc</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9205bd049e3c4e1ab59725bfcb57b7e2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.92cdfb175d94482ca91783041f1506f9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.92d3ee614eca4a5ca91bcc4aaff14976</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.92f55fb941b34fdd88b11c8668d793e6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.94111922cfce4dd5a1c0cf89b7f866cf</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.94174ee737344b9f8cb9a66ac713091d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.946cc2e689004d7ba6b6f22f6196a7ca</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.955f6ea7a4224fc1b95d8284ef47dbb5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.17__art_3.17.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.962c52cfc1f641528c7c9176fb562001</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.8__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.972f21a1665241b2bdaf9be65197b956</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.97be91591e81496e8e6fa6e1ed95e3db</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.5__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.988f8c3c0def48c3b3051411fb9717de</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.2__para_6.14.2.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.99207f2158d047078e794ecb8bf42c54</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9942aa6bf0dd4f8b98470a2e40e34b0e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.995174a9a838411ca01072968470ad9a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.19__art_3.19.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9a27c87a16564087a74793af26a1913a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.22__art_3.22.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9a93bab5287d4f4b98bdbc03668cb04e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9a9b1e7c13b943de95a201a8d7a6f321</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9afd49ac797842a4b8ca9aa99c46d9f5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.5__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9c511ea463e64645b60d9bf53febd360</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9d8a533fa88a457791d105a617e3192a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9dc22ee1eb8b47f2b4af93de99135efe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9e00e7d5550846eb883216a5a357b0a6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9e464d24aad2489fbf40bbdef07e0238</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9e4af5a5d27a4b3bb930cf01ee3ab854</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_4__subchp_4.2__art_4.2.12">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9e868d9633544a429e38fea636a40d31</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.12__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9eea377a20a3409eb7bc8ab2a370534d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9faa8410f050433ea2395c22a76a2e6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9fd2ca65d9c14abbbcd5cfc7e29ebbd4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.5__art_2.5.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.9ff48c8e051e4a03a072c4022acc6359</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a06d79741a0649ec95b4039c90dcac00</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.8__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a10f12b4bf9640719452e0a2264c7ca6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a1935c47482741d599080fc8ed26b98e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a1e5cab620d14380ae8e4eb87d4ae345</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.10__art_3.10.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a2282c443b9d467daa34947bb220573e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a27bad6df0b945e7b2688910b6545450</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a2981013f8384c739945188ef7ee75ed</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a29d006288d64974bcb9dee8d50abcf6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a322d4e275624d0c8f36cfb2c962a0c9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.6__para_5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a3ea4c7d876a4285841f4a1b39299a18</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a4d76ed4444548f597a7998d28920cec</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a4d9fbcdaffb4c8ba4365732dc3d1d76</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a6073dbc8709444081526e2bd3ca14e9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a80a242c595444adad4695c826e8e6cd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a87c56f057a148998badf7b71710f88b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a8803c5bfd4c4034b971c1b1681a9ccc</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.2__para_5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.a8d5b209cc254abfad6579e5f7cff5f6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ad180add1de84f6b85807f81b0afad46</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_1__subchp_1.6__art_1.6.1__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.adbf1f81a40e4321a2106ce2ae846a0c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.3__art_5.3.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.addb70e827c8407a89451b7e8534c56f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ae307ecc39914b9296bc1825237e9935</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b0119f9db71d4d4a96c25c5777ce5641</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b0610f80e053413e9d9511b4b33d63a9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b09881e5b9a44dedb5e3ec65a9da6d0c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_6__subchp_6.9__art_6.9.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b0d079f019d94dfa813d51accf1d502d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b17bd8ea57544c1eafe6d612f44ab60b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.4__art_3.4.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b1c0c3efa3614ec78c12d6b20e7e0e67</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.16__art_3.16.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b1ec6eeed09846e2a0c10b08054f0806</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b265fa8231e54cd7b529dd44c7f4a3be</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b27ada81ad31419ca679a937498d7b59</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b38bbb3588394c7bb2520c42ff1a3d8e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b635662406654b209192ba129b02ead3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b6aca01215ce41b28b5eb64ac28a4825</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b70d9cfda0634920a2f639389bffda48</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b7acd888eba64b88ab12ccf3b8ba5304</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b7f871d649134d5ba8b52c175d2078c7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.1__art_6.1.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b846ab931cda4579a92e1a7e09949722</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.5__art_5.5.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b899744859de45169c58b6a9384562aa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.b9673c21796d46048782a9b2dcbc2cf7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ba2aa462be684a688e9cc32ca871f664</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ba8314260a724d8082915a5c210f122c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.baef343e3f4e4561bbd6381758547249</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.2__art_1.2.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bb160401e20d4062bf0107a22d16308d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bb9ea8feb68a40c3a1284ac26fb97712</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bba5f9bc21f446f88e418e4c651499b0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bbd1ad0a867f432d86476e7fdf04ace8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.2__para_6.14.2.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bc4c65be307d4830ad2853dff5c9b956</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bc8dc05b1f8e48fb87c142fd862b0559</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.12">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bd95751f17734a1caa7b925cd1eb16b1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.7__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bd9eedb359ce453fa2d83b2a4b775606</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.be5f9426c45a492baf3d02c1fb36990c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.be6c7b4e15cf45e3bda847d739b6557a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.11">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.beaab493457d41fabeb5db424f1c95f3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bec7873d608c41fba873db9716cd5a6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bf2046c3905c4a7cabadef2087552f85</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.bf344785c92a43c7aecde19de78bea07</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.6__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c006ed1a2c04415c8b2d910e6f0d1385</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.5__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c0244c916f7b47f2a52e1d177bc9236c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.5__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c03bdad4db774ef7a3cebef667585eb8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.1__art_3.1.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c0cff5c3219a475498b2892ef6dfa4d0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c165edda13cf498cba63ee96a38ab1d4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.4__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c2eabbd8a2e2450e877a85ef594a2e18</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c3412242aa854d558ed4104fb96737ce</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.5__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c35ffad6a5b3488e87189841a932982c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.5__art_5.5.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c3ded34e26a9464ebf2b19a25fe4fafe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c43c8a6fcf104071b5f771a402656dba</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.3__art_3.3.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c4adce9aff754a7585df58e1f93083a1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c4eae568568f47f88e6c98681d76d170</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.14__art_6.14.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c4f9b1d8c47b4a80b2f8b161302f2d97</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c50d475c10704cd3b6a3f071395e9f96</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c5c557184eff4f7088edba2321e76305</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c6623923c9904dc2b09a13806fdc576d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.6__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c774936be39e4f6ba3a6d30c11984bf5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.c90fd36b8cc8487b9cb33364febc70ac</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.15__art_3.15.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ca7eb673e80b41b4b4b2185c78c57f6b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cb499e6a80eb4965b18cd617cc1de262</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.6__art_1.6.2__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cbfd3ecf4621435490b1b9e9289cba6f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.5__art_6.5.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cd2bf9e75b284173a8fa20ea8f2a4b79</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cd4d55c72e5c4e998eeed82e276d2250</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.4__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cd6007878d824b718c3efd8fd815e2a5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cd75fc8107114732b50e427b8d8554a1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.6__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ce0a4bf6cfbd49f79c1e864eee9c7e1e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_5__subchp_5.5__art_5.5.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.cfa323ea53034c288cd8caff7906b0b8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.10__art_3.10.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d002ccabcb4a40b789c0c47fdf4e953b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d026aa1c1def413b83e39e277c541c9f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d09ed6414f4b4345b176ce34cd45402a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d218ef2a06b94b55b78ffae16c2e33b5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.2__art_1.2.3__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d3182deb5b984fef807678876fb543fe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d3e8bbb7a1da4127a42d0f3351f084be</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.1__art_2.1.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d3ef018308cb47298d41dc05bdcd67c4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.5__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d457bc2fa1b44cd388ffe674066d99b2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.3__art_3.3.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d533051a6bad4f1da5b23b79fd69b536</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d5f440a36ad04e16a5bf4b283577c219</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d67d5f5b6f064d1583303e763cddb3e8</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.2__art_1.2.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d74de4d020954e8e972977359be537b5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.6__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d8784e6dff99417ba700c098c7a5c49a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d8e6fa935ca8428ca4e1c09ac1a90485</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.5__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d97efa2055e94c7d8439b1520f8f0e88</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d9b6cd3d7dbe496cb5ed0e038fc0c4f6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.6__art_6.6.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.d9f1da71d88944ebaa1f37a7978fcb5f</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.da92f4301ea64e1ab77587dbadada255</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.20__art_3.20.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.da957047e2a948a196acd680c9a50a59</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.14">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.daf0ecb0622d45838a348f277624f256</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.db4221994e034bb6ac0a6e00baf695d7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.5__art_3.5.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.db8901350f4842aabfadff7d3e6cf883</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.9__art_6.9.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.dccbab41dc004ef0b73f5556647592b7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.dd450922ba27474e9492a1a55a99febe</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.3__art_2.3.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ddb9e292e51540768920670a31ad383c</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.de409618ad7340f38f0dabd012a60fb3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.def6c173445946eda8bea3d858b05ad5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.1__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e080123e600845679350823197817b3d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.1__art_4.1.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e1a2f4c368514eef9b44f9301cc8e1e4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e25f6331ca424308a267004e7aff9766</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.2__art_5.2.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e26f54d45ae3495085c845a743e623f1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.8__art_3.8.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e2be10dc942e4bd9a6d723ac3051a2d2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.3__art_1.3.3__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e3657e76389f4e8f9c9fc2f20a348ac3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e3b6a2f0d1c2410ab2a934d4fa91a8f5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.1__art_1.1.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e4b68a858fce404c82c603ec3839f6fd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e4cf7e8efd8548ef8a562737a3e975cb</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.13__art_6.13.10">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e5381f3e3f7140e7be8582652bd339df</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e5676a01f7ad44568fb297a526d7f0b7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.11__art_6.11.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e62d5aaf60ce40f6a0e175e147f83042</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.20__art_3.20.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e75582d3f6274e30956118ad9fb8b2d6</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e79d492798af474280b959cb72ebe2f1</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e88b53ecc89c4fb894d888ad3f69e428</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.12__art_6.12.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e93e0b20a8a247a1b00dc582424c09c7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_4__chp_3__subchp_3.22__art_3.22.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e97dd61658b545eda4642335aea1c943</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.21__art_3.21.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.e9a41da46a4b4f41a5ab908a62e396cd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.3__art_3.3.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ea860d74f64547e09ece9b24fb8cadc4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.9">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.eaf1071d5222469698f44efab936a3df</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.5__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.eafc21cb9e1d441689d551e6d9d8c121</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.2__art_2.2.7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ebe98ea50de94ea3bb3f136d838faaa9</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ed54365c3fab45809953c9b987be0b72</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.10__art_6.10.6">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.edbe99d120704f5a81bded8b0660b8e3</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.edf0e9e0ca11447081e2664a0f30ea89</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.6__art_3.6.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ee7aed871c304f3d868c25fdabef22f5</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.11__art_3.11.1__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ee807faec97e41e4aafafd07ee97d643</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.4__art_6.4.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.eef0209ab40b4516ad20f37c366c97fa</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_2__subchp_2.4__art_2.4.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.ef6b7836a8a34800b64ea711329271e4</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.12">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.efa36e4409874f789ef927f931d076d2</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.6__art_5.6.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f04f1f6977ac49be8d2b3a8ae7df8fa7</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.12__art_3.12.2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f0c749893e154a92bfdfa9d37b20ab9e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.4__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f0f4762410be43b1a58deecf75141a96</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.2__art_3.2.3__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f174e5351d1a4723b37ecb17d5121f27</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.3__art_6.3.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f194e1783ee5483683321c37d8d5fe7e</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f1968f8682a24d21b6d80e91140c2dfd</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.1__art_5.1.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f379bb5149ea4af8b2c2dd19221e3b25</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.7__art_6.7.2__para_1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f5ced2e190e342cabf53c3c531e40d2b</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.2__para_4">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f7485d979875403286c6d7eb522ce17d</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.4__art_1.4.4__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f8e20560541f47248ca9c08803983adb</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_1__subchp_1.5__art_1.5.1__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.f96a146062f74b87811c0df34fc6d461</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.8__art_6.8.5">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fa29edaed6534b2b96e3f40a9fe01070</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_6__subchp_6.2__art_6.2.5__para_3">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fae8116c96a54cd89392e45d4e792735</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.13__art_3.13.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fb264918045845e4b407f485cceeb3f0</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_3__subchp_3.14__art_3.14.1">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fba49c65e39540ea9a9dd4f512592c60</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_5__subchp_5.4__art_5.4.2__para_2">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fbf9425b691c4c0c9f7a68f6b1403582</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="ws0621_1__chp_4__subchp_4.2__art_4.2.11__para_7">
+                    <regels:identificatie>nl.imow-ws0621.regeltekst.fc96954c2876434899b9835ce6a6248a</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

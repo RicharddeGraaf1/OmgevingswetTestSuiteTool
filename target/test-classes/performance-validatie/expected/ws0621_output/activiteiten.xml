@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Activiteit</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.01b19beddd9e4a5fbe41b7cf79cca697</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij telen en kweken van gewassen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.03c252189ddd4072a20850342bf4e660</rol:identificatie>
+                    <rol:naam>Andere lozingen op een oppervlaktewaterlichaam</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.075782a51e91427699d93fbf5da7cea1</rol:identificatie>
+                    <rol:naam>Uitweg naar een openbare weg aanleggen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.086c55e259ff4d9b8506252d1a3977bf</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij ontijzeren grondwater voor agrarische activiteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.08eab77f971a420cbbf7619dc25f8dfe</rol:identificatie>
+                    <rol:naam>Het plaatsen of hebben van fuiken of andere vistuigen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.09aa3b6f6ba04931a895be7dfccf3491</rol:identificatie>
+                    <rol:naam>Lozen bij reinigen, conserveren, bouwen, renoveren en slopen van bouwwerken</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.10b7193ec0264c46879bec04357e4f3a</rol:identificatie>
+                    <rol:naam>Activiteit die leidt tot een verandering aan het grondwatersysteem</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.1667c72a011b4b119b040a4474f6dc52</rol:identificatie>
+                    <rol:naam>Lozen bij niet-industriële voedselbereiding</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.19231b511c0741ec9c802ef87b221844</rol:identificatie>
+                    <rol:naam>Lozen bij schoonmaken drinkwaterleidingen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.1c7bac6a952945b887fe1692b6f3c1d4</rol:identificatie>
+                    <rol:naam>Boringen voor een bodemenergiesysteem</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.1e298f8ed9e0447c8a69c7b80f05a832</rol:identificatie>
+                    <rol:naam>Lozen vanaf vaartuigen of andere drijvende werktuigen bij spoelen of scheiden van zand of grind</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.203e524ddd144abfa3a214af6f12dded</rol:identificatie>
+                    <rol:naam>Schutting of hek plaatsen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.2b9b2a2943e44704af63c67f2a443b8d</rol:identificatie>
+                    <rol:naam>Uitvoeren van klein onderhoud aan een weg die niet in beheer is bij het waterschap</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.3095b39b30ee4c41a12a4079b89c01c3</rol:identificatie>
+                    <rol:naam>Oppervlaktewaterlichaam verondiepen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.32f950e2e46d4d19aab220dd634fd821</rol:identificatie>
+                    <rol:naam>Onttrekken van grondwater</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.33eef7de2c1748bd955c9f7648bd6281</rol:identificatie>
+                    <rol:naam>Het uitzetten van vis</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.387ef8d9c7554f0d8ea3b4e497c91eb8</rol:identificatie>
+                    <rol:naam>Frontmuur plaatsen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.3a027e0429af4dfd90a5a4128593b82e</rol:identificatie>
+                    <rol:naam>Aanbrengen, vervangen en hebben van gesloten verharding</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.3f61d30701de4753ae1bf73374aa4755</rol:identificatie>
+                    <rol:naam>Lozen van spuiwater uit recreatieve visvijvers</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.44542d7791ff46ae9a6ac85ab0fdb012</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij omgekeerde osmose en ionenwisselaars voor agrarische activiteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.464349e5b03e436a92bd36b63e110155</rol:identificatie>
+                    <rol:naam>Lozen van koelwater</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.556e5d15702247288bdfd0f85dedda22</rol:identificatie>
+                    <rol:naam>Activiteit die leidt tot een verandering aan een waterstaatswerk of beschermingszone</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.55724d0ec35c49e1821d18b2de46871b</rol:identificatie>
+                    <rol:naam>Object plaatsen, vervangen of hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.57d295e6b8884e5196c78616a223af4c</rol:identificatie>
+                    <rol:naam>Evenement houden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.595f18f1459e4032ae1828465cfea267</rol:identificatie>
+                    <rol:naam>Lozen van algen en bacteriën</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.5e2dc6d941584f5da808440aa12931b2</rol:identificatie>
+                    <rol:naam>Beplanting aanbrengen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.5ffaa6e73e50412dafc50ac3c9828be6</rol:identificatie>
+                    <rol:naam>Verwijderen van een object</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.61ffd91f32ff439e97b044bcfb96ccd6</rol:identificatie>
+                    <rol:naam>Lozen van huishoudelijk afvalwater</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.679e744bdc7641fab946356d11b615a4</rol:identificatie>
+                    <rol:naam>Steiger, terras of vlonder plaatsen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.68a8a8e688f34f718269dd9d7a13428a</rol:identificatie>
+                    <rol:naam>Lozen van afvloeiend hemelwater</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.6915cf6991fa412bb618ebda81c422a8</rol:identificatie>
+                    <rol:naam>Lozingsvoorziening aanleggen of vervangen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.69565037cc3f40e7b0c6e3cf5cec7424</rol:identificatie>
+                    <rol:naam>Gebouw verbouwen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.6b024f43fdcc40508a73461750023b45</rol:identificatie>
+                    <rol:naam>Explosief materiaal hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.71951f749c7b430889eeec28463d8605</rol:identificatie>
+                    <rol:naam>Damwand plaatsen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.74d9de25a9c04648a4958546704746cf</rol:identificatie>
+                    <rol:naam>Bergingsgebied ophogen of gedeeltelijk ophogen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.7620162f4a3246c089ffac9a8a7fb909</rol:identificatie>
+                    <rol:naam>Het onttrekken van vis, anders dan door hengelen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.7fb04d1af73a4a9995e06f006ccdde86</rol:identificatie>
+                    <rol:naam>Activiteit die leidt tot een verandering aan een weg in beheer van het waterschap</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.8261d215faf34396a155625f6ea85fcf</rol:identificatie>
+                    <rol:naam>Asverstrooiing</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.853ec9dbf4874285a6015bea874be3a7</rol:identificatie>
+                    <rol:naam>Infiltreren van water in de bodem</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.86396da8cd33400caccc8cf3774f19e5</rol:identificatie>
+                    <rol:naam>Activiteit niet nader uitgewerkt - waterschapsverordening niet van toepassing</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.888307148a9e46cca62d55b867a42682</rol:identificatie>
+                    <rol:naam>Activiteit die leidt tot een verandering aan het watersysteem of aan een weg die niet eerder genoemd is</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.8c4cf6310fcc4acd9da909f0a6b060cb</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij sorteren van gewassen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.8fb53c4ad91644d68b891ce93fbdeb89</rol:identificatie>
+                    <rol:naam>Bodemonderzoek uitvoeren</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.8fea1e60978c4303b13dac3b86eb0cb3</rol:identificatie>
+                    <rol:naam>Kabel of leiding aanleggen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.9175d88ea3fa49459b1bb4edb53921d6</rol:identificatie>
+                    <rol:naam>Het uitvoeren van een wegreconstructie</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.9380e54240ea4a2caa63625b3e30f474</rol:identificatie>
+                    <rol:naam>Kabel of leiding weghalen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.94e8a836699f4c7e8c74653d2abd26d4</rol:identificatie>
+                    <rol:naam>Afmeren</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.97c89b5cbb52444eaf04b537996e81f0</rol:identificatie>
+                    <rol:naam>Veekerende afrastering plaatsen, vervangen, aanpassen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.9b03c1dc4e98463099b706337f20f5f1</rol:identificatie>
+                    <rol:naam>Dieren hebben en houden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.9de204cf6f58418d8738ac3d50aeeb03</rol:identificatie>
+                    <rol:naam>Oppervlaktewaterlichaam dempen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs</rol:identificatie>
+                    <rol:naam>Activiteit gereguleerd in Waterschapsverordening Waterschap Rivierenland</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.ActInWaterschapsverordening"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.a096ca4b162e4f199dfab4e170045328</rol:identificatie>
+                    <rol:naam>Lozen bij maken van betonmortel en uitwassen van beton</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.a4d70cbb525a46b1ac5b3fdf719e43ff</rol:identificatie>
+                    <rol:naam>Explosiegevaarlijke inrichting hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.aa1c78dcf0674d089289df2af5a260e9</rol:identificatie>
+                    <rol:naam>Brug aanleggen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.ab5600a55dd54ff8b667d037ec5ec23f</rol:identificatie>
+                    <rol:naam>Dam met duiker aanleggen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.b15c3ba9ac7a438d9d05a3be40960d48</rol:identificatie>
+                    <rol:naam>Natuurvriendelijke oever aanleggen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.b2dc82e3b94c4808a6df39e0b166139d</rol:identificatie>
+                    <rol:naam>Gebouw bouwen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.b343f0782dd14dad8ca9af267dc129e9</rol:identificatie>
+                    <rol:naam>Lozen bij opslaan en overslaan van goederen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.bc4070fe37de402db8143777fe0db0d8</rol:identificatie>
+                    <rol:naam>Andere lozingen op een zuiveringtechnisch werk</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.bd6ea2df326d45b7824d3425584421a0</rol:identificatie>
+                    <rol:naam>Ongewoon voorval melden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.be533d9976f4447d9bd4e5f273c503f7</rol:identificatie>
+                    <rol:naam>Onttrekken van water uit een oppervlaktewaterlichaam met een onttrekkingsvoorziening</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.c28c28aec74f4ffd907b4101b039aa12</rol:identificatie>
+                    <rol:naam>Varen met een mechanisch voortbewogen vaartuig</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.c291e964430e424cbf229e3116768180</rol:identificatie>
+                    <rol:naam>Vis vangen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.c43242d1abf3471d8133d5d17fb3a910</rol:identificatie>
+                    <rol:naam>Oppervlaktewaterlichaam graven</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.c8624b839a31480ebd52b832619afdbb</rol:identificatie>
+                    <rol:naam>Lozen uit gemeentelijke voorzieningen voor inzameling en transport van afvalwater</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.d4bdf0025faf4c25a0446217351d0de6</rol:identificatie>
+                    <rol:naam>Beschoeiing plaatsen, aanpassen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.d985f4e01368435db9286b5366b09bbb</rol:identificatie>
+                    <rol:naam>Lozen van grondwater bij sanering of ontwatering</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.dc2d9db9a1cb4698b9b6e365a9d8c836</rol:identificatie>
+                    <rol:naam>Oppervlaktewaterlichaam versmallen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.df9c777388f24db1a475b38070696de6</rol:identificatie>
+                    <rol:naam>Plaatsen en tijdelijk hebben van (bouw)materialen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.e1068fd12639418898c3a4fcf5849336</rol:identificatie>
+                    <rol:naam>Seismisch onderzoek met springstof verrichten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.e24962c357894c21971f510203148543</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij spoelen van gewassen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.e79e21279c2b431aa92a314fcdeef469</rol:identificatie>
+                    <rol:naam>Het hengelen naar vis waarbij een onttrokken vis onmiddelijk en levend wordt teruggebracht in het oppervlaktewaterlichaam</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.e7b8cce8a9dc4a4f90b7b632fb1b30b7</rol:identificatie>
+                    <rol:naam>Lozen van afvalwater bij ontgravingen en baggerwerkzaamheden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.e97c0e9941d54e09bdbc3800683c26ff</rol:identificatie>
+                    <rol:naam>Anti-worteldoek aanbrengen, vervangen, hebben</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.f3165bb78d3146d89c1e2bcaf2bd23b4</rol:identificatie>
+                    <rol:naam>Lozen bij calamiteitenoefeningen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.f4dff481ce554156bc2f096d25e112d8</rol:identificatie>
+                    <rol:naam>Oppervlaktewaterlichaam verbreden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.f5a6265e47e24a1e95315d4a01990976</rol:identificatie>
+                    <rol:naam>Lozen bij werkzaamheden door of namens de waterbeheerder</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-ws0621.activiteit.f946d2e31ad0460da3fa4f1e51360c37</rol:identificatie>
+                    <rol:naam>Versnelde afvoer aanleggen of vervangen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-ws0621.activiteit.ActInWaterschapsVerordWs"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

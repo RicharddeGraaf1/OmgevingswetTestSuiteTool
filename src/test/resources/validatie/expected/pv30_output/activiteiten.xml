@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Activiteit</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv30.activiteit.00300136T0000000000000034</rol:identificatie>
+                    <rol:naam>Bouwen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitTechnisch</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv63.activiteit.OOW0KapstokActiviteitKetenTest"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv30.activiteit.00300136T0000000000000050</rol:identificatie>
+                    <rol:naam>Bedrijf - Nutsvoorziening</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenBergingsgebied</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv63.activiteit.OOW0KapstokActiviteitKetenTest"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv30.activiteit.00300136T0000000000000051</rol:identificatie>
+                    <rol:naam>Verkeer - Erftoegangsweg</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/VerrichtenVanWerkenEnWerkzaamhedenactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv63.activiteit.OOW0KapstokActiviteitKetenTest"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv30.activiteit.00300136T0000000000000052</rol:identificatie>
+                    <rol:naam>activiteit gereguleerd in een plan</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv63.activiteit.OOW0KapstokActiviteitKetenTest"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv30.activiteit.00300136T0000000000000057</rol:identificatie>
+                    <rol:naam>aa 11</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/AgrarischeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv63.activiteit.OOW0KapstokActiviteitKetenTest"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

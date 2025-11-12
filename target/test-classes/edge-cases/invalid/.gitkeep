@@ -1,0 +1,12 @@
+# Plaats hier ongeldige ZIP bestanden voor error handling tests
+#
+# Deze bestanden MOETEN falen:
+# - missing_identificatie.zip (zonder Regeling/Identificatie.xml)
+# - missing_metadata.zip (zonder Regeling/Metadata.xml)
+# - corrupt_xml.zip (met ongeldige XML)
+# - empty.zip (lege ZIP)
+# - incomplete_data.zip (ontbrekende vereiste velden)
+#
+# Tests die deze bestanden gebruiken moeten de juiste exceptions verwachten.
+
+

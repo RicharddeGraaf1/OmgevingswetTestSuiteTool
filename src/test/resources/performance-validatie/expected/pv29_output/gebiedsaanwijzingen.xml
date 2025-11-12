@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Gebiedsaanwijzing</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.000203e6ca9c4e7dadfee075d49bffe5</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Geluid</ga:type>
+                    <ga:naam>stiltegebied a</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Stiltegebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.df28be22046f4b29877801d05ec1367c"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.0ac83699b9864f2da2ec7cc57159e572</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied vrijwaringszone provinciale wegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.0deb718ca1d24072a106202ad528a881"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.0b5f5015e57c4dd781e405805a9aa877</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen F</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.9baca8d42bc94b679a02b15a030640ac"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.1bba8941b4794d98a771679ecefe734c</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Natuur</ga:type>
+                    <ga:naam>ganzenrustgebieden</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuurbeheergebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.8a746aaff08441ad94ff47b969b56b7b"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.21dcfdce06e945f6936f6016ce840fb1</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Natuur</ga:type>
+                    <ga:naam>duisternisgebieden en in het invloedgebied</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/BijzonderProvinciaalNatuurgebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.8521256dfd9b487382a6561d463e9081"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.2f2b51f1eb724c9ca3eb49d041e047e0</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied objecten vrijheid van meningsuiting provinciale wegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.cd28b6a37acb408dbf74700fdbf6c0a8"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.32415fa2c29841d18b6ce4464a465281</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+                    <ga:naam>gesloten stortplaatsen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/GeslotenStortplaats</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.7eb3105a21e94ee9913260c9bccf1b45"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.62e3c3ae3add4051afa8af1c3c5ced58</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/WaterEnWatersysteem</ga:type>
+                    <ga:naam>waterwingebied</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/Waterwingebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.4915d9ac23dd4c2d80e72a19c628e3e0"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.69fdc71e9d0e49a8ad5310ad61ec168b</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Natuur</ga:type>
+                    <ga:naam>beheergebied brandganzen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuurbeheergebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.e8e8b34c56d14fb7981caa2ab0263987"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.6e26db5b05464c74a7a8487c8aa01e5b</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Geluid</ga:type>
+                    <ga:naam>invloedsgebieden</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Stiltegebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.26647d41b47341aabc212fdc78a7fa58"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.821fb9468a3d44608df1ce408e351f5f</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied beheer provinciale wegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Weg</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.d4ba35905a3e403c9123e61ad1da3240"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.872a23b77ef9493eb7abc8b7f32b8cb7</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Geluid</ga:type>
+                    <ga:naam>stiltegebied overig</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Stiltegebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.e1c4a74d0d87432b80127649fe6ad458"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.ae683013266e47b9b92d9eee05353830</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied toegangsdam buiten de berm voor landbouw- en tuinbouwproducten</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.019a4525609e448796d7adaec5fe845a"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.b6aaa76c523f43e696b5aef9cf52d337</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Verkeer</ga:type>
+                    <ga:naam>vaarweg</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/verkeer/id/concept/Vaarweg</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.ab15d0289ed542688b946f94a61b08d0"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.beaceec0527148e8a1acb4a2a45a339b</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen E</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.1e869755788941f9989f14d8bc8adb75"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.c3dd2f724d734cae95e500de29f977b6</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Geluid</ga:type>
+                    <ga:naam>stiltegebied b</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Stiltegebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.d28cfb5e190f452b8343fa418252546b"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.c610a87b86c7437aac0b553318ccc1be</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Landschap</ga:type>
+                    <ga:naam>buiten de bebouwde kom</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Maatregelengebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.2f0533a3a527446a8bb369c0ee4aa141"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.c8c151f015414475a1ec148420b3de4e</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied beheer provinciale vaarwegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.9a0f190505f2411b86d8f23b680728ca"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.d338786262074404b10f1bbc429fec97</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied uitzichtstroken provinciale wegen buiten de bebouwde kom</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Weg</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.822204549d694a0387f1d1b8d9a23f1d"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.dac632e00953473bbeb7d8d82209dbe8</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Natuur</ga:type>
+                    <ga:naam>beheergebied zwervende damherten</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuurbeheergebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.a78c8ca4724a422e9f7a7cb4a70827b2"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.db7e6976a32940a892b2a9b0c527d51b</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied verbod op objecten vrijheid van meningsuiting provinciale wegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Weg</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.2d6e84b22d8d451f8d07e0b9147753d1"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.df05bc6b0f6f453c9554b18aa2247689</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied ankerplaatsen provinciale vaarwegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.e05b26173faf471d8efd518ec0181bda"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.e185276874ff4e279f3728b95a3fe3a4</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen D</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.368b60ca2d1c404da8bcc0b8945d95db"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.e1f04dd588454db49350184c7da52f6b</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen C</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.06ad76b1287e4517a3daae899cc080c1"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.e36662aed5764b6e808de5187c1a90b7</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied verbod toegangsdam buiten de berm voor landbouw en tuinbouwproducten</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.6a557d7a572f43a7aff40aa44a5c0c36"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.e962b8b474374b519ea454974aaf0fad</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied ankerverbod provinciale vaarwegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.e63e691330904277b2d8685bcd5ad591"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.ea03e2bac0d241de91fc26ea84e82efa</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied vrijwaringszone bouwwerken provinciale wegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Weg</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.e418bc67d1c44107b46790cf014f873c"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.eac3970b2f96481fbf0631185d6bacae</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen A</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.826ad351b15e4f62b290c43fb3632620"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.ec879b4785bc40bb8a87dcffa3142cb9</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+                    <ga:naam>grondwaterbeschermingszone</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Grondwaterbeschermingsgebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.463b0165147d4c4fa9683ff95f8c3f85"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.f29183ffa5a14aa086828d40186e7090</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen B</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebied.3191358aab454ab69710b34ec4925489"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.f9c68ca43cbd48e89cff496fb655d0f9</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Erfgoed</ga:type>
+                    <ga:naam>aardkundig waardevolle gebieden</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/erfgoed/id/concept/AardkundigWaardevolGebied</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.8cba5e73bf1345d3985b7ecf2ef26809"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <ga:Gebiedsaanwijzing>
+                    <ga:identificatie>nl.imow-pv29.gebiedsaanwijzing.fcab5672b8fc44f3bf723e7fe5cf00a0</ga:identificatie>
+                    <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Beperkingengebied</ga:type>
+                    <ga:naam>beperkingengebied vrijwaringszone werken provinciale vaarwegen</ga:naam>
+                    <ga:groep>http://standaarden.omgevingswet.overheid.nl/beperkingengebied/id/concept/Overig</ga:groep>
+                    <ga:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.3bb1d7fbff7946e78c52ff27dba56b02"/>
+                    </ga:locatieaanduiding>
+                </ga:Gebiedsaanwijzing>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

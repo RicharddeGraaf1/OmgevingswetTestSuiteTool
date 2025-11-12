@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Activiteit</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.016b5aef70fe4a9781f1e7084eb80ff4</rol:identificatie>
+                    <rol:naam>gebruik van kunstwerken belemmeren of beletten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.0328566c6d044883a0c5e83e54a2abf3</rol:identificatie>
+                    <rol:naam>meren en innemen ligplaats</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.06f68de901f64840b1ecf15f10296a01</rol:identificatie>
+                    <rol:naam>onderhouden en plaatsen tijdelijke borden en spandoeken</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8a1656f4700d4ac380bb9f59cdd72664"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.084ac07704d24aaeb03baf58988a3cd9</rol:identificatie>
+                    <rol:naam>reinigingsactiviteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.0c211f44549e41b59bc2bcef5eb10b2a</rol:identificatie>
+                    <rol:naam>innemen of hebben van een standplaats langs een provinciale weg of bij een tankstation</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.13b43cca8ccc435cb4cf3b5ed3619fd9</rol:identificatie>
+                    <rol:naam>plaatsen van vaste stoffen of voorwerpen en houtgewas</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d</rol:identificatie>
+                    <rol:naam>activiteiten in stiltegebieden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.14ada1e013134c9f82364f5abc4a9e18</rol:identificatie>
+                    <rol:naam>bodemactiviteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Bodemactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.15fd567625df4e76a78134f4b818b5bd</rol:identificatie>
+                    <rol:naam>ankeren</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.165f5b4647a448b7ab70d1621b2ed691</rol:identificatie>
+                    <rol:naam>activiteiten betreffende landschap</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.25ccb069c5624e58a21575918debf3c1</rol:identificatie>
+                    <rol:naam>beplanting bij wegen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.2b0d3a6439594e26b12b820ee56899ae</rol:identificatie>
+                    <rol:naam>onderhouden en plaatsen vlaggen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8a1656f4700d4ac380bb9f59cdd72664"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.2c54264e59f84177b104dba6335447e2</rol:identificatie>
+                    <rol:naam>activiteiten Seveso-inrichtingen en andere installaties</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitBedrijf</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.30215af874fb44c893320e539cad46f4</rol:identificatie>
+                    <rol:naam>aanleggen of veranderen van een provinciale uitweg</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.305ca9b3a8434e2b8bbcc3e264233870</rol:identificatie>
+                    <rol:naam>drijven van handel of het afleveren van koopwaar</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.352eca42cb864367b17287098b1e4555</rol:identificatie>
+                    <rol:naam>lozingen in of op de bodem</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.35cc56946a3a483bb797a88e48ce7bca</rol:identificatie>
+                    <rol:naam>plaatsen van een gedenkteken</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.451f22febec04896a98c6c4500771bfa</rol:identificatie>
+                    <rol:naam>gebruik geluidsapparatuur</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.455b179207884fafb47025259f385b79</rol:identificatie>
+                    <rol:naam>mini checker: vis uitzetten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.4d636823c0e34f67a250e95785f3fccc</rol:identificatie>
+                    <rol:naam>activiteiten vuurwerk en explosieven</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.4d8896b128be4506902e37ceb18f1740</rol:identificatie>
+                    <rol:naam>productie van papier, karton of hout</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitBedrijf</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.5921aa0ac40f42bba2290398c48140b8</rol:identificatie>
+                    <rol:naam>onderwater flora- en fauna-activiteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.5a5acf68c1a5442da69e46129138af9d</rol:identificatie>
+                    <rol:naam>locatiegebonden bedrijfsmatige milieubelastende activiteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.5acc8ddc17f443f8855324843fa0b99d</rol:identificatie>
+                    <rol:naam>gebruik modelvliegtuig, modelboot en modelauto</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.60481f35696b4a1996287d64d9be75c4</rol:identificatie>
+                    <rol:naam>vaarweg gebruiken met een schip of samenstel</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.66ef3b966bdc49239b4594b7d93d82a3</rol:identificatie>
+                    <rol:naam>gebruik motorrijtuig buiten openbare weg</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6</rol:identificatie>
+                    <rol:naam>milieubelastende activiteit</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.6bdea816a1f347bdb183dd4d7efb4575</rol:identificatie>
+                    <rol:naam>gebruik van vuurwapen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.6f1f57043bae463eb9316deb3f558784</rol:identificatie>
+                    <rol:naam>ontgassen van binnenschepen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.7425d3ff8cea4b18a0f8f5198237f99b</rol:identificatie>
+                    <rol:naam>aantasten van bodemlagen door handelingen of stoffen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Bodemactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.14ada1e013134c9f82364f5abc4a9e18"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.7429d3bf21d4448f90f6923daa79680d</rol:identificatie>
+                    <rol:naam>activiteiten in duisternisgebieden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.76a200fb0c3341ab9272ecae544c2a84</rol:identificatie>
+                    <rol:naam>varen of gebruiken waterscooter en andere aangewezen toestellen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86</rol:identificatie>
+                    <rol:naam>flora- en fauna-activiteiten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.79472252ddde46bf97ac365b8636f6ac</rol:identificatie>
+                    <rol:naam>mini checker: bomen of beplanting</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.80bb678a59e343e9824d1978b4b9bb25</rol:identificatie>
+                    <rol:naam>aanpassen of maaien van bermsloten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.82d88d3f63f0453b9e8c0ca616e43cf7</rol:identificatie>
+                    <rol:naam>aanleggen of gebruiken infrastructuur</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Wegactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6</rol:identificatie>
+                    <rol:naam>activiteiten op en rond een provinciale vaarweg</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.8a1656f4700d4ac380bb9f59cdd72664</rol:identificatie>
+                    <rol:naam>activiteiten betreffende borden en soortgelijke objecten</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.165f5b4647a448b7ab70d1621b2ed691"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.8c30e0b153f546ea923f7c7c1b577fa2</rol:identificatie>
+                    <rol:naam>exploiteren drukkerij</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitBedrijf</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.8e009ed05b8d483287581860202836ba</rol:identificatie>
+                    <rol:naam>activiteiten bij uitzichtstroken</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.8f0a5853305647719dc268e5701c9918</rol:identificatie>
+                    <rol:naam>aanleggen of gebruiken begraafplaats</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Grafactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35</rol:identificatie>
+                    <rol:naam>activiteiten op en rond de provinciale weg</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.9617f66b8a594c248c5b98bbc3779a09</rol:identificatie>
+                    <rol:naam>activiteit aan een duiker, goot, kabel, leiding, afrastering of vergelijkbaar werk</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.97781b7433ac43f989fec64a450c0d77</rol:identificatie>
+                    <rol:naam>mini checker: slopen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Sloopactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.98281c970e864b938903926ee46cc236</rol:identificatie>
+                    <rol:naam>aanleggen of gebruiken opslagtank, tankinstallatie, koelinstallatie, oplosmiddeleninstallatie</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/ExploitatieactiviteitBedrijf</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.9b1708fd439c4edd9555aef20ec5698c</rol:identificatie>
+                    <rol:naam>gebruik van muziekinstrument, muziekinstallatie of vergelijkbaar geluidsapparaat</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8</rol:identificatie>
+                    <rol:naam>Activiteit gereguleerd in de omgevingsverordening Provincie Zeeland</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-mnre1034.activiteit.ActiviteitInOmgevingsver"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.9ccdca416ebf44a597f253c01fe27e12</rol:identificatie>
+                    <rol:naam>onderhouden en plaatsen permanente borden en spandoeken</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8a1656f4700d4ac380bb9f59cdd72664"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.a6094e2c8c884be6835efc33d958d4bd</rol:identificatie>
+                    <rol:naam>plaatsen of wijzigen van een bord of een vergelijkbaar object</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.ab886558d3894b70ad22edfc8402840f</rol:identificatie>
+                    <rol:naam>activiteiten vellen en herbeplanten van houtopstanden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.ada8cf450d7b4ca9be2e1c3a55ba5820</rol:identificatie>
+                    <rol:naam>onderhouden en plaatsen informatiezuilen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8a1656f4700d4ac380bb9f59cdd72664"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.af599e4a50bc4765a02a32199e8713a4</rol:identificatie>
+                    <rol:naam>activiteiten bij gesloten stortplaatsen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Stortingsactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.bfda6c2cd333407fb0c97b52b9907c66</rol:identificatie>
+                    <rol:naam>mini checker: gebouw bouwen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.c31ed3a606e44fd899ba817160341f6d</rol:identificatie>
+                    <rol:naam>gebruik vuurwerk</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.c57bc7c588e34ef4ad8d5300a1194af2</rol:identificatie>
+                    <rol:naam>samenstellen van schepen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.cb6bf9d7e56549cdac5ea61dc4c751b0</rol:identificatie>
+                    <rol:naam>bouwen of gebruiken bouwwerk</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/GebruikenVanBouwwerkenactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.14ada1e013134c9f82364f5abc4a9e18"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d17f620602ca446a825d93e6dc88b551</rol:identificatie>
+                    <rol:naam>gebruik airgun of ander knalapparatuur</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d3ecc2fcced346babcb6ded41e88bf70</rol:identificatie>
+                    <rol:naam>graven</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Ontgrondingsactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.14ada1e013134c9f82364f5abc4a9e18"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d70a23a3716d40118ab3485f8d680648</rol:identificatie>
+                    <rol:naam>plaatsen van middelen vrijheid van meningsuiting</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d793edf0494e4c3ea78dfab5a205573f</rol:identificatie>
+                    <rol:naam>mini checker: bouw en uitbouw</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d80ea20481fd460693cda90ff1849f77</rol:identificatie>
+                    <rol:naam>activiteiten meststoffen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.d980b4fa63c64005becf4b2152fd1f73</rol:identificatie>
+                    <rol:naam>activiteiten afvalstoffen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.6a1ff02e868841c08ebe46d499d2b8c6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.db8bb3a869d8431690b37495f9bfc5af</rol:identificatie>
+                    <rol:naam>mini checker: bedrijfsvoering</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.e455922fe75a4ffa8163ddd3e1f99c98</rol:identificatie>
+                    <rol:naam>uitvoeren van een sondering</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Bodemactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.14ada1e013134c9f82364f5abc4a9e18"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.e6846ba1f88e4f6dba74881edd10c87b</rol:identificatie>
+                    <rol:naam>toegestane activiteiten stiltegebieden</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.ecd41953967e461b9e0373cab335c87e</rol:identificatie>
+                    <rol:naam>ontgrondingsactiviteit</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Bodemactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.9c748796ccec4d5e9ad02824b65f29b8"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.eed16eb3db6e4b2ea720bee71464ea4c</rol:identificatie>
+                    <rol:naam>houden toertocht voor motorrijtuigen of bromfietsen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f128e1113c584b05b8a98acc6442ec29</rol:identificatie>
+                    <rol:naam>gebruik motorisch aangedreven werktuig</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f307fefa950b4d17b8ea0d2a3cc1c7be</rol:identificatie>
+                    <rol:naam>mini checker: zendmast plaatsen</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f52d9ff9212b48c5b6897fa207800ae1</rol:identificatie>
+                    <rol:naam>maken, vernieuwen, wijzigen van een(bestaand) bouwwerk</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BeperkingengebiedactiviteitMBTEenWeg</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.91050c0cb4a547e9b86507deda69bc35"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f60186d26e514c629e7e51a64ed5ef7f</rol:identificatie>
+                    <rol:naam>stremmen of belemmeren van de scheepvaart</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.8474d69542ae4ecd87104875e72acff6"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f6ffd01a67b4499ebd4f542f0bae65d3</rol:identificatie>
+                    <rol:naam>mini checker: monument</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/FloraEnFaunaActiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.76c38d0d841e44c6b75ff1d137b0eb86"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Activiteit>
+                    <rol:identificatie>nl.imow-pv29.activiteit.f91d7e3248994ae3816478da0dfcd14b</rol:identificatie>
+                    <rol:naam>gebruik vaartuig of luchtkussenvoertuig</rol:naam>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Beperkingengebiedactiviteit</rol:groep>
+                    <rol:bovenliggendeActiviteit>
+                        <rol:ActiviteitRef xlink:href="nl.imow-pv29.activiteit.1468e970730e4abe92005dd041efe54d"/>
+                    </rol:bovenliggendeActiviteit>
+                </rol:Activiteit>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

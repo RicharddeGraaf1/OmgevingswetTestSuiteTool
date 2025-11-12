@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0665/2023/9b17131b96414b42b3fbdb2771af1f9f</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0665/2023/9b17131b96414b42b3fbdb2771af1f9f/nld@2023-11-07;1</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0665/2023/Regeling361457d2541a494d9b2761494c28eb68</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>nl.imow-ws0665.gebied.eb2078c4931f48319d5b0ba7eade5dbf.gml</data:bestandsnaam>
+  <data:hash>ec51121006e61644397be0e160f280feeca7df3d0ed2120ece1ee87f445641c9159ee4c65f5ebbcf7b915a741f1a22aa647b77632fd88494cec3bf8c767a1a8d</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:alternatieveTitels>
+  <data:alternatieveTitel>bronlopen</data:alternatieveTitel>
+  </data:alternatieveTitels>
+  <data:eindverantwoordelijke>/tooi/id/waterschap/ws0665</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/waterschap/ws0665</data:maker>
+  <data:naamInformatieObject>bronlopen</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/ws0665/2023/9b17131b96414b42b3fbdb2771af1f9f</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

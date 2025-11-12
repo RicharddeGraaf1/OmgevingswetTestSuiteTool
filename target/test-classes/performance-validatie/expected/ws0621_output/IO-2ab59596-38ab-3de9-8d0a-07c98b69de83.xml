@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0621/2023-10-16/300761fd-a380-4263-a94c-87e437b744e2</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0621/2023-10-16/300761fd-a380-4263-a94c-87e437b744e2/nld@2024-08-19;2</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>geo_300761fd-a380-4263-a94c-87e437b744e2.gml</data:bestandsnaam>
+  <data:hash>ea10e266919855bfa22314478cb89e178a007179d2694a69fcf34fd33670c6f6e1d9bc4d19d36445983f65031a37b5552eab196a95f9dcaaa939fddfcaa2d854</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>Buiten en een gedeelte van de binnen Giessen (afgekort: buiten en binnen Giessen)</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/waterschap/ws0621</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/waterschap/ws0621</maker>
+  <naamInformatieObject>Buiten en een gedeelte van de binnen Giessen (afgekort: buiten en binnen Giessen)</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/ws0621/2023-10-16/300761fd-a380-4263-a94c-87e437b744e2</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

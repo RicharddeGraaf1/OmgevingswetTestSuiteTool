@@ -340,10 +340,18 @@ public class BesluitProcessor {
                     if (fileName.endsWith(".gml")) {
                         ioData.bestandsnaam = fileName;
                         System.out.println("Gevonden GML bestand voor " + ioFolder + ": " + ioData.bestandsnaam);
+                        // Bereken hash voor GML (wordt later opnieuw berekend over gewikkelde versie)
+                        try (InputStream is = zipFile.getInputStream(entry)) {
+                            ioData.bestandHash = calculateSHA512(is);
+                        }
                         break;
                     } else if (fileName.endsWith(".pdf")) {
                         ioData.bestandsnaam = fileName;
                         System.out.println("Gevonden PDF bestand voor " + ioFolder + ": " + ioData.bestandsnaam);
+                        // Bereken hash voor PDF
+                        try (InputStream is = zipFile.getInputStream(entry)) {
+                            ioData.bestandHash = calculateSHA512(is);
+                        }
                         break;
                     }
                 }

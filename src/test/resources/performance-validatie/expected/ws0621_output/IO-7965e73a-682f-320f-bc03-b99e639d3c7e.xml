@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0621/2023-10-16/99f6b5ff-3d4a-41b3-b8d7-21f4b2c90364</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0621/2023-10-16/99f6b5ff-3d4a-41b3-b8d7-21f4b2c90364/nld@2025-09-15;3</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>geo_99f6b5ff-3d4a-41b3-b8d7-21f4b2c90364.gml</data:bestandsnaam>
+  <data:hash>247e5b0b4ef2686f8c133fbbb17da9835550fd0f1d6293e5e79450af38c2e7d4c8617c2778878decbc755fc23db5e33d0da47b3947db732f73c22706378fe16c</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>Waterstaatswerk tertiair oppervlaktewaterlichaam - zuid (afgekort: tertiair water)</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/waterschap/ws0621</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/waterschap/ws0621</maker>
+  <naamInformatieObject>Waterstaatswerk tertiair oppervlaktewaterlichaam - zuid (afgekort: tertiair water)</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/ws0621/2023-10-16/99f6b5ff-3d4a-41b3-b8d7-21f4b2c90364</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

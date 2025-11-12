@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0621/2023-10-16/8dd866e1-2bf2-4222-a19f-9e0ee29341dc</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0621/2023-10-16/8dd866e1-2bf2-4222-a19f-9e0ee29341dc/nld@2025-09-15;3</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>geo_8dd866e1-2bf2-4222-a19f-9e0ee29341dc.gml</data:bestandsnaam>
+  <data:hash>c1f5a95ed1ad35dbe0ad40ebd335cfd1e2927f5cc0aae258bb53575e936a05c5e5eec02e5e7df6b4220d293e24e80f0287422bafa5a309a844a0f3f6ba577948</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>Gebied - buiten bebouwde kom</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/waterschap/ws0621</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/waterschap/ws0621</maker>
+  <naamInformatieObject>Gebied - buiten bebouwde kom</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/ws0621/2023-10-16/8dd866e1-2bf2-4222-a19f-9e0ee29341dc</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

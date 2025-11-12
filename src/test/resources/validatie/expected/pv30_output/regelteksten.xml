@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Regeltekst</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2278__chp_1__art_1.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000000004</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026972</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026973</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1__para_3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026974</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026976</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_2__title_2.1__subchp_2.1.1__art_2.1a__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026977</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_3__art_3.1__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026981</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_4__art_4.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026986</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_4__art_4.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026987</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_4__art_4.3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026988</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_5__art_5.1__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026991</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_5__art_5.1__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026992</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_5__art_5.1__para_3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026993</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_5__art_5.1__para_4">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026994</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026996</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026997</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000026998</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.4__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027000</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.4__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027001</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.5">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027002</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.6">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027003</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.7">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027004</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.8">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027005</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.9">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027006</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.10">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027007</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.10a">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027008</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.11">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027009</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.12">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027010</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.13">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027011</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_6__art_6.14">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027012</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_7__art_7.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027014</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_7__art_7.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027015</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_7__art_7.3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027016</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_7__art_7.4">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027017</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_7__art_7.5">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027018</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027021</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027022</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027023</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_4">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027024</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_5">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027025</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_6">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027026</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_7">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027027</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_8">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027028</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_8__art_8.1__para_9">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027030</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_9__art_9.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027032</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_9__art_9.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027033</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_9__art_9.3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027034</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027036</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027037</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.3">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027038</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.4">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027039</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.5">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027040</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.6">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027041</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.7">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027042</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.8">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027043</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.9">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027044</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.10">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027045</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.11">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027046</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.12">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027047</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.13">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027048</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_10__art_10.14">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027049</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_11__art_11.1__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027059</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_11__art_11.1__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027061</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2279__chp_11__art_11.2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000027062</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_13__subchp_13.1__art_13.2a">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029519</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_13__subchp_13.1__art_13.1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029520</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_12__art_12.2__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029533</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_12__art_12.2__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029534</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_13__subchp_13.1__art_13.2b__para_1">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029535</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Regeltekst wId="pv30_2364__chp_13__subchp_13.1__art_13.2b__para_2">
+                    <regels:identificatie>nl.imow-pv30.regeltekst.00300136T000000000029536</regels:identificatie>
+                </regels:Regeltekst>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

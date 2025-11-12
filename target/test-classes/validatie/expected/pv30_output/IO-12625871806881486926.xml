@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba/nld@2024-05-14;126</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/pv30/2022/omgevingsverordeningT</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>locaties_Bedrijf-Nutsvoorziening-v1.gml</data:bestandsnaam>
+  <data:hash>bbc362014ee9fe25907254a6eb5e6f49ae4843c3dbdcb5a459a136d9c7054a3521aed0a44167ca0ae03b577213aec556de840e444b12ac910fe008983625efec</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:eindverantwoordelijke>/tooi/id/provincie/pv30</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/provincie/pv30</data:maker>
+  <data:naamInformatieObject>Bedrijf - Nutsvoorziening</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/pv30/2024/136giobf5faafd-4619-4a72-8c06-b15f77cffaba</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

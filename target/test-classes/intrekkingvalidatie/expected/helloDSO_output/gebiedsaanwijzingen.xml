@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:op="http://www.geostandaarden.nl/imow/opobject" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sl:standBestand>
+<sl:dataset>Onbekend</sl:dataset>
+<sl:inhoud>
+<sl:gebied>Onbekend</sl:gebied>
+<sl:leveringsId>Onbekend</sl:leveringsId>
+<sl:objectTypen>
+<sl:objectType>Gebiedsaanwijzing</sl:objectType>
+</sl:objectTypen>
+</sl:inhoud>
+<sl:stand>
+<ow-dc:owObject>
+<ga:Gebiedsaanwijzing>
+<ow:status>beëindigen</ow:status>
+<ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.Horecagebied</ga:identificatie>
+<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+<ga:naam>Horecagebied</ga:naam>
+<ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+<ga:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.BinnenstadWest"/>
+</ga:locatieaanduiding>
+</ga:Gebiedsaanwijzing>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<ga:Gebiedsaanwijzing>
+<ow:status>beëindigen</ow:status>
+<ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.Stiltegebied</ga:identificatie>
+<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+<ga:naam>Stiltegebied</ga:naam>
+<ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+<ga:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Zuiderburen"/>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Noordereilanden"/>
+</ga:locatieaanduiding>
+</ga:Gebiedsaanwijzing>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<ga:Gebiedsaanwijzing>
+<ow:status>beëindigen</ow:status>
+<ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.gewijzigdeLocatie</ga:identificatie>
+<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+<ga:naam>Gebiedsaanwijzing 4</ga:naam>
+<ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+<ga:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriezone"/>
+</ga:locatieaanduiding>
+</ga:Gebiedsaanwijzing>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<ga:Gebiedsaanwijzing>
+<ow:status>beëindigen</ow:status>
+<ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.oudeNaam</ga:identificatie>
+<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+<ga:naam>oude naam</ga:naam>
+<ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+<ga:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
+</ga:locatieaanduiding>
+</ga:Gebiedsaanwijzing>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<ga:Gebiedsaanwijzing>
+<ow:status>beëindigen</ow:status>
+<ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.verwijderdeGebiedsaanwijzing</ga:identificatie>
+<ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+<ga:naam>verwijderde gebiedsaanwijzing 2</ga:naam>
+<ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+<ga:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriezone"/>
+</ga:locatieaanduiding>
+</ga:Gebiedsaanwijzing>
+</ow-dc:owObject>
+</sl:stand>
+</sl:standBestand>
+</ow-dc:owBestand>

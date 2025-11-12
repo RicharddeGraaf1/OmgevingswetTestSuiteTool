@@ -1,0 +1,18 @@
+Rapport Omgevingswet Test Suite Tool
+================================
+
+Gevonden IO nummers: [8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e, 9cb89b53-b554-3b6b-b1f1-c165b48e4363]
+Aantal verplaatste GML-bestanden: 1
+Aantal verwerkte IO-mappen: 2
+besluit.xml en opdracht.xml gegenereerd
+
+Verplaatst: OW-bestanden/regelsvooriedereen.xml -> regelsvooriedereen.xml
+Verplaatst: OW-bestanden/gebieden.xml -> gebieden.xml
+Verplaatst: OW-bestanden/gebiedengroepen.xml -> gebiedengroepen.xml
+Verplaatst: OW-bestanden/regelingsgebieden.xml -> regelingsgebieden.xml
+Verplaatst: OW-bestanden/regelteksten.xml -> regelteksten.xml
+Verplaatst: OW-bestanden/manifest-ow.xml -> manifest-ow.xml
+Verplaatst: Regeling/jpg-plaatje-1.jpg -> jpg-plaatje-1.jpg
+
+Samenvatting transformaties:
+----------------------

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Gebied</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.05c4817f82474742809f15ce128570b4</l:identificatie>
+                    <l:noemer>oppervlaktewateren Afwateringskanaal, Neerbeek, Haelensebeek, Tungelroysebeek, Leukerbeek en Uffeltsebeek</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="A2141725-B95D-4581-8819-E7603A858D6F"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.05d00c64fac646e79c172ade8b60366e</l:identificatie>
+                    <l:noemer>traject II</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="7CCC97B4-4FEB-4E59-8B88-5B5B8240074E"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.0b1fab3ee0c54250b6f1e7ccb4d0e38e</l:identificatie>
+                    <l:noemer>hoge grond robuust</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="38f1a6ce-debf-43ef-9788-7f2f2527a6a5"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.14fbb37905ac4b61a78fa98e4c6cb09d</l:identificatie>
+                    <l:noemer>peilgestuurde drainagegebied zuid</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="B2009D33-D681-44AB-B454-287D4CD0C345"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.1d288ce00b9f486a8d218abfca0dc638</l:identificatie>
+                    <l:noemer>secundair water</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="821347A7-3BA4-4B36-AEA8-8DCF3E1A0294"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.2568d3e6140c4908b49a51f808caa61d</l:identificatie>
+                    <l:noemer>gebied kanovaart overig</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="DAAA4652-A9E1-475E-85BF-B46AE805D800"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.3839b81a867243199b201d1515b2ef9b</l:identificatie>
+                    <l:noemer>traject III</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="10D6DB2D-67BA-468D-9B7A-E4F64A4E20A0"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.47d00f14c95644d5a22642fa79c54e16</l:identificatie>
+                    <l:noemer>primair water</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="310ae1dc-5b7a-4c40-9969-b9c768286963"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.482a9c65e3894ebd97d597a7e0343a3e</l:identificatie>
+                    <l:noemer>gebied van Venloschol</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="1D0BA3D6-DD10-4CF9-8147-6106B77EE2D8"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.552930df7aff4bad9f72864b38a1dd37</l:identificatie>
+                    <l:noemer>buiten de boringsvrije zone Roerdalslenk IV en buiten een bufferzone verdroogde natuurgebieden</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="F17B36D7-7E90-473E-A30E-CFD6F199331B"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.5c215abf09d24204953f6f1373060835</l:identificatie>
+                    <l:noemer>oppervlaktewater met een lage basisafvoer</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="F69B0575-2FBB-467D-BEA1-337092EB65E3"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.5da593096e744656825d817e67d6e0fd</l:identificatie>
+                    <l:noemer>peilgestuurde drainagegebied noord</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="A673E2F4-68CD-4640-9257-D02793E26C81"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.5f15bed85b194097848363b799affffd</l:identificatie>
+                    <l:noemer>kernzone van het oppervlaktewater of een buffer van 0,5 meter eromheen</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="b0852e07-27ce-4197-ae9c-783ce887fc96"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.61bd48349acf41e5b4d41d7e85f44126</l:identificatie>
+                    <l:noemer>boringsvrije zone Roerdalslenk III (Bovenste Brunssumklei)</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="F493040A-0069-485B-BD70-0D6DB47D0A5D"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.6bc5fa1035d24c5eb625e8f1be60ec89</l:identificatie>
+                    <l:noemer>oppervlaktewateren Niers, Helenavaart en Oude Helenavaart</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="0576E9A3-888C-490C-A024-904395011099"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.77f7a23ff915415ba0e857912cc6c152</l:identificatie>
+                    <l:noemer>meanderzone</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="7AB594C6-7FDB-4433-82F3-1FE85717D5E7"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.7fcfdea853724f5a82d837a2fae572af</l:identificatie>
+                    <l:noemer>inundatiegebied</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="58885F0E-62C2-4F7A-8279-2ACCC378FBFB"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.88646104630048f89f5d2c150dad0ac9</l:identificatie>
+                    <l:noemer>oppervlaktewater met een hoge basisafvoer</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="3653BA45-63CF-40AD-885E-97177CC09A6C"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.89e734bcba9d4705bbdef63819b6d041</l:identificatie>
+                    <l:noemer>peilgestuurde drainagegebied midden</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="4B93273B-CDC0-416A-AE36-5678359AFCE5"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.92b3225712d74cee97df48d138fdbb0b</l:identificatie>
+                    <l:noemer>watergangen anders dan de trajecten I tot en met V van de Roer en Hambeek</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="8d746996-b8cc-4ada-ab81-90347794daf0"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.965e33764f55449582f0552e96a1c083</l:identificatie>
+                    <l:noemer>gebied met oppervlaktewateren in kwantitatief waterbeheer bij Waterschap Limburg</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="366EDDD2-687F-4CAD-96DE-CBFE607D7E36"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.9838b72d47334c30b040bc4b0207201e</l:identificatie>
+                    <l:noemer>gebied van de bufferzones grondwaterafhankelijke natuur</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="9FB71622-BC1D-4A86-8B42-748E772236E6"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.9e82b68ee5f94f3abd1de21a180ea42e</l:identificatie>
+                    <l:noemer>beschermingszone bij een waterkering</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="eab03260-8d6d-4d60-9e02-1a5acfd51358"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.9f5d7ddc725f4545b3eddf16fdd68d4d</l:identificatie>
+                    <l:noemer>traject V</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="CEEA595E-9843-4678-9480-4312468C920F"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.a76c8a5916de4e9e9f38294af76cab73</l:identificatie>
+                    <l:noemer>primair water of een zone van 2 meter eromheen</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="cf145695-a202-4d72-a85f-6b63746e669d"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.a894640e8fd14ffd8d5c2a4a2e51e17c</l:identificatie>
+                    <l:noemer>gebied kanovaart Roer</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="0E404273-2205-4D87-8156-472DA870DB23"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.b13bdb45986c4d2c951a44293c09682b</l:identificatie>
+                    <l:noemer>boringsvrije zone Roerdalslenk I (Bovenste Brunssumklei)</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="E8492B0F-1BB6-49EB-BCB4-0916EB225ADB"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.b4bf3b87b68245039e5d1aade56c6163</l:identificatie>
+                    <l:noemer>traject dat niet is opgenomen op de kaarten kanovaren</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="7E1AD338-1E0F-44B2-A0BC-2264962B0DEF"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.bfd47d646bef46e487834b905e95a8e1</l:identificatie>
+                    <l:noemer>secundair water of een zone van 2 meter eromheen</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="4CDD61B5-3A77-4CB0-AFE7-10744F796E7C"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.c0982104bce44b488ed2602634d07b83</l:identificatie>
+                    <l:noemer>kernzone van een waterkering</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="b4c07679-957d-40e0-b128-287283a227dd"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.c2e295376e8d4a2f84c024854321ab5a</l:identificatie>
+                    <l:noemer>boringsvrije zone Roerdalslenk IV (Bovenste Brunssumklei)</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="AB5251A4-E8E2-4D80-80CF-9D52D856E997"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.c84b3642555948189bb48b67207e303f</l:identificatie>
+                    <l:noemer>bijbehorende beschermingszone</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="32ad8d50-bf5e-475c-a062-f871ccaa5cf6"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.cdee7d3231cd4b24af4f13e1cc242474</l:identificatie>
+                    <l:noemer>profiel van vrije ruimte</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="09f9419d-8393-496a-bd21-798cd6c7d137"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.d1c2474c766143438db3bccf7434883b</l:identificatie>
+                    <l:noemer>boringsvrije zone Roerdalslenk II (Bovenste Brunssumklei)</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="256C88D3-FD48-414B-BC75-0F346D57F50C"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.eb2078c4931f48319d5b0ba7eade5dbf</l:identificatie>
+                    <l:noemer>bronlopen</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="5F0D3A93-1A34-4F92-8905-38D309DD6426"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.ebea52e918e14a3eb9491a4a265b6cf2</l:identificatie>
+                    <l:noemer>lijnvormig element</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="EA49091E-CFCA-4B72-A18E-4FF927825A68"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.ecc2d0e559a649609d23a4b6090629b8</l:identificatie>
+                    <l:noemer>profiel van vrije ruimte bij een waterkering</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="ebb5710c-64e6-4b6e-8897-027d482ed794"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.ee80add1940642eeb8803cadfae00f36</l:identificatie>
+                    <l:noemer>buitenbeschermingszone</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="c5daaf98-7997-4c98-ac84-96c199ee022a"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.f1eed387c53a462c97e67f5c04d177ba</l:identificatie>
+                    <l:noemer>traject IV</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="D257325A-96FD-4598-AF4F-0862DC728E1A"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.fabbf14b7a7740c4aac1cf4568e37f02</l:identificatie>
+                    <l:noemer>traject I</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="2B3FEF82-0B02-4222-AF68-AB427C0BBDF4"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.fb3da6c91b694b288c0a94bd24ab7ab9</l:identificatie>
+                    <l:noemer>hoge grond basis</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="91fe3aed-44d0-4db9-9863-e3da9c56748d"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebied>
+                    <l:identificatie>nl.imow-ws0665.gebied.fcba97700b1543d8bb17b8122e7b38b6</l:identificatie>
+                    <l:noemer>oppervlaktewater in kwalitatief waterbeheer bij Waterschap Limburg</l:noemer>
+                    <l:geometrie>
+                        <l:GeometrieRef xlink:href="44028A7E-994D-4394-95DC-D2773C7E4CD9"/>
+                    </l:geometrie>
+                </l:Gebied>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

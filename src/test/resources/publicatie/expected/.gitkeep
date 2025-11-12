@@ -1,0 +1,14 @@
+# Plaats hier de verwachte output voor publicatie tests
+#
+# Voor elke test case, plaats:
+# - besluit.xml
+# - opdracht.xml
+# - manifest.xml
+#
+# Optioneel in subdirectories per test case:
+# - gemeente_omgevingsplan_2024/
+#   ├── besluit.xml
+#   ├── opdracht.xml
+#   └── manifest.xml
+
+

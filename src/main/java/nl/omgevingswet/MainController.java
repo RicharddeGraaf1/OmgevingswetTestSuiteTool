@@ -133,6 +133,14 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
+        // Vervang alle mogelijke varianten met "publicatieOpdracht" in de bestandsnaam
+        targetPath = targetPath.replace("validatieOpdracht", "publicatieOpdracht")
+                             .replace("intrekkingOpdracht", "publicatieOpdracht")
+                             .replace("intrekkingValidatieOpdracht", "publicatieOpdracht")
+                             .replace("doorleverenRegelingVersie", "publicatieOpdracht")
+                             .replace("validatieDoorLeverenRegelingversie", "publicatieOpdracht");
+        targetZipField.setText(targetPath);
+
         try {
             File sourceFile = new File(sourcePath);
             if (!sourceFile.exists()) {
@@ -170,8 +178,12 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
-        // Vervang "publicatieOpdracht" met "validatieOpdracht" in de bestandsnaam
-        targetPath = targetPath.replace("publicatieOpdracht", "validatieOpdracht");
+        // Vervang alle mogelijke varianten met "validatieOpdracht" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "validatieOpdracht")
+                             .replace("intrekkingOpdracht", "validatieOpdracht")
+                             .replace("intrekkingValidatieOpdracht", "validatieOpdracht")
+                             .replace("doorleverenRegelingVersie", "validatieOpdracht")
+                             .replace("validatieDoorLeverenRegelingversie", "validatieOpdracht");
         targetZipField.setText(targetPath);
 
         try {
@@ -211,8 +223,12 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
-        // Vervang "publicatieOpdracht" met "intrekkingOpdracht" in de bestandsnaam
-        targetPath = targetPath.replace("publicatieOpdracht", "intrekkingOpdracht");
+        // Vervang alle mogelijke varianten met "intrekkingOpdracht" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "intrekkingOpdracht")
+                             .replace("validatieOpdracht", "intrekkingOpdracht")
+                             .replace("intrekkingValidatieOpdracht", "intrekkingOpdracht")
+                             .replace("doorleverenRegelingVersie", "intrekkingOpdracht")
+                             .replace("validatieDoorLeverenRegelingversie", "intrekkingOpdracht");
         targetZipField.setText(targetPath);
 
         try {
@@ -252,9 +268,12 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
-        // Vervang "publicatieOpdracht" met "intrekkingOpdracht" en "validatieOpdracht" met "intrekkingValidatieOpdracht"
-        targetPath = targetPath.replace("publicatieOpdracht", "intrekkingOpdracht")
-                             .replace("validatieOpdracht", "intrekkingValidatieOpdracht");
+        // Vervang alle mogelijke varianten met "intrekkingValidatieOpdracht" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "intrekkingValidatieOpdracht")
+                             .replace("validatieOpdracht", "intrekkingValidatieOpdracht")
+                             .replace("intrekkingOpdracht", "intrekkingValidatieOpdracht")
+                             .replace("doorleverenRegelingVersie", "intrekkingValidatieOpdracht")
+                             .replace("validatieDoorLeverenRegelingversie", "intrekkingValidatieOpdracht");
         targetZipField.setText(targetPath);
 
         try {
@@ -294,8 +313,12 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
-        // Vervang "publicatieOpdracht" met "doorleverenRegelingVersie" in de bestandsnaam
-        targetPath = targetPath.replace("publicatieOpdracht", "doorleverenRegelingVersie");
+        // Vervang alle mogelijke varianten met "doorleverenRegelingVersie" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "doorleverenRegelingVersie")
+                             .replace("validatieOpdracht", "doorleverenRegelingVersie")
+                             .replace("intrekkingOpdracht", "doorleverenRegelingVersie")
+                             .replace("intrekkingValidatieOpdracht", "doorleverenRegelingVersie")
+                             .replace("validatieDoorLeverenRegelingversie", "doorleverenRegelingVersie");
         targetZipField.setText(targetPath);
 
         try {
@@ -335,8 +358,12 @@ public class MainController {
             targetPath = targetZipField.getText();
         }
 
-        // Vervang "publicatieOpdracht" met "validatieDoorLeverenRegelingversie" in de bestandsnaam
-        targetPath = targetPath.replace("publicatieOpdracht", "validatieDoorLeverenRegelingversie");
+        // Vervang alle mogelijke varianten met "validatieDoorLeverenRegelingversie" in de bestandsnaam
+        targetPath = targetPath.replace("publicatieOpdracht", "validatieDoorLeverenRegelingversie")
+                             .replace("validatieOpdracht", "validatieDoorLeverenRegelingversie")
+                             .replace("intrekkingOpdracht", "validatieDoorLeverenRegelingversie")
+                             .replace("intrekkingValidatieOpdracht", "validatieDoorLeverenRegelingversie")
+                             .replace("doorleverenRegelingVersie", "validatieDoorLeverenRegelingversie");
         targetZipField.setText(targetPath);
 
         try {
@@ -543,8 +570,9 @@ public class MainController {
                 // Sla alle bestanden in de Regeling map over
                 if (entryName.startsWith("Regeling/")) {
                     // Check of het een afbeelding is
-                    String fileName = new File(entryName).getName().toLowerCase();
-                    if (!isIntrekking && (fileName.endsWith(".jpg") || fileName.endsWith(".jpeg") || fileName.endsWith(".png"))) {
+                    String fileName = new File(entryName).getName();
+                    String fileNameLower = fileName.toLowerCase();
+                    if (!isIntrekking && (fileNameLower.endsWith(".jpg") || fileNameLower.endsWith(".jpeg") || fileNameLower.endsWith(".png"))) {
                         // Verplaats de afbeelding naar de root
                         if (!addedFiles.contains(fileName)) {
                             logMessage("Afbeelding verplaatst naar root: " + fileName);
@@ -662,11 +690,12 @@ public class MainController {
                 for (ZipEntry entry : sourceZip.stream().collect(Collectors.toList())) {
                     String entryName = entry.getName();
                     if (entryName.startsWith("IO-" + ioNumber + "/")) {
-                        String fileName = new File(entryName).getName().toLowerCase();
-                        if ((fileName.endsWith(".pdf") || fileName.endsWith(".gml")) && !addedFiles.contains(fileName)) {
+                        String fileName = new File(entryName).getName();
+                        String fileNameLower = fileName.toLowerCase();
+                        if ((fileNameLower.endsWith(".pdf") || fileNameLower.endsWith(".gml")) && !addedFiles.contains(fileName)) {
                             byte[] content = sourceZip.getInputStream(entry).readAllBytes();
                             
-                            if (fileName.endsWith(".gml")) {
+                            if (fileNameLower.endsWith(".gml")) {
                                 content = IOProcessor.wrapGmlContent(content);
                                 gmlFilesCount++;
                             }
@@ -688,11 +717,12 @@ public class MainController {
                 for (ZipEntry entry : sourceZip.stream().collect(Collectors.toList())) {
                     String entryName = entry.getName();
                     if (entryName.startsWith("IO-" + ioNumber + "/")) {
-                        String fileName = new File(entryName).getName().toLowerCase();
-                        if ((fileName.endsWith(".pdf") || fileName.endsWith(".gml")) && !addedFiles.contains(fileName)) {
+                        String fileName = new File(entryName).getName();
+                        String fileNameLower = fileName.toLowerCase();
+                        if ((fileNameLower.endsWith(".pdf") || fileNameLower.endsWith(".gml")) && !addedFiles.contains(fileName)) {
                             byte[] content = sourceZip.getInputStream(entry).readAllBytes();
                             
-                            if (fileName.endsWith(".gml")) {
+                            if (fileNameLower.endsWith(".gml")) {
                                 content = IOProcessor.wrapGmlContent(content);
                                 gmlFilesCount++;
                             }

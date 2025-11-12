@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0621/2024-04-02/bbe2cce2-0c4e-463f-b2f8-dcac8645c6bf</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0621/2024-04-02/bbe2cce2-0c4e-463f-b2f8-dcac8645c6bf/nld@2024-08-19;2</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0621/2023-10-16/8ebf4a43-0b2d-49d3-b12c-450fb83958d5</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>geo_bbe2cce2-0c4e-463f-b2f8-dcac8645c6bf.gml</data:bestandsnaam>
+  <data:hash>bf837c94bd67edbfc8bd78b5ae99b93520127c9081a68ec95f74f31c9f576a0c1d782ba237ed23a9df685811ab7f29a51afff34c63f24aad216d4df2ec8f22c0</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>Beschermingszone Slaperdijk te Kesteren en Meidijk te Zuilichem (afgekort: beschermingszone Slaperdijk en Meidijk)</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/waterschap/ws0621</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/waterschap/ws0621</maker>
+  <naamInformatieObject>Beschermingszone Slaperdijk te Kesteren en Meidijk te Zuilichem (afgekort: beschermingszone Slaperdijk en Meidijk)</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/ws0621/2024-04-02/bbe2cce2-0c4e-463f-b2f8-dcac8645c6bf</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

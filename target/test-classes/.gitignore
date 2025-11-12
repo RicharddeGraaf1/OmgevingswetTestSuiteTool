@@ -1,0 +1,16 @@
+# Tijdelijke test bestanden
+**/temp/
+**/output/
+
+# Grote test bestanden (gebruik Git LFS voor bestanden > 5MB)
+**/*.large.zip
+
+# Gegenereerde output van lokale tests
+**/actual/
+**/generated/
+
+# IDE specifieke test cache
+.DS_Store
+Thumbs.db
+
+

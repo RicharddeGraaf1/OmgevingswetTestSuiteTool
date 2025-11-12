@@ -1,0 +1,28 @@
+Rapport Omgevingswet Test Suite Tool
+================================
+
+Gevonden IO nummers: [7200097386316815309, 8314183480233723748, 16658033014442469215, 13022267483541152021, 5147429845728334367, 6726654224481633096, 783649082939719647, 12625871806881486926, 16182395919846240760, 12994150082916870714, 9005483804832004167]
+Aantal verplaatste GML-bestanden: 11
+Aantal verwerkte IO-mappen: 11
+besluit.xml en opdracht.xml gegenereerd
+
+Verplaatst: OW-bestanden/regelingsgebieden.xml -> regelingsgebieden.xml
+Verplaatst: OW-bestanden/omgevingswaarderegels.xml -> omgevingswaarderegels.xml
+Verplaatst: OW-bestanden/regelsvooriedereen.xml -> regelsvooriedereen.xml
+Verplaatst: OW-bestanden/omgevingsnormen.xml -> omgevingsnormen.xml
+Verplaatst: OW-bestanden/regelteksten.xml -> regelteksten.xml
+Verplaatst: OW-bestanden/gebieden.xml -> gebieden.xml
+Verplaatst: OW-bestanden/gebiedengroepen.xml -> gebiedengroepen.xml
+Verplaatst: OW-bestanden/ambtsgebieden.xml -> ambtsgebieden.xml
+Verplaatst: OW-bestanden/gebiedsaanwijzingen.xml -> gebiedsaanwijzingen.xml
+Verplaatst: OW-bestanden/activiteiten.xml -> activiteiten.xml
+Verplaatst: OW-bestanden/manifest-ow.xml -> manifest-ow.xml
+Verplaatst: Regeling/jpg_0c87c8f3-2173-45c5-8455-f849aa5ff9d7.jpg -> jpg_0c87c8f3-2173-45c5-8455-f849aa5ff9d7.jpg
+Verplaatst: Regeling/jpg_587e46c8-ee13-4b6c-bed6-ea40aa0cebbd.jpg -> jpg_587e46c8-ee13-4b6c-bed6-ea40aa0cebbd.jpg
+Verplaatst: Regeling/jpg_9b91dede-a81d-4339-839d-57de57710ba5.jpg -> jpg_9b91dede-a81d-4339-839d-57de57710ba5.jpg
+Verplaatst: Regeling/jpg_261c0f81-24d4-41a5-921f-33a3c52a7ae4.jpg -> jpg_261c0f81-24d4-41a5-921f-33a3c52a7ae4.jpg
+Verplaatst: Regeling/jpg_0aaf116d-a6d2-4198-9815-24ecbf9ad01a.jpg -> jpg_0aaf116d-a6d2-4198-9815-24ecbf9ad01a.jpg
+Verplaatst: Regeling/jpg_d7c1318f-868f-4ab7-b41a-4a375517e7e5.jpg -> jpg_d7c1318f-868f-4ab7-b41a-4a375517e7e5.jpg
+
+Samenvatting transformaties:
+----------------------

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+<BesluitVersie>
+<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:FRBRWork>/akn/nl/bill/gm9920/2025/OTSTgegenereerd20251016102316</data:FRBRWork>
+<data:FRBRExpression>/akn/nl/bill/gm9920/2025/OTSTgegenereerd20251016102316/nld@20251016;1</data:FRBRExpression>
+<data:soortWork>/join/id/stop/work_003</data:soortWork>
+</data:ExpressionIdentificatie>
+<data:BesluitMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+<data:informatieobjectRefs>
+<data:informatieobjectRef>/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1</data:informatieobjectRef>
+<data:informatieobjectRef>/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1</data:informatieobjectRef>
+</data:informatieobjectRefs>
+<data:maker>/tooi/id/gemeente/gm9920</data:maker>
+<data:officieleTitel>Officiele titel van de regeling</data:officieleTitel>
+<data:onderwerpen>
+<data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+</data:onderwerpen>
+<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+<data:soortProcedure>/join/id/stop/proceduretype_definitief</data:soortProcedure>
+</data:BesluitMetadata>
+<data:Procedureverloop xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:bekendOp>2025-10-17</data:bekendOp>
+<data:procedurestappen>
+<data:Procedurestap>
+<data:soortStap>/join/id/stop/procedure/stap_003</data:soortStap>
+<data:voltooidOp>2025-10-17</data:voltooidOp>
+</data:Procedurestap>
+</data:procedurestappen>
+</data:Procedureverloop>
+<data:ConsolidatieInformatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<BeoogdeRegelgeving xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+<BeoogdeRegeling>
+<doelen>
+<doel>/join/id/proces/gm9920/2025/D_2025031919_4952649_1</doel>
+</doelen>
+<instrumentVersie>/akn/nl/act/gm9920/2025/R_2025031919_4952649/nld@1</instrumentVersie>
+<eId>art_besluit1</eId>
+</BeoogdeRegeling>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/gm9920/2025/D_2025031919_4952649_1</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1</instrumentVersie>
+<eId>!main#cmp_ebc1__content_2__ref_1</eId>
+</BeoogdInformatieobject>
+<BeoogdInformatieobject>
+<doelen>
+<doel>/join/id/proces/gm9920/2025/D_2025031919_4952649_1</doel>
+</doelen>
+<instrumentVersie>/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1</instrumentVersie>
+<eId>!main#cmp_ebc1__content_1__ref_1</eId>
+</BeoogdInformatieobject>
+</BeoogdeRegelgeving>
+<Tijdstempels xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+<Tijdstempel>
+<doel>/join/id/proces/gm9920/2025/D_2025031919_4952649_1</doel>
+<soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+<datum>2025-10-17</datum>
+<eId>art_besluit2</eId>
+</Tijdstempel>
+</Tijdstempels>
+</data:ConsolidatieInformatie>
+<tekst:BesluitCompact xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/">
+<RegelingOpschrift eId="longTitle" wId="longTitle" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Officiele titel van de aanlevering</Al>
+</RegelingOpschrift>
+<Aanhef eId="formula_1" wId="formula_1" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Aanhef van het besluit</Al>
+</Aanhef>
+<Lichaam eId="body" wId="body" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<WijzigArtikel eId="art_besluit1" wId="gm9920__art_besluit1">
+<Kop>
+<Label>Artikel</Label>
+<Nummer>I</Nummer>
+</Kop>
+<Wat>
+            Wijzigingen zoals opgenomen in 
+            <IntRef ref="cmp_besluit">Bijlage A</IntRef>
+             worden vastgesteld.
+          </Wat>
+</WijzigArtikel>
+<Artikel eId="art_besluit2" wId="gm9920__art_besluit2">
+<Kop>
+<Label>Artikel</Label>
+<Nummer>II</Nummer>
+</Kop>
+<Inhoud>
+<Al>Dit besluit treedt in werking per 2025-10-17</Al>
+</Inhoud>
+</Artikel>
+</Lichaam>
+<Sluiting eId="formula_2" wId="formula_2" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Al>Sluiting van het besluit</Al>
+<Ondertekening>
+<Al>Ondertekening van het besluit</Al>
+</Ondertekening>
+</Sluiting>
+<WijzigBijlage eId="cmp_besluit" wId="gm9920__cmp_besluit" xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+<Kop>
+<Label>Bijlage</Label>
+<Nummer>A</Nummer>
+<Opschrift>Bijlage bij artikel I</Opschrift>
+</Kop>
+<tekst:RegelingCompact xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/" componentnaam="main" wordt="/akn/nl/act/gm9920/2025/R_2025031919_4952649/nld@1">
+<tekst:RegelingOpschrift eId="longTitle" wId="longTitle">
+<tekst:Al>Officiele titel van de regeling</tekst:Al>
+</tekst:RegelingOpschrift>
+<tekst:Lichaam eId="body" wId="body">
+<tekst:Hoofdstuk eId="chp_1" wId="gm9920_1__chp_1">
+<tekst:Kop>
+<tekst:Label>Hoofdstuk</tekst:Label>
+<tekst:Nummer>1</tekst:Nummer>
+<tekst:Opschrift>Hoofdstuk 1</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Artikel eId="chp_1__art_1" wId="gm9920_1__chp_1__art_1">
+<tekst:Kop>
+<tekst:Label>Artikel</tekst:Label>
+<tekst:Nummer>1</tekst:Nummer>
+<tekst:Opschrift>Artikel 1</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Inhoud>
+<tekst:Al>Inhoud van artikel 1 binnen hoofdstuk 1 binnen lichaam</tekst:Al>
+</tekst:Inhoud>
+</tekst:Artikel>
+</tekst:Hoofdstuk>
+</tekst:Lichaam>
+<tekst:Bijlage eId="cmp_ebc1" wId="gm9920_1__cmp_ebc1">
+<tekst:Kop>
+<tekst:Label>Bijlage</tekst:Label>
+<tekst:Nummer>I</tekst:Nummer>
+<tekst:Opschrift>Overzicht Informatieobjecten en/of Plaatjes</tekst:Opschrift>
+</tekst:Kop>
+<tekst:Divisietekst eId="cmp_ebc1__content_1" wId="gm9920_1__cmp_ebc1__content_1">
+<tekst:Inhoud>
+<tekst:Al>Het volgende informatie-object wordt vastgesteld:</tekst:Al>
+<tekst:Al>
+                  Informatie-object 
+                  <tekst:ExtIoRef eId="cmp_ebc1__content_1__ref_1" ref="/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1" wId="gm9920_1__cmp_ebc1__content_1__ref_1">/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+<tekst:Divisietekst eId="cmp_ebc1__content_2" wId="gm9920_1__cmp_ebc1__content_2">
+<tekst:Inhoud>
+<tekst:Al>Het volgende informatie-object wordt vastgesteld:</tekst:Al>
+<tekst:Al>
+                  Informatie-object 
+                  <tekst:ExtIoRef eId="cmp_ebc1__content_2__ref_1" ref="/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1" wId="gm9920_1__cmp_ebc1__content_2__ref_1">/join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1</tekst:ExtIoRef>
+</tekst:Al>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+<tekst:Divisietekst eId="cmp_ebc1__content_jpg_plaatjes" wId="gm9920_1__cmp_ebc1__content_jpg_plaatjes">
+<tekst:Inhoud>
+<tekst:Al>De volgende plaatjes (jpg) worden gebruikt:</tekst:Al>
+<tekst:Figuur eId="cmp_ebc1__content_jpg_plaatjes__img_1" wId="gm9920_1__cmp_ebc1__content_jpg_plaatjes__img_1">
+<tekst:Illustratie breedte="70" dpi="90" formaat="image/jpeg" hoogte="21" naam="jpg-plaatje-1.jpg" uitlijning="center"/>
+</tekst:Figuur>
+</tekst:Inhoud>
+</tekst:Divisietekst>
+</tekst:Bijlage>
+</tekst:RegelingCompact>
+</WijzigBijlage>
+</tekst:BesluitCompact>
+</BesluitVersie>
+<RegelingVersieInformatie>
+<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:FRBRWork>/akn/nl/act/gm9920/2025/R_2025031919_4952649</data:FRBRWork>
+<data:FRBRExpression>/akn/nl/act/gm9920/2025/R_2025031919_4952649/nld@1</data:FRBRExpression>
+<data:soortWork>/join/id/stop/work_019</data:soortWork>
+</data:ExpressionIdentificatie>
+<data:RegelingVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:versienummer>1</data:versienummer>
+</data:RegelingVersieMetadata>
+<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+<data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+<data:maker>/tooi/id/gemeente/gm9920</data:maker>
+<data:officieleTitel>Officiele titel van de regeling</data:officieleTitel>
+<data:onderwerpen>
+<data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+</data:onderwerpen>
+<data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
+<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+</data:RegelingMetadata>
+</RegelingVersieInformatie>
+</AanleveringBesluit>

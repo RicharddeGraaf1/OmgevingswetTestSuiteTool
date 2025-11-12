@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9/nld@2024-05-14;184</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/pv30/2022/omgevingsverordeningT</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>locaties_LocatieVersion2-v1.gml</data:bestandsnaam>
+  <data:hash>7f85c5a1264f7367bbbbc40e6fdfd2146926b2a57e2fa1b6162d1d4794289a5dece91cde3edc85b6639041635b99e8b0048ec687bd4cebf0f1733fddb9b3dfd5</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:eindverantwoordelijke>/tooi/id/provincie/pv30</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/provincie/pv30</data:maker>
+  <data:naamInformatieObject>LocatieVersion 2</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/pv30/2024/136giob00539ad-5c5e-4d4c-93b5-1a9dab6eaea9</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

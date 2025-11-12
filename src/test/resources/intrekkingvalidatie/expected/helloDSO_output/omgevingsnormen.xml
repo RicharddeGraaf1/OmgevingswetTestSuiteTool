@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:op="http://www.geostandaarden.nl/imow/opobject" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sl:standBestand>
+<sl:dataset>Onbekend</sl:dataset>
+<sl:inhoud>
+<sl:gebied>Onbekend</sl:gebied>
+<sl:leveringsId>Onbekend</sl:leveringsId>
+<sl:objectTypen>
+<sl:objectType>Omgevingsnorm</sl:objectType>
+</sl:objectTypen>
+</sl:inhoud>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.Bouwhoogte</rol:identificatie>
+<rol:naam>Bouwhoogte</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.10meter</rol:identificatie>
+<rol:kwantitatieveWaarde>10</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.BinnenstadWest"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.7meter</rol:identificatie>
+<rol:kwantitatieveWaarde>7</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Zuiderburen"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.Bouwhoogte2</rol:identificatie>
+<rol:naam>Maximum bouwhoogte (in m)</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.6meter</rol:identificatie>
+<rol:kwantitatieveWaarde>6</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.Bouwhoogte3</rol:identificatie>
+<rol:naam>Maximum bouwhoogte</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.6m</rol:identificatie>
+<rol:kwantitatieveWaarde>6</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebiedengroep.industriegebiedGroep"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.kwalitatief</rol:identificatie>
+<rol:naam>Omgevingsnorm</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.kwalitatief</rol:identificatie>
+<rol:kwalitatieveWaarde>gewoon mooi</rol:kwalitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.oudeNaam</rol:identificatie>
+<rol:naam>oude naam</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Centimeter</rol:eenheid>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.600cm</rol:identificatie>
+<rol:kwantitatieveWaarde>600</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.verwijderdeNorm</rol:identificatie>
+<rol:naam>Omgevingsnorm</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.1m</rol:identificatie>
+<rol:kwantitatieveWaarde>1</rol:kwantitatieveWaarde>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+<sl:stand>
+<ow-dc:owObject>
+<rol:Omgevingsnorm>
+<ow:status>beëindigen</ow:status>
+<rol:identificatie>nl.imow-gm0160.omgevingsnorm.waardeInRegeltekst</rol:identificatie>
+<rol:naam>Omgevingsnorm</rol:naam>
+<rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+<rol:normwaarde>
+<rol:Normwaarde>
+<rol:identificatie>nl.imow-gm0160.normwaarde.waardeInRegeltekst</rol:identificatie>
+<rol:waardeInRegeltekst>waarde staat in regeltekst</rol:waardeInRegeltekst>
+<rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
+</rol:locatieaanduiding>
+</rol:Normwaarde>
+</rol:normwaarde>
+<rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+</rol:Omgevingsnorm>
+</ow-dc:owObject>
+</sl:stand>
+</sl:standBestand>
+</ow-dc:owBestand>

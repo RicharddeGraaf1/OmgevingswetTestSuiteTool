@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Omgevingswaarderegel</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.0d947d7edd0b4352ab239f99d7024602</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.911cb3708f0a4b0882104fc88caaad5b"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.1a93c70bf98c4b6a838938ce33a231ec</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3b776d1f7657438f9e4057957fbc4ea6"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.1cef09e4b13d4e8f8a5b89f861788773</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.fa94844caf784ccca7d80fa72123be70"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.21e79aa610f84ebdb1c64bccb137f217</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.c374ac5e84064f859bdbaef782a086db"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.223ec3b171634a2cbd4c2cf08c5cb44a</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.260257b0ef26447aa1b0d6a471851155"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.244df267d6f447ca88a699716b69ae89</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.855c968f9d844050ba6c880034f8787a"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.28b8a2b9342349cc92ba437f587edc68</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.199c540a73bf433faf0ded2af199352c"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.2dbbe39222504fb487a016672ed16878</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.30ca4d75515c43fd9eadfe7efb4494d2"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.3dc36b5d121f429d822ea3754060cfe3</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.279db36003cf48068ee1b46e7f9d2cf9"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.4dccea220b6649f2b9785b9d545e0607</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.ff59b2924d7a4c919f583712c0283687"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.5d4b9547d2784b5e854d8b2388b7f402</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.99659ad161fb4b8389585f49d96a7832"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.79f2b9e136f94c4891d3d27d5ca2f246"/>
+                    </regels:locatieaanduiding>
+                    <regels:omgevingswaardeaanduiding>
+                        <rol:OmgevingswaardeRef xlink:href="nl.imow-pv29.omgevingswaarde.11f643e6ace6492aa3e78a80a955c2ed"/>
+                    </regels:omgevingswaardeaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.6107de0f2125425a8ba7d2b902dded3f</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3085a7c81f1d43feb00bff0ec1280d85"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/Geluid</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.64f44d65b19b400d9a3c1682c0a0cb0e</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.792ad36b92f94f66b8b02596d59aa7ab"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.6599ee6f9d994b35aafba9622358aa13</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.bb89af7b4415415c97c38cacc7832d79"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.695e5ff15e5e42afabd78e7dafd28ca0</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.78c1787b25734de9b3a4c233f7270721"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.7afcb2f3a7524fa5bbabaf539a12c052"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.69f01094748d477c9a2e130937538a7d</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.7156e8954fde4279bdc56c0adc453354"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.74dfe5525400447b8d348da537dc25c6</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3613e51a93cc4a488b108804e3ea93ec"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                    <regels:omgevingswaardeaanduiding>
+                        <rol:OmgevingswaardeRef xlink:href="nl.imow-pv29.omgevingswaarde.6ef3b6df34f34bed9dfd6a4addce278e"/>
+                    </regels:omgevingswaardeaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.7bc92e04ec2240a6859fab93e90cb2e8</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.a7c96610b6f84246af03fc9259b30ec0"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/Geluid</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.7c1df4fe17e64ca5ab7210937e1ecf7c</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.9c62f4e57e7e4ae2b3ca33a1b2d8fb4b"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.9359b73ebb1f49cf809bbda52adc5ed3</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.4dc8eec01ba0416c90a5fe64b35a4cef"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.5e28a0b8d964460a8aabc14f6f207888"/>
+                    </regels:locatieaanduiding>
+                    <regels:omgevingswaardeaanduiding>
+                        <rol:OmgevingswaardeRef xlink:href="nl.imow-pv29.omgevingswaarde.051fa378d6dd4c8cb72e04f7d87662ad"/>
+                    </regels:omgevingswaardeaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.9d32bc8ad9db4bf3a7ce947b8d16eb0a</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.6a259f59992c4a17a6a13b885265a6c2"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.b9d384738fe944119b1ce4fc56f0f266</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.d4b90211fb2d40748b4845e0f6b8b433"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.c0aa5ffa911e4e6ebafaf744ac322f08</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3b9280b697404b91b8bbe0eed45fbdf2"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.c7703b9ed02043ee974feff7ce72ddc2</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.9b426c2db15646ee902aad4849545ea6"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.c9f9e048766848cfa4e0996def8334e1</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.101188a58f124693bca7154fe7a7e6c2"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.dd07d63c909d4700a05050c8ef5b3b37</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.13a1dec15ea74ac89d317b290efa15ab"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.e4d58ccd8ffc405aa877c3c54a8735be</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3584fb06c7c64cb8b430690ab4716cab"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.f4b65d02468b4ed2b574cfecad1b8421</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.3d4a8fb391ab4aa9842b4937bf312528"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <regels:Omgevingswaarderegel>
+                    <regels:identificatie>nl.imow-pv29.juridischeregel.fe3ea36f281043dd9f532974b0f54a71</regels:identificatie>
+                    <regels:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</regels:idealisatie>
+                    <regels:artikelOfLid>
+                        <regels:RegeltekstRef xlink:href="nl.imow-pv29.regeltekst.96e894c363a14f2783ff28a5251213cd"/>
+                    </regels:artikelOfLid>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</regels:thema>
+                    <regels:thema>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/WaterEnWatersystemen</regels:thema>
+                    <regels:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                    </regels:locatieaanduiding>
+                </regels:Omgevingswaarderegel>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

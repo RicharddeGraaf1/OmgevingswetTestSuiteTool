@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0665/2023/fe3c4021bbd94ebd835f09d93c1b525e</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0665/2023/fe3c4021bbd94ebd835f09d93c1b525e/nld@2023-11-07;1</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0665/2023/Regeling361457d2541a494d9b2761494c28eb68</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>nl.imow-ws0665.gebied.f1eed387c53a462c97e67f5c04d177ba.gml</data:bestandsnaam>
+  <data:hash>4fcc03abc65669d4b9578aec30f1e1a4822c7fdfc31b00697fd56142b74ec98c169710de7e3ed385d4fcaee256d2f0b2b963fc539ce9d402bfdf7e46014067ba</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:alternatieveTitels>
+  <data:alternatieveTitel>traject IV</data:alternatieveTitel>
+  </data:alternatieveTitels>
+  <data:eindverantwoordelijke>/tooi/id/waterschap/ws0665</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/waterschap/ws0665</data:maker>
+  <data:naamInformatieObject>traject IV</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/ws0665/2023/fe3c4021bbd94ebd835f09d93c1b525e</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

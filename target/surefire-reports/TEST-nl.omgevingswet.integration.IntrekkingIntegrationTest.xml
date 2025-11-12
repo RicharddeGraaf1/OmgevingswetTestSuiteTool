@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.263" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\GIT\OmgevingswetTestSuiteTool\target\test-classes;C:\GIT\OmgevingswetTestSuiteTool\target\classes;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22-win.jar;C:\Users\RdG2\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RdG2\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\RdG2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719 2025-11-12T20-46-02_646-jvmRun1 surefire-20251112204602724_1tmp surefire_0-20251112204602724_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\GIT\OmgevingswetTestSuiteTool\target\test-classes;C:\GIT\OmgevingswetTestSuiteTool\target\classes;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22-win.jar;C:\Users\RdG2\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RdG2\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\RdG2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\RdG2"/>
+    <property name="user.language" value="nl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\GIT\OmgevingswetTestSuiteTool"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="RdG2"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\RdG2\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RdG2\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\GIT\OmgevingswetTestSuiteTool"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files\Python\Python38;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\;C:\Users\RdG2\AppData\Local\Programs\Python\Launcher\;D:\Program Files\Python\Python38;C:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RdG2\AppData\Roaming\npm;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin;C:\Users\RdG2\.cargo\bin;C:\Users\RdG2\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testGM9920IntrekkingTransformatie" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.188">
+    <system-out><![CDATA[
+=== GM9920 Intrekking Test ===
+✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-8709793108187563751.zip
+  Aantal entries: 24
+Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+OW-bestand gewijzigd en opgeslagen: regelsvooriedereen.xml
+OW-bestand gewijzigd en opgeslagen: gebieden.xml
+OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
+OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
+OW-bestand gewijzigd en opgeslagen: regelteksten.xml
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
+DEBUG: Starting metadata extraction
+DEBUG: All entries in zip:
+  - OW-bestanden/
+  - OW-bestanden/regelsvooriedereen.xml
+  - OW-bestanden/gebieden.xml
+  - OW-bestanden/gebiedengroepen.xml
+  - OW-bestanden/regelingsgebieden.xml
+  - OW-bestanden/regelteksten.xml
+  - OW-bestanden/manifest-ow.xml
+  - Regeling/Identificatie.xml
+  - Regeling/Momentopname.xml
+  - Regeling/VersieMetadata.xml
+  - Regeling/Tekst.xml
+  - Regeling/Metadata.xml
+  - Regeling/jpg-plaatje-1.jpg
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+  - pakbon.xml
+DEBUG: Found metadata file? true
+DEBUG: Metadata file path: Regeling/Metadata.xml
+DEBUG: Raw XML content:
+<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+                       xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/">
+   <data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+   <data:maker>/tooi/id/gemeente/gm9920</data:maker>
+   <data:officieleTitel>Officiele titel van de regeling</data:officieleTitel>
+   <data:onderwerpen>
+      <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+   </data:onderwerpen>
+   <data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
+   <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+</data:RegelingMetadata>
+
+DEBUG: Found RegelingMetadata elements: 1
+DEBUG: Found soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+DEBUG: Found onderwerp nodes: 1
+DEBUG: Added onderwerp: /tooi/def/concept/c_9d1917e9
+DEBUG: Processing other element: eindverantwoordelijke = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: maker = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: officieleTitel = Officiele titel van de regeling
+
+Final metadata values:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+Generating BesluitMetadata with:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+✓ Intrekking XML gegenereerd
+  Besluit XML grootte: 3434 bytes
+  Opdracht XML grootte: 433 bytes
+  Aantal gewijzigde OW-bestanden: 6
+✓ Besluit XML heeft correcte root element structuur
+✓ Besluit bevat Intrekkingen element
+✓ Opdracht XML heeft correcte root element (publicatieOpdracht)
+✓ Opdracht verwijst naar correcte bestandsnaam: intrekkingsbesluit.xml
+✓ idLevering heeft correct formaat: OTST_pub_intr_gm9920_20251112_204603
+✓ datumBekendmaking: 2025-11-13
+
+✓ Gewijzigde OW-bestanden:
+  - gebiedengroepen.xml (1931 bytes)
+  - regelteksten.xml (1794 bytes)
+  - gebieden.xml (1834 bytes)
+  - manifest-ow.xml (1985 bytes)
+  - regelingsgebieden.xml (1889 bytes)
+  - regelsvooriedereen.xml (2181 bytes)
+
+=== Test Succesvol Afgerond ===
+
+]]></system-out>
+  </testcase>
+  <testcase name="testOutputMatchesExpected" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.03">
+    <system-out><![CDATA[
+=== Output Vergelijking met Expected ===
+Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+OW-bestand gewijzigd en opgeslagen: regelsvooriedereen.xml
+OW-bestand gewijzigd en opgeslagen: gebieden.xml
+OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
+OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
+OW-bestand gewijzigd en opgeslagen: regelteksten.xml
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
+DEBUG: Starting metadata extraction
+DEBUG: All entries in zip:
+  - OW-bestanden/
+  - OW-bestanden/regelsvooriedereen.xml
+  - OW-bestanden/gebieden.xml
+  - OW-bestanden/gebiedengroepen.xml
+  - OW-bestanden/regelingsgebieden.xml
+  - OW-bestanden/regelteksten.xml
+  - OW-bestanden/manifest-ow.xml
+  - Regeling/Identificatie.xml
+  - Regeling/Momentopname.xml
+  - Regeling/VersieMetadata.xml
+  - Regeling/Tekst.xml
+  - Regeling/Metadata.xml
+  - Regeling/jpg-plaatje-1.jpg
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+  - pakbon.xml
+DEBUG: Found metadata file? true
+DEBUG: Metadata file path: Regeling/Metadata.xml
+DEBUG: Raw XML content:
+<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+                       xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/">
+   <data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+   <data:maker>/tooi/id/gemeente/gm9920</data:maker>
+   <data:officieleTitel>Officiele titel van de regeling</data:officieleTitel>
+   <data:onderwerpen>
+      <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+   </data:onderwerpen>
+   <data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
+   <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+</data:RegelingMetadata>
+
+DEBUG: Found RegelingMetadata elements: 1
+DEBUG: Found soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+DEBUG: Found onderwerp nodes: 1
+DEBUG: Added onderwerp: /tooi/def/concept/c_9d1917e9
+DEBUG: Processing other element: eindverantwoordelijke = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: maker = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: officieleTitel = Officiele titel van de regeling
+
+Final metadata values:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+Generating BesluitMetadata with:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+✓ Expected output directory gevonden: src/test/resources/intrekking/expected/gm9920_output
+
+--- Vergelijken intrekkingsbesluit.xml ---
+✓ intrekkingsbesluit.xml structuur komt overeen
+
+--- Vergelijken opdracht.xml ---
+✓ opdracht.xml structuur komt overeen
+  Publicatie: intrekkingsbesluit.xml
+
+--- Vergelijken OW-bestanden ---
+✓ gebieden.xml structuur komt overeen
+✓ gebiedengroepen.xml structuur komt overeen
+✓ manifest-ow.xml structuur komt overeen
+✓ regelingsgebieden.xml structuur komt overeen
+✓ regelsvooriedereen.xml structuur komt overeen
+✓ regelteksten.xml structuur komt overeen
+
+=== Alle Output Komt Overeen met Expected ===
+
+]]></system-out>
+  </testcase>
+  <testcase name="testIntrekkingPerformance" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.029">
+    <system-out><![CDATA[Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+Start analyseZip methode
+Zoeken naar bevoegd gezag in Metadata.xml
+Gevonden maker node met namespace
+Maker value: /tooi/id/gemeente/gm9920
+Extracted bevoegd gezag code: gm9920
+Start zoeken naar informatieobjecten
+Checking entry: OW-bestanden/
+Checking entry: OW-bestanden/regelsvooriedereen.xml
+Checking entry: OW-bestanden/gebieden.xml
+Checking entry: OW-bestanden/gebiedengroepen.xml
+Checking entry: OW-bestanden/regelingsgebieden.xml
+Checking entry: OW-bestanden/regelteksten.xml
+Checking entry: OW-bestanden/manifest-ow.xml
+Checking entry: Regeling/Identificatie.xml
+Checking entry: Regeling/Momentopname.xml
+Checking entry: Regeling/VersieMetadata.xml
+Checking entry: Regeling/Tekst.xml
+Checking entry: Regeling/Metadata.xml
+Checking entry: Regeling/jpg-plaatje-1.jpg
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+Gevonden informatieobject map: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Checking entry: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+Gevonden informatieobject map: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden GML bestand: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (grootte: 1783 bytes)
+Checking entry: pakbon.xml
+Aantal gevonden informatieobject mappen: 2
+Totale GML bestandsgrootte: 1783
+Verwerken van informatieobject: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Identificatie.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-consolideren-1/nld@2025-03-19;1, eId: cmp_ebc1__content_2__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_2__ref_1
+Gevonden PDF bestand voor IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363: consolideren-1.pdf
+Informatieobject toegevoegd aan analyse data: IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363
+Verwerken van informatieobject: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Identificatie.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden FRBRWork met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1
+Gevonden FRBRExpression met namespace: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1
+Gevonden VersieMetadata.xml voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Gevonden Tekst.xml, zoeken naar ExtIoRef voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Aantal gevonden ExtIoRef nodes: 2
+Checking ExtIoRef - ref: /join/id/regdata/gm9920/2025/IO_2025031919_4952649_1-gio-1/nld@2025-03-19;1, eId: cmp_ebc1__content_1__ref_1
+Gevonden ExtIoRef-eId via FRBRExpression match: cmp_ebc1__content_1__ref_1
+Gevonden GML bestand voor IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e: gio-1.gml
+Informatieobject toegevoegd aan analyse data: IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e
+Einde analyseZip methode
+Totaal aantal informatieobjecten: 2
+OW-bestand gewijzigd en opgeslagen: regelsvooriedereen.xml
+OW-bestand gewijzigd en opgeslagen: gebieden.xml
+OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
+OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
+OW-bestand gewijzigd en opgeslagen: regelteksten.xml
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
+DEBUG: Starting metadata extraction
+DEBUG: All entries in zip:
+  - OW-bestanden/
+  - OW-bestanden/regelsvooriedereen.xml
+  - OW-bestanden/gebieden.xml
+  - OW-bestanden/gebiedengroepen.xml
+  - OW-bestanden/regelingsgebieden.xml
+  - OW-bestanden/regelteksten.xml
+  - OW-bestanden/manifest-ow.xml
+  - Regeling/Identificatie.xml
+  - Regeling/Momentopname.xml
+  - Regeling/VersieMetadata.xml
+  - Regeling/Tekst.xml
+  - Regeling/Metadata.xml
+  - Regeling/jpg-plaatje-1.jpg
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml
+  - pakbon.xml
+DEBUG: Found metadata file? true
+DEBUG: Metadata file path: Regeling/Metadata.xml
+DEBUG: Raw XML content:
+<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
+                       xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/">
+   <data:eindverantwoordelijke>/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>
+   <data:maker>/tooi/id/gemeente/gm9920</data:maker>
+   <data:officieleTitel>Officiele titel van de regeling</data:officieleTitel>
+   <data:onderwerpen>
+      <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+   </data:onderwerpen>
+   <data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
+   <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+</data:RegelingMetadata>
+
+DEBUG: Found RegelingMetadata elements: 1
+DEBUG: Found soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+DEBUG: Found onderwerp nodes: 1
+DEBUG: Added onderwerp: /tooi/def/concept/c_9d1917e9
+DEBUG: Processing other element: eindverantwoordelijke = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: maker = /tooi/id/gemeente/gm9920
+DEBUG: Processing other element: officieleTitel = Officiele titel van de regeling
+
+Final metadata values:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+Generating BesluitMetadata with:
+soortBestuursorgaan: /tooi/def/thes/kern/c_2a7d8663
+onderwerpen: [/tooi/def/concept/c_9d1917e9]
+overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp></data:onderwerpen>, officieleTitel=<data:officieleTitel xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">Officiele titel van de regeling</data:officieleTitel>, eindverantwoordelijke=<data:eindverantwoordelijke xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:eindverantwoordelijke>, maker=<data:maker xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">/tooi/id/gemeente/gm9920</data:maker>, soortBestuursorgaan=<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>}
+
+✓ Intrekking verwerking duurde 22ms
+]]></system-out>
+  </testcase>
+  <testcase name="testGM9920InputZipStructure" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.003">
+    <system-out><![CDATA[
+=== Input ZIP Structuur Validatie ===
+Aantal entries: 24
+
+Entries in input ZIP:
+  - OW-bestanden/ (directory)
+  - OW-bestanden/regelsvooriedereen.xml (2456 bytes)
+  - OW-bestanden/gebieden.xml (2029 bytes)
+  - OW-bestanden/gebiedengroepen.xml (2145 bytes)
+  - OW-bestanden/regelingsgebieden.xml (2084 bytes)
+  - OW-bestanden/regelteksten.xml (1928 bytes)
+  - OW-bestanden/manifest-ow.xml (2186 bytes)
+  - Regeling/Identificatie.xml (458 bytes)
+  - Regeling/Momentopname.xml (202 bytes)
+  - Regeling/VersieMetadata.xml (264 bytes)
+  - Regeling/Tekst.xml (3508 bytes)
+  - Regeling/Metadata.xml (693 bytes)
+  - Regeling/jpg-plaatje-1.jpg (772 bytes)
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Identificatie.xml (394 bytes)
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Metadata.xml (721 bytes)
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/VersieMetadata.xml (596 bytes)
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/Momentopname.xml (223 bytes)
+  - IO-9cb89b53-b554-3b6b-b1f1-c165b48e4363/consolideren-1.pdf (20705 bytes)
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Identificatie.xml (376 bytes)
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Metadata.xml (694 bytes)
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/VersieMetadata.xml (587 bytes)
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/Momentopname.xml (223 bytes)
+  - IO-8a639521-a2b1-3c9d-9dd2-ddfe4c7d5b4e/gio-1.gml (1783 bytes)
+  - pakbon.xml (7516 bytes)
+=== Input ZIP Structuur OK ===
+
+]]></system-out>
+  </testcase>
+</testsuite>

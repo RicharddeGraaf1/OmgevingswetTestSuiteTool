@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Omgevingswaarde</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <rol:identificatie>nl.imow-pv29.omgevingswaarde.051fa378d6dd4c8cb72e04f7d87662ad</rol:identificatie>
+                    <rol:naam>gemiddelde kans op overstroming per jaar 1/100</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Procent</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-pv29.normwaarde.cfd3b84608054125847c37d091c52779</rol:identificatie>
+                            <rol:kwantitatieveWaarde>1</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.5e28a0b8d964460a8aabc14f6f207888"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Wateroverlast</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <rol:identificatie>nl.imow-pv29.omgevingswaarde.11f643e6ace6492aa3e78a80a955c2ed</rol:identificatie>
+                    <rol:naam>gemiddelde kans op overstroming per jaar 1/25</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Procent</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-pv29.normwaarde.37a3fca2bb044583916dddc74eb4bdc2</rol:identificatie>
+                            <rol:kwantitatieveWaarde>4</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-pv29.gebiedengroep.79f2b9e136f94c4891d3d27d5ca2f246"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Wateroverlast</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <rol:identificatie>nl.imow-pv29.omgevingswaarde.6ef3b6df34f34bed9dfd6a4addce278e</rol:identificatie>
+                    <rol:naam>gemiddelde kans op overstroming per jaar 1/50</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Procent</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-pv29.normwaarde.6fbf6f84d36f47a1ac233333c9d4c8cd</rol:identificatie>
+                            <rol:kwantitatieveWaarde>2</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+<l:LocatieRef xlink:href="nl.imow-pv29.ambtsgebied.20200101"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Wateroverlast</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

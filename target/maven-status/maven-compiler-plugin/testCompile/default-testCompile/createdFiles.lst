@@ -1,0 +1,9 @@
+nl\omgevingswet\integration\ValidatieIntegrationTest.class
+nl\omgevingswet\processor\DoorleveringProcessorTest.class
+nl\omgevingswet\util\TestUtils.class
+nl\omgevingswet\integration\IntrekkingIntegrationTest.class
+nl\omgevingswet\processor\IntrekkingProcessorTest.class
+nl\omgevingswet\processor\BesluitProcessorTest.class
+nl\omgevingswet\processor\ManifestProcessorTest.class
+nl\omgevingswet\integration\PerformanceValidatieIntegrationTest.class
+nl\omgevingswet\processor\BesluitProcessorTest$AnalyseDataTests.class

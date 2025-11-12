@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ow-dc:owBestand xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:sym="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kaart="http://www.geostandaarden.nl/imow/kaart" xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:regels="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst" xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+    <sl:standBestand>
+        <sl:dataset>Onbekend</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Onbekend</sl:gebied>
+            <sl:leveringsId>Onbekend</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Gebiedengroep</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000093</l:identificatie>
+                    <l:noemer>Gebieden</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000093e5970"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000094</l:identificatie>
+                    <l:noemer>Agrarisch</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5971"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5975"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5973"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5972"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5974"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000094e5976"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000126</l:identificatie>
+                    <l:noemer>Bedrijf - Nutsvoorziening</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000126e19533"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000127</l:identificatie>
+                    <l:noemer>01 check duplicate11</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000127e35498"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000127e35500"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000127e35496"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000127e35499"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000127e35497"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000144</l:identificatie>
+                    <l:noemer>Verkeer - Erftoegangsweg</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000144e35501"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000144e35504"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000144e35505"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000144e35502"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000144e35503"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000162</l:identificatie>
+                    <l:noemer>Aalanden</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000162e35629"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <l:Gebiedengroep>
+                    <l:identificatie>nl.imow-pv30.gebiedengroep.00300136T000000000000184</l:identificatie>
+                    <l:noemer>LocatieVersion 2</l:noemer>
+                    <l:groepselement>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36339"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36332"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36312"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36307"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36298"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36340"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36323"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36314"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36317"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36318"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36303"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36313"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36338"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36328"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36306"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36295"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36320"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36325"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36294"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36316"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36327"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36310"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36305"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36311"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36334"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36333"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36341"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36324"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36299"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36301"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36296"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36337"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36308"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36309"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36319"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36336"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36321"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36297"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36330"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36329"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36322"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36300"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36302"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36315"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36326"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36331"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36304"/>
+                        <l:GebiedRef xlink:href="nl.imow-pv30.gebied.00300136T000000000000184e36335"/>
+                    </l:groepselement>
+                </l:Gebiedengroep>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0665/2023/258994943bd342fe9afc38152fb334d2</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0665/2023/258994943bd342fe9afc38152fb334d2/nld@2025-03-03;10455767</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0665/2023/Regeling361457d2541a494d9b2761494c28eb68</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>nl.imow-ws0665.gebied.47d00f14c95644d5a22642fa79c54e16.gml</data:bestandsnaam>
+  <data:hash>dd0cbd5edf747c4e11aaa19af4e8dd5c9cf12695aea9c431ffed4233b0a81f29d1b3ae98d1b68d57be7432484e1e09d13c389207bb46b5bc8e49c2e71103a7a5</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:alternatieveTitels>
+  <data:alternatieveTitel>primair water</data:alternatieveTitel>
+  </data:alternatieveTitels>
+  <data:eindverantwoordelijke>/tooi/id/waterschap/ws0665</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/waterschap/ws0665</data:maker>
+  <data:naamInformatieObject>primair water</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/ws0665/2023/258994943bd342fe9afc38152fb334d2</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

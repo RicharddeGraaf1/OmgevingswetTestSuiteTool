@@ -1,0 +1,8 @@
+# Plaats hier de verwachte output voor validatie tests
+#
+# Voor elke test case, plaats:
+# - besluit.xml (met validatie specifieke kenmerken)
+# - opdracht.xml (met <validatieOpdracht> root element)
+# - manifest.xml
+
+

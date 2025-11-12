@@ -1,0 +1,10 @@
+# Plaats hier de verwachte output voor intrekking tests
+#
+# Voor elke test case, plaats:
+# - intrekkingsbesluit.xml
+# - opdracht.xml
+# - manifest.xml
+# - OW-bestanden/ (indien van toepassing)
+#   └── regelteksten.xml (met status="beëindigen")
+
+

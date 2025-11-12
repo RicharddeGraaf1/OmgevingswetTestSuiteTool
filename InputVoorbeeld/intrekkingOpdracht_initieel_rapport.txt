@@ -1,0 +1,8 @@
+Rapport Omgevingswet Test Suite Tool
+================================
+
+intrekkingsbesluit.xml en opdracht.xml gegenereerd
+
+
+Samenvatting transformaties:
+----------------------

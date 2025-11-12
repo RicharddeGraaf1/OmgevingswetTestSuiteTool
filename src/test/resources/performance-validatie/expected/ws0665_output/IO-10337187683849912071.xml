@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0665/2023/1eb42d083772496eaa5d5fa9ce629b57</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0665/2023/1eb42d083772496eaa5d5fa9ce629b57/nld@2023-11-07;1</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0665/2023/Regeling361457d2541a494d9b2761494c28eb68</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>nl.imow-ws0665.gebied.77f7a23ff915415ba0e857912cc6c152.gml</data:bestandsnaam>
+  <data:hash>c64c43df0af9b497e078cac91c6a11052672ffa4db42c80761b1c9d92181a67f6aefdbcc463803d4cea59937c3058acf6a6e52e625afb0223b2e29b510e89da0</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:alternatieveTitels>
+  <data:alternatieveTitel>meanderzone</data:alternatieveTitel>
+  </data:alternatieveTitels>
+  <data:eindverantwoordelijke>/tooi/id/waterschap/ws0665</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/waterschap/ws0665</data:maker>
+  <data:naamInformatieObject>meanderzone</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/ws0665/2023/1eb42d083772496eaa5d5fa9ce629b57</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

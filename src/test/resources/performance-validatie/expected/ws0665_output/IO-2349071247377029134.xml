@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/ws0665/2023/a44d307801d14d12828204c1d42143d6</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/ws0665/2023/a44d307801d14d12828204c1d42143d6/nld@2024-11-06;09310526</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/ws0665/2023/Regeling361457d2541a494d9b2761494c28eb68</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>nl.imow-ws0665.gebied.ecc2d0e559a649609d23a4b6090629b8.gml</data:bestandsnaam>
+  <data:hash>bdc1bbce5cb80eb59e17a0d1cb552552bb88d00c114cabacbc54f238729bacff1cddcefa389aa9b3c7692d640c6643d55b74d5f1eb97baf4490fb44a8554a8a0</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <data:InformatieObjectMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <data:alternatieveTitels>
+  <data:alternatieveTitel>profiel van vrije ruimte bij een waterkering</data:alternatieveTitel>
+  </data:alternatieveTitels>
+  <data:eindverantwoordelijke>/tooi/id/waterschap/ws0665</data:eindverantwoordelijke>
+  <data:formaatInformatieobject>/join/id/stop/informatieobject/gio_002</data:formaatInformatieobject>
+  <data:maker>/tooi/id/waterschap/ws0665</data:maker>
+  <data:naamInformatieObject>profiel van vrije ruimte bij een waterkering</data:naamInformatieObject>
+  <data:officieleTitel>/join/id/regdata/ws0665/2023/a44d307801d14d12828204c1d42143d6</data:officieleTitel>
+  <data:publicatieinstructie>TeConsolideren</data:publicatieinstructie>
+  </data:InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

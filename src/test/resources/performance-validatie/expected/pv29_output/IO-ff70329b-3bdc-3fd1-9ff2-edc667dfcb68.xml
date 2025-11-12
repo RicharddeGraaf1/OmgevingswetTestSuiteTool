@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/" xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversie="1.2.0" xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+  <InformatieObjectVersie>
+  <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:FRBRWork>/join/id/regdata/pv29/2023/gebiedsaanwijzing_5a60caad29844b7a9ce75784eefa66a7</data:FRBRWork>
+  <data:FRBRExpression>/join/id/regdata/pv29/2023/gebiedsaanwijzing_5a60caad29844b7a9ce75784eefa66a7/nld@2023-12-19;1</data:FRBRExpression>
+  <data:soortWork>/join/id/stop/work_010</data:soortWork>
+  </data:ExpressionIdentificatie>
+  <data:InformatieObjectVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+  <data:heeftGeboorteregeling>/akn/nl/act/pv29/2023/omgevingsverordening</data:heeftGeboorteregeling>
+  <data:heeftBestanden>
+  <data:heeftBestand>
+  <data:Bestand>
+  <data:bestandsnaam>GIO-8c9df41e.gml</data:bestandsnaam>
+  <data:hash>abeba39281326cb37f6872dc12c2dcddd83df9bb8c86d519a084a4bf657b2932f0ce3ab8cb48dbe98648ed5fe39c21d91c5e57b1610af5a3c28bf66400a910d5</data:hash>
+  </data:Bestand>
+  </data:heeftBestand>
+  </data:heeftBestanden>
+  </data:InformatieObjectVersieMetadata>
+  <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/" schemaversie="1.3.0">
+  <alternatieveTitels>
+  <alternatieveTitel>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen D</alternatieveTitel>
+  </alternatieveTitels>
+  <eindverantwoordelijke>/tooi/id/provincie/pv29</eindverantwoordelijke>
+  <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+  <maker>/tooi/id/provincie/pv29</maker>
+  <naamInformatieObject>beperkingengebied scheepvaartafmetingen en diepgang schepen provinciale vaarwegen D</naamInformatieObject>
+  <officieleTitel>/join/id/regdata/pv29/2023/gebiedsaanwijzing_5a60caad29844b7a9ce75784eefa66a7</officieleTitel>
+  <publicatieinstructie>TeConsolideren</publicatieinstructie>
+  </InformatieObjectMetadata>
+  </InformatieObjectVersie>
+  </AanleveringInformatieObject>

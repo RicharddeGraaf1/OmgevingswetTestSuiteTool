@@ -1,0 +1,9 @@
+# Plaats hier minimale ZIP bestanden voor edge case tests
+#
+# Deze bestanden bevatten alleen het absolute minimum:
+# - minimal_regeling.zip (kleinst mogelijke geldige regeling)
+# - minimal_with_io.zip (minimaal met één informatieobject)
+#
+# Deze tests controleren of de tool werkt met minimale input.
+
+

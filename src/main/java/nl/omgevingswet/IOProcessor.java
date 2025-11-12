@@ -219,6 +219,41 @@ public class IOProcessor {
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
         
+        // Parse het GML bestand eerst om te controleren of het al een GeoInformatieObjectVaststelling heeft
+        Document gmlDoc = builder.parse(new ByteArrayInputStream(gmlContent));
+        Element rootElement = gmlDoc.getDocumentElement();
+        
+        // Controleer of het root element al een GeoInformatieObjectVaststelling is
+        if ("GeoInformatieObjectVaststelling".equals(rootElement.getLocalName()) && 
+            "https://standaarden.overheid.nl/stop/imop/geo/".equals(rootElement.getNamespaceURI())) {
+            System.out.println("GML bestand heeft al een GeoInformatieObjectVaststelling wrapper");
+            
+            // Verwijder wasID element als het bestaat
+            NodeList wasIdNodes = rootElement.getElementsByTagNameNS(
+                "https://standaarden.overheid.nl/stop/imop/geo/", "wasID");
+            
+            if (wasIdNodes.getLength() > 0) {
+                System.out.println("Verwijderen van wasID element uit GML");
+                for (int i = wasIdNodes.getLength() - 1; i >= 0; i--) {
+                    Node wasIdNode = wasIdNodes.item(i);
+                    wasIdNode.getParentNode().removeChild(wasIdNode);
+                }
+                
+                // Converteer terug naar byte array
+                TransformerFactory transformerFactory = TransformerFactory.newInstance();
+                Transformer transformer = transformerFactory.newTransformer();
+                transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
+                transformer.setOutputProperty(OutputKeys.INDENT, "no");
+                transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+                
+                ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                transformer.transform(new DOMSource(gmlDoc), new StreamResult(outputStream));
+                return outputStream.toByteArray();
+            }
+            
+            return gmlContent;
+        }
+        
         Document doc = builder.newDocument();
         
         // Root element met alle benodigde namespaces
@@ -262,7 +297,6 @@ public class IOProcessor {
         root.appendChild(vastgesteldeVersie);
         
         // Parse en importeer de GML inhoud
-        Document gmlDoc = builder.parse(new ByteArrayInputStream(gmlContent));
         Node gmlNode = gmlDoc.getDocumentElement();
         Node importedGml = doc.importNode(gmlNode, true);
         vastgesteldeVersie.appendChild(importedGml);
