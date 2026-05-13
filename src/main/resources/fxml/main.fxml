@@ -36,6 +36,8 @@
         <Button fx:id="validateButton" onAction="#handleValidate" text="Validatie" />
         <Button fx:id="intrekkingPubButton" onAction="#handleIntrekkingPub" text="Intrekkings-publicatie" />
         <Button fx:id="intrekkingValButton" onAction="#handleIntrekkingVal" text="Intrekkings-validatie" />
+        <Button fx:id="doorleverenRegelingVersieButton" onAction="#handleDoorleverenRegelingVersie" text="Doorleveren Regeling Versie" />
+        <Button fx:id="validatieDoorLeverenRegelingversieButton" onAction="#handleValidatieDoorLeverenRegelingversie" text="Validatie Doorleveren Regeling Versie" />
     </HBox>
     
     <ProgressBar fx:id="progressBar" visible="false" maxWidth="Infinity" />

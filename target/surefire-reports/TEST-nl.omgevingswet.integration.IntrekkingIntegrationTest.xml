@@ -10,12 +10,12 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
-    <property name="os.name" value="Windows 10"/>
+    <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719 2025-11-12T20-46-02_646-jvmRun1 surefire-20251112204602724_1tmp surefire_0-20251112204602724_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479\surefirebooter-20260212114646779_3.jar C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479 2026-02-12T11-46-46_706-jvmRun1 surefire-20260212114646779_1tmp surefire_0-20260212114646779_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\GIT\OmgevingswetTestSuiteTool\target\test-classes;C:\GIT\OmgevingswetTestSuiteTool\target\classes;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22-win.jar;C:\Users\RdG2\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RdG2\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\RdG2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479\surefirebooter-20260212114646779_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -51,7 +51,7 @@
     <property name="user.language.format" value="en"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files\Python\Python38;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\;C:\Users\RdG2\AppData\Local\Programs\Python\Launcher\;D:\Program Files\Python\Python38;C:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RdG2\AppData\Roaming\npm;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin;C:\Users\RdG2\.cargo\bin;C:\Users\RdG2\.dotnet\tools;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;D:\Program Files\Python\Python38;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\;C:\Users\RdG2\AppData\Local\Programs\Python\Launcher\;D:\Program Files\Python\Python38;C:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RdG2\AppData\Roaming\npm;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin;C:\Users\RdG2\.cargo\bin;C:\Users\RdG2\.dotnet\tools;C:\Users\RdG2\AppData\Local\Microsoft\WindowsApps;C:\Users\RdG2\AppData\Local\Programs\Antigravity\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testGM9920IntrekkingTransformatie" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.188">
+  <testcase name="testGM9920IntrekkingTransformatie" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.185">
     <system-out><![CDATA[
 === GM9920 Intrekking Test ===
-✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-8709793108187563751.zip
+✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-16468405511820195785.zip
   Aantal entries: 24
 Start analyseZip methode
 Zoeken naar bevoegd gezag in Metadata.xml
@@ -205,7 +205,7 @@ OW-bestand gewijzigd en opgeslagen: gebieden.xml
 OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
 OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
 OW-bestand gewijzigd en opgeslagen: regelteksten.xml
-Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2026/Intrekking_20260212_114647
 OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
 DEBUG: Starting metadata extraction
 DEBUG: All entries in zip:
@@ -272,8 +272,8 @@ overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concep
 ✓ Besluit bevat Intrekkingen element
 ✓ Opdracht XML heeft correcte root element (publicatieOpdracht)
 ✓ Opdracht verwijst naar correcte bestandsnaam: intrekkingsbesluit.xml
-✓ idLevering heeft correct formaat: OTST_pub_intr_gm9920_20251112_204603
-✓ datumBekendmaking: 2025-11-13
+✓ idLevering heeft correct formaat: OTST_pub_intr_gm9920_20260212_114647
+✓ datumBekendmaking: 2026-02-13
 
 ✓ Gewijzigde OW-bestanden:
   - gebiedengroepen.xml (1931 bytes)
@@ -287,7 +287,7 @@ overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concep
 
 ]]></system-out>
   </testcase>
-  <testcase name="testOutputMatchesExpected" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.03">
+  <testcase name="testOutputMatchesExpected" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.034">
     <system-out><![CDATA[
 === Output Vergelijking met Expected ===
 Start analyseZip methode
@@ -431,7 +431,7 @@ OW-bestand gewijzigd en opgeslagen: gebieden.xml
 OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
 OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
 OW-bestand gewijzigd en opgeslagen: regelteksten.xml
-Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2026/Intrekking_20260212_114647
 OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
 DEBUG: Starting metadata extraction
 DEBUG: All entries in zip:
@@ -511,7 +511,7 @@ overigeMetadata: {onderwerpen=<data:onderwerpen><data:onderwerp>/tooi/def/concep
 
 ]]></system-out>
   </testcase>
-  <testcase name="testIntrekkingPerformance" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.029">
+  <testcase name="testIntrekkingPerformance" classname="nl.omgevingswet.integration.IntrekkingIntegrationTest" time="0.026">
     <system-out><![CDATA[Start analyseZip methode
 Zoeken naar bevoegd gezag in Metadata.xml
 Gevonden maker node met namespace
@@ -653,7 +653,7 @@ OW-bestand gewijzigd en opgeslagen: gebieden.xml
 OW-bestand gewijzigd en opgeslagen: gebiedengroepen.xml
 OW-bestand gewijzigd en opgeslagen: regelingsgebieden.xml
 OW-bestand gewijzigd en opgeslagen: regelteksten.xml
-Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2025/Intrekking_20251112_204603
+Updated DoelID in manifest-OW to: /join/id/proces/gm9920/2026/Intrekking_20260212_114647
 OW-bestand gewijzigd en opgeslagen: manifest-ow.xml
 DEBUG: Starting metadata extraction
 DEBUG: All entries in zip:

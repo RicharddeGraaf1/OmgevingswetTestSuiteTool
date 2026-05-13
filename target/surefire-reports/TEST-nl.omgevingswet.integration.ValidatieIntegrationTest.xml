@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.191" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.244" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -10,12 +10,12 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
-    <property name="os.name" value="Windows 10"/>
+    <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719 2025-11-12T20-46-02_646-jvmRun1 surefire-20251112204602724_1tmp surefire_0-20251112204602724_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479\surefirebooter-20260212114646779_3.jar C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479 2026-02-12T11-46-46_706-jvmRun1 surefire-20260212114646779_1tmp surefire_0-20260212114646779_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\GIT\OmgevingswetTestSuiteTool\target\test-classes;C:\GIT\OmgevingswetTestSuiteTool\target\classes;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-controls\22\javafx-controls-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-fxml\22\javafx-fxml-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-base\22\javafx-base-22-win.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22.jar;C:\Users\RdG2\.m2\repository\org\openjfx\javafx-graphics\22\javafx-graphics-22-win.jar;C:\Users\RdG2\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RdG2\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RdG2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RdG2\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\RdG2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\RdG2\AppData\Local\Temp\surefire5468079360715640719\surefirebooter-20251112204602724_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RdG2\AppData\Local\Temp\surefire9471609879379994479\surefirebooter-20260212114646779_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -51,7 +51,7 @@
     <property name="user.language.format" value="en"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files\Python\Python38;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\;C:\Users\RdG2\AppData\Local\Programs\Python\Launcher\;D:\Program Files\Python\Python38;C:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RdG2\AppData\Roaming\npm;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin;C:\Users\RdG2\.cargo\bin;C:\Users\RdG2\.dotnet\tools;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;D:\Program Files\Python\Python38;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\RdG2\AppData\Local\Programs\Python\Python313\;C:\Users\RdG2\AppData\Local\Programs\Python\Launcher\;D:\Program Files\Python\Python38;C:\Users\RdG2\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RdG2\AppData\Roaming\npm;C:\Program Files\Apache\maven\apache-maven-3.9.9\bin;C:\Users\RdG2\.cargo\bin;C:\Users\RdG2\.dotnet\tools;C:\Users\RdG2\AppData\Local\Microsoft\WindowsApps;C:\Users\RdG2\AppData\Local\Programs\Antigravity\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testValidatiePerformance" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.015">
+  <testcase name="testValidatiePerformance" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.018">
     <system-out><![CDATA[Debug: Start createBesluitXml
 Start analyseZip methode
 Zoeken naar bevoegd gezag in Metadata.xml
@@ -132,10 +132,10 @@ Totaal aantal informatieobjecten: 2
 Debug: Creating opdracht.xml with bevoegdGezag=gm9920
 Debug: Generated opdracht.xml content, size=411
 
-✓ Validatie verwerking duurde 15ms
+✓ Validatie verwerking duurde 17ms
 ]]></system-out>
   </testcase>
-  <testcase name="testPV30InputZipStructure" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.007">
+  <testcase name="testPV30InputZipStructure" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.008">
     <system-out><![CDATA[
 === PV30 Input ZIP Structuur Validatie ===
 Aantal entries: 79
@@ -146,7 +146,7 @@ Aantal entries: 79
 
 ]]></system-out>
   </testcase>
-  <testcase name="testPV30OutputMatchesExpected" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.021">
+  <testcase name="testPV30OutputMatchesExpected" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.033">
     <system-out><![CDATA[
 === PV30 Output Vergelijking met Expected ===
 ✓ Expected output directory gevonden: src/test/resources/validatie/expected/pv30_output
@@ -184,7 +184,7 @@ Aantal entries: 79
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGMLNoDoubleWrapping" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.008">
+  <testcase name="testGMLNoDoubleWrapping" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.011">
     <system-out><![CDATA[
 === GML Wrapping Validatie Test ===
 ✓ Input bevat GML bestanden
@@ -266,10 +266,10 @@ Debug: Generated opdracht.xml content, size=411
 
 ]]></system-out>
   </testcase>
-  <testcase name="testPV30ValidatieTransformatie" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.051">
+  <testcase name="testPV30ValidatieTransformatie" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.055">
     <system-out><![CDATA[
 === PV30 Validatie Test ===
-✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-18224742375464389432.zip
+✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-9810110746116592320.zip
   Aantal entries: 79
 Debug: Start createBesluitXml
 Start analyseZip methode
@@ -610,13 +610,13 @@ Debug: Generated opdracht.xml content, size=409
   Opdracht XML grootte: 409 bytes
 ✓ Besluit XML heeft correcte root element structuur
 ✓ Opdracht XML heeft correcte root element (validatieOpdracht)
-✓ idLevering heeft correct formaat: OTST_val_pv30_20251112_204603
+✓ idLevering heeft correct formaat: OTST_val_pv30_20260212_114647
 
 === Test Succesvol Afgerond ===
 
 ]]></system-out>
   </testcase>
-  <testcase name="testIOXmlHashValues" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.034">
+  <testcase name="testIOXmlHashValues" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.05">
     <system-out><![CDATA[
 === IO.xml Hash Validatie Test ===
 ✓ Gevonden 2 IO XML bestanden
@@ -636,7 +636,7 @@ Debug: Generated opdracht.xml content, size=409
 
 ]]></system-out>
   </testcase>
-  <testcase name="testOutputMatchesExpected" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.009">
+  <testcase name="testOutputMatchesExpected" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.016">
     <system-out><![CDATA[
 === Output Vergelijking met Expected ===
 Debug: Start createBesluitXml
@@ -732,10 +732,10 @@ Debug: Generated opdracht.xml content, size=411
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGM9920ValidatieTransformatie" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.006">
+  <testcase name="testGM9920ValidatieTransformatie" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.007">
     <system-out><![CDATA[
 === GM9920 Validatie Test ===
-✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-4256089370635242411.zip
+✓ Input ZIP geladen: C:\Users\RdG2\AppData\Local\Temp\test-zip-2819210318705190191.zip
   Aantal entries: 24
 Debug: Start createBesluitXml
 Start analyseZip methode
@@ -814,14 +814,14 @@ Debug: Generated opdracht.xml content, size=411
 ✓ Besluit XML heeft correcte root element structuur
 ✓ Opdracht XML heeft correcte root element (validatieOpdracht)
 ✓ Opdracht verwijst naar correcte bestandsnaam: besluit.xml
-✓ idLevering heeft correct formaat: OTST_val_gm9920_20251112_204603
-✓ datumBekendmaking: 2025-11-13
+✓ idLevering heeft correct formaat: OTST_val_gm9920_20260212_114647
+✓ datumBekendmaking: 2026-02-13
 
 === Test Succesvol Afgerond ===
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGM9920InputZipStructure" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.003">
+  <testcase name="testGM9920InputZipStructure" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.004">
     <system-out><![CDATA[
 === Input ZIP Structuur Validatie ===
 Aantal entries: 24
@@ -858,7 +858,7 @@ Entries in input ZIP:
 
 ]]></system-out>
   </testcase>
-  <testcase name="testPV30ValidatiePerformance" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.035">
+  <testcase name="testPV30ValidatiePerformance" classname="nl.omgevingswet.integration.ValidatieIntegrationTest" time="0.04">
     <system-out><![CDATA[Debug: Start createBesluitXml
 Start analyseZip methode
 Zoeken naar bevoegd gezag in Metadata.xml
@@ -1194,7 +1194,7 @@ Totaal aantal informatieobjecten: 11
 Debug: Creating opdracht.xml with bevoegdGezag=pv30
 Debug: Generated opdracht.xml content, size=409
 
-✓ PV30 validatie verwerking duurde 33ms
+✓ PV30 validatie verwerking duurde 40ms
 ]]></system-out>
   </testcase>
 </testsuite>

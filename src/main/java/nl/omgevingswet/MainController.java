@@ -501,6 +501,23 @@ public class MainController {
                         addedFiles.add(fileName);
                         logMessage("Gewijzigd OW-bestand toegevoegd: " + fileName);
                     }
+                } else if (isDoorleveren) {
+                    DoorleveringProcessor.DoorleveringResult result = DoorleveringProcessor.createDoorleveringXml(sourceZip, isValidation);
+                    besluitXml = result.besluitXml;
+                    opdrachtXml = result.opdrachtXml;
+                    
+                    // Voeg eventueel gewijzigde bestanden toe
+                    for (Map.Entry<String, byte[]> entry : result.modifiedFiles.entrySet()) {
+                        String fileName = entry.getKey();
+                        byte[] content = entry.getValue();
+                        
+                        ZipEntry newEntry = new ZipEntry(fileName);
+                        targetZip.putNextEntry(newEntry);
+                        targetZip.write(content);
+                        targetZip.closeEntry();
+                        addedFiles.add(fileName);
+                        logMessage("Gewijzigd bestand toegevoegd: " + fileName);
+                    }
                 } else {
                     BesluitProcessor.BesluitResult result = BesluitProcessor.createBesluitXml(sourceZip, isValidation);
                     besluitXml = result.besluitXml;
